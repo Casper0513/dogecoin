@@ -1,4 +1,5 @@
 <TS language="bg" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -41,6 +42,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Double-click to edit address or label</source>
         <translation>Двоен клик за редакция на адрес или име</translation>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+        <source>Right-click to edit address or label</source>
+        <translation>Десен клик за промяна на адреса или името</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Create a new address</source>
@@ -48,23 +56,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished"/>
+        <translation>Нов</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
+<<<<<<< HEAD
         <translation>Копиране на избрания адрес</translation>
+=======
+        <translation>Копиране на избрания адрес към клипборда</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation type="unfinished"/>
+        <translation>Копирай</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation type="unfinished"/>
+        <translation>Затвори</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Копирай</translation>
+        <translation>&amp;Копирай адрес</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -76,7 +88,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>Изнеси</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -84,18 +96,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished"/>
+        <translation>Изберете адрес, на който да се изпращат монети</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished"/>
+        <translation>Изберете адрес, на който ще получавате монети</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation type="unfinished"/>
+        <translation>Избери</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very sending addresses</source>
+=======
+        <source>Such sending addresses</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>Адреси за изпращане</translation>
     </message>
     <message>
@@ -104,11 +120,19 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Това са адресите на получателите на плащания. Винаги проверявайте размера на сумата и адреса на получателя, преди да изпратите монети.</translation>
+    </message>
+    <message>
+        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са Вашите Биткойн адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване на всяка транзакция.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -131,8 +155,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Грешка при изнасянето</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the address list to %1.</source>
         <translation type="unfinished"/>
+=======
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Възникна грешка при опита за запазване на списъка с адреси в %1.Моля опитайте отново.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -154,11 +183,11 @@ This product includes software developed by the OpenSSL Project for use in the O
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Диалог за паролите</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Въведи парола</translation>
+        <translation>Въведете текущата парола</translation>
     </message>
     <message>
         <source>New passphrase</source>
@@ -166,15 +195,18 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Още веднъж</translation>
+        <translation>Въведете новата парола повторно</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Въведете нова парола за портфейла.&lt;br/&gt;Моля използвайте &lt;b&gt;поне 10 случайни символа&lt;/b&gt; или &lt;b&gt;8 или повече думи&lt;/b&gt;.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
-        <translation>Криптиране на портфейла</translation>
+        <translation>Шифриране на портфейла</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
@@ -186,26 +218,30 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Тази операция изисква Вашата парола за декриптиране на портфейла.</translation>
+        <translation>Тази операция изисква Вашата парола за дешифриране на портфейла.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Декриптиране на портфейла</translation>
+        <translation>Дешифриране на портфейла</translation>
     </message>
     <message>
         <source>Change passphrase</source>
         <translation>Смяна на паролата</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Въведете текущата и новата парола за портфейла.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
-        <translation>Потвърждаване на криптирането</translation>
+        <translation>Потвърдете на шифрирането на портфейла</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>ВНИМАНИЕ: Ако защитите вашият портфейл и изгубите ключовата дума, вие ще &lt;b&gt;ИЗГУБИТЕ ВСИЧКИТЕ СИ ДОЖКОЙНОВЕ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -215,6 +251,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>ВАЖНО: Всякакви стари бекъп версии, които сте направили на вашият портфейл трябва да бъдат заменени със ново-генерирания, криптиран портфейл файл. От съображения за сигурност, предишните бекъпи на некриптираните портфейли ще станат неизползваеми веднага щом започнете да използвате новият криптиран портфейл.</translation>
+=======
+        <translation>ВНИМАНИЕ: Ако шифрирате вашият портфейл и изгубите паролата си, &lt;b&gt;ЩЕ ИЗГУБИТЕ ВСИЧКИТЕ СИ БИТКОИНИ&lt;/b&gt;!</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Наистина ли желаете да шифрирате портфейла си?</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>ВАЖНО: Всички стари запазвания, които сте направили на Вашият портфейл трябва да замените с запазване на новополучения, шифриран портфейл. От съображения за сигурност, предишните запазвания на нешифрирани портфейли ще станат неизползваеми веднага, щом започнете да използвате новият, шифриран портфейл.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -222,19 +269,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Портфейлът е криптиран</translation>
+        <translation>Портфейлът е шифриран</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>дожкоин ще се затоври сега за да завърши процеса на криптиране. Запомнете, че криптирането на вашия портефейл не може напълно да предпази вашите дож-монети от кражба чрез зловреден софтуер, инфектирал вашия компютър</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
-        <translation>Криптирането беше неуспешно</translation>
+        <translation>Шифрирането беше неуспешно</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Криптирането на портфейла беше неуспешно поради неизвестен проблем. Портфейлът не е криптиран.</translation>
+        <translation>Шифрирането на портфейла беше неуспешно, поради софтуерен проблем. Портфейлът не е шифриран.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -242,15 +292,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Отключването беше неуспешно</translation>
+        <translation>Неуспешно отключване на портфейла</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Паролата въведена за декриптиране на портфейла е грешна.</translation>
+        <translation>Паролата въведена за дешифриране на портфейла е грешна.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Декриптирането беше неуспешно</translation>
+        <translation>Дешифрирането на портфейла беше неуспешно</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
@@ -273,7 +323,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Node</source>
-        <translation type="unfinished"/>
+        <translation>Сървър</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -296,10 +346,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Изход от приложението</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Информация за дожкоин</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>За &amp;Qt</translation>
     </message>
@@ -313,7 +366,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Криптиране на портфейла...</translation>
+        <translation>&amp;Шифриране на портфейла...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
@@ -324,18 +377,28 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Смяна на паролата...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Much &amp;receiving addresses...</source>
         <translation type="unfinished"/>
+=======
+        <source>Such &amp;sending addresses...</source>
+        <translation>&amp;Изпращане на адресите...</translation>
+    </message>
+    <message>
+        <source>Much &amp;receiving addresses...</source>
+        <translation>&amp;Получаване на адресите...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation type="unfinished"/>
+        <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Importing blocks from disk...</source>
         <translation type="unfinished"/>
     </message>
@@ -352,8 +415,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Dogecoin Core client</source>
+        <translation>Dogecoin Core клиент</translation>
+    </message>
+    <message>
+        <source>Send coins to a Dogecoin address</source>
+        <translation>Изпращане към Биткоин адрес</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Backup wallet to another location</source>
-        <translation type="unfinished"/>
+        <translation>Запазване на портфейла на друго място</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -361,11 +434,11 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Прозорец за отстраняване на грешки</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"/>
+        <translation>Отворете конзолата за диагностика и отстраняване на грешки</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -373,7 +446,11 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Dogecoin</source>
+<<<<<<< HEAD
         <translation>дожкоин</translation>
+=======
+        <translation>Биткоин</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet</source>
@@ -385,11 +462,19 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Получаване</translation>
+    </message>
+    <message>
+        <source>Show information about Dogecoin Core</source>
+        <translation>Покажете информация за Биткойн ядрото</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
+<<<<<<< HEAD
         <translation>&amp;Покажи / Скрий</translation>
+=======
+        <translation>&amp;Показване / Скриване</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Show or hide the main Window</source>
@@ -397,15 +482,23 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished"/>
+        <translation>Шифроване на личните ключове,които принадлежат на портфейла Ви.</translation>
     </message>
     <message>
         <source>Sign messages with your Dogecoin addresses to prove you own them</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
         <translation type="unfinished"/>
+=======
+        <translation>Пишете съобщения със своя Биткойн адрес за да докажете,че е ваш.</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
+        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Биткойн адреси.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;File</source>
@@ -424,6 +517,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Раздели</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -438,17 +532,30 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>&amp;About Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Биткойн ядро</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
+        <translation>Изискване на плащания(генерира QR кодове и биткойн: URIs)</translation>
+    </message>
+    <message>
+        <source>&amp;About Dogecoin Core</source>
+        <translation>&amp;Относно Dogecoin Core</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation type="unfinished"/>
+        <translation>Показване на списъка с използвани адреси и имена</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation type="unfinished"/>
+        <translation>Покажи списък с използваните адреси и имена.</translation>
     </message>
     <message>
         <source>Open a dogecoin: URI or payment request</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -506,10 +613,33 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Last received block was generated %1 ago.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Отворете биткойн: URI  или заявка за плащане</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Налични команди</translation>
+    </message>
+    <message>
+        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
+        <translation>Покажи помощните съобщения на Биткойн за да видиш наличните и валидни команди</translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>Липсва източник на блоковете...</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 и %2</translation>
+    </message>
+    <message>
+        <source>%1 behind</source>
+        <translation>%1 зад</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
+        <translation>Транзакции след това няма все още да бъдат видими.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -521,7 +651,11 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Information</source>
+<<<<<<< HEAD
         <translation>Данни</translation>
+=======
+        <translation>Информация</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Up to date</source>
@@ -540,6 +674,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Входяща трансакция</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -548,6 +683,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Портфейлът е &lt;b&gt;криптиран&lt;/b&gt; и &lt;b&gt;отключен&lt;/b&gt;</translation>
     </message>
@@ -555,27 +692,35 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Портфейлът е &lt;b&gt;криптиран&lt;/b&gt; и &lt;b&gt;заключен&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation>Възникна фатална грешка. дожкойн не може да продължи безопасно и ще се изключи.</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Network Alert</source>
-        <translation type="unfinished"/>
+        <translation>Мрежови проблем</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation type="unfinished"/>
+=======
+        <source>Coin Selection</source>
+        <translation>Избор на монета</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Quantity:</source>
-        <translation type="unfinished"/>
+        <translation>Количество:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -594,40 +739,54 @@ Address: %4
         <translation>Такса:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation type="unfinished"/>
+=======
+        <source>Dust:</source>
+        <translation>Прах:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>After Fee:</source>
-        <translation type="unfinished"/>
+        <translation>След прилагане на ДДС</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation type="unfinished"/>
+        <translation>Ресто</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation type="unfinished"/>
+        <translation>(Пре)махни всички</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation type="unfinished"/>
+        <translation>Дървовиден режим</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation type="unfinished"/>
+        <translation>Списъчен режим</translation>
     </message>
     <message>
         <source>Amount</source>
         <translation>Сума</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Address</source>
         <translation>Адрес</translation>
+=======
+        <source>Received with label</source>
+        <translation>Получени с име</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>Получени с адрес</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Date</source>
@@ -659,110 +818,122 @@ Address: %4
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
+        <translation>Копирай транзакция с ID</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation type="unfinished"/>
+        <translation>Заключване на неизхарченото</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation type="unfinished"/>
+        <translation>Отключване на неизхарченото</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation type="unfinished"/>
+        <translation>Копиране на количеството</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation type="unfinished"/>
+        <translation>Копиране на данък добавена стойност</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation type="unfinished"/>
+        <translation>Копиране след прилагане на данък добавена стойност</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation type="unfinished"/>
+        <translation>Копиране на байтовете</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation type="unfinished"/>
+        <translation>Копиране на приоритет</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation type="unfinished"/>
+=======
+        <source>Copy dust</source>
+        <translation>Копирай прахта:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy change</source>
-        <translation type="unfinished"/>
+        <translation>Копирай рестото</translation>
     </message>
     <message>
         <source>highest</source>
-        <translation type="unfinished"/>
+        <translation>Най-висок</translation>
     </message>
     <message>
         <source>higher</source>
-        <translation type="unfinished"/>
+        <translation>По-висок</translation>
     </message>
     <message>
         <source>high</source>
-        <translation type="unfinished"/>
+        <translation>Висок</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation type="unfinished"/>
+        <translation>Средно-висок</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation type="unfinished"/>
+        <translation>Среден</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation type="unfinished"/>
+        <translation>Ниско-среден</translation>
     </message>
     <message>
         <source>low</source>
-        <translation type="unfinished"/>
+        <translation>Нисък</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation type="unfinished"/>
+        <translation>По-нисък</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation type="unfinished"/>
+        <translation>Най-нисък</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation type="unfinished"/>
+        <translation>(%1 заключен)</translation>
     </message>
     <message>
         <source>none</source>
-        <translation type="unfinished"/>
+        <translation>нищо</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust</source>
         <translation>Прах</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>yes</source>
         <translation>да</translation>
     </message>
     <message>
         <source>no</source>
         <translation>не</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation type="unfinished"/>
+        <translation>Това означава че се изисква такса от поне %1 на килобайт.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -788,6 +959,9 @@ Address: %4
     <message>
         <source>This label turns red, if the change is smaller than %1.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Може да варира с +-1 байт</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>(no label)</source>
@@ -795,11 +969,11 @@ Address: %4
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation type="unfinished"/>
+        <translation>ресто от %1 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation type="unfinished"/>
+        <translation>(промени)</translation>
     </message>
 </context>
 <context>
@@ -813,6 +987,7 @@ Address: %4
         <translation>&amp;Име</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The label associated with this address list entry</source>
         <translation type="unfinished"/>
     </message>
@@ -821,6 +996,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Address</source>
         <translation>&amp;Адрес</translation>
     </message>
@@ -834,19 +1011,28 @@ Address: %4
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Редактиране на входящ адрес</translation>
+        <translation>Редактиране на адрес за получаване</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Редактиране на изходящ адрес</translation>
+        <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>Вече има адрес &quot;%1&quot; в списъка с адреси.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
         <translation>&quot;%1&quot; не е валиден дожкоин адрес.</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Вече има адрес "%1" в списъка с адреси.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <translation>"%1" не е валиден Биткоин адрес.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -869,7 +1055,7 @@ Address: %4
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation type="unfinished"/>
+        <translation>Директорията вече съществува.Добавете %1 ако желаете да добавите нова директория тук.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
@@ -877,22 +1063,28 @@ Address: %4
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation type="unfinished"/>
+        <translation>Не може да се създаде директория тук.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Биткойн ядро</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>version</source>
         <translation>версия</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Usage:</source>
@@ -925,6 +1117,28 @@ Address: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation type="unfinished"/>
+=======
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-битов)</translation>
+    </message>
+    <message>
+        <source>About Dogecoin Core</source>
+        <translation>Относно Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Списък с команди</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Използване:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>Списък с налични команди</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -932,6 +1146,7 @@ Address: %4
     <message>
         <source>Welcome</source>
         <translation>Добре дошли</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Welcome to Dogecoin Core.</source>
@@ -944,13 +1159,24 @@ Address: %4
     <message>
         <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
+=======
+    </message>
+    <message>
+        <source>Welcome to Dogecoin Core.</source>
+        <translation>Добре дошли в Биткойн ядрото.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
+        <translation>Тъй като това е първото стартиране на програмата можете да изберете къде Биткон ядрото да запази данните си.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation type="unfinished"/>
+        <translation>Използване на директория по подразбиране</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -960,11 +1186,19 @@ Address: %4
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Използване на директория ръчно</translation>
+    </message>
+    <message>
+        <source>Dogecoin Core</source>
+        <translation>Биткойн ядро</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error</source>
         <translation>Грешка</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>GB of free space available</source>
         <translation type="unfinished"/>
@@ -974,10 +1208,14 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -995,8 +1233,11 @@ Address: %4
     <message>
         <source>Select payment request file to open</source>
         <translation type="unfinished"/>
+=======
+        <translation>Отваряне на URI</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -1008,6 +1249,7 @@ Address: %4
         <translation>&amp;Основни</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation type="unfinished"/>
     </message>
@@ -1026,12 +1268,17 @@ Address: %4
     <message>
         <source>Size of &amp;database cache</source>
         <translation type="unfinished"/>
+=======
+        <source>Size of &amp;database cache</source>
+        <translation>Размер на кеша в &amp;базата данни</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>MB</source>
-        <translation type="unfinished"/>
+        <translation>Мегабайта</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Number of script &amp;verification threads</source>
         <translation type="unfinished"/>
     </message>
@@ -1044,26 +1291,42 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation type="unfinished"/>
+=======
+        <source>Accept connections from outside</source>
+        <translation>Приемай връзки отвън</translation>
     </message>
     <message>
+        <source>Allow incoming connections</source>
+        <translation>Позволи входящите връзки</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP адрес на прокси (напр. за IPv4: 127.0.0.1 / за IPv6: ::1)</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Active command-line options that override above options:</source>
         <translation type="unfinished"/>
+=======
+        <source>Third party transaction URLs</source>
+        <translation>URL адреси на трети страни</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
+        <translation>Възстановете всички настройки по подразбиране.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Нулирай настройките</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation type="unfinished"/>
     </message>
@@ -1086,6 +1349,18 @@ Address: %4
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation type="unfinished"/>
+=======
+        <source>W&amp;allet</source>
+        <translation>По&amp;ртфейл</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Експерт</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;Похарчете непотвърденото ресто</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -1096,6 +1371,7 @@ Address: %4
         <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Proxy &amp;IP:</source>
         <translation>Прокси &amp; АйПи:</translation>
     </message>
@@ -1114,6 +1390,26 @@ Address: %4
     <message>
         <source>SOCKS version of the proxy (e.g. 5)</source>
         <translation>SOCKS версия на прокси сървъра (пр. 5)</translation>
+=======
+        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
+        <translation>Свързване с Биткойн мрежата чрез SOCKS5  прокси.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>&amp;Свързване чрез SOCKS5  прокси (прокси по подразбиране):</translation>
+    </message>
+    <message>
+        <source>Proxy &amp;IP:</source>
+        <translation>Прокси &amp; АйПи:</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;Порт:</translation>
+    </message>
+    <message>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>Порт на прокси сървъра (пр. 9050)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1128,10 +1424,13 @@ Address: %4
         <translation>&amp;Минимизиране в системния трей</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>При затваряне на прозореца приложението остава минимизирано. Ако изберете тази опция, приложението може да се затвори само чрез Изход в менюто.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>M&amp;inimize on close</source>
         <translation>М&amp;инимизиране при затваряне</translation>
     </message>
@@ -1144,18 +1443,22 @@ Address: %4
         <translation>Език:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
         <translation>Промяната на езика ще влезе в сила след рестартиране на дожкоин.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Мерни единици:</translation>
+        <translation>Мерна единица за показваните суми:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Изберете единиците, показвани по подразбиране в интерфейса.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
         <translation>Ще се показват адресите в списъка с транзакции независимо от наличието на кратко име.</translation>
     </message>
@@ -1164,8 +1467,10 @@ Address: %4
         <translation>&amp;Адреси в списъка с трансакции</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Whether to show coin control features or not.</source>
-        <translation type="unfinished"/>
+        <translation>Дали да покаже възможностите за контрол на монетите или не.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1181,42 +1486,54 @@ Address: %4
     </message>
     <message>
         <source>none</source>
-        <translation type="unfinished"/>
+        <translation>нищо</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation type="unfinished"/>
+        <translation>Потвърдете отмяната на настройките.</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
         <translation type="unfinished"/>
+=======
+        <translation>Изисква се рестартиране на клиента за активиране на извършените промени.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation type="unfinished"/>
+        <translation>Тази промяна изисква рестартиране на клиента Ви.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Прокси адресът е невалиден.</translation>
+        <translation>Текущият прокси адрес е невалиден.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation>Формуляр</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Wallet</source>
         <translation>Портфейл</translation>
+=======
+        <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Биткоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
+    </message>
+    <message>
+        <source>Watch-only:</source>
+        <translation>В наблюдателен режим:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Available:</source>
@@ -1224,23 +1541,30 @@ Address: %4
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation type="unfinished"/>
+        <translation>Вашата текуща сметка за изразходване</translation>
     </message>
     <message>
         <source>Pending:</source>
         <translation>Изчакващо:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Immature:</source>
-        <translation type="unfinished"/>
+        <translation>Неразвит:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished"/>
+        <translation>Миниран баланс,който все още не се е развил</translation>
+    </message>
+    <message>
+        <source>Balances</source>
+        <translation>Баланс</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1251,18 +1575,28 @@ Address: %4
         <translation>Текущият ви общ баланс</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation>&lt;b&gt;Последни трансакции&lt;/b&gt;</translation>
     </message>
     <message>
         <source>out of sync</source>
         <translation>несинхронизиран</translation>
+=======
+        <source>Spendable:</source>
+        <translation>За харчене:</translation>
     </message>
-</context>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Скорошни транзакции</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>URI handling</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1306,33 +1640,91 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Refund from %1</source>
-        <translation type="unfinished"/>
+=======
+        <translation>Справяне с URI</translation>
     </message>
     <message>
+        <source>Invalid payment address %1</source>
+        <translation>Невалиден адрес на плащане %1</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>Заявката за плащане беше отхвърлена</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>Мрежата от която се извършва заявката за плащане не съвпада с мрежата на клиента.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Заявената сума за плащане: %1 е твърде малка (счита се за отпадък)</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Възникна грешка по време назаявката за плащане</translation>
+    </message>
+    <message>
+        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <translation>Биткойн не можe да се стартира: click-to-pay handler</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Файл за справяне със заявки</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+        <source>Refund from %1</source>
+        <translation>Възстановяване на сума от %1</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Error communicating with %1: %2</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Payment request can not be parsed or processed!</source>
         <translation type="unfinished"/>
+=======
+        <source>Payment request DoS protection</source>
+        <translation>Дос защита на заявката за плащане</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>Грешка при комуникацията с %1: %2</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation type="unfinished"/>
+        <translation>Възникна проблем при свързването със сървър %1</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
+<<<<<<< HEAD
         <translation>Плащането е приета</translation>
+=======
+        <translation>Плащането е прието</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Network request error</source>
-        <translation type="unfinished"/>
+        <translation>Грешка в мрежата по време на заявката</translation>
+    </message>
+</context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>User Agent</source>
+        <translation>Клиент на потребителя</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Време за отговор</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>дожкоин</translation>
     </message>
@@ -1347,6 +1739,42 @@ Address: %4
     <message>
         <source>Error: Invalid combination of -regtest and -testnet.</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Сума</translation>
+    </message>
+    <message>
+        <source>Enter a Dogecoin address (e.g. %1)</source>
+        <translation>Въведете Биткойн адрес (например: %1)</translation>
+    </message>
+    <message>
+        <source>%1 d</source>
+        <translation>%1 ден</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 час</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 минута</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 секунда</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Неналичен</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>Несъществуващ</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 милисекунда</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Dogecoin Core did&apos;t yet exit safely...</source>
@@ -1361,19 +1789,19 @@ Address: %4
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Запиши изображение...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Копирай изображение</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation type="unfinished"/>
+        <translation>Запази QR Код</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation type="unfinished"/>
+        <translation>PNG Изображение (*.png)</translation>
     </message>
 </context>
 <context>
@@ -1384,7 +1812,7 @@ Address: %4
     </message>
     <message>
         <source>N/A</source>
-        <translation>N/A</translation>
+        <translation>Несъществуващ</translation>
     </message>
     <message>
         <source>Client version</source>
@@ -1396,19 +1824,26 @@ Address: %4
     </message>
     <message>
         <source>Debug window</source>
-        <translation type="unfinished"/>
+        <translation>Прозорец с грешки</translation>
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished"/>
+        <translation>Основни</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
         <translation>Използване на OpenSSL версия</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>Използване на база данни BerkeleyDB </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Startup time</source>
-        <translation type="unfinished"/>
+        <translation>Време за стартиране</translation>
     </message>
     <message>
         <source>Network</source>
@@ -1423,6 +1858,7 @@ Address: %4
         <translation>Брой връзки</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Block chain</source>
         <translation type="unfinished"/>
     </message>
@@ -1433,6 +1869,70 @@ Address: %4
     <message>
         <source>Estimated total blocks</source>
         <translation>Предвидени общо блокове</translation>
+=======
+        <source>Current number of blocks</source>
+        <translation>Текущ брой блокове</translation>
+    </message>
+    <message>
+        <source>Received</source>
+        <translation>Получени</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>Изпратени</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>&amp;Пиъри</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Избери пиър за детайлна информация.</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>Посока</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Версия</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>Клиент на потребителя</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>Услуги</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Стартова височина</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>Продължителност на връзката</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>Изпратени за последно</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>Получени за последно</translation>
+    </message>
+    <message>
+        <source>Bytes Sent</source>
+        <translation>Изпратени байтове</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>Получени байтове</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Време за отговор</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Last block time</source>
@@ -1440,19 +1940,19 @@ Address: %4
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Отвори</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Конзола</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Мрежов Трафик</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Изчисти</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1460,57 +1960,65 @@ Address: %4
     </message>
     <message>
         <source>In:</source>
-        <translation type="unfinished"/>
+        <translation>Входящи:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation type="unfinished"/>
+        <translation>Изходящи</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation type="unfinished"/>
+        <translation>Дата на създаване</translation>
     </message>
     <message>
         <source>Debug log file</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Отворете дожкой дебъг лог файла от настоящата Data папка. Може да отнеме няколко секунди при по - големи лог файлове.</translation>
+=======
+        <translation>Лог файл,съдържащ грешките</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Clear console</source>
         <translation>Изчисти конзолата</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Dogecoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Използвайте стрелки надолу и нагореза разглеждане на историятаот команди и &lt;b&gt;Ctrl-L&lt;/b&gt; за изчистване на конзолата.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"/>
+        <translation>Въведeте &lt;/b&gt;помощ&lt;/b&gt; за да видите наличните команди.</translation>
     </message>
     <message>
         <source>%1 B</source>
-        <translation type="unfinished"/>
+        <translation>%1 Байт</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation type="unfinished"/>
+        <translation>%1 Килобайт</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation type="unfinished"/>
+        <translation>%1 Мегабайт</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation type="unfinished"/>
+        <translation>%1 Гигабайт</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 m</source>
         <translation type="unfinished"/>
     </message>
@@ -1521,13 +2029,37 @@ Address: %4
     <message>
         <source>%1 h %2 m</source>
         <translation type="unfinished"/>
+=======
+        <source>via %1</source>
+        <translation>посредством %1</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>Никога</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>Входящи</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>Изходящи</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Неизвестен</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Прихващане...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Сума</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1535,6 +2067,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Message:</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1552,22 +2085,26 @@ Address: %4
     <message>
         <source>An optional label to associate with the new receiving address.</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;Съобщение:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation type="unfinished"/>
+        <translation>Използвате този формуляр за заявяване на плащания. Всички полета са &lt;b&gt;незадължителни&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation type="unfinished"/>
+        <translation>Незадължително заявяване на сума. Оставете полето празно или нулево, за да не заявите конкретна сума.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation type="unfinished"/>
+        <translation>Изчисти всички полета от формуляра.</translation>
     </message>
     <message>
         <source>Clear</source>
         <translation>Изчистване</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Requested payments history</source>
@@ -1602,6 +2139,34 @@ Address: %4
         <translation>Копиране на съобщението</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation>Изискана история на плащанията</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>&amp;Изискване на плащане</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Показване</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Премахване</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Копирай име</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Копиране на съобщението</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy amount</source>
         <translation>Копирай сума</translation>
     </message>
@@ -1610,31 +2175,34 @@ Address: %4
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation type="unfinished"/>
+        <translation>QR код</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation type="unfinished"/>
+        <translation>Копиране на &amp;URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Копирай адрес</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Запиши изображение...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation type="unfinished"/>
+        <translation>Изискване на плащане от %1</translation>
     </message>
     <message>
         <source>Payment information</source>
         <translation>Данни за плащането</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>URI</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Address</source>
@@ -1653,10 +2221,13 @@ Address: %4
         <translation>Съобщение</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error encoding URI into QR Code.</source>
         <translation>Грешка при създаването на QR Code от URI.</translation>
     </message>
@@ -1685,7 +2256,11 @@ Address: %4
     </message>
     <message>
         <source>(no message)</source>
-        <translation type="unfinished"/>
+        <translation>(без съобщение)</translation>
+    </message>
+    <message>
+        <source>(no amount)</source>
+        <translation>(липсва сума)</translation>
     </message>
     <message>
         <source>(no amount)</source>
@@ -1700,9 +2275,10 @@ Address: %4
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation type="unfinished"/>
+        <translation>Настройки за контрол на монетите</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Inputs...</source>
         <translation type="unfinished"/>
     </message>
@@ -1711,12 +2287,18 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>automatically selected</source>
+        <translation>астоматично избран</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Insufficient funds!</source>
-        <translation type="unfinished"/>
+        <translation>Нямате достатъчно налични пари!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation type="unfinished"/>
+        <translation>Количество:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -1735,24 +2317,64 @@ Address: %4
         <translation>Такса:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>After Fee:</source>
-        <translation type="unfinished"/>
+        <translation>След прилагане на ДДС</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation type="unfinished"/>
+        <translation>Ресто</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation type="unfinished"/>
+        <translation>Ако тази опция е активирана,но адресът на промяна е празен или невалиден,промяната ще бъде изпратена на новосъздаден адрес.</translation>
     </message>
     <message>
+        <source>Transaction Fee:</source>
+        <translation>Такса за транзакцията:</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>Избери...</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>за килобайт</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>Крайна сума поне</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>Препоръчителна:</translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>По избор:</translation>
+    </message>
+    <message>
+        <source>Confirmation time:</source>
+        <translation>Време за потвърждение:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>нормален</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Custom change address</source>
         <translation type="unfinished"/>
+=======
+        <source>fast</source>
+        <translation>бърз</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1764,7 +2386,11 @@ Address: %4
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation type="unfinished"/>
+        <translation>Изчисти всички полета от формуляра.</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>Прах:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1787,12 +2413,15 @@ Address: %4
         <translation>Потвърждаване</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 to %2</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy quantity</source>
-        <translation type="unfinished"/>
+        <translation>Копиране на количеството</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -1800,39 +2429,46 @@ Address: %4
     </message>
     <message>
         <source>Copy fee</source>
-        <translation type="unfinished"/>
+        <translation>Копиране на данък добавена стойност</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation type="unfinished"/>
+        <translation>Копиране след прилагане на данък добавена стойност</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation type="unfinished"/>
+        <translation>Копиране на байтовете</translation>
     </message>
     <message>
         <source>Copy priority</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy low output</source>
         <translation type="unfinished"/>
+=======
+        <translation>Копиране на приоритет</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy change</source>
-        <translation type="unfinished"/>
+        <translation>Копирай рестото</translation>
     </message>
     <message>
         <source>Total Amount %1 (= %2)</source>
-        <translation type="unfinished"/>
+        <translation>Пълна сума %1 (= %2)</translation>
     </message>
     <message>
         <source>or</source>
         <translation>или</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>Невалиден адрес на получателя.</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -1844,9 +2480,10 @@ Address: %4
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation type="unfinished"/>
+        <translation>Сумата при добавяне на данък добавена стойност по %1 транзакцията надвишава сумата по вашата сметка.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation type="unfinished"/>
     </message>
@@ -1861,6 +2498,18 @@ Address: %4
     <message>
         <source>Warning: Invalid Dogecoin address</source>
         <translation type="unfinished"/>
+=======
+        <source>Transaction creation failed!</source>
+        <translation>Грешка при създаването на транзакция!</translation>
+    </message>
+    <message>
+        <source>Pay only the minimum fee of %1</source>
+        <translation>Платете минималната такса от %1</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Dogecoin address</source>
+        <translation>Внимание: Невалиден Биткойн адрес</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>(no label)</source>
@@ -1868,6 +2517,7 @@ Address: %4
     </message>
     <message>
         <source>Warning: Unknown change address</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1885,6 +2535,21 @@ Address: %4
     <message>
         <source>Invalid payment address %1</source>
         <translation type="unfinished"/>
+=======
+        <translation>Внимание:Неизвестен адрес за промяна</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>Копирай прахта:</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Наистина ли искате да изпратите?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>добавено като такса за транзакция</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1898,10 +2563,13 @@ Address: %4
         <translation>Плати &amp;На:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The address to send the payment to (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Въведете име за този адрес, за да го добавите в списъка с адреси</translation>
     </message>
@@ -1911,7 +2579,7 @@ Address: %4
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation type="unfinished"/>
+        <translation>Изберете използван преди адрес</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
@@ -1938,6 +2606,7 @@ Address: %4
         <translation>Съобщение:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a verified payment request.</source>
         <translation type="unfinished"/>
     </message>
@@ -1954,23 +2623,33 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Pay To:</source>
         <translation>Плащане на:</translation>
     </message>
     <message>
         <source>Memo:</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Бележка:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>Dogecoin Core is shutting down...</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Биткойн ядрото се изключва...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation type="unfinished"/>
+        <translation>Не изключвайте компютъра докато този прозорец не изчезне.</translation>
     </message>
 </context>
 <context>
@@ -1984,6 +2663,7 @@ Address: %4
         <translation>&amp;Подпиши</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Можете да подпишете съобщение като доказателство, че притежавате определен адрес. Бъдете внимателни и не подписвайте съобщения, които биха разкрили лична информация без вашето съгласие.</translation>
     </message>
@@ -1992,8 +2672,10 @@ Address: %4
         <translation>Адресът, с който ще подпишете съобщението (например DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Choose previously used address</source>
-        <translation type="unfinished"/>
+        <translation>Изберете използван преди адрес</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2026,10 +2708,13 @@ Address: %4
     <message>
         <source>Sign &amp;Message</source>
         <translation>Подпиши &amp;съобщение</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Reset all sign message fields</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2040,6 +2725,7 @@ Address: %4
         <translation>&amp;Провери</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation type="unfinished"/>
     </message>
@@ -2050,12 +2736,17 @@ Address: %4
     <message>
         <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен дожкоин адрес</translation>
+=======
+        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
+        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation type="unfinished"/>
+        <translation>Потвърди &amp;съобщението</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reset all verify message fields</source>
         <translation type="unfinished"/>
     </message>
@@ -2068,6 +2759,12 @@ Address: %4
         <translation>Натиснете &quot;Подписване на съобщение&quot; за да създадете подпис</translation>
     </message>
     <message>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Натиснете "Подписване на съобщение" за да създадете подпис</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The entered address is invalid.</source>
         <translation>Въведеният адрес е невалиден.</translation>
     </message>
@@ -2077,7 +2774,7 @@ Address: %4
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation type="unfinished"/>
+        <translation>Въведеният адрес не може да се съпостави с валиден ключ.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -2085,11 +2782,11 @@ Address: %4
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Не е наличен частният ключ за въведеният адрес.</translation>
+        <translation>Не е наличен частен ключ за въведеният адрес.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Подписването на съобщение бе неуспешно.</translation>
+        <translation>Подписването на съобщение беше неуспешно.</translation>
     </message>
     <message>
         <source>Message signed.</source>
@@ -2120,11 +2817,19 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <source>Dogecoin Core</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>The Dogecoin Core developers</source>
         <translation type="unfinished"/>
+=======
+        <translation>Биткойн ядро</translation>
+    </message>
+    <message>
+        <source>The Dogecoin Core developers</source>
+        <translation>Разработчици на Dogecoin Core</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>[testnet]</source>
@@ -2135,7 +2840,7 @@ Address: %4
     <name>TrafficGraphWidget</name>
     <message>
         <source>KB/s</source>
-        <translation type="unfinished"/>
+        <translation>Килобайта в секунда</translation>
     </message>
 </context>
 <context>
@@ -2146,7 +2851,11 @@ Address: %4
     </message>
     <message>
         <source>conflicted</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>припокриващ се</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>%1/offline</source>
@@ -2164,10 +2873,13 @@ Address: %4
         <source>Status</source>
         <translation>Статус</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>Date</source>
         <translation>Дата</translation>
@@ -2200,10 +2912,13 @@ Address: %4
         <source>Credit</source>
         <translation>Кредит</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>not accepted</source>
         <translation>не е приет</translation>
@@ -2218,7 +2933,7 @@ Address: %4
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Сума нето</translation>
+        <translation>Нетна сума</translation>
     </message>
     <message>
         <source>Message</source>
@@ -2237,22 +2952,28 @@ Address: %4
         <translation>Търговец</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Debug information</source>
-        <translation type="unfinished"/>
+        <translation>Информация за грешките</translation>
     </message>
     <message>
         <source>Transaction</source>
         <translation>Трансакция</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Inputs</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount</source>
         <translation>Сума</translation>
     </message>
@@ -2268,10 +2989,13 @@ Address: %4
         <source>, has not been successfully broadcast yet</source>
         <translation>, все още не е изпратено</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>unknown</source>
         <translation>неизвестен</translation>
@@ -2299,6 +3023,7 @@ Address: %4
         <translation>Тип</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Адрес</translation>
     </message>
@@ -2347,8 +3072,46 @@ Address: %4
         <translation>Конфликтно</translation>
     </message>
     <message>
+=======
+        <source>Open until %1</source>
+        <translation>Подлежи на промяна до %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Потвърдени (%1 потвърждения)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Блокът не е получен от останалите участници и най-вероятно няма да бъде одобрен.</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Генерирана, но отхвърлена от мрежата</translation>
+    </message>
+    <message>
+        <source>Offline</source>
+        <translation>Извън линия</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Име</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Непотвърдено</translation>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>Потвърждаване (%1 от %2 препоръчвани потвърждения)</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>Конфликтно</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Received with</source>
-        <translation>Получени с</translation>
+        <translation>Получени</translation>
     </message>
     <message>
         <source>Received from</source>
@@ -2376,15 +3139,19 @@ Address: %4
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Дата и час на получаване.</translation>
+        <translation>Дата и час на получаване на транзакцията.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
+<<<<<<< HEAD
         <translation>Вид трансакция.</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
         <translation>Получател на трансакцията.</translation>
+=======
+        <translation>Вид транзакция.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2463,7 +3230,7 @@ Address: %4
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
+        <translation>Копирай транзакция с ID</translation>
     </message>
     <message>
         <source>Edit label</source>
@@ -2471,27 +3238,38 @@ Address: %4
     </message>
     <message>
         <source>Show transaction details</source>
+<<<<<<< HEAD
         <translation>Подробности за трансакцията</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
         <translation>Изнасяне историята на трансакциите</translation>
+=======
+        <translation>Подробности за транзакцията</translation>
+    </message>
+    <message>
+        <source>Export Transaction History</source>
+        <translation>Изнасяне историята на транзакциите</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Exporting Failed</source>
         <translation>Грешка при изнасянето</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the transaction history to %1.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Exporting Successful</source>
         <translation>Изнасянето е успешна</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation type="unfinished"/>
+        <translation>Историята с транзакциите беше успешно запазена в %1.</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -2518,10 +3296,13 @@ Address: %4
         <translation>Адрес</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Сума</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>ID</source>
         <translation>ИД</translation>
     </message>
@@ -2534,6 +3315,9 @@ Address: %4
         <translation>до</translation>
     </message>
 </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
 <context>
     <name>WalletFrame</name>
     <message>
@@ -2552,7 +3336,7 @@ Address: %4
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>Изнеси</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -2564,28 +3348,29 @@ Address: %4
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation type="unfinished"/>
+        <translation>Информация за портфейла (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation type="unfinished"/>
+        <translation>Неуспешно запазване на портфейла</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation type="unfinished"/>
+        <translation>Възникна грешка при запазването на информацията за портфейла в %1.</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation type="unfinished"/>
+        <translation>Информацията за портфейла беше успешно запазена в %1.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation type="unfinished"/>
+        <translation>Успешно запазване на портфейла</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Използване:</translation>
     </message>
@@ -2598,10 +3383,13 @@ Address: %4
         <translation>Получете помощ за команда</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Options:</source>
         <translation>Опции:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: dogecoin.conf)</source>
         <translation>Задаване на файл с настройки (по подразбиране dogecoin.conf)</translation>
     </message>
@@ -2610,10 +3398,13 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify data directory</source>
         <translation>Определете директория за данните</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation type="unfinished"/>
     </message>
@@ -2622,11 +3413,14 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation type="unfinished"/>
+        <translation>Свържете се към сървър за да можете да извлечете адресите на пиърите след което се разкачете.</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2658,11 +3452,17 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <translation>Въведете Ваш публичен адрес</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use the test network</source>
         <translation>Използвайте тестовата мрежа</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2788,10 +3588,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>(по подразбиране wallet.dat)</translation>
     </message>
     <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation type="unfinished"/>
+=======
+        <translation>Приемайте връзки отвън.(по подразбиране:1 в противен случай -proxy или -connect)</translation>
     </message>
     <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Внимание: -paytxfee е с мното голяма зададена стойност! Това е транзакционната такса, която ще платите ако направите транзакция.</translation>
+    </message>
+    <message>
+        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
+        <translation>Сложете в бял списък пиъри,свързващи се от дадената интернет маска или айпи адрес.Може да бъде заложено неколкократно.</translation>
+    </message>
+    <message>
+        <source>(default: 1)</source>
+        <translation>(по подразбиране 1)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; може да бъде:</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation type="unfinished"/>
     </message>
@@ -2844,11 +3662,18 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Connection options:</source>
+        <translation>Настройки на връзката:</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished"/>
+        <translation>Желаете ли да пресъздадете базата данни с блокове сега?</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3008,6 +3833,23 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <translation>Грешка в пускането на базата данни с блокове</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Грешка: мястото на диска е малко!</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Провалено "слушане" на всеки порт. Използвайте -listen=0 ако искате това.</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>Внасяне...</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verifying blocks...</source>
         <translation>Проверка на блоковете...</translation>
     </message>
@@ -3016,6 +3858,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Проверка на портфейла...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wait for RPC server to start</source>
         <translation type="unfinished"/>
     </message>
@@ -3132,10 +3975,49 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Wallet options:</source>
+        <translation>Настройки на портфейла:</translation>
+    </message>
+    <message>
+        <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
+        <translation>Заложете броя на нишки за генерация на монети ако е включено(-1 = всички ядра, по подразбиране: %d)</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Внимание: -maxtxfee има много висока стойност! Толкова високи такси могат да бъдат заплатени на една транзакция.</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Изберете директория при стартиране на програмата.( настройка по подразбиране:0)</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>Свързване чрез SOCKS5  прокси</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Всички права запазени (C) 2009-%i Доставчиците на Биткойн</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Информация</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Невалидна сума за -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Невалидна сума за -mintxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Изпрати локализиращата или дебъг информацията към конзолата, вместо файлът debug.log</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation>Задайте минимален размер на блок-а в байтове (подразбиране: 0)</translation>
     </message>
@@ -3192,6 +4074,32 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Задаване на език,например "de_DE" (по подразбиране: system locale)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Стартирай минимизирано</translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation>Това е експериментален софтуер.</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>Сумата на транзакцията е твърде малка</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must be positive</source>
+        <translation>Сумите на транзакциите трябва да са положителни</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation>Транзакцията е твърде голяма</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Username for JSON-RPC connections</source>
         <translation>Потребителско име за JSON-RPC връзките</translation>
     </message>
@@ -3200,6 +4108,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Предупреждение</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Внимание: Използвате остаряла версия, необходимо е обновление!</translation>
     </message>
@@ -3220,10 +4129,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>on startup</source>
+        <translation>по време на стартирането</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Password for JSON-RPC connections</source>
         <translation>Парола за  JSON-RPC връзките</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Разреши  JSON-RPC връзките от отучнен IP адрес</translation>
     </message>
@@ -3236,22 +4152,30 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Upgrade wallet to latest format</source>
         <translation>Обновяване на портфейла до най-новия формат</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Повторно сканиране на блок-връзка за липсващи портфейлни трансакции</translation>
+=======
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Повторно сканиране на блок-връзка за липсващи портфейлни транзакции</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Използвайте OpenSSL (https) за JSON-RPC връзките</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Server certificate file (default: server.cert)</source>
         <translation>Сертификатен файл на сървъра (По подразбиране:server.cert)</translation>
     </message>
@@ -3260,10 +4184,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Поверителен ключ за сървъра (default: server.pem)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This help message</source>
         <translation>Това помощно съобщение</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation type="unfinished"/>
     </message>
@@ -3272,14 +4199,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Loading addresses...</source>
-        <translation>Зареждане на адресите...</translation>
+        <translation>Зареждане на адреси...</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation>Грешка при зареждане на wallet.dat: портфейлът е повреден</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
         <translation>Грешка при зареждане на  wallet.dat: портфейлът изисква по-нова версия на Dogecoin</translation>
     </message>
@@ -3318,6 +4248,30 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Invalid amount</source>
         <translation type="unfinished"/>
+=======
+        <source>Error loading wallet.dat</source>
+        <translation>Грешка при зареждане на wallet.dat</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Невалиден -proxy address: '%s'</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Назовете конфигурационен файл(по подразбиране %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Задайте време на изключване при проблеми със свързването в милисекунди(минимум:1, по подразбиране %d)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Задайте pid  файл(по подразбиране: %s)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Невалидна сума за -paytxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3328,14 +4282,18 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Зареждане на блок индекса...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Loading wallet...</source>
         <translation>Зареждане на портфейла...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot downgrade wallet</source>
         <translation type="unfinished"/>
     </message>
@@ -3344,6 +4302,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescanning...</source>
         <translation>Преразглеждане на последовтелността от блокове...</translation>
     </message>
@@ -3352,6 +4312,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Зареждането е завършено</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation type="unfinished"/>
     </message>
@@ -3365,5 +4326,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation type="unfinished"/>
     </message>
+=======
+        <source>Error</source>
+        <translation>Грешка</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

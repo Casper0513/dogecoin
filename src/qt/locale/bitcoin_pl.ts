@@ -1,4 +1,5 @@
 <TS language="pl" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -41,6 +42,13 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     <message>
         <source>Double-click to edit address or label</source>
         <translation>Kliknij dwukrotnie, aby edytować adres lub etykietę</translation>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+        <source>Right-click to edit address or label</source>
+        <translation>Kliknij prawy przycisk aby edytować adres lub etykietę</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Create a new address</source>
@@ -84,18 +92,26 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     </message>
     <message>
         <source>Choose the address to send coins to</source>
+<<<<<<< HEAD
         <translation>Wybierz adres do którego wysłać Dogecoin/y</translation>
+=======
+        <translation>Wybierz adres, na który chcesz wysłać monety</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wybierz adres do otrzymania monet.</translation>
+        <translation>Wybierz adres, na który chcesz otrzymać monety</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
         <translation>W&amp;ybierz</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very sending addresses</source>
+=======
+        <source>Such sending addresses</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>Adres wysyłania</translation>
     </message>
     <message>
@@ -104,11 +120,19 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     </message>
     <message>
         <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>Tutaj znajdują się Twoje adresy Dogecoin do wysyłania płatności. Zawsze sprawdzaj ilość i adres odbiorcy przed wysyłką monet.</translation>
     </message>
     <message>
         <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>To twoje adresy dogecoin do odbierania płatności. Zaleca się używanie nowych adresów odbiorczych dla każdej tranzakcji.</translation>
+=======
+        <translation>Tutaj znajdują się adresy Dogecoin na które wysyłasz płatności. Zawsze sprawdzaj ilość i adres odbiorcy przed wysyłką monet.</translation>
+    </message>
+    <message>
+        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To twoje adresy Dogecoin, na które otrzymujesz płatności. Zaleca się używanie nowych adresów odbiorczych dla każdej transakcji.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -124,15 +148,20 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Plik *.CSV (rozdzielany przecinkami)</translation>
+        <translation>CSV (rozdzielany przecinkami)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
         <translation>Błąd przy próbie eksportu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the address list to %1.</source>
         <translation>Wystąpił błąd podczas próby zapisu listy adresów do %1.</translation>
+=======
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Wystąpił błąd podczas próby zapisu listy adresów %1. Proszę spróbować ponownie.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -147,7 +176,7 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez etykiety)</translation>
+        <translation>(brak etykiety)</translation>
     </message>
 </context>
 <context>
@@ -169,10 +198,13 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
         <translation>Powtórz nowe hasło</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Wprowadź nowe hasło dla portfela.&lt;br/&gt;Proszę użyć hasła składającego się z &lt;b&gt;10 lub więcej losowych znaków&lt;/b&gt; lub &lt;b&gt;ośmiu lub więcej słów&lt;/b&gt;.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>Zaszyfruj portfel</translation>
     </message>
@@ -197,16 +229,23 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
         <translation>Zmień hasło</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Podaj stare i nowe hasło do portfela.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Potwierdź szyfrowanie portfela</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Uwaga: Jeśli zaszyfrujesz swój portfel i zgubisz hasło to &lt;b&gt;STRACISZ WSZYSTKIE SWOJE Dogecoin&apos;Y&lt;/b&gt;!</translation>
+=======
+        <translation>Uwaga: Jeśli zaszyfrujesz swój portfel i zgubisz hasło to &lt;b&gt;STRACISZ WSZYSTKIE SWOJE DOGECOIN'Y&lt;/b&gt;!</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -218,15 +257,20 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Uwaga: Klawisz Caps Lock jest włączony</translation>
+        <translation>Uwaga: Klawisz Caps Lock jest włączony!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
         <translation>Portfel zaszyfrowany</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>Program Dogecoin zamknie się aby dokończyć proces szyfrowania. Pamiętaj, że szyfrowanie portfela nie zabezpiecza w pełni Twoich dogecoinów przed kradzieżą przez wirusy lub trojany mogące zainfekować Twój komputer.</translation>
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Wprowadź nowe hasło do portfela.&lt;br/&gt;Proszę używać hasła złożonego z &lt;b&gt;10 lub więcej losowych znaków&lt;/b&gt; lub &lt;b&gt;ośmiu lub więcej słów.&lt;/b&gt;</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -277,7 +321,7 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Pokazuje ogólny zarys portfela</translation>
+        <translation>Pokazuje ogólny widok portfela</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -296,10 +340,13 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
         <translation>Zamknij program</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Pokaż informację o Dogecoin</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>O &amp;Qt</translation>
     </message>
@@ -324,16 +371,32 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
         <translation>&amp;Zmień hasło...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
         <translation>Adres wysyłania</translation>
     </message>
     <message>
         <source>Much &amp;receiving addresses...</source>
         <translation>Adres odbiorczy</translation>
+=======
+        <source>Such &amp;sending addresses...</source>
+        <translation>Adresy wysyłania...</translation>
+    </message>
+    <message>
+        <source>Much &amp;receiving addresses...</source>
+        <translation>Adresy odbioru...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Open &amp;URI...</source>
         <translation>Otwórz URI...</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Dogecoin Core client</source>
+        <translation>Rdzeń klienta Dogecoin</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -346,10 +409,13 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     <message>
         <source>Send coins to a Dogecoin address</source>
         <translation>Wyślij monety na adres Dogecoin</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Modify configuration options for Dogecoin Core</source>
         <translation>Zmienia opcje konfiguracji dogecoina</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -388,6 +454,13 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
         <translation>Odbie&amp;rz</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Dogecoin Core</source>
+        <translation>Pokaż informacje o Rdzeniu Dogecoin</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Show / Hide</source>
         <translation>&amp;Pokaż / Ukryj</translation>
     </message>
@@ -397,7 +470,7 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Szyfruj klucze prywatne, które są powiązane z twoim portfelem</translation>
+        <translation>Szyfruj klucze prywatne, które są w Twoim portfelu</translation>
     </message>
     <message>
         <source>Sign messages with your Dogecoin addresses to prove you own them</source>
@@ -405,7 +478,11 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
+<<<<<<< HEAD
         <translation>Zweryfikuj wiadomość,  aby upewnić się, że została podpisana odpowiednim adresem Dogecoin.</translation>
+=======
+        <translation>Zweryfikuj wiadomość,  aby upewnić się, że została podpisana podanym adresem Dogecoin.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;File</source>
@@ -424,16 +501,23 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
         <translation>Pasek zakładek</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Rdzeń Dogecoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
+<<<<<<< HEAD
         <translation>Żądaj płatności (generuje kod QR oraz dogecoin: URI)</translation>
+=======
+        <translation>Żądaj płatności (generuje kod QR oraz dogecoin URI)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;About Dogecoin Core</source>
@@ -441,14 +525,15 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Pokaż listę użytych adresów wysyłających i etykiety</translation>
+        <translation>Pokaż listę adresów i etykiet użytych do wysyłania</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Pokaż listę użytych adresów odbiorczych i etykiety</translation>
+        <translation>Pokaż listę adresów i etykiet użytych do odbierania</translation>
     </message>
     <message>
         <source>Open a dogecoin: URI or payment request</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -466,12 +551,24 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     <message numerus="yes">
         <source>%n active connection(s) to Dogecoin network</source>
         <translation><numerusform>%n aktywne połączenie do sieci Dogecoin</numerusform><numerusform>%n aktywne połączenia do sieci Dogecoin</numerusform><numerusform>%n aktywnych połączeń do sieci Dogecoin</numerusform></translation>
+=======
+        <translation>Otwórz URI dogecoin: lub żądanie zapłaty</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Opcje linii komend</translation>
+    </message>
+    <message>
+        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
+        <translation>Pokaż pomoc Rdzenia Dogecoin, aby zobaczyć listę wszystkich opcji linii poleceń</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>No block source available...</source>
         <translation>Brak dostępnych źródeł bloków...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
         <translation>Przetworzono (w przybliżeniu) %1 z %2 bloków historii transakcji.</translation>
     </message>
@@ -500,6 +597,12 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
         <translation><numerusform>%n rok</numerusform><numerusform>%n lata</numerusform><numerusform>%n lat</numerusform></translation>
     </message>
     <message>
+=======
+        <source>%1 and %2</source>
+        <translation>%1 i %2</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>%1 behind</source>
         <translation>%1 wstecz</translation>
     </message>
@@ -529,7 +632,7 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Łapanie bloków...</translation>
+        <translation>Synchronizuję się...</translation>
     </message>
     <message>
         <source>Sent transaction</source>
@@ -540,6 +643,7 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
         <translation>Transakcja przychodząca</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -552,30 +656,40 @@ Adres: %4
 </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Portfel jest &lt;b&gt;zaszyfrowany&lt;/b&gt; i obecnie &lt;b&gt;niezablokowany&lt;/b&gt;</translation>
+        <translation>Portfel jest &lt;b&gt;zaszyfrowany&lt;/b&gt; i obecnie &lt;b&gt;odblokowany&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Portfel jest &lt;b&gt;zaszyfrowany&lt;/b&gt; i obecnie &lt;b&gt;zablokowany&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation>Błąd krytyczny. Dogecoin nie może kontynuować bezpiecznie więc zostanie zamknięty.</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Network Alert</source>
-        <translation>Sieć Alert</translation>
+        <translation>Komunikat Sieci</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation type="unfinished"/>
+=======
+        <source>Coin Selection</source>
+        <translation>Wybór monet</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Quantity:</source>
@@ -598,8 +712,13 @@ Adres: %4
         <translation>Opłata:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation type="unfinished"/>
+=======
+        <source>Dust:</source>
+        <translation>Pył:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>After Fee:</source>
@@ -626,12 +745,21 @@ Adres: %4
         <translation>Kwota</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Address</source>
         <translation>Adres</translation>
+=======
+        <source>Received with label</source>
+        <translation>Otrzymano z opisem</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>Otrzymano z adresem</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Date</source>
@@ -667,11 +795,11 @@ Adres: %4
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Zablokuj</translation>
+        <translation>Zablokuj niewydane</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Odblokuj</translation>
+        <translation>Odblokuj niewydane</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -694,8 +822,13 @@ Adres: %4
         <translation>Skopiuj priorytet</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation type="unfinished"/>
+=======
+        <source>Copy dust</source>
+        <translation>Kopiuj kurz</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy change</source>
@@ -743,11 +876,16 @@ Adres: %4
     </message>
     <message>
         <source>none</source>
-        <translation type="unfinished"/>
+        <translation>żaden</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust</source>
         <translation>Pył</translation>
+=======
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>Waha się +/- %1 satoshi na wejście.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>yes</source>
@@ -758,10 +896,13 @@ Adres: %4
         <translation>nie</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation>Etykieta staje się czerwona kiedy transakcja jest większa niż 1000 bajtów.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>Oznacza to wymaganą opłatę minimum %1 na kB.</translation>
     </message>
@@ -771,6 +912,7 @@ Adres: %4
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
+<<<<<<< HEAD
         <translation>Transakcje o wyższym priorytecie zostają szybciej dołączone do bloku.</translation>
     </message>
     <message>
@@ -792,10 +934,13 @@ Adres: %4
     <message>
         <source>This label turns red, if the change is smaller than %1.</source>
         <translation>Etykieta staje się czerwona kiedy reszta jest mniejsza niż %1.</translation>
+=======
+        <translation>Transakcje o wyższym priorytecie zwykle szybciej zostają dołączone do bloku.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez etykiety)</translation>
+        <translation>(brak etykiety)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
@@ -830,7 +975,7 @@ Adres: %4
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Nowy adres odbiorczy</translation>
+        <translation>Nowy adres otrzymywania</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -845,12 +990,21 @@ Adres: %4
         <translation>Zmień adres wysyłania</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>Wprowadzony adres &quot;%1&quot; już istnieje w książce adresowej.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
         <translation>Wprowadzony adres &quot;%1&quot; nie jest poprawnym adresem Dogecoin.</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Wprowadzony adres "%1" już istnieje w książce adresowej.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <translation>Wprowadzony adres "%1" nie jest poprawnym adresem Dogecoin.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -865,7 +1019,7 @@ Adres: %4
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Utworzono nowy folder danych.</translation>
+        <translation>Będzie utworzony nowy folder danych.</translation>
     </message>
     <message>
         <source>name</source>
@@ -877,7 +1031,7 @@ Adres: %4
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Ścieżka już istnieje i nie wskazuje na folder.</translation>
+        <translation>Ścieżka już istnieje i nie jest katalogiem.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
@@ -887,10 +1041,13 @@ Adres: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core - Command-line options</source>
         <translation>Opcje konsoli</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Rdzeń Dogecoin</translation>
     </message>
@@ -899,6 +1056,7 @@ Adres: %4
         <translation>wersja</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Użycie:</translation>
     </message>
@@ -929,6 +1087,26 @@ Adres: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Wybierz folder danych przy starcie (domyślnie: 0)</translation>
+=======
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+    <message>
+        <source>About Dogecoin Core</source>
+        <translation>O Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Opcje konsoli</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Użycie:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>opcje konsoli</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -943,11 +1121,19 @@ Adres: %4
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
+<<<<<<< HEAD
         <translation>Ponieważ jest to pierwsze uruchomienie programu, możesz wybrać gdzie będą przechowywane informacje.</translation>
     </message>
     <message>
         <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Program pobierze i będzie przechowywał kopię łańcucha bloków Dogecoin. W wybranym katalogu musi być przynajmniej %1GB miejsca, a z czasem wielkość danych będzie rosła. Portfel będzie przechowywany w tym samym katalogu.</translation>
+=======
+        <translation>Ponieważ jest to pierwsze uruchomienie programu, możesz wybrać gdzie Dogecoin Core będzie przechowywał swoje dane.</translation>
+    </message>
+    <message>
+        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Program pobierze i będzie przechowywał kopię łańcucha bloków Dogecoin. W wybranym katalogu musi być przynajmniej %1GB miejsca, a z czasem ilość danych będzie rosła. Portfel będzie przechowywany w tym samym katalogu.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -958,17 +1144,27 @@ Adres: %4
         <translation>Użyj wybranego folderu dla danych</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Dogecoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
         <translation>Błąd: Określony folder danych &quot;%1&quot; nie mógł zostać utworzony.</translation>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Rdzeń Dogecoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>Błąd: Określony folder danych "%1" nie mógł zostać utworzony.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>GB of free space available</source>
         <translation>GB dostępnego wolnego miejsca</translation>
@@ -978,11 +1174,14 @@ Adres: %4
         <translation>(z %1GB potrzebnego)</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Otwórz URI:</translation>
+        <translation>Otwórz URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
@@ -1012,6 +1211,7 @@ Adres: %4
         <translation>Główne</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>Opcjonalna prowizja za transakcje za kB, wspomaga ona szybkość przebiegu transakcji. Większość transakcji jest 1 kB.</translation>
     </message>
@@ -1030,6 +1230,10 @@ Adres: %4
     <message>
         <source>Size of &amp;database cache</source>
         <translation type="unfinished"/>
+=======
+        <source>Size of &amp;database cache</source>
+        <translation>Wielkość bufora bazy &amp;danych</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>MB</source>
@@ -1038,6 +1242,7 @@ Adres: %4
     <message>
         <source>Number of script &amp;verification threads</source>
         <translation>Liczba wątków &amp;weryfikacji skryptu</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Connect to the Dogecoin network through a SOCKS proxy.</source>
@@ -1048,6 +1253,18 @@ Adres: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Accept connections from outside</source>
+        <translation>Akceptuj połączenia z zewnątrz</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Zezwól na połączenia przychodzące</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>Adres IP serwera proxy (np. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
@@ -1057,7 +1274,7 @@ Adres: %4
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Przywróć domyślne wszystkie ustawienia klienta.</translation>
+        <translation>Przywróć wszystkie domyślne ustawienia klienta.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -1069,7 +1286,11 @@ Adres: %4
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>(0 = automatycznie, &lt;0 = zostaw tyle wolnych rdzeni)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1081,6 +1302,7 @@ Adres: %4
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1090,6 +1312,13 @@ Adres: %4
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation type="unfinished"/>
+=======
+        <translation>Włącz funk&amp;cje kontoli monet</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>Wydaj niepotwierdzoną re&amp;sztę</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -1100,6 +1329,17 @@ Adres: %4
         <translation>Mapuj port używając &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
+        <translation>Połącz się z siecią Dogecoin poprzez proxy SOCKS5.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>Połącz przez proxy SO&amp;CKS5 (domyślne proxy):</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Proxy &amp;IP:</source>
         <translation>Proxy &amp;IP: </translation>
     </message>
@@ -1112,6 +1352,7 @@ Adres: %4
         <translation>Port proxy (np. 9050)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>SOCKS &amp;Version:</source>
         <translation>Wersja &amp;SOCKS</translation>
     </message>
@@ -1120,6 +1361,8 @@ Adres: %4
         <translation>SOCKS wersja serwera proxy (np. 5)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Window</source>
         <translation>&amp;Okno</translation>
     </message>
@@ -1132,10 +1375,13 @@ Adres: %4
         <translation>&amp;Minimalizuj do paska przy zegarku zamiast do paska zadań</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>Minimalizuje zamiast zakończyć działanie programu przy zamykaniu okna. Kiedy ta opcja jest włączona, program zakończy działanie po wybieraniu Zamknij w menu.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>M&amp;inimize on close</source>
         <translation>M&amp;inimalizuj przy zamknięciu</translation>
     </message>
@@ -1148,10 +1394,13 @@ Adres: %4
         <translation>Język &amp;Użytkownika:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
         <translation>Można tu ustawić język interfejsu uzytkownika. Żeby ustawienie przyniosło skutek trzeba uruchomić ponownie Dogecoin.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Jednostka pokazywana przy kwocie:</translation>
     </message>
@@ -1160,6 +1409,7 @@ Adres: %4
         <translation>Wybierz podział jednostki pokazywany w interfejsie  oraz podczas wysyłania monet</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
         <translation>Pokazuj adresy Dogecoin na liście transakcji.</translation>
     </message>
@@ -1170,6 +1420,10 @@ Adres: %4
     <message>
         <source>Whether to show coin control features or not.</source>
         <translation type="unfinished"/>
+=======
+        <source>Whether to show coin control features or not.</source>
+        <translation>Wybierz pokazywanie lub nie funkcji kontroli monet.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1185,7 +1439,7 @@ Adres: %4
     </message>
     <message>
         <source>none</source>
-        <translation type="unfinished"/>
+        <translation>żaden</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
@@ -1194,10 +1448,13 @@ Adres: %4
     <message>
         <source>Client restart required to activate changes.</source>
         <translation>Wymagany restart programu, aby uaktywnić zmiany.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
         <translation>Program zostanie wyłączony. Czy chcesz kontynuować?</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>This change would require a client restart.</source>
@@ -1219,8 +1476,13 @@ Adres: %4
         <translation>Wyświetlana informacja może być nieaktualna. Twój portfel synchronizuje się automatycznie z siecią dogecoin, zaraz po tym jak uzyskano połączenie, ale proces ten nie został jeszcze ukończony.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet</source>
         <translation>Portfel</translation>
+=======
+        <source>Watch-only:</source>
+        <translation>Tylko podglądaj:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Available:</source>
@@ -1244,7 +1506,11 @@ Adres: %4
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Balans wydobycia, który jeszcze nie dojrzał</translation>
+        <translation>Balans wydobytych monet, które jeszcze nie dojrzały</translation>
+    </message>
+    <message>
+        <source>Balances</source>
+        <translation>Salda</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1255,12 +1521,37 @@ Adres: %4
         <translation>Twoje obecne saldo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation>&lt;b&gt;Ostatnie transakcje&lt;/b&gt;</translation>
     </message>
     <message>
         <source>out of sync</source>
         <translation>desynchronizacja</translation>
+=======
+        <source>Your current balance in watch-only addresses</source>
+        <translation>Twoje obecne saldo na podglądanym adresie </translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>Możliwe do wydania:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Ostatnie transakcje</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Niepotwierdzone transakcje na podglądanych adresach</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Wykopane monety na podglądanych adresach które jeszcze nie dojrzały</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Łączna kwota na podglądanych adresach</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1270,6 +1561,7 @@ Adres: %4
         <translation>Obsługa URI</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
         <translation>URI nie może zostać przetworzony! Prawdopodobnie błędny adres Dogecoin bądź nieprawidłowe parametry URI.</translation>
     </message>
@@ -1308,6 +1600,38 @@ Adres: %4
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation type="unfinished"/>
+=======
+        <source>Invalid payment address %1</source>
+        <translation>błędny adres płatności %1</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>Żądanie płatności odrzucone</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>Sieć żądania płatności nie odpowiada sieci klienta.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>Żądanie płatności nie jest zainicjowane.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Żądana kwota %1 jest za niska (uznano za kurz).</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Błąd żądania płatności</translation>
+    </message>
+    <message>
+        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <translation>Nie można uruchomić protokołu dogecoin: kliknij-by-zapłacić</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>URL pobrania żądania zapłaty jest nieprawidłowe: %1</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1318,10 +1642,13 @@ Adres: %4
         <translation>Błąd komunikacji z %1 : %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request can not be parsed or processed!</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Bad response from server %1</source>
         <translation>Błędna odpowiedź z serwera %1</translation>
     </message>
@@ -1335,8 +1662,16 @@ Adres: %4
     </message>
 </context>
 <context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>Ping Time</source>
+        <translation>Czas odpowiedzi</translation>
+    </message>
+</context>
+<context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Dogecoin</translation>
     </message>
@@ -1351,6 +1686,42 @@ Adres: %4
     <message>
         <source>Error: Invalid combination of -regtest and -testnet.</source>
         <translation>Błąd: Niepoprawna kombinacja -regtest i -testnet.</translation>
+=======
+        <source>Amount</source>
+        <translation>Kwota</translation>
+    </message>
+    <message>
+        <source>Enter a Dogecoin address (e.g. %1)</source>
+        <translation>Wprowadź adres Dogecoin (np. %1)</translation>
+    </message>
+    <message>
+        <source>%1 d</source>
+        <translation>%1 d</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Żaden</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>NIEDOSTĘPNE</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 ms</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Dogecoin Core did&apos;t yet exit safely...</source>
@@ -1411,6 +1782,13 @@ Adres: %4
         <translation>Używana wersja OpenSSL</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Using BerkeleyDB version</source>
+        <translation>Używana wersja BerkeleyDB </translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Startup time</source>
         <translation>Czas uruchomienia</translation>
     </message>
@@ -1428,15 +1806,60 @@ Adres: %4
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Ciąg bloków</translation>
+        <translation>Łańcuch bloków</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
         <translation>Aktualna liczba bloków</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Estimated total blocks</source>
         <translation>Szacowana ilość bloków</translation>
+=======
+        <source>Received</source>
+        <translation>Otrzymane</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>Wysłane</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Wybierz węzeł żeby zobaczyć szczegóły.</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>Kierunek</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Wersja</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>Usługi</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Początkowa wysokość</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>Czas połączenia</translation>
+    </message>
+    <message>
+        <source>Bytes Sent</source>
+        <translation>Bajtów wysłano</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>Bajtów pobrano</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Czas odpowiedzi</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Last block time</source>
@@ -1479,18 +1902,24 @@ Adres: %4
         <translation>Plik logowania debugowania</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Otwórz plik logowania debugowania Dogecoin z obecnego katalogu z danymi. Może to potrwać kilka sekund przy większych plikach.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear console</source>
         <translation>Wyczyść konsolę</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Dogecoin RPC console.</source>
         <translation>Witam w konsoli Dogecoin RPC</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Użyj strzałek do przewijania historii i &lt;b&gt;Ctrl-L&lt;/b&gt; aby wyczyścić ekran</translation>
     </message>
@@ -1515,6 +1944,7 @@ Adres: %4
         <translation>%1 GB</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 m</source>
         <translation>%1 m</translation>
     </message>
@@ -1525,6 +1955,30 @@ Adres: %4
     <message>
         <source>%1 h %2 m</source>
         <translation>%1 h %2 m</translation>
+=======
+        <source>via %1</source>
+        <translation>przez %1</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nigdy</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>Wejściowy</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>Wyjściowy</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Nieznany</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Pobieram...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1543,6 +1997,7 @@ Adres: %4
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+<<<<<<< HEAD
         <translation>Użyj jeden z poprzednio użytych adresów odbiorczych. Podczas ponownego używania adresów występują problemy z bezpieczeństwem i prywatnością. Nie korzystaj z tej opcji, chyba że odtwarzasz żądanie płatności wykonane już wcześniej.</translation>
     </message>
     <message>
@@ -1552,6 +2007,9 @@ Adres: %4
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Użyj jednego z poprzednio użytych adresów odbiorczych. Podczas ponownego używania adresów występują problemy z bezpieczeństwem i prywatnością. Nie korzystaj z tej opcji, chyba że odtwarzasz żądanie płatności wykonane już wcześniej.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1559,15 +2017,15 @@ Adres: %4
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation type="unfinished"/>
+        <translation>Użyj tego formularza do zażądania płatności. Wszystkie pola są &lt;b&gt;opcjonalne&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation type="unfinished"/>
+        <translation>Opcjonalna kwota by zażądać. Zostaw puste lub zero by nie zażądać konkretnej kwoty.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Wyczyść pola formularza</translation>
+        <translation>Wyczyść wszystkie pola formularza.</translation>
     </message>
     <message>
         <source>Clear</source>
@@ -1583,7 +2041,7 @@ Adres: %4
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation type="unfinished"/>
+        <translation>Pokaż wybrane żądanie (robi to samo co dwukrotne kliknięcie pozycji)</translation>
     </message>
     <message>
         <source>Show</source>
@@ -1630,7 +2088,7 @@ Adres: %4
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Żądaj płatności do %1</translation>
+        <translation>Zażądaj płatności do %1</translation>
     </message>
     <message>
         <source>Payment information</source>
@@ -1685,7 +2143,7 @@ Adres: %4
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez etykiety)</translation>
+        <translation>(brak etykiety)</translation>
     </message>
     <message>
         <source>(no message)</source>
@@ -1700,11 +2158,11 @@ Adres: %4
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Wyślij Monety</translation>
+        <translation>Wyślij monety</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation type="unfinished"/>
+        <translation>Funkcje kontroli monet</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -1716,7 +2174,11 @@ Adres: %4
     </message>
     <message>
         <source>Insufficient funds!</source>
+<<<<<<< HEAD
         <translation>Niewystarczające środki</translation>
+=======
+        <translation>Niewystarczające środki!</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Quantity:</source>
@@ -1739,10 +2201,13 @@ Adres: %4
         <translation>Opłata:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>After Fee:</source>
         <translation>Po opłacie:</translation>
     </message>
@@ -1752,13 +2217,18 @@ Adres: %4
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+<<<<<<< HEAD
         <translation>Kiedy ta opcja jest wybrana, ale adres reszty jest pusty lub nieprawidłowy to reszta będzie wysyłana na adres nowo-wygenerowany.</translation>
+=======
+        <translation>Kiedy ta opcja jest wybrana, to jeżeli adres reszty jest pusty lub nieprawidłowy, to reszta będzie wysyłana na nowo wygenerowany adres, </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Custom change address</source>
-        <translation type="unfinished"/>
+        <translation>Niestandardowe zmiany adresu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send to multiple recipients at once</source>
         <translation>Wyślij do wielu odbiorców na raz</translation>
     </message>
@@ -1795,6 +2265,96 @@ Adres: %4
         <translation>%1 do %2</translation>
     </message>
     <message>
+=======
+        <source>Transaction Fee:</source>
+        <translation>Opłata transakcyjna:</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>Wybierz...</translation>
+    </message>
+    <message>
+        <source>collapse fee-settings</source>
+        <translation>zwiń opcje opłaty</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>za kilobajt</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(przeczytaj podpowiedź)</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>Zalecane:</translation>
+    </message>
+    <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation>(Sprytne opłaty nie są jeszcze zainicjowane. Trwa to zwykle kilka bloków...)</translation>
+    </message>
+    <message>
+        <source>Confirmation time:</source>
+        <translation>Czas potwierdzenia:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normalnie</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>szybko</translation>
+    </message>
+    <message>
+        <source>Send as zero-fee transaction if possible</source>
+        <translation>Wyślij bez opłaty jeżeli to możliwe</translation>
+    </message>
+    <message>
+        <source>(confirmation may take longer)</source>
+        <translation>(potwierdzenie może potrwać dłużej)</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Wyślij do wielu odbiorców na raz</translation>
+    </message>
+    <message>
+        <source>Add &amp;Recipient</source>
+        <translation>Dodaj Odbio&amp;rcę</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Wyczyść wszystkie pola formularza.</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>Pył:</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Wyczyść &amp;wszystko</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Saldo:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Potwierdź akcję wysyłania</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>Wy&amp;syłka</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Potwierdź wysyłanie monet</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 do %2</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy quantity</source>
         <translation>Skopiuj ilość</translation>
     </message>
@@ -1819,10 +2379,13 @@ Adres: %4
         <translation>Skopiuj priorytet</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy change</source>
         <translation>Skopiuj resztę</translation>
     </message>
@@ -1835,10 +2398,13 @@ Adres: %4
         <translation>lub</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The recipient address is not valid, please recheck.</source>
         <translation>Adres odbiorcy jest nieprawidłowy, proszę poprawić</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The amount to pay must be larger than 0.</source>
         <translation>Kwota do zapłacenia musi być większa od 0.</translation>
     </message>
@@ -1851,16 +2417,26 @@ Adres: %4
         <translation>Suma przekracza twoje saldo, gdy doliczymy %1 prowizji transakcyjnej.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>Znaleziono powtórzony adres, można wysłać tylko raz na każdy adres podczas operacji wysyłania.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Transaction creation failed!</source>
         <translation>Utworzenie transakcji nie powiodło się!</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Transakcja została odrzucona! Może się to zdarzyć jeśli część monet z portfela została już wydana używając kopii pliku wallet.dat i nie zostało to tutaj uwzględnione.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Pay only the minimum fee of %1</source>
+        <translation>Płac tylko minimalna opłatę %1</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Warning: Invalid Dogecoin address</source>
@@ -1868,11 +2444,15 @@ Adres: %4
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez etykiety)</translation>
+        <translation>(brak etykiety)</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Ostrzeżenie: Nieznany adres</translation>
+        <translation>Ostrzeżenie: Nieznany adres reszty</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>Kopiuj kurz</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -1882,6 +2462,7 @@ Adres: %4
         <source>added as transaction fee</source>
         <translation>dodano jako opłata transakcyjna</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Payment request expired</source>
         <translation>Zażądanie płatności upłynęło</translation>
@@ -1890,6 +2471,8 @@ Adres: %4
         <source>Invalid payment address %1</source>
         <translation>błędny adres płatności %1</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -1902,10 +2485,13 @@ Adres: %4
         <translation>Zapłać &amp;dla:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The address to send the payment to (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>Adres, na który wysłasz płatności (np. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Wprowadź etykietę dla tego adresu by dodać go do książki adresowej</translation>
     </message>
@@ -1915,7 +2501,7 @@ Adres: %4
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Wybierz wcześniej użyty adres </translation>
+        <translation>Wybierz wcześniej użyty adres</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
@@ -1942,14 +2528,18 @@ Adres: %4
         <translation>Wiadomość:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a verified payment request.</source>
         <translation>Zweryfikowano żądanie zapłaty.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Wprowadź etykietę dla tego adresu by dodać go do listy użytych adresów</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
         <translation type="unfinished"/>
     </message>
@@ -1958,6 +2548,8 @@ Adres: %4
         <translation>To żądanie zapłaty nie zostało zweryfikowane.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Pay To:</source>
         <translation>Wpłać do:</translation>
     </message>
@@ -1988,6 +2580,7 @@ Adres: %4
         <translation>Podpi&amp;sz Wiadomość</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Możesz podpisywać wiadomości swoimi adresami aby udowodnić, że jesteś ich właścicielem. Uważaj, aby nie podpisywać niczego co wzbudza Twoje podejrzenia, ponieważ ktoś może stosować phishing próbując nakłonić Cię do ich podpisania. Akceptuj i podpisuj tylko w pełni zrozumiałe komunikaty i wiadomości.</translation>
     </message>
@@ -1996,6 +2589,8 @@ Adres: %4
         <translation>Wprowadź adres Dogecoin (np. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Choose previously used address</source>
         <translation>Wybierz wcześniej użyty adres</translation>
     </message>
@@ -2013,7 +2608,7 @@ Adres: %4
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Wprowadź wiadomość, którą chcesz podpisać, tutaj</translation>
+        <translation>Tutaj wprowadź wiadomość, którą chcesz podpisać</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -2044,6 +2639,7 @@ Adres: %4
         <translation>&amp;Zweryfikuj wiadomość</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>Wpisz adres podpisu, wiadomość (upewnij się, że dokładnie skopiujesz wszystkie zakończenia linii, spacje, tabulacje itp.) oraz podpis poniżej by sprawdzić wiadomość. Uważaj by nie dodać więcej do podpisu niż do samej podpisywanej wiadomości by uniknąć ataku man-in-the-middle (człowiek pośrodku)</translation>
     </message>
@@ -2056,6 +2652,12 @@ Adres: %4
         <translation>Zweryfikuj wiadomość,  aby upewnić się, że została podpisana odpowiednim adresem Dogecoin.</translation>
     </message>
     <message>
+=======
+        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
+        <translation>Zweryfikuj wiadomość,  aby upewnić się, że została podpisana odpowiednim adresem Dogecoin.</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verify &amp;Message</source>
         <translation>Zweryfikuj Wiado&amp;mość</translation>
     </message>
@@ -2064,12 +2666,17 @@ Adres: %4
         <translation>Resetuje wszystkie pola weryfikacji wiadomości</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>Wprowadź adres Dogecoin (np. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Kliknij &quot;Podpisz Wiadomość&quot; żeby uzyskać podpis</translation>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Kliknij "Podpisz Wiadomość" żeby uzyskać podpis</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2089,11 +2696,11 @@ Adres: %4
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Klucz prywatny dla podanego adresu nie jest dostępny</translation>
+        <translation>Klucz prywatny dla podanego adresu nie jest dostępny.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Podpisanie wiadomości nie powiodło się</translation>
+        <translation>Podpisanie wiadomości nie powiodło się.</translation>
     </message>
     <message>
         <source>Message signed.</source>
@@ -2109,7 +2716,7 @@ Adres: %4
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>Podpis nie odpowiadał streszczeniu wiadomości</translation>
+        <translation>Podpis nie odpowiada skrótowi wiadomości.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
@@ -2150,7 +2757,11 @@ Adres: %4
     </message>
     <message>
         <source>conflicted</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>konflikt</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>%1/offline</source>
@@ -2168,10 +2779,13 @@ Adres: %4
         <source>Status</source>
         <translation>Status</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation><numerusform>, emitowany przez %n węzeł</numerusform><numerusform>, emitowany przez %n węzły</numerusform><numerusform>, emitowany przez %n węzłów</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>Date</source>
         <translation>Data</translation>
@@ -2204,10 +2818,13 @@ Adres: %4
         <source>Credit</source>
         <translation>Przypisy</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation><numerusform>potwierdzona przy %n bloku więcej</numerusform><numerusform>potwierdzona przy %n blokach więcej</numerusform><numerusform>potwierdzona przy %n blokach więcej</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>not accepted</source>
         <translation>niezaakceptowane</translation>
@@ -2218,7 +2835,7 @@ Adres: %4
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Prowizja transakcji</translation>
+        <translation>Opłata transakcyjna</translation>
     </message>
     <message>
         <source>Net amount</source>
@@ -2241,8 +2858,13 @@ Adres: %4
         <translation>Kupiec</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Wygenerowane monety muszą dojrzeć przez %1 bloków zanim będzie można je wysłać. Gdy wygenerowałeś ten blok został on ogłoszony w sieci i dodany do łańcucha bloków. Jeżeli nie uda mu się wejść do łańcucha jego status zostanie zmieniony na &quot;nie zaakceptowano&quot; i nie będzie można go wydać. To czasem zdarza się gdy inny węzeł wygeneruje blok w kilka sekund od twojego.</translation>
+=======
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Wygenerowane monety muszą dojrzeć przez %1 bloków zanim będzie można je wydać. Gdy wygenerowałeś ten blok został on ogłoszony w sieci i dodany do łańcucha bloków. Jeżeli nie uda mu się wejść do łańcucha jego status zostanie zmieniony na "nie zaakceptowano" i nie będzie można go wydać. To czasem zdarza się gdy inny węzeł wygeneruje blok w kilka sekund od twojego.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Debug information</source>
@@ -2270,11 +2892,15 @@ Adres: %4
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
+<<<<<<< HEAD
         <translation>, nie został jeszcze pomyślnie wyemitowany</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>Otwórz dla %n bloku</numerusform><numerusform>Otwórz dla %n następnych bloków</numerusform><numerusform>Otwórz dla %n następnych bloków</numerusform></translation>
+=======
+        <translation>, nie został jeszcze pomyślnie rozesłany</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>unknown</source>
@@ -2303,6 +2929,7 @@ Adres: %4
         <translation>Typ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Adres</translation>
     </message>
@@ -2317,6 +2944,10 @@ Adres: %4
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/><numerusform>Otwórz dla %n następnych bloków</numerusform></translation>
+=======
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Niedojrzała (%1 potwierdzeń, będzie dostępna po %2)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Open until %1</source>
@@ -2336,7 +2967,15 @@ Adres: %4
     </message>
     <message>
         <source>Offline</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Offline</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etykieta</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Unconfirmed</source>
@@ -2348,7 +2987,11 @@ Adres: %4
     </message>
     <message>
         <source>Conflicted</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Konflikt</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Received with</source>
@@ -2387,10 +3030,13 @@ Adres: %4
         <translation>Rodzaj transakcji.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Destination address of transaction.</source>
         <translation>Adres docelowy transakcji.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount removed from or added to balance.</source>
         <translation>Kwota usunięta z lub dodana do konta.</translation>
     </message>
@@ -2522,10 +3168,13 @@ Adres: %4
         <translation>Adres</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Kwota</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>ID</source>
         <translation>ID</translation>
     </message>
@@ -2539,6 +3188,13 @@ Adres: %4
     </message>
 </context>
 <context>
+    <name>UnitDisplayStatusBarControl</name>
+    <message>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation>Jednostka w jakiej pokazywane są kwoty. Kliknij aby wybrać inną.</translation>
+    </message>
+</context>
+<context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
@@ -2549,7 +3205,7 @@ Adres: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Wyślij płatność</translation>
+        <translation>Wyślij monety</translation>
     </message>
 </context>
 <context>
@@ -2590,6 +3246,7 @@ Adres: %4
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Użycie:</translation>
     </message>
@@ -2602,10 +3259,13 @@ Adres: %4
         <translation>Uzyskaj pomoc do polecenia</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Options:</source>
         <translation>Opcje:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: dogecoin.conf)</source>
         <translation>Wskaż plik konfiguracyjny (domyślnie: dogecoin.conf)</translation>
     </message>
@@ -2614,10 +3274,13 @@ Adres: %4
         <translation>Wskaż plik pid (domyślnie: dogecoind.pid)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify data directory</source>
         <translation>Wskaż folder danych</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>Nasłuchuj połączeń na &lt;port&gt; (domyślnie: 8333 lub testnet: 18333)</translation>
     </message>
@@ -2626,6 +3289,8 @@ Adres: %4
         <translation>Utrzymuj maksymalnie &lt;n&gt; połączeń z peerami (domyślnie: 125)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Podłącz się do węzła aby otrzymać adresy peerów i rozłącz</translation>
     </message>
@@ -2634,6 +3299,7 @@ Adres: %4
         <translation>Podaj swój publiczny adres</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Próg po którym nastąpi rozłączenie nietrzymających się zasad peerów (domyślnie: 100)</translation>
     </message>
@@ -2650,14 +3316,19 @@ Adres: %4
         <translation>Nasłuchuj połączeń JSON-RPC na &lt;port&gt; (domyślnie: 8332 or testnet: 18332)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Akceptuj linię poleceń oraz polecenia JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Uruchom w tle jako daemon i przyjmuj polecenia</translation>
     </message>
@@ -2670,6 +3341,7 @@ Adres: %4
         <translation>Akceptuj połączenia z zewnątrz (domyślnie: 1 jeśli nie ustawiono -proxy lub -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2729,10 +3401,17 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
         <translation>Transakcja przekracza limit. Możesz wysłać ją płacąc prowizję %s, która zostaje przekazana do węzłów, które ją prześlą i pomoże wspierać sieć Dogecoin. Czy chcesz zapłacić prowizję?</translation>
     </message>
     <message>
+=======
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Skojarz z podanym adresem i nasłuchuj na nim. Użyj formatu [host]:port dla IPv6</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Wykonaj polecenie, kiedy transakcja portfela ulegnie zmianie (%s w poleceniu zostanie zastąpione przez TxID)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
         <translation type="unfinished"/>
     </message>
@@ -2755,6 +3434,10 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
     <message>
         <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
         <translation type="unfinished"/>
+=======
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation>Ustaw liczbę wątków skryptu weryfikacyjnego (%u do %d, 0 = auto, &lt;0 = zostaw tyle rdzeni wolnych, domyślnie: %d)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
@@ -2762,6 +3445,7 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2775,6 +3459,13 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
     <message>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
         <translation>Uwaga: Sprawdź czy data i czas na Twoim komputerze są prawidłowe! Jeśli nie to Dogecoin nie będzie działał prawidłowo.</translation>
+=======
+        <translation>Nie można przywiązać z portem %s na tym komputerze. Dogecoin Core prawdopodobnie już działa.</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Ostrzeżenie: -paytxfee jest bardzo duże! Jest to prowizja za transakcje, którą płacisz, gdy wysyłasz monety.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2794,37 +3485,48 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
     </message>
     <message>
         <source>(default: 1)</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>(default: wallet.dat)</source>
         <translation type="unfinished"/>
+=======
+        <translation>(domyślnie: 1)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation type="unfinished"/>
+        <translation>&lt;category&gt; mogą być:</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Próbuj odzyskać klucze prywatne z uszkodzonego wallet.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Block creation options:</source>
         <translation>Opcje tworzenia bloku:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
         <translation>Wyczyść listę transakcji portfela (narzędzie diagnostyczne; implikuje -rescan)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect only to the specified node(s)</source>
-        <translation>Łącz tylko do wskazanego węzła</translation>
+        <translation>Łącz się tylko do wskazanego węzła/węzłów</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect through SOCKS proxy</source>
         <translation>Połącz przez SOCKS proxy</translation>
     </message>
@@ -2837,12 +3539,19 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
         <translation>Opcje połączenia:</translation>
     </message>
     <message>
+=======
+        <source>Connection options:</source>
+        <translation>Opcje połączenia:</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Corrupted block database detected</source>
         <translation>Wykryto uszkodzoną bazę bloków</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
         <translation>Opcje debugowania/testowania:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: 0)</source>
@@ -2855,6 +3564,12 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
         <translation>Nie ładuj portfela i wyłącz odwołania RPC</translation>
+=======
+    </message>
+    <message>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation>Nie ładuj portfela i wyłącz wywołania RPC portfela</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
@@ -2862,7 +3577,7 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Błąd inicjowania bloku bazy danych</translation>
+        <translation>Błąd inicjowania bazy danych bloków</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
@@ -2874,9 +3589,10 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Błąd ładowania bazy bloków</translation>
+        <translation>Błąd otwierania bazy bloków</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Disk space is low!</source>
         <translation>Błąd: Mało miejsca na dysku!</translation>
     </message>
@@ -3165,6 +3881,220 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>Błąd: Wystąpił krytyczny błąd wewnętrzny, sprawdź w debug.log</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Błąd: Mało miejsca na dysku!</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Próba nasłuchiwania na jakimkolwiek porcie nie powiodła się. Użyj -listen=0 jeśli tego chcesz.</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>Importowanie…</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>Nieprawidłowy lub brak bloku genezy. Błędny folder_danych dla sieci?</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Nieprawidłowy adres -onion: '%s'</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>Brak wystarczającej liczby deskryptorów plików. </translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
+        <translation>Łącz z węzłami tylko w sieci &lt;net&gt; (ipv4, piv6 lub onion)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation>Ustaw wielkość pamięci podręcznej w megabajtach (%d do %d, domyślnie: %d)</translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>Ustaw maksymalną wielkość bloku w bajtach (domyślnie: %d)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Określ plik portfela (w obrębie folderu danych)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Użyj UPnP do przekazania portu nasłuchu (domyślnie : %u)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Weryfikacja bloków...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>Weryfikacja portfela...</translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>Portfel %s znajduje się poza folderem danych %s</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Opcje portfela:</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>Musisz przebudować bazę używając parametru -reindex aby zmienić -txindex</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Importuj bloki z zewnętrznego pliku blk000??.dat</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+        <translation>Pozwól na połączenia JSON-RPC z podanego źródła. Jako &lt;ip&gt; prawidłowe jest pojedyncze IP (np. 1.2.3.4), podsieć/maska (np. 1.2.3.4/255.255.255.0) lub sieć/CIDR (np. 1.2.3.4/24). Opcja ta może być użyta wiele razy.</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>Napotkano błąd podczas ustawiania adres RPC %s port %u dla nasłuchiwania: %s</translation>
+    </message>
+    <message>
+        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
+        <translation>Nie można uzyskać blokady na katalogu z danymi %s. Rdzeń Dogecoin najprawdopodobniej jest już uruchomiony.</translation>
+    </message>
+    <message>
+        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
+        <translation>Błąd: Nasłuchiwanie połączeń przychodzących nie powiodło się (nasłuch zwrócił błąd %s)</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>Błąd: Znaleziono niewspierany argument -socks . Ustawienie wersji SOCKS nie jest już możliwe, tylko serwery proxy SOCKS5 są wspierane.</translation>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Uruchom polecenie przy otrzymaniu odpowiedniego powiadomienia lub gdy zobaczymy naprawdę długie rozgałęzienie (%s w poleceniu jest podstawiane za komunikat)</translation>
+    </message>
+    <message>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Maksymalny rozmiar danych w transakcji przekazującej dane które przekazujemy i wydobywamy (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation>Wyszukaj adresy węzłów wykorzystując zapytanie DNS, jeżeli masz mało adresów (domyślnie: 1 jeśli nie użyto -connect)</translation>
+    </message>
+    <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>Ustaw maksymalny rozmiar transakcji o wysokim priorytecie/niskiej prowizji w bajtach (domyślnie: %d)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
+        <translation>Ustaw liczbę wątków dla generowania monet (-1 = wszystkie rdzenie, domyślnie: %d)</translation>
+    </message>
+    <message>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>Program ten zawiera oprogramowanie stworzone przez OpenSSL Project do użycia w OpensSSL Toolkit &lt;https://www.openssl.org/&gt;, oprogramowanie kryptograficzne napisane przez Eric Young oraz oprogramowanie UPnP napisane przez Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Ostrzeżenie: -matxfee jest ustawione bardzo wysokie! Tak wysokie opłaty mogą być zapłacone w jednej transakcji.</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Wybierz folder danych przy starcie (domyślnie: 0)</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>Połącz przez SOCKS5 proxy</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2013-%i The Dogecoin Core Developers</source>
+        <translation>Copyright (C) 2013-%i The Dogecoin Core Developers</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin Core</source>
+        <translation>Błąd ładowania wallet.dat: Portfel wymaga nowszej wersji Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Błąd odczytu z bazy danych, wyłączam się.</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Błąd: Znaleziono nieprawidłowy argument -tor, użyj -onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
+        <translation>Prowizja (w DOGE za kB) dodawana do wysyłanej transakcji (domyślnie: %s)</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informacja</translation>
+    </message>
+    <message>
+        <source>Initialization sanity check failed. Dogecoin Core is shutting down.</source>
+        <translation>Wstępna kontrola poprawności nie powiodła się. Dogecoin Core wyłącza się.</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nieprawidłowa kwota dla -maxtxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nieprawidłowa kwota dla -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nieprawidłowa kwota dla -mintxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
+        <translation>Nieprawidłowa kwota dla -paytxfee=&lt;amount&gt;: '%s' (musi być co najmniej %s)</translation>
+    </message>
+    <message>
+        <source>Node relay options:</source>
+        <translation>Opcje przekaźnikowe węzła:</translation>
+    </message>
+    <message>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Opcje RPC SSL: (odwiedź Bitcoin Wiki w celu uzyskania instrukcji)</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>Opcje serwera RPC:</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Wyślij informację/raport do konsoli zamiast do pliku debug.log.</translation>
+    </message>
+    <message>
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>Wyślij bez opłaty jeżeli to możliwe (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Ustaw certyfikaty główne SSL dla żądań płatności (domyślnie: -system-)</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Ustaw Język, na przykład "pl_PL" (domyślnie: systemowy)</translation>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>Pokaż wszystkie opcje odpluskwiania (użycie: --help -help-debug)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Pokazuj okno powitalne przy starcie (domyślnie: 1)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Zmniejsz plik debug.log przy starcie programu (domyślnie: 1 jeśli nie użyto -debug)</translation>
     </message>
@@ -3173,6 +4103,7 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
         <translation>Podpisywanie transakcji nie powiodło się</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>Wskaż czas oczekiwania bezczynności połączenia w milisekundach (domyślnie: 5000)</translation>
     </message>
@@ -3183,6 +4114,14 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
     <message>
         <source>System error: </source>
         <translation>Błąd systemu:</translation>
+=======
+        <source>Start minimized</source>
+        <translation>Uruchom zminimalizowany</translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation>To oprogramowanie eksperymentalne.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -3193,12 +4132,24 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
         <translation>Kwota transakcji musi być dodatnia</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Transaction too large for fee policy</source>
+        <translation>Transakcja jest zbyt duża dla tej opłaty</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Transaction too large</source>
         <translation>Transakcja zbyt duża</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Używaj UPnP do mapowania portu nasłuchu (domyślnie: 0)</translation>
+=======
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>Nie można przywiązać do %s na tym komputerze (bind zwrócił błąd %s)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
@@ -3209,10 +4160,18 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
         <translation>Nazwa użytkownika dla połączeń JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wallet needed to be rewritten: restart Dogecoin Core to complete</source>
+        <translation>Portfel wymaga przepisania: zrestartuj Dogecoina aby ukończyć</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning</source>
         <translation>Ostrzeżenie</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Uwaga: Ta wersja jest przestarzała, aktualizacja wymagana!</translation>
     </message>
@@ -3243,6 +4202,30 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
     <message>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
         <translation>Wysyłaj polecenia do węzła działającego na &lt;ip&gt; (domyślnie: 127.0.0.1)</translation>
+=======
+        <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>Uwaga: Zignorowano nieprawidłowy argument -benchmark, użyj -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>Uwaga: Zignorowano nieprawidłowy argument -debugnet , użyj -debug=net.</translation>
+    </message>
+    <message>
+        <source>Zapping all transactions from wallet...</source>
+        <translation>Usuwam wszystkie transakcje z portfela...</translation>
+    </message>
+    <message>
+        <source>on startup</source>
+        <translation>podczas uruchamiania</translation>
+    </message>
+    <message>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>wallet.dat uszkodzony, odtworzenie się nie powiodło</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Hasło do połączeń JSON-RPC</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
@@ -3253,18 +4236,22 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
         <translation>Zaktualizuj portfel do najnowszego formatu.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Ustaw rozmiar puli kluczy na &lt;n&gt; (domyślnie: 100)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Przeskanuj blok łańcuchów żeby znaleźć zaginione transakcje portfela</translation>
+        <translation>Przeskanuj łańcuch bloków w poszukiwaniu zaginionych transakcji portfela</translation>
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Użyj OpenSSL (https) do połączeń JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Server certificate file (default: server.cert)</source>
         <translation>Plik certyfikatu serwera (domyślnie: server.cert)</translation>
     </message>
@@ -3273,14 +4260,19 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
         <translation>Klucz prywatny serwera (domyślnie: server.pem)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This help message</source>
         <translation>Ta wiadomość pomocy</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Nie można przywiązać %s na tym komputerze (bind returned error %d, %s)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Zezwól -addnode, -seednode i -connect na łączenie się z serwerem DNS</translation>
     </message>
@@ -3293,18 +4285,40 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
         <translation>Błąd ładowania wallet.dat: Uszkodzony portfel</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
         <translation>Błąd ładowania wallet.dat: Portfel wymaga nowszej wersji Dogecoin</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Dogecoin to complete</source>
         <translation>Portfel wymaga przepisania: zrestartuj Dogecoina żeby ukończyć</translation>
+=======
+        <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
+        <translation>(1 = zachowaj wysłane metadane np. właściciel konta i informacje o żądaniach płatności, 2 = porzuć wysłane metadane)</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation>Jak dokładna jest weryfikacja bloków przy -checkblocks (0-4, domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
+        <translation>Utrzymuj pełny indeks transakcji, używany przy wywołaniu RPC getrawtransaction (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
+        <translation>Czas w sekundach, przez jaki nietrzymające się zasad węzły nie będą mogły ponownie się podłączyć (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>(default: %s)</source>
+        <translation>(domyślnie: %s)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error loading wallet.dat</source>
         <translation>Błąd ładowania wallet.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Nieprawidłowy adres -proxy: &apos;%s&apos;</translation>
     </message>
@@ -3331,6 +4345,110 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
     <message>
         <source>Invalid amount</source>
         <translation>Nieprawidłowa kwota</translation>
+=======
+        <source>Generate coins (default: %u)</source>
+        <translation>Generuj monety (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
+        <translation>Ile bloków sprawdzić przy starcie (domyślnie: %u, 0 = wszystkie)</translation>
+    </message>
+    <message>
+        <source>Include IP addresses in debug output (default: %u)</source>
+        <translation>Dołącz adresy IP do logowania (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Nieprawidłowy adres -proxy: '%s'</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Nasłuchuj połączeń JSON-RPC na &lt;port&gt; (domyślnie: %u lub testnet: %u)</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Nasłuchuj połączeń na &lt;port&gt; (domyślnie: %u lub testnet: %u)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>Utrzymuj maksymalnie &lt;n&gt; połączeń z węzłami (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Maksymalny bufor odbioru na połączenie, &lt;n&gt;*1000 bajtów (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Maksymalny bufor wysyłania na połączenie, &lt;n&gt;*1000 bajtów (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: %u)</source>
+        <translation>Dołączaj znacznik czasu do logowania (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Relay and mine data carrier transactions (default: %u)</source>
+        <translation>Przekazuj i wydobywaj transakcje zawierające dane (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>Przekazuj transakcje multisig inne niż P2SH (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Plik certyfikatu serwera (domyślnie: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Klucz prywatny serwera (domyślnie: %s)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>Ustaw rozmiar puli kluczy na &lt;n&gt; (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Set minimum block size in bytes (default: %u)</source>
+        <translation>Ustaw minimalny rozmiar bloku w bajtach (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>Ustaw liczbę wątków do obsługi RPC (domyślnie: %d)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Wskaż plik konfiguracyjny (domyślnie: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Wskaż czas oczekiwania na połączenie w milisekundach (minimum: 1, domyślnie: %d)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Wskaż plik pid (domyślnie: %s)</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
+        <translation>Wydawaj niepotwierdzoną resztę podczas wysyłania transakcji (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+        <translation>Próg, po którym nastąpi rozłączenie węzłów nietrzymających się zasad (domyślnie: %u)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Nieznana sieć w -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Nie można uzyskać adresu -bind: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Nie można uzyskać adresu -externalip: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nieprawidłowa kwota dla -paytxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3342,7 +4460,11 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
+<<<<<<< HEAD
         <translation>Dodaj węzeł do łączenia się and attempt to keep the connection open</translation>
+=======
+        <translation>Dodaj węzeł do podłączenia się i próbuj utrzymać to połączenie</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Loading wallet...</source>
@@ -3365,6 +4487,7 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Dogecoin&quot; admin@fo
         <translation>Wczytywanie zakończone</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation>Aby użyć opcji %s</translation>
     </message>
@@ -3380,5 +4503,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 %s
 Jeżeli plik nie istnieje, utwórz go z uprawnieniami właściciela-tylko-do-odczytu.</translation>
     </message>
+=======
+        <source>Error</source>
+        <translation>Błąd</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

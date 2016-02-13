@@ -1,4 +1,5 @@
 <TS language="cy" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,18 +39,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Clicio dwywaith i olygu cyfeiriad neu label</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Creu cyfeiriad newydd</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;New</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copio&apos;r cyfeiriad sydd wedi&apos;i ddewis i&apos;r clipfwrdd system</translation>
+        <translation>Copio'r cyfeiriad sydd wedi'i ddewis i'r clipfwrdd system</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy</source>
         <translation type="unfinished"/>
     </message>
@@ -130,6 +140,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>&amp;Delete</source>
+        <translation>&amp;Dileu</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -148,10 +164,13 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter passphrase</source>
         <translation>Teipiwch gyfrinymadrodd</translation>
     </message>
@@ -164,42 +183,49 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Ailadroddwch gyfrinymadrodd newydd</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Dewiswch gyfrinymadrodd newydd ar gyfer y waled. &lt;br/&gt; Defnyddiwch cyfrinymadrodd o &lt;b&gt;10 neu fwy o lythyrennau hapgyrch&lt;/b&gt;, neu &lt;b&gt; wyth neu fwy o eiriau.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
-        <translation>Amgryptio&apos;r waled</translation>
+        <translation>Amgryptio'r waled</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Mae angen i&apos;r gweithred hon ddefnyddio&apos;ch cyfrinymadrodd er mwyn datgloi&apos;r waled.</translation>
+        <translation>Mae angen i'r gweithred hon ddefnyddio'ch cyfrinymadrodd er mwyn datgloi'r waled.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Datgloi&apos;r waled</translation>
+        <translation>Datgloi'r waled</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Mae angen i&apos;r gweithred hon ddefnyddio&apos;ch cyfrinymadrodd er mwyn dadgryptio&apos;r waled.</translation>
+        <translation>Mae angen i'r gweithred hon ddefnyddio'ch cyfrinymadrodd er mwyn dadgryptio'r waled.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Dadgryptio&apos;r waled</translation>
+        <translation>Dadgryptio'r waled</translation>
     </message>
     <message>
         <source>Change passphrase</source>
         <translation>Newid cyfrinymadrodd</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Teipiwch yr hen cyfrinymadrodd a chyfrinymadrodd newydd i mewn i&apos;r waled.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Cadarnau amgryptiad y waled</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
@@ -222,6 +248,10 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
+=======
+        <source>Wallet encrypted</source>
+        <translation>Waled wedi'i amgryptio</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -233,20 +263,25 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Dydy&apos;r cyfrinymadroddion a ddarparwyd ddim yn cyd-fynd â&apos;u gilydd.</translation>
+        <translation>Dydy'r cyfrinymadroddion a ddarparwyd ddim yn cyd-fynd â'u gilydd.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
+<<<<<<< HEAD
         <translation>Methodd ddatgloi&apos;r waled</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Methodd ddatgloi'r waled</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet decryption failed</source>
         <translation>Methodd dadgryptiad y waled</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished"/>
@@ -259,18 +294,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Synchronizing with network...</source>
-        <translation>Cysoni â&apos;r rhwydwaith...</translation>
+        <translation>Cysoni â'r rhwydwaith...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;Trosolwg</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Show general overview of wallet</source>
         <translation>Dangos trosolwg cyffredinol y waled</translation>
     </message>
@@ -283,14 +327,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Pori hanes trafodion</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>E&amp;xit</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Quit application</source>
         <translation>Gadael rhaglen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Dangos gwybodaeth am Dogecoin</translation>
     </message>
@@ -303,10 +351,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Options...</source>
         <translation>&amp;Opsiynau</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Encrypt Wallet...</source>
         <translation type="unfinished"/>
     </message>
@@ -361,16 +412,91 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation type="unfinished"/>
+=======
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
     </message>
     <message>
+        <source>&amp;File</source>
+        <translation>&amp;Ffeil</translation>
+    </message>
+    <message>
+        <source>&amp;Settings</source>
+        <translation>&amp;Gosodiadau</translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation>&amp;Cymorth</translation>
+    </message>
+    <message>
+        <source>Tabs toolbar</source>
+        <translation>Bar offer tabiau</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Gwall</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Rhybudd</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Gwybodaeth</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>Cyfamserol</translation>
+    </message>
+    <message>
+        <source>Catching up...</source>
+        <translation>Dal i fyny</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>Trafodiad a anfonwyd</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>Trafodiad sy'n cyrraedd</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>Mae'r waled &lt;b&gt;wedi'i amgryptio&lt;/b&gt; ac &lt;b&gt;heb ei gloi&lt;/b&gt; ar hyn o bryd</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>Mae'r waled &lt;b&gt;wedi'i amgryptio&lt;/b&gt; ac &lt;b&gt;ar glo&lt;/b&gt; ar hyn o bryd</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Verify message...</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Dogecoin</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Dyddiad</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(heb label)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Wallet</source>
         <translation type="unfinished"/>
     </message>
@@ -409,28 +535,133 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>&amp;Settings</source>
         <translation>&amp;Gosodiadau</translation>
+=======
+        <source>Edit Address</source>
+        <translation>Golygu'r cyfeiriad</translation>
     </message>
     <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Label</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Cyfeiriad</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Cyfeiriad derbyn newydd</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Cyfeiriad anfon newydd</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Golygu'r cyfeiriad derbyn</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Golygu'r cyfeiriad anfon</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Mae'r cyfeiriad "%1" sydd newydd gael ei geisio gennych yn y llyfr cyfeiriad yn barod.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Methodd ddatgloi'r waled.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Methodd gynhyrchu allwedd newydd.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Help</source>
         <translation>&amp;Cymorth</translation>
+=======
+        <source>Error</source>
+        <translation>Gwall</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Tabs toolbar</source>
         <translation>Bar offer tabiau</translation>
+=======
+        <source>Options</source>
+        <translation>Opsiynau</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
+=======
+        <source>Form</source>
+        <translation>Ffurflen</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Information</source>
+        <translation>Gwybodaeth</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Label:</source>
+        <translation>&amp;Label:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;About Dogecoin Core</source>
         <translation type="unfinished"/>
     </message>
@@ -441,8 +672,24 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Show the list of used receiving addresses and labels</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Cyfeiriad</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Neges</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Open a dogecoin: URI or payment request</source>
         <translation type="unfinished"/>
     </message>
@@ -461,8 +708,28 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <source>%n active connection(s) to Dogecoin network</source>
         <translation type="unfinished"><numerusform/><numerusform/><numerusform/><numerusform/></translation>
+=======
+        <source>Date</source>
+        <translation>Dyddiad</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Neges</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(heb label)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>No block source available...</source>
         <translation type="unfinished"/>
     </message>
@@ -505,8 +772,36 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Transactions after this will not yet be visible.</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>Anfon arian</translation>
     </message>
     <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Anfon at pobl lluosog ar yr un pryd</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Gweddill:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Cadarnhau'r gweithrediad anfon</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 i %2</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(heb label)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
         <source>Error</source>
         <translation>Gwall</translation>
     </message>
@@ -525,8 +820,35 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Catching up...</source>
         <translation>Dal i fyny</translation>
+=======
+        <source>A&amp;mount:</source>
+        <translation>&amp;Maint</translation>
     </message>
     <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Label:</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Gludo cyfeiriad o'r glipfwrdd</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Sent transaction</source>
         <translation>Trafodiad a anfonwyd</translation>
     </message>
@@ -541,8 +863,24 @@ Type: %3
 Address: %4
 </source>
         <translation type="unfinished"/>
+=======
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
     </message>
     <message>
+        <source>Paste address from clipboard</source>
+        <translation>Gludo cyfeiriad o'r glipfwrdd</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Mae&apos;r waled &lt;b&gt;wedi&apos;i amgryptio&lt;/b&gt; ac &lt;b&gt;heb ei gloi&lt;/b&gt; ar hyn o bryd</translation>
     </message>
@@ -623,12 +961,27 @@ Address: %4
     <message>
         <source>Address</source>
         <translation>Cyfeiriad</translation>
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Agor tan %1</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Date</source>
         <translation>Dyddiad</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirmations</source>
         <translation type="unfinished"/>
     </message>
@@ -795,9 +1148,14 @@ Address: %4
     <message>
         <source>(change)</source>
         <translation type="unfinished"/>
+=======
+        <source>Message</source>
+        <translation>Neges</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -873,9 +1231,31 @@ Address: %4
     <message>
         <source>Cannot create data directory here.</source>
         <translation type="unfinished"/>
-    </message>
-</context>
+=======
+    <name>TransactionDescDialog</name>
+    </context>
 <context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Dyddiad</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Math</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Agor tan %1</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+<<<<<<< HEAD
     <name>HelpMessageDialog</name>
     <message>
         <source>Dogecoin Core - Command-line options</source>
@@ -916,8 +1296,44 @@ Address: %4
     <message>
         <source>Show splash screen on startup (default: 1)</source>
         <translation type="unfinished"/>
+=======
+    <name>TransactionView</name>
+    <message>
+        <source>Today</source>
+        <translation>Heddiw</translation>
     </message>
     <message>
+        <source>This year</source>
+        <translation>Eleni</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dyddiad</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Math</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cyfeiriad</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Choose data directory on startup (default: 0)</source>
         <translation type="unfinished"/>
     </message>
@@ -955,11 +1371,30 @@ Address: %4
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>Anfon arian</translation>
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Information</source>
+        <translation>Gwybodaeth</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Rhybudd</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error</source>
         <translation>Gwall</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>GB of free space available</source>
         <translation type="unfinished"/>
@@ -3360,5 +3795,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation type="unfinished"/>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

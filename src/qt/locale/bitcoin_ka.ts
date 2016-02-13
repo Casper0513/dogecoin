@@ -1,4 +1,5 @@
 <TS language="ka" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -43,6 +44,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>დააკლიკეთ ორჯერ მისამართის ან ნიშნულის შესაცვლელად</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>ახალი მისამართის შექმნა</translation>
     </message>
@@ -95,7 +101,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;არჩევა</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very sending addresses</source>
+=======
+        <source>Such sending addresses</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>გაგზავნის მისამართი</translation>
     </message>
     <message>
@@ -130,11 +140,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>Exporting Failed</source>
         <translation>ექსპორტი ვერ განხორციელდა</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>There was an error trying to save the address list to %1.</source>
         <translation>შეცდომა მისამართების სიის %1-ში შენახვის მცდელობისას.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -169,10 +183,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>გაიმეორეთ ახალი ფრაზა-პაროლი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>შეიყვანეთ საფულის ახალი ფრაზა-პაროლი.&lt;br/&gt;ფრაზა-პაროლი შეადგინეთ &lt;b&gt;არანაკლებ 10 შემთხვევითი სიმბოლოსაგან&lt;/b&gt;, ან &lt;b&gt;რვა და მეტი სიტყვისაგან&lt;/b&gt;.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>საფულის დაშიფრვა</translation>
     </message>
@@ -197,10 +214,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>ფრაზა-პაროლის შეცვლა</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>შეიყვანეთ საფულის ძველი და ახალი ფრაზა-პაროლი.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>დაადასტურეთ საფულის დაშიფრვა</translation>
     </message>
@@ -225,10 +245,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>საფულე დაშიფრულია</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>ახლა Dogecoin დაიხურება დაშიფრვის პროცესის დასასრულებლად. გაითვალისწინეთ, რომ დაშიფრვა სრულად ვერ დაიცავს თქვენს ბითქოინებს თქვენს კომპიუტერში შემოპარული მავნე პროგრამების საშუალებით დატაცებისაგან.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>ვერ მოხერხდა საფულის დაშიფრვა</translation>
     </message>
@@ -296,10 +319,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>გასვლა</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>ინფორმაცია Dogecoin-ის შესახებ</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>&amp;Qt-ს შესახებ</translation>
     </message>
@@ -324,7 +350,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>ფრაზა-პაროლის შე&amp;ცვლა</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
+=======
+        <source>Such &amp;sending addresses...</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>გაგზავნის მი&amp;სამართი</translation>
     </message>
     <message>
@@ -346,10 +376,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Send coins to a Dogecoin address</source>
         <translation>მონეტების გაგზავნა Dogecoin-მისამართზე</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Modify configuration options for Dogecoin Core</source>
         <translation>Dogecoin-ის საკონფიგურაციო პარამეტრების ცვლილება</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -424,10 +457,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>ბარათების პანელი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Dogecoin Core</translation>
     </message>
@@ -456,6 +492,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>საკომანდო სტრიქონის ოპ&amp;ციები</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the Dogecoin Core help message to get a list with possible command-line options</source>
         <translation>Dogecoin Core-ს დახმარების ჩვენება Dogecoin-ის საკომანდო სტრიქონის დასაშვები ოპციების სანახავად</translation>
     </message>
@@ -466,12 +503,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <source>%n active connection(s) to Dogecoin network</source>
         <translation><numerusform>აქტიური მიერთებები ბითქოინის ქსელთან: %n</numerusform></translation>
+=======
+        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
+        <translation>Dogecoin Core-ს დახმარების ჩვენება Dogecoin-ის საკომანდო სტრიქონის დასაშვები ოპციების სანახავად</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>No block source available...</source>
         <translation>ბლოკების წყარო მიუწვდომელია...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
         <translation>დამუშავებულია ტრანსაქციების ისტორიის %2-დან (სავარაუდოდ) %1 ბლოკი.</translation>
     </message>
@@ -500,6 +542,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation><numerusform>%n წელი</numerusform></translation>
     </message>
     <message>
+=======
+        <source>%1 and %2</source>
+        <translation>%1 და %2</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>%1 behind</source>
         <translation>%1 გავლილია</translation>
     </message>
@@ -540,6 +588,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>მიღებული ტრანსაქციები</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -552,6 +601,8 @@ Address: %4
 </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>საფულე &lt;b&gt;დაშიფრულია&lt;/b&gt; და ამჟამად &lt;b&gt;განბლოკილია&lt;/b&gt;</translation>
     </message>
@@ -559,10 +610,13 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>საფულე &lt;b&gt;დაშიფრულია&lt;/b&gt; და ამჟამად &lt;b&gt;დაბლოკილია&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation>ფატალური შეცდომა. Dogecoin ვერ უზრუნველყოფს უსაფრთხო გაგრძელებას, ამიტომ იხურება.</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>ClientModel</name>
@@ -574,10 +628,13 @@ Address: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation>მონეტების კონტროლის მისამართის არჩევა</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Quantity:</source>
         <translation>რაოდენობა:</translation>
     </message>
@@ -598,10 +655,13 @@ Address: %4
         <translation>საკომისიო:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation>ქვედა ზღვარი:</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>After Fee:</source>
         <translation>დამატებითი საკომისიო:</translation>
     </message>
@@ -623,6 +683,7 @@ Address: %4
     </message>
     <message>
         <source>Amount</source>
+<<<<<<< HEAD
         <translation>რაოდენობა</translation>
     </message>
     <message>
@@ -632,6 +693,9 @@ Address: %4
     <message>
         <source>Address</source>
         <translation>მისამართი</translation>
+=======
+        <translation>თანხა</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Date</source>
@@ -694,10 +758,13 @@ Address: %4
         <translation>პრიორიტეტის კოპირება</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation>ქვედა ზღვრის კოპირება</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy change</source>
         <translation>ხურდის კოპირება</translation>
     </message>
@@ -746,10 +813,13 @@ Address: %4
         <translation>ცარიელი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust</source>
         <translation>მტვერი</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>yes</source>
         <translation>კი</translation>
     </message>
@@ -758,10 +828,13 @@ Address: %4
         <translation>არა</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation>ნიშნული წითლდება, როცა ტრანსაქციის ზომა 1000 ბაიტზე მეტია.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>ეს ნიშნავს, რომ კილობაიტზე საკომისიო იქნება მინიმუმ %1</translation>
     </message>
@@ -774,6 +847,7 @@ Address: %4
         <translation>მეტი პრიორიტეტის ტრანსაქციებს მეტი შანსი აქვს მოხვდეს ბლოკში.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
         <translation>ნიშნული წითლდება, როცა პრიორიტეტი &quot;საშუალო&quot;-ზე დაბალია.</translation>
     </message>
@@ -794,6 +868,8 @@ Address: %4
         <translation>ნიშნული წითლდება, როცა ხურდა ნაკლებია %1-ზე.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>(no label)</source>
         <translation>(არ არის ნიშნული)</translation>
     </message>
@@ -845,12 +921,21 @@ Address: %4
         <translation>გაგზავნის მისამართის შეცვლა</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>მისამართი &quot;%1&quot; უკვე არის მისამართების წიგნში.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
         <translation>შეყვანილი მისამართი &quot;%1&quot; არ არის ვალიდური Dogecoin-მისამართი.</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>მისამართი "%1" უკვე არის მისამართების წიგნში.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <translation>შეყვანილი მისამართი "%1" არ არის ვალიდური Dogecoin-მისამართი.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -887,10 +972,13 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core - Command-line options</source>
         <translation>Dogecoin Core - საკომანდო სტრიქონის ოპციები</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Dogecoin Core</translation>
     </message>
@@ -899,6 +987,7 @@ Address: %4
         <translation>ვერსია</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>გამოყენება:</translation>
     </message>
@@ -929,6 +1018,22 @@ Address: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>მონაცემთა კატალოგის მითითება ყოველი გაშვებისას (ნაგულისხმევი: 0)</translation>
+=======
+        <source>About Dogecoin Core</source>
+        <translation>Dogecoin Core-ს შესახებ</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>კომანდების ზოლის ოპციები</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>გამოყენება:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>კომანდების ზოლის ოპციები</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -946,10 +1051,13 @@ Address: %4
         <translation>ეს პროგრამის პირველი გაშვებაა; შეგიძლიათ მიუთითოთ, სად შეინახოს მონაცემები Dogecoin Core-მ.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Dogecoin Core გადმოტვირთავს და შეინახავს Dogecoin-ის ბლოკთა ჯაჭვს. მითითებულ კატალოგში დაგროვდება სულ ცოტა %1 გბ მონაცემები, და მომავალში უფრო გაიზრდება. საფულეც ამავე კატალოგში შეინახება.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use the default data directory</source>
         <translation>ნაგულისხმევი კატალოგის გამოყენება</translation>
     </message>
@@ -958,17 +1066,23 @@ Address: %4
         <translation>მითითებული კატალოგის გამოყენება:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Dogecoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
         <translation>შეცდომა: მითითებული მონაცემთა კატალოგი &quot;%1&quot; ვერ შეიქმნა.</translation>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error</source>
         <translation>შეცდომა</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>GB of free space available</source>
         <translation>გიგაბაიტია თავისუფალი</translation>
@@ -978,6 +1092,9 @@ Address: %4
         <translation>(საჭიროა  %1GB)</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1012,6 +1129,7 @@ Address: %4
         <translation>&amp;მთავარი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>დამატებითი საკომისიო თითო კილობაიტზე; აჩქარებს ტრანსაქციის შესრულებას. ტრანსაქციების უმეტესობა არის 1 კბ.</translation>
     </message>
@@ -1028,6 +1146,8 @@ Address: %4
         <translation>&amp;სისტემაში შესვლისას გაშვება</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Size of &amp;database cache</source>
         <translation>მონაცემთა ბაზის კეშის სი&amp;დიდე</translation>
     </message>
@@ -1040,6 +1160,7 @@ Address: %4
         <translation>სკრიპტის &amp;ვერიფიცირების ნაკადების რაოდენობა</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Dogecoin network through a SOCKS proxy.</source>
         <translation>Dogecoin-ქსელზე მიერთება SOCKS-პროქსით.</translation>
     </message>
@@ -1048,6 +1169,8 @@ Address: %4
         <translation>SO&amp;CKS (ნაგულისხმევი) პროქსი მიერთებისათვის:</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>პროქსის IP-მისამართი (მაგ.: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
@@ -1068,14 +1191,18 @@ Address: %4
         <translation>&amp;ქსელი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>W&amp;allet</source>
         <translation>ს&amp;აფულე</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Expert</source>
         <translation type="unfinished"/>
     </message>
@@ -1084,14 +1211,19 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
         <translation>დაუდასტურებელი ხურდის გამოყენების აკრძალვის შემდეგ მათი გამოყენება შეუძლებელი იქნება, სანამ ტრანსაქციას არ ექნება ერთი დასტური მაინც. ეს აისახება თქვენი ნაშთის დათვლაზეც.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Spend unconfirmed change</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>როუტერში Dogecoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
     </message>
@@ -1112,6 +1244,7 @@ Address: %4
         <translation>პროქსის პორტი (მაგ.: 9050)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>SOCKS &amp;Version:</source>
         <translation>SOCKS &amp;ვერსია:</translation>
     </message>
@@ -1120,6 +1253,8 @@ Address: %4
         <translation>პროქსის SOCKS-ვერსია (მაგ.: 5)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Window</source>
         <translation>&amp;ფანჯარა</translation>
     </message>
@@ -1132,10 +1267,13 @@ Address: %4
         <translation>&amp;მინიმიზება სისტემურ ზონაში პროგრამების პანელის ნაცვლად</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>პროგრამის მინიმიზება ფანჯრის დახურვისას. ოპციის ჩართვის შემდეგ პროგრამის დახურვა შესაძლებელი იქნება მხოლოდ მენიუდან - პუნქტი &quot;გასვლა&quot;.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>M&amp;inimize on close</source>
         <translation>მ&amp;ინიმიზება დახურვისას</translation>
     </message>
@@ -1148,10 +1286,13 @@ Address: %4
         <translation>სამომხმარებ&amp;ლო ენა:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
         <translation>აქ შეგიძლიათ აირჩიოთ სამომხმარებლო ენა. ძალაში შევა Dogecoin-ის რესტარტის შემდეგ.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Unit to show amounts in:</source>
         <translation>ერთეუ&amp;ლი:</translation>
     </message>
@@ -1160,6 +1301,7 @@ Address: %4
         <translation>აირჩიეთ გასაგზავნი თანხის ნაგულისხმევი ერთეული.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
         <translation>ტრანსაქციების სიაში იყოს თუ არა ნაჩვენები Dogecoin-მისამართები.</translation>
     </message>
@@ -1168,6 +1310,8 @@ Address: %4
         <translation>მისამართების &amp;ჩვენება სიაში</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Whether to show coin control features or not.</source>
         <translation>ვაჩვენოთ თუ არა მონეტების მართვის პარამეტრები.</translation>
     </message>
@@ -1196,10 +1340,13 @@ Address: %4
         <translation>ცვლილებები ძალაში შევა კლიენტის ხელახალი გაშვების შემდეგ.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Client will be shutdown, do you want to proceed?</source>
         <translation>კლიენტი დაიხურება, გავაგრძელოთ?</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This change would require a client restart.</source>
         <translation>ამ ცვლილებების ძალაში შესასვლელად საჭიროა კლიენტის დახურვა და ხელახალი გაშვება.</translation>
     </message>
@@ -1219,10 +1366,13 @@ Address: %4
         <translation>ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Dogecoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet</source>
         <translation>საფულე</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Available:</source>
         <translation>ხელმისაწვდომია:</translation>
     </message>
@@ -1254,6 +1404,7 @@ Address: %4
         <source>Your current total balance</source>
         <translation>თქვენი სრული მიმდინარე ბალანსი</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation>&lt;b&gt;ბოლო ტრანსაქციები&lt;/b&gt;</translation>
@@ -1263,6 +1414,9 @@ Address: %4
         <translation>არ არის სინქრონიზებული</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>PaymentServer</name>
     <message>
@@ -1270,12 +1424,17 @@ Address: %4
         <translation>URI-ების დამუშავება</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
         <translation>URI-ის დამუშავება ვერ მოხერხდა. შესაძლოა არასწორია Dogecoin-მისამართი ან  URI-ის პარამეტრები.</translation>
+=======
+        <source>Invalid payment address %1</source>
+        <translation>გადახდის მისამართი არასწორია: %1</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>მოთხოვნილი გადახდის %1 მოცულობა ძალიან მცირეა (ითვლება &quot;მტვრად&quot;)</translation>
+        <translation>მოთხოვნილი გადახდის %1 მოცულობა ძალიან მცირეა (ითვლება "მტვრად")</translation>
     </message>
     <message>
         <source>Payment request error</source>
@@ -1286,6 +1445,7 @@ Address: %4
         <translation>ვერ გაიშვა dogecoin: click-to-pay</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Net manager warning</source>
         <translation>გაფრთხილება ქსელის მენეჯერისაგან</translation>
     </message>
@@ -1294,6 +1454,8 @@ Address: %4
         <translation>თქვენს აქტიურ პროქსის არა აქვს SOCKS5-ის მხარდაჭერა, რაც საჭიროა გადახდების პროქსით განხორციელებისათვის.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>არასწორია გადახდის მოთხოვნის URL: %1</translation>
     </message>
@@ -1302,10 +1464,13 @@ Address: %4
         <translation>გადახდის მოთხოვნის ფაილის დამუშავება</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
         <translation>ვერ ხერხდება გადახდის მოთხოვნის ფაილის წაკითხვა ან დამუშავება! შესაძლოა დაზიანებულია გადახდის მოთხოვნის ფაილი.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>არავერიფიცირებული გადახდის მოთხოვნები გადახდის სამომხმარებლო სკრიპტებისათვის არ არის მხარდაჭერილი.</translation>
     </message>
@@ -1318,10 +1483,13 @@ Address: %4
         <translation>ვერ გამოდის კავშირზე %1: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request can not be parsed or processed!</source>
         <translation>ვერ ხერხდება გადახდის მოთხოვნის გარჩევა ან დამუშავება!</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Bad response from server %1</source>
         <translation>ცუდი პასუხი სერვერისაგან %1</translation>
     </message>
@@ -1335,8 +1503,12 @@ Address: %4
     </message>
 </context>
 <context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Dogecoin</translation>
     </message>
@@ -1359,13 +1531,29 @@ Address: %4
     <message>
         <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>შეიყვანეთ ბიტკოინ-მისამართი (მაგ. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+=======
+        <source>Amount</source>
+        <translation>თანხა</translation>
     </message>
-</context>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 სთ</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 წთ</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>მიუწვდ.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>გამო&amp;სახულების შენახვა</translation>
+        <translation>გამო&amp;სახულების შენახვა...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
@@ -1435,10 +1623,13 @@ Address: %4
         <translation>ბლოკების მიმდინარე რაოდენობა</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Estimated total blocks</source>
         <translation>ბლოკების სავარაუდო რაოდენობა</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Last block time</source>
         <translation>ბოლო ბლოკის დრო</translation>
     </message>
@@ -1460,7 +1651,7 @@ Address: %4
     </message>
     <message>
         <source>Totals</source>
-        <translation>ჯამი</translation>
+        <translation>სულ:</translation>
     </message>
     <message>
         <source>In:</source>
@@ -1479,20 +1670,26 @@ Address: %4
         <translation>დახვეწის ლოგ-ფაილი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>გახსენით Dogecoin-ის დახვეწის ლოგ-ფაილი მიმდინარე კატალოგიდან. დიდი ლოგ-ფაილის შემთხვევაში ამას შეიძლება რამდენიმე წამი მოუნდეს.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear console</source>
         <translation>კონსოლის გასუფთავება</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Dogecoin RPC console.</source>
         <translation>მოგესალმებათ Dogecoin-ის RPC კონსოლი.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>კლავიშები &quot;ზევით&quot; და &quot;ქვევით&quot; - ისტორიაში მოძრაობა, &lt;b&gt;Ctrl-L&lt;/b&gt; - ეკრანის გასუფთავება.</translation>
+        <translation>კლავიშები "ზევით" და "ქვევით" - ისტორიაში მოძრაობა, &lt;b&gt;Ctrl-L&lt;/b&gt; - ეკრანის გასუფთავება.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -1514,6 +1711,7 @@ Address: %4
         <source>%1 GB</source>
         <translation>%1 GB</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>%1 m</source>
         <translation>%1 წთ</translation>
@@ -1527,6 +1725,9 @@ Address: %4
         <translation>%1 სთ %2 წთ</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
@@ -1646,7 +1847,7 @@ Address: %4
     </message>
     <message>
         <source>Amount</source>
-        <translation>რაოდენობა</translation>
+        <translation>თანხა</translation>
     </message>
     <message>
         <source>Label</source>
@@ -1681,7 +1882,7 @@ Address: %4
     </message>
     <message>
         <source>Amount</source>
-        <translation>რაოდენობა</translation>
+        <translation>თანხა</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1739,10 +1940,13 @@ Address: %4
         <translation>საკომისიო:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation>ქვედა ზღვარი:</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>After Fee:</source>
         <translation>დამატებითი საკომისიო:</translation>
     </message>
@@ -1819,10 +2023,13 @@ Address: %4
         <translation>პრიორიტეტის კოპირება</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation>ქვედა ზღვრის კოპირება</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy change</source>
         <translation>ხურდის კოპირება</translation>
     </message>
@@ -1835,10 +2042,13 @@ Address: %4
         <translation>ან</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The recipient address is not valid, please recheck.</source>
         <translation>მიმღების მისამართი არასწორია, შეამოწმეთ.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The amount to pay must be larger than 0.</source>
         <translation>გადახდის მოცულობა 0-ზე მეტი უნდა იყოს</translation>
     </message>
@@ -1847,6 +2057,7 @@ Address: %4
         <translation>თანხა აღემატება თქვენს ბალანსს</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>საკომისიო %1-ის დამატების შემდეგ თანხა აჭარბებს თქვენს ბალანსს</translation>
     </message>
@@ -1855,6 +2066,8 @@ Address: %4
         <translation>მისამართები დუბლირებულია, დაშვებულია ერთ ჯერზე თითო მისამართზე ერთხელ გაგზავნა.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Transaction creation failed!</source>
         <translation>შეცდომა ტრანსაქციის შექმნისას!</translation>
     </message>
@@ -1882,6 +2095,7 @@ Address: %4
         <source>added as transaction fee</source>
         <translation>დამატებულია საკომისიო</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Payment request expired</source>
         <translation>გადახდის მოთხოვნას ვადა გაუვიდა</translation>
@@ -1890,6 +2104,8 @@ Address: %4
         <source>Invalid payment address %1</source>
         <translation>გადახდის მისამართი არასწორია: %1</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -1902,10 +2118,13 @@ Address: %4
         <translation>ადრესა&amp;ტი:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The address to send the payment to (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>მისამართი, რომლითაც ასრულებთ გადახდას (მაგ.: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to your address book</source>
         <translation>შეიყვანეთ ამ მისამართის ნიშნული მისამართების წიგნში დასამატებლად</translation>
     </message>
@@ -1942,10 +2161,13 @@ Address: %4
         <translation>მესიჯი:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a verified payment request.</source>
         <translation>ეს არის ვერიფიცირებული გადახდის მოთხოვნა.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>შეიყვანეთ ამ მისამართის ნიშნული გამოყენებული მისამართების სიაში დასამატებლად</translation>
     </message>
@@ -1954,10 +2176,13 @@ Address: %4
         <translation>მესიჯი, რომელიც თან ერთვის მონეტებს:  URI, რომელიც შეინახება ტრანსაქციასთან ერთად თქვენთვის. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is an unverified payment request.</source>
         <translation>ეს არის არავერიფიცირებული გადახდის მოთხოვნა.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Pay To:</source>
         <translation>ადრესატი:</translation>
     </message>
@@ -1988,6 +2213,7 @@ Address: %4
         <translation>მე&amp;სიჯის ხელმოწერა</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>ხელმოწერით თქვენ ადასტურებთ, რომ მესიჯი თქვენია. ფრთხილად - არ მოაწეროთ ხელი რაიმე საეჭვოს: ფიშინგური ხრიკებით შეიძლება ის თქვენს მესიჯად გაასაღონ. მოაწერეთ ხელი მხოლოდ იმას, რასაც ყველა წვრილმანში ეთანხმებით.</translation>
     </message>
@@ -1996,6 +2222,8 @@ Address: %4
         <translation>მისამართი, რომლითაც ხელს აწერთ (მაგ.: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Choose previously used address</source>
         <translation>აირჩიეთ ადრე გამოყენებული მისამართი</translation>
     </message>
@@ -2044,6 +2272,7 @@ Address: %4
         <translation>მესიჯის &amp;ვერიფიკაცია</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>შეიყვანეთ ხელმოწერის მისამართი, მესიჯი (დაუკვირდით, რომ ზუსტად იყოს კოპირებული სტრიქონის გადატანები, ჰარები, ტაბულაციები და სხვ) და ხელმოწერა მესიჯის ვერიფიკაციისათვის. მიაქციეთ ყურადღება, რომ რაიმე ზედმეტი არ გაგყვეთ კოპირებისას, რათა არ გახდეთ &quot;man-in-the-middle&quot; შეტევის ობიექტი.</translation>
     </message>
@@ -2052,6 +2281,8 @@ Address: %4
         <translation>მისამართი, რომლითაც ხელმოწერილია მესიჯი (მაგ.: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
         <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Dogecoin-მისამართით</translation>
     </message>
@@ -2064,12 +2295,17 @@ Address: %4
         <translation>ვერიფიკაციის ყველა ველის წაშლა</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>შეიყვანეთ ბიტკოინ-მისამართი (მაგ. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>ხელმოწერის გენერირებისათვის დააჭირეთ &quot;მესიჯის ხელმოწერა&quot;-ს</translation>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>ხელმოწერის გენერირებისათვის დააჭირეთ "მესიჯის ხელმოწერა"-ს</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2168,10 +2404,13 @@ Address: %4
         <source>Status</source>
         <translation>სტატუსი</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation><numerusform>, დაგზავნილია %n კვანძისათვის</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>Date</source>
         <translation>თარიღი</translation>
@@ -2204,10 +2443,13 @@ Address: %4
         <source>Credit</source>
         <translation>კრედიტი</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation><numerusform>მზად იქნება %n ბლოკის შემდეგ</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>not accepted</source>
         <translation>უარყოფილია</translation>
@@ -2241,8 +2483,13 @@ Address: %4
         <translation>გამყიდველი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>გენერირებული მონეტები გასაგზავნად მომწიფდება %1 ბლოკის შემდეგ. ეს ბლოკი გენერირების შემდეგ გავრცელებულ იქნა ქსელში ბლოკთა ჯაჭვზე დასამატებლად. თუ ის ვერ ჩაჯდა ჯაჭვში, მიეცემა სტატუსი &quot;უარყოფილია&quot; და ამ მონეტებს ვერ გამოიყენებთ. ასეთი რამ შეიძლება მოხდეს, თუ რომელიმე კვანძმა რამდენიმე წამით დაგასწროთ ბლოკის გენერირება.</translation>
+=======
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>გენერირებული მონეტები გასაგზავნად მომწიფდება %1 ბლოკის შემდეგ. ეს ბლოკი გენერირების შემდეგ გავრცელებულ იქნა ქსელში ბლოკთა ჯაჭვზე დასამატებლად. თუ ის ვერ ჩაჯდა ჯაჭვში, მიეცემა სტატუსი "უარყოფილია" და ამ მონეტებს ვერ გამოიყენებთ. ასეთი რამ შეიძლება მოხდეს, თუ რომელიმე კვანძმა რამდენიმე წამით დაგასწროთ ბლოკის გენერირება.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Debug information</source>
@@ -2272,10 +2519,13 @@ Address: %4
         <source>, has not been successfully broadcast yet</source>
         <translation>, დაგზავნა არ არის წარმატებით დასრულებული</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>ღიაა კიდევ %n ბლოკისათვის</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>unknown</source>
         <translation>უცნობია</translation>
@@ -2303,6 +2553,7 @@ Address: %4
         <translation>ტიპი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>მისამართი</translation>
     </message>
@@ -2318,6 +2569,11 @@ Address: %4
         <source>Open for %n more block(s)</source>
         <translation><numerusform>ღიაა კიდევ %n ბლოკისათვის</numerusform></translation>
     </message>
+=======
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>არ არის მომწიფებული (%1 დასტური, საჭიროა სულ %2)</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>Open until %1</source>
         <translation>ღია იქნება სანამ %1</translation>
@@ -2339,6 +2595,13 @@ Address: %4
         <translation>ოფლაინშია</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Label</source>
+        <translation>ნიშნული</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Unconfirmed</source>
         <translation>დაუდასტურებელია</translation>
     </message>
@@ -2352,7 +2615,7 @@ Address: %4
     </message>
     <message>
         <source>Received with</source>
-        <translation>მიღებულია</translation>
+        <translation>შემოსულია</translation>
     </message>
     <message>
         <source>Received from</source>
@@ -2360,7 +2623,7 @@ Address: %4
     </message>
     <message>
         <source>Sent to</source>
-        <translation>გაგზავნილია ადრესატთან</translation>
+        <translation>გაგზავნილია</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
@@ -2387,10 +2650,13 @@ Address: %4
         <translation>ტრანსაქციის ტიპი.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Destination address of transaction.</source>
         <translation>ტრანსაქიის დანიშნულების მისამართი.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount removed from or added to balance.</source>
         <translation>ბალანსიდან მოხსნილი ან დამატებული თანხა.</translation>
     </message>
@@ -2522,10 +2788,13 @@ Address: %4
         <translation>მისამართი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>თანხა</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>ID</source>
         <translation>ID</translation>
     </message>
@@ -2538,6 +2807,9 @@ Address: %4
         <translation>-</translation>
     </message>
 </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
 <context>
     <name>WalletFrame</name>
     <message>
@@ -2590,6 +2862,7 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>გამოყენება:</translation>
     </message>
@@ -2602,10 +2875,13 @@ Address: %4
         <translation>ბრძანების აღწერილობა</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Options:</source>
         <translation>ოპციები:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: dogecoin.conf)</source>
         <translation>მიუთითეთ საკონფიგურაციო ფაილი (ნაგულისხმევია: dogecoin.conf)</translation>
     </message>
@@ -2614,10 +2890,13 @@ Address: %4
         <translation>მიუთითეთ pid ფაილი (ნაგულისხმევია: bitcoind.pid)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify data directory</source>
         <translation>მიუთითეთ მონაცემთა კატალოგი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: 8333 ან სატესტო ქსელში: 18333)</translation>
     </message>
@@ -2626,6 +2905,8 @@ Address: %4
         <translation>არაუმეტეს &lt;n&gt; შეერთებისა პირებზე (ნაგულისხმევი: 125)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>მიერთება კვანძთან, პირების მისამართების მიღება და გათიშვა</translation>
     </message>
@@ -2634,6 +2915,7 @@ Address: %4
         <translation>მიუთითეთ თქვენი საჯარო მისამართი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>არასწორად მოქმედი პირების გათიშვის ზღვარი (ნაგულისხმევი:100)</translation>
     </message>
@@ -2650,14 +2932,19 @@ Address: %4
         <translation> JSON-RPC-შეერთებების მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: 8332 ან სატესტო ქსელში: 18332)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Accept command line and JSON-RPC commands</source>
         <translation>საკომანდო სტრიქონისა და JSON-RPC-კომამდების ნებართვა</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Run in the background as a daemon and accept commands</source>
         <translation>რეზიდენტულად გაშვება და კომანდების მიღება</translation>
     </message>
@@ -2670,6 +2957,7 @@ Address: %4
         <translation>გარედან შეერთებების დაშვება (ნაგულისხმევი: 1 თუ არ გამოიყენება -proxy ან -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2702,10 +2990,13 @@ rpcpassword=%s
         <translation>შეცდომა %u RPC-პორტის მიყურადების ჩართვისას IPv6 მისამართზე, ვბრუნდებით IPv4-ზე : %s</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>მოცემულ მისამართზე მიჯაჭვა მუდმივად მასზე მიყურადებით. გამოიყენეთ [host]:port ფორმა IPv6-სათვის</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
         <translation type="unfinished"/>
     </message>
@@ -2730,10 +3021,13 @@ rpcpassword=%s
         <translation>შეცდომა: ტრანსაქცია მოითხოვს საკომისიოს მინიმუმ %s რაოდენობის, სირთულის ან ბოლოს მიღებული თანხების შესაბამისად!</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>კომანდის შესრულება საფულის ტრანსაქციის ცვლილებისას (%s კომანდაში ჩანაცვლდება TxID-ით)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
         <translation type="unfinished"/>
     </message>
@@ -2758,10 +3052,13 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>ეს არის წინასწარი სატესტო ვერსია - გამოიყენეთ საკუთარი რისკით - არ გამოიყენოთ მოპოვებისა ან კომერციული მიზნებისათვის</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
@@ -2770,14 +3067,19 @@ rpcpassword=%s
         <translation>ფარული Tor-სერვისებით პირების წვდომისათვის სხვა SOCKS5 პროქსის გამოყენება (ნაგულისხმევია: -proxy)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>ყურადღება:  ძალიან მაღალია -paytxfee - საკომისო, რომელსაც თქვენ გადაიხდით ამ ტრანსაქციის გაგზავნის საფასურად.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
         <translation>ყურადღება: შეამოწმეთ თქვენი კომპიუტერის სისტემური თარიღი და დრო! თუ ისინი არასწორია, Dogecoin ვერ იმუშავებს კორექტულად.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>ყურადღება: ქსელში შეუთანხმებლობაა. შესაძლოა ცალკეულ მომპოვებლებს პრობლემები ექმნებათ!</translation>
     </message>
@@ -2794,6 +3096,7 @@ rpcpassword=%s
         <translation>ყურადღება: wallet.dat დაზიანებულია! ორიგინალური wallet.dat შენახულია როგორც wallet.{timestamp}.bak %s-ში; თუ შეამჩნიეთ უზუსტობა ნაშთში ან ტრანსაქციებში, აღადგინეთ არქივიდან.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: 1)</source>
         <translation type="unfinished"/>
     </message>
@@ -2802,6 +3105,8 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;category&gt; შეიძლება იყოს:</translation>
     </message>
@@ -2810,22 +3115,29 @@ rpcpassword=%s
         <translation>პირადი გასაღებების აღდგენის მცდელობა wallet.dat-იდან</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core Daemon</source>
         <translation>Dogecoin Core დემონი</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Block creation options:</source>
         <translation>ბლოკის შექმნის ოპციები:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
         <translation>საფულის ტრანსაქციების სიის წაშლა (დიაგნოსტიკის საშუალება; მოიცავს -rescan-ს)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect only to the specified node(s)</source>
         <translation>შეერთება მხოლოდ მითითებულ კვანძ(ებ)თან</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect through SOCKS proxy</source>
         <translation>შეერთება SOCKS-პროქსით</translation>
     </message>
@@ -2838,10 +3150,13 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Corrupted block database detected</source>
         <translation>შენიშნულია ბლოკთა ბაზის დაზიანება</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Debugging/Testing options:</source>
         <translation type="unfinished"/>
     </message>
@@ -2854,6 +3169,8 @@ rpcpassword=%s
         <translation>საკუთარი IP-მისამართის განსაზღვრა (ნაგულისხმევი: 1 თუ ჩართულია მიყურადება და არ გამოიყენება -externalip)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Do not load the wallet and disable wallet RPC calls</source>
         <translation>არ ჩაიტვირთოს საფულე და აიკრძალოს საფულისადმი RPC-მიმართვები</translation>
     </message>
@@ -2882,6 +3199,7 @@ rpcpassword=%s
         <translation>შეცდომა: დისზე არ არის ადგილი!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>შეცდომა: საფულე დაბლოკილია, ტრანსაქცია ვერ შეიქმნება!</translation>
     </message>
@@ -2890,10 +3208,13 @@ rpcpassword=%s
         <translation>შეცდომა: სისტემური შეცდომა:</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>ვერ ხერხდება პორტების მიყურადება. თუ გსურთ, გამოიყენეთ -listen=0.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Failed to read block info</source>
         <translation>ბლოკის ინფორმაცია არ იკითხება</translation>
     </message>
@@ -2958,26 +3279,37 @@ rpcpassword=%s
         <translation>რამდენი ბლოკი შემოწმდეს გაშვებისას (ნაგულისხმევი: 288, 0 - ყველა)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
         <translation>თუ &lt;category&gt; არ არის მითითებული, ნაჩვენები იქნება სრული დახვეწის ინფორმაცია.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Importing...</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
         <translation>საწყისი ბლოკი არ არსებობს ან არასწორია. ქსელის მონაცემთა კატალოგი datadir ხომ არის არასწორი?</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -onion address: &apos;%s&apos;</source>
         <translation>არასწორია მისამართი -onion: &apos;%s&apos;</translation>
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>არასწორია მისამართი -onion: '%s'</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
         <translation>არ არის საკმარისი ფაილ-დესკრიპტორები.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Prepend debug output with timestamp (default: 1)</source>
         <translation>დაემატოს დახვეწის ინფორმაციას დროის ჭდეები (ნაგულისხმევი: 1)</translation>
     </message>
@@ -2998,18 +3330,24 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>ბლოკის მაქსიმალური ზომის განსაზღვრა ბაიტებში (ნადულისხმევი: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set the number of threads to service RPC calls (default: 4)</source>
         <translation>RPC-ნაკადების რაოდენობა (ნაგულისხმევი: 4)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify wallet file (within data directory)</source>
         <translation>მიუთითეთ საფულის ფაილი (კატალოგში)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Spend unconfirmed change when sending transactions (default: 1)</source>
         <translation>დაუდასტურებელი ხურდის გამოყენება ტრანსაქციის გაგზავნისას (ნაგულისხმევი: 1)</translation>
     </message>
@@ -3022,6 +3360,8 @@ rpcpassword=%s
         <translation>გამოყენება (მოძველებულია, გამოიყენეთ dogecoin-cli):</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verifying blocks...</source>
         <translation>ბლოკების ვერიფიკაცია...</translation>
     </message>
@@ -3030,10 +3370,13 @@ rpcpassword=%s
         <translation>საფულის ვერიფიკაცია...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wait for RPC server to start</source>
         <translation>RPC-სერვერის დალოდება გაშვებისათვის</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet %s resides outside data directory %s</source>
         <translation>საფულე %s მდებარეობს მონაცემთა კატალოგის %s გარეთ</translation>
     </message>
@@ -3042,10 +3385,13 @@ rpcpassword=%s
         <translation>სფულის ოპციები:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
         <translation>ყურადღება: მოძველებული არგუმენტი -debugnet იგნორირდება. გამოიყენეთ -debug=net</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>საჭიროა ბაზის ხელახალი აგება, გამოიყენეთ -reindex რათა შეცვალოთ -txindex</translation>
     </message>
@@ -3054,26 +3400,40 @@ rpcpassword=%s
         <translation>ბლოკების იმპორტი გარე blk000??.dat ფაილიდან</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>ბრძანების შესრულება შესაბამისი უწყების მიღებისას ან როცა შეინიშნება საგრძნობი გახლეჩა (cmd-ში %s შეიცვლება მესიჯით)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
         <translation>დახვეწის ინფორმაციის გამოყვანა (ნაგულისხმევი: 0, &lt;category&gt; - არააუცილებელი არგუმენტია)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>მაღალპრიორიტეტული/დაბალსაკომისიოიანი ტრანსაქციების მაქსიმალური ზომა ბაიტებში (ნაგულისხმევი: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>მონაცემთა კატალოგის მითითება ყოველი გაშვებისას (ნაგულისხმევი: 0)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Information</source>
         <translation>ინფორმაცია</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>დაუშვებელი მნიშვნელობა -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
@@ -3146,10 +3506,21 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>დაუშვებელი მნიშვნელობა -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>დაუშვებელი მნიშვნელობა -mintxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>ტრასირების/დახვეწის ინფოს გაგზავნა კონსოლზე debug.log ფაილის ნაცვლად</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation>დააყენეთ ბლოკის მინიმალური ზომა ბაიტებში (ნაგულისხმევი: 0)</translation>
     </message>
@@ -3166,6 +3537,16 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>აირჩიეთ ენა, მაგალითად "de_DE" (ნაგულისხმევია სისტემური ლოკალი)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>მისალმების ეკრანის ჩვენება გაშვებისას (ნაგულისხმევი:1)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>debug.log ფაილის შეკუმშვა გაშვებისას (ნაგულისხმევია: 1 როცა არ აყენია -debug)</translation>
     </message>
@@ -3174,6 +3555,7 @@ rpcpassword=%s
         <translation>ტრანსაქციების ხელმოწერა ვერ მოხერხდა</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>მიუთითეთ შეერთების ტაიმაუტი მილიწამებში (ნაგულისხმევი: 5000)</translation>
     </message>
@@ -3184,6 +3566,10 @@ rpcpassword=%s
     <message>
         <source>System error: </source>
         <translation>სისტემური შეცდომა:</translation>
+=======
+        <source>Start minimized</source>
+        <translation>გაშვება მინიმიზებული ეკრანით</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -3198,10 +3584,13 @@ rpcpassword=%s
         <translation>ტრანსაქცია ძალიან დიდია</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>გამოიყენეთ UPnP მისაყურადებელი პორტის გადასამისამართებლად (ნაგულისხმევი: 0)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>გამოიყენეთ UPnP მისაყურადებელი პორტის გადასამისამართებლად (ნაგულისხმევი: 1 როცა ჩართულია მიყურადება)</translation>
     </message>
@@ -3214,6 +3603,7 @@ rpcpassword=%s
         <translation>გაფრთხილება</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>ყურადღება: ვერსია მოძველებულია, საჭიროა განახლება!</translation>
     </message>
@@ -3228,6 +3618,10 @@ rpcpassword=%s
     <message>
         <source>version</source>
         <translation>ვერსია</translation>
+=======
+        <source>Zapping all transactions from wallet...</source>
+        <translation>ტრანსაქციების ჩახსნა საფულიდან...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
@@ -3238,6 +3632,7 @@ rpcpassword=%s
         <translation>პაროლი JSON-RPC-შეერთებისათვის</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>JSON-RPC-შეერთების ნებართვა მითითებული IP მისამართიდან</translation>
     </message>
@@ -3246,6 +3641,8 @@ rpcpassword=%s
         <translation>კომანდის გაგზავნა კვანძისათვის, რომელიც გაშვებულია მისამართზე &lt;ip&gt; (ნაგულისხმევი: 127.0.0.1)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>კომანდის შესრულება უკეთესი ბლოკის გამოჩენისას (%s კომანდაში ჩანაცვლდება ბლოკის ჰეშით)</translation>
     </message>
@@ -3254,10 +3651,13 @@ rpcpassword=%s
         <translation>საფულის ფორმატის განახლება</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>გასაღების პულის ზომა იქნება &lt;n&gt; (ნაგულისხმევი: 100)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>ბლოკების ჯაჭვის გადამოწმება საფულეში გამორჩენილ ტრანსაქციებზე</translation>
     </message>
@@ -3266,6 +3666,7 @@ rpcpassword=%s
         <translation>OpenSSL-ის (https) გამოყენება JSON-RPC-შეერთებებისათვის</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Server certificate file (default: server.cert)</source>
         <translation>სერვერის სერტიფიკატის ფაილი (ნაგულისხმევი: server.cert)</translation>
     </message>
@@ -3274,14 +3675,19 @@ rpcpassword=%s
         <translation>სერვერის პირადი გასაღები (ნაგულისხმევი: server.pem)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This help message</source>
         <translation>ეს ტექსტი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>ვერ ხერხდება მიბმა %s-თან ამ კომპიუტერზე (მიღებულია შეცდომა %d, %s)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>DNS-ძებნის დაშვება -addnode, -seednode და -connect-სათვის</translation>
     </message>
@@ -3294,6 +3700,7 @@ rpcpassword=%s
         <translation>არ იტვირთება wallet.dat: საფულე დაზიანებულია</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
         <translation>არ იტვირთება wallet.dat: საფულეს სჭირდება Dogecoin-ის ახალი ვერსია</translation>
     </message>
@@ -3302,10 +3709,13 @@ rpcpassword=%s
         <translation>საჭიროა საფულის აღდგენა: დაარესტარტეთ Dogecoin </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error loading wallet.dat</source>
         <translation>არ იტვირთება wallet.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>არასწორია მისამართი -proxy: &apos;%s&apos;</translation>
     </message>
@@ -3332,6 +3742,26 @@ rpcpassword=%s
     <message>
         <source>Invalid amount</source>
         <translation>დაუშვებელი თანხა</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>არასწორია მისამართი -proxy: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>-onlynet-ში მითითებულია უცნობი ქსელი: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>ვერ ხერხდება -bind მისამართის გარკვევა: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>ვერ ხერხდება -externalip მისამართის გარკვევა: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>დაუშვებელი მნიშვნელობა -paytxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3366,6 +3796,7 @@ rpcpassword=%s
         <translation>ჩატვირთვა დასრულებულია</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation>%s ოპციის გამოსაყენებლად</translation>
     </message>
@@ -3381,5 +3812,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 %s
 თუ ეს ფაილი არ არსებობს, შექმენით იგი უფლებებით owner-readable-only.</translation>
     </message>
+=======
+        <source>Error</source>
+        <translation>შეცდომა</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

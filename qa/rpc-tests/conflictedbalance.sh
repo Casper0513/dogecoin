@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 # Copyright (c) 2014 The Bitcoin Core developers
+<<<<<<< HEAD
 # Copyright (c) 2014 The Dogecoin Core developers
 # Distributed under the MIT/X11 software license, see the accompanying
+=======
+# Distributed under the MIT software license, see the accompanying
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 # Test marking of spent outputs
@@ -19,13 +23,19 @@
 if [ $# -lt 1 ]; then
         echo "Usage: $0 path_to_binaries"
         echo "e.g. $0 ../../src"
+        echo "Env vars DOGECOIND and DOGECOINCLI may be used to specify the exact binaries used"
         exit 1
 fi
 
 set -f
 
+<<<<<<< HEAD
 BITCOIND=${1}/dogecoind
 CLI=${1}/dogecoin-cli
+=======
+BITCOIND=${DOGECOIND:-${1}/dogecoind}
+CLI=${DOGECOINCLI:-${1}/dogecoin-cli}
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 DIR="${BASH_SOURCE%/*}"
 SENDANDWAIT="${DIR}/send.sh"
@@ -49,7 +59,7 @@ B2ARGS="-datadir=$D2 -debug=mempool"
 $BITCOIND $B2ARGS &
 B2PID=$!
 
-# Wait until all four nodes are at the same block number
+# Wait until both nodes are at the same block number
 function WaitBlocks {
     while :
     do
@@ -84,11 +94,16 @@ WaitPeers "$B1ARGS" 1
 
 # 2 block, 500000 XDG each == 1000000 XDG
 # These will be transactions "A" and "B"
-$CLI $B1ARGS setgenerate true 2
+$CLI $B1ARGS generate 2
 
 WaitBlocks
+<<<<<<< HEAD
 # 49 blocks, 0 mature == 0 XDG
 $CLI $B2ARGS setgenerate true 49
+=======
+# 100 blocks, 0 mature == 0 XBT
+$CLI $B2ARGS generate 100
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 WaitBlocks
 
 CheckBalance "$B1ARGS" 1000000
@@ -130,7 +145,7 @@ WaitPeers "$B1ARGS" 1
 
 # Having B2 mine the next block puts the mutated
 # transaction C in the chain:
-$CLI $B2ARGS setgenerate true 1
+$CLI $B2ARGS generate 1
 WaitBlocks
 
 # B1 should still be able to spend 1000000 (-1 DOGE fee for the successful transaction), because D is conflicted

@@ -1,111 +1,47 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
+<<<<<<< HEAD
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2011-2013 The Litecoin developers
 // Copyright (c)      2014 The Inutoshi developers
 // Distributed under the MIT/X11 software license, see the accompanying
+=======
+// Copyright (c) 2009-2014 The Bitcoin Core developers
+// Distributed under the MIT software license, see the accompanying
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+/**
+ * Server/client environment: argument handling, config file parsing,
+ * logging, thread wrappers
+ */
 #ifndef BITCOIN_UTIL_H
 #define BITCOIN_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "bitcoin-config.h"
+#include "config/bitcoin-config.h"
 #endif
 
 #include "compat.h"
-#include "serialize.h"
 #include "tinyformat.h"
+#include "utiltime.h"
 
-#include <cstdio>
 #include <exception>
 #include <map>
-#include <stdarg.h>
 #include <stdint.h>
 #include <string>
-#include <utility>
 #include <vector>
 
-#ifndef WIN32
-#include <sys/resource.h>
-#include <sys/time.h>
-#include <sys/types.h>
-#endif
-
 #include <boost/filesystem/path.hpp>
-#include <boost/thread.hpp>
+#include <boost/signals2/signal.hpp>
+#include <boost/thread/exceptions.hpp>
 
-class CNetAddr;
-class uint256;
-
-static const int64_t COIN = 100000000;
-static const int64_t CENT = 1000000;
-
-#define BEGIN(a)            ((char*)&(a))
-#define END(a)              ((char*)&((&(a))[1]))
-#define UBEGIN(a)           ((unsigned char*)&(a))
-#define UEND(a)             ((unsigned char*)&((&(a))[1]))
-#define ARRAYLEN(array)     (sizeof(array)/sizeof((array)[0]))
-
-/* Format characters for (s)size_t, ptrdiff_t.
- *
- * Define these as empty as the tinyformat-based formatting system is
- * type-safe, no special format characters are needed to specify sizes.
- */
-#define PRIszx    "x"
-#define PRIszu    "u"
-#define PRIszd    "d"
-#define PRIpdx    "x"
-#define PRIpdu    "u"
-#define PRIpdd    "d"
-
-// This is needed because the foreach macro can't get over the comma in pair<t1, t2>
-#define PAIRTYPE(t1, t2)    std::pair<t1, t2>
-
-// Align by increasing pointer, must have extra space at end of buffer
-template <size_t nBytes, typename T>
-T* alignup(T* p)
+/** Signals for translation. */
+class CTranslationInterface
 {
-    union
-    {
-        T* ptr;
-        size_t n;
-    } u;
-    u.ptr = p;
-    u.n = (u.n + (nBytes-1)) & ~(nBytes-1);
-    return u.ptr;
-}
-
-#ifdef WIN32
-#define MSG_DONTWAIT        0
-
-#ifndef S_IRUSR
-#define S_IRUSR             0400
-#define S_IWUSR             0200
-#endif
-#else
-#define MAX_PATH            1024
-#endif
-// As Solaris does not have the MSG_NOSIGNAL flag for send(2) syscall, it is defined as 0
-#if !defined(HAVE_MSG_NOSIGNAL) && !defined(MSG_NOSIGNAL)
-#define MSG_NOSIGNAL 0
-#endif
-
-inline void MilliSleep(int64_t n)
-{
-// Boost's sleep_for was uninterruptable when backed by nanosleep from 1.50
-// until fixed in 1.52. Use the deprecated sleep method for the broken case.
-// See: https://svn.boost.org/trac/boost/ticket/7238
-#if defined(HAVE_WORKING_BOOST_SLEEP_FOR)
-    boost::this_thread::sleep_for(boost::chrono::milliseconds(n));
-#elif defined(HAVE_WORKING_BOOST_SLEEP)
-    boost::this_thread::sleep(boost::posix_time::milliseconds(n));
-#else
-//should never get here
-#error missing boost sleep implementation
-#endif
-}
-
-
+public:
+    /** Translate a message to the native language of the user. */
+    boost::signals2::signal<std::string (const char* psz)> Translate;
+};
 
 extern std::map<std::string, std::string> mapArgs;
 extern std::map<std::string, std::vector<std::string> > mapMultiArgs;
@@ -114,35 +50,56 @@ extern bool fPrintToConsole;
 extern bool fPrintToDebugLog;
 extern bool fServer;
 extern std::string strMiscWarning;
+<<<<<<< HEAD
 extern bool fBloomFilters;
 extern bool fNoListen;
-extern bool fLogTimestamps;
-extern volatile bool fReopenDebugLog;
+=======
 
+
+extern bool fBloomFilters;
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+extern bool fLogTimestamps;
+extern bool fLogIPs;
+extern volatile bool fReopenDebugLog;
+extern CTranslationInterface translationInterface;
+
+/**
+ * Translation function: Call Translate signal on UI interface, which returns a boost::optional result.
+ * If no translation slot is registered, nothing is returned, and simply return the input.
+ */
+inline std::string _(const char* psz)
+{
+    boost::optional<std::string> rv = translationInterface.Translate(psz);
+    return rv ? (*rv) : psz;
+}
+
+<<<<<<< HEAD
 void RandAddSeed();
 void RandAddSeedPerfmon();
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 void SetupEnvironment();
 
-/* Return true if log accepts specified category */
+/** Return true if log accepts specified category */
 bool LogAcceptCategory(const char* category);
-/* Send a string to the log output */
+/** Send a string to the log output */
 int LogPrintStr(const std::string &str);
 
-#define strprintf tfm::format
 #define LogPrintf(...) LogPrint(NULL, __VA_ARGS__)
 
-/* When we switch to C++11, this can be switched to variadic templates instead
+/**
+ * When we switch to C++11, this can be switched to variadic templates instead
  * of this macro-based construction (see tinyformat.h).
  */
 #define MAKE_ERROR_AND_LOG_FUNC(n)                                        \
-    /*   Print to debug.log if -debug=category switch is given OR category is NULL. */ \
+    /**   Print to debug.log if -debug=category switch is given OR category is NULL. */ \
     template<TINYFORMAT_ARGTYPES(n)>                                          \
     static inline int LogPrint(const char* category, const char* format, TINYFORMAT_VARARGS(n))  \
     {                                                                         \
         if(!LogAcceptCategory(category)) return 0;                            \
         return LogPrintStr(tfm::format(format, TINYFORMAT_PASSARGS(n))); \
     }                                                                         \
-    /*   Log error and return false */                                        \
+    /**   Log error and return false */                                        \
     template<TINYFORMAT_ARGTYPES(n)>                                          \
     static inline bool error(const char* format, TINYFORMAT_VARARGS(n))                     \
     {                                                                         \
@@ -152,7 +109,8 @@ int LogPrintStr(const std::string &str);
 
 TINYFORMAT_FOREACH_ARGNUM(MAKE_ERROR_AND_LOG_FUNC)
 
-/* Zero-arg versions of logging and error, these are not covered by
+/**
+ * Zero-arg versions of logging and error, these are not covered by
  * TINYFORMAT_FOREACH_ARGNUM
  */
 static inline int LogPrint(const char* category, const char* format)
@@ -166,6 +124,7 @@ static inline bool error(const char* format)
     return false;
 }
 
+<<<<<<< HEAD
 
 void LogException(std::exception* pex, const char* pszThread);
 void PrintExceptionContinue(std::exception* pex, const char* pszThread);
@@ -184,6 +143,9 @@ std::vector<unsigned char> DecodeBase32(const char* p, bool* pfInvalid = NULL);
 std::string DecodeBase32(const std::string& str);
 std::string EncodeBase32(const unsigned char* pch, size_t len);
 std::string EncodeBase32(const std::string& str);
+=======
+void PrintExceptionContinue(const std::exception *pex, const char* pszThread);
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 void ParseParameters(int argc, const char*const argv[]);
 void FileCommit(FILE *fileout);
 bool TruncateFile(FILE *file, unsigned int length);
@@ -193,9 +155,10 @@ bool RenameOver(boost::filesystem::path src, boost::filesystem::path dest);
 bool TryCreateDirectory(const boost::filesystem::path& p);
 boost::filesystem::path GetDefaultDataDir();
 const boost::filesystem::path &GetDataDir(bool fNetSpecific = true);
+void ClearDatadirCache();
 boost::filesystem::path GetConfigFile();
-boost::filesystem::path GetPidFile();
 #ifndef WIN32
+boost::filesystem::path GetPidFile();
 void CreatePidFile(const boost::filesystem::path &path, pid_t pid);
 #endif
 void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet, std::map<std::string, std::vector<std::string> >& mapMultiSettingsRet);
@@ -204,6 +167,7 @@ boost::filesystem::path GetSpecialFolderPath(int nFolder, bool fCreate = true);
 #endif
 boost::filesystem::path GetTempPath();
 void ShrinkDebugFile();
+<<<<<<< HEAD
 int GetRandInt(int nMax);
 uint64_t GetRand(uint64_t nMax);
 uint256 GetRandHash();
@@ -343,6 +307,10 @@ inline int64_t GetTimeMicros()
 
 std::string DateTimeStrFormat(const char* pszFormat, int64_t nTime);
 
+=======
+void runCommand(std::string strCommand);
+
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 inline bool IsSwitchChar(char c)
 {
 #ifdef WIN32
@@ -398,128 +366,26 @@ bool SoftSetArg(const std::string& strArg, const std::string& strValue);
 bool SoftSetBoolArg(const std::string& strArg, bool fValue);
 
 /**
- * MWC RNG of George Marsaglia
- * This is intended to be fast. It has a period of 2^59.3, though the
- * least significant 16 bits only have a period of about 2^30.1.
+ * Format a string to be used as group of options in help messages
  *
- * @return random value
+ * @param message Group name (e.g. "RPC server options:")
+ * @return the formatted string
  */
-extern uint32_t insecure_rand_Rz;
-extern uint32_t insecure_rand_Rw;
-static inline uint32_t insecure_rand(void)
-{
-    insecure_rand_Rz = 36969 * (insecure_rand_Rz & 65535) + (insecure_rand_Rz >> 16);
-    insecure_rand_Rw = 18000 * (insecure_rand_Rw & 65535) + (insecure_rand_Rw >> 16);
-    return (insecure_rand_Rw << 16) + insecure_rand_Rz;
-}
+std::string HelpMessageGroup(const std::string& message);
 
 /**
- * Seed insecure_rand using the random pool.
- * @param Deterministic Use a determinstic seed
+ * Format a string to be used as option description in help messages
+ *
+ * @param option Option message (e.g. "-rpcuser=<user>")
+ * @param message Option description (e.g. "Username for JSON-RPC connections")
+ * @return the formatted string
  */
-void seed_insecure_rand(bool fDeterministic=false);
+std::string HelpMessageOpt(const std::string& option, const std::string& message);
 
-/**
- * Timing-attack-resistant comparison.
- * Takes time proportional to length
- * of first argument.
- */
-template <typename T>
-bool TimingResistantEqual(const T& a, const T& b)
-{
-    if (b.size() == 0) return a.size() == 0;
-    size_t accumulator = a.size() ^ b.size();
-    for (size_t i = 0; i < a.size(); i++)
-        accumulator |= a[i] ^ b[i%b.size()];
-    return accumulator == 0;
-}
-
-/** Median filter over a stream of values.
- * Returns the median of the last N numbers
- */
-template <typename T> class CMedianFilter
-{
-private:
-    std::vector<T> vValues;
-    std::vector<T> vSorted;
-    unsigned int nSize;
-public:
-    CMedianFilter(unsigned int size, T initial_value):
-        nSize(size)
-    {
-        vValues.reserve(size);
-        vValues.push_back(initial_value);
-        vSorted = vValues;
-    }
-
-    void input(T value)
-    {
-        if(vValues.size() == nSize)
-        {
-            vValues.erase(vValues.begin());
-        }
-        vValues.push_back(value);
-
-        vSorted.resize(vValues.size());
-        std::copy(vValues.begin(), vValues.end(), vSorted.begin());
-        std::sort(vSorted.begin(), vSorted.end());
-    }
-
-    T median() const
-    {
-        int size = vSorted.size();
-        assert(size>0);
-        if(size & 1) // Odd number of elements
-        {
-            return vSorted[size/2];
-        }
-        else // Even number of elements
-        {
-            return (vSorted[size/2-1] + vSorted[size/2]) / 2;
-        }
-    }
-
-    int size() const
-    {
-        return vValues.size();
-    }
-
-    std::vector<T> sorted () const
-    {
-        return vSorted;
-    }
-};
-
-#ifdef WIN32
-inline void SetThreadPriority(int nPriority)
-{
-    SetThreadPriority(GetCurrentThread(), nPriority);
-}
-#else
-
-// PRIO_MAX is not defined on Solaris
-#ifndef PRIO_MAX
-#define PRIO_MAX 20
-#endif
-#define THREAD_PRIORITY_LOWEST          PRIO_MAX
-#define THREAD_PRIORITY_BELOW_NORMAL    2
-#define THREAD_PRIORITY_NORMAL          0
-#define THREAD_PRIORITY_ABOVE_NORMAL    (-2)
-
-inline void SetThreadPriority(int nPriority)
-{
-    // It's unclear if it's even possible to change thread priorities on Linux,
-    // but we really and truly need it for the generation threads.
-#ifdef PRIO_THREAD
-    setpriority(PRIO_THREAD, 0, nPriority);
-#else
-    setpriority(PRIO_PROCESS, 0, nPriority);
-#endif
-}
-#endif
-
+void SetThreadPriority(int nPriority);
 void RenameThread(const char* name);
 
+<<<<<<< HEAD
 inline uint32_t ByteReverse(uint32_t value)
 {
     value = ((value & 0xFF00FF00) >> 8) | ((value & 0x00FF00FF) << 8);
@@ -561,6 +427,11 @@ template <typename Callable> void LoopForever(const char* name,  Callable func, 
     }
 }
 // .. and a wrapper that just calls func once
+=======
+/**
+ * .. and a wrapper that just calls func once
+ */
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 template <typename Callable> void TraceThread(const char* name,  Callable func)
 {
     std::string s = strprintf("dogecoin-%s", name);
@@ -571,12 +442,12 @@ template <typename Callable> void TraceThread(const char* name,  Callable func)
         func();
         LogPrintf("%s thread exit\n", name);
     }
-    catch (boost::thread_interrupted)
+    catch (const boost::thread_interrupted&)
     {
         LogPrintf("%s thread interrupt\n", name);
         throw;
     }
-    catch (std::exception& e) {
+    catch (const std::exception& e) {
         PrintExceptionContinue(&e, name);
         throw;
     }
@@ -586,4 +457,4 @@ template <typename Callable> void TraceThread(const char* name,  Callable func)
     }
 }
 
-#endif
+#endif // BITCOIN_UTIL_H

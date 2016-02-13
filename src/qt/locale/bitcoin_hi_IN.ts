@@ -1,4 +1,5 @@
 <TS language="hi_IN" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,18 +39,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>दो बार क्लिक करे पता या लेबल संपादन करने के लिए !</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>नया पता लिखिए !</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;New</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>चुनिन्दा पते को सिस्टम क्लिपबोर्ड पर कापी करे !</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy</source>
         <translation type="unfinished"/>
     </message>
@@ -58,10 +68,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Copy Address</source>
         <translation>&amp;पता कॉपी करे</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Delete the currently selected address from the list</source>
         <translation type="unfinished"/>
     </message>
@@ -74,10 +87,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Delete</source>
         <translation>&amp;मिटाए !!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose the address to send coins to</source>
         <translation type="unfinished"/>
     </message>
@@ -106,6 +122,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy &amp;Label</source>
         <translation>&amp;लेबल कॉपी करे </translation>
     </message>
@@ -114,6 +132,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;एडिट</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Export Address List</source>
         <translation type="unfinished"/>
     </message>
@@ -130,6 +149,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma separated file (*.csv)</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -148,10 +173,13 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter passphrase</source>
         <translation>पहचान शब्द/अक्षर डालिए !</translation>
     </message>
@@ -164,10 +192,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>दोबारा नया पहचान शब्द/अक्षर डालिए !</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>नया पहचान शब्द/अक्षर वॉलेट मे डालिए ! &lt;br/&gt; कृपा करके पहचान शब्द में &lt;br&gt; 10 से ज़्यादा अक्षॉरों का इस्तेमाल करे &lt;/b&gt;,या &lt;b&gt;आठ या उससे से ज़्यादा शब्दो का इस्तेमाल करे&lt;/b&gt; !</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>एनक्रिप्ट वॉलेट !</translation>
     </message>
@@ -192,14 +223,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>पहचान शब्द/अक्षर बदलिये !</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>कृपा करके पुराना एवं नया पहचान शब्द/अक्षर वॉलेट में डालिए !</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>वॉलेट एनक्रिपशन को प्रमाणित कीजिए !</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
@@ -216,14 +251,19 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encrypted</source>
         <translation>वॉलेट एनक्रिप्ट हो गया !</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>वॉलेट एनक्रिप्ट नही हुआ!</translation>
     </message>
@@ -247,6 +287,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>Wallet decryption failed</source>
         <translation>वॉलेट का डीक्रिप्ट-ष्ण असफल !</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished"/>
@@ -259,6 +300,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Synchronizing with network...</source>
         <translation>नेटवर्क से समकालिक (मिल) रहा है ...</translation>
     </message>
@@ -267,10 +314,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;विवरण</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Show general overview of wallet</source>
         <translation>वॉलेट का सामानया विवरण दिखाए !</translation>
     </message>
@@ -292,6 +342,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>अप्लिकेशन से बाहर निकलना !</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>बीटकोइन के बारे में जानकारी !</translation>
     </message>
@@ -304,18 +355,24 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Options...</source>
         <translation>&amp;विकल्प</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Encrypt Wallet...</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;बैकप वॉलेट</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Change Passphrase...</source>
         <translation type="unfinished"/>
     </message>
@@ -352,10 +409,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Change the passphrase used for wallet encryption</source>
         <translation>पहचान शब्द/अक्षर जो वॉलेट एनक्रिपशन के लिए इस्तेमाल किया है उसे बदलिए!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Debug window</source>
         <translation type="unfinished"/>
     </message>
@@ -368,6 +428,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin</source>
         <translation>बीटकोइन</translation>
     </message>
@@ -376,6 +438,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>वॉलेट</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Send</source>
         <translation type="unfinished"/>
     </message>
@@ -404,6 +467,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;File</source>
         <translation>&amp;फाइल</translation>
     </message>
@@ -420,6 +485,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>टैबस टूलबार</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[टेस्टनेट]</translation>
     </message>
@@ -496,10 +562,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"><numerusform/><numerusform/></translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>%1 behind</source>
         <translation>%1 पीछे</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Last received block was generated %1 ago.</source>
         <translation type="unfinished"/>
     </message>
@@ -508,6 +577,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error</source>
         <translation>भूल</translation>
     </message>
@@ -524,10 +595,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>नवीनतम</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Catching up...</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Sent transaction</source>
         <translation>भेजी ट्रांजक्शन</translation>
     </message>
@@ -536,6 +610,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>प्राप्त हुई ट्रांजक्शन</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -547,6 +622,8 @@ Address: %4
 पता:%4\n</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>वॉलेट एन्क्रिप्टेड है तथा अभी लॉक्ड नहीं है</translation>
     </message>
@@ -554,6 +631,7 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>वॉलेट एन्क्रिप्टेड है तथा अभी लॉक्ड है</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
@@ -581,10 +659,20 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+</context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount:</source>
         <translation>राशि :</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority:</source>
         <translation type="unfinished"/>
     </message>
@@ -617,10 +705,13 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount</source>
         <translation>राशि</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
@@ -629,22 +720,30 @@ Address: %4
         <translation>पता</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Date</source>
         <translation>taareek</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirmations</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirmed</source>
         <translation>पक्का</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy address</source>
         <translation>पता कॉपी करे</translation>
     </message>
@@ -657,14 +756,23 @@ Address: %4
         <translation>कॉपी राशि</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy transaction ID</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Lock unspent</source>
         <translation type="unfinished"/>
+=======
+        <source>(no label)</source>
+        <translation>(कोई लेबल नही !)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Unlock unspent</source>
         <translation type="unfinished"/>
     </message>
@@ -703,20 +811,90 @@ Address: %4
     <message>
         <source>higher</source>
         <translation type="unfinished"/>
+=======
+        <source>Edit Address</source>
+        <translation>पता एडिट करना</translation>
     </message>
     <message>
+        <source>&amp;Label</source>
+        <translation>&amp;लेबल</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;पता</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>नया स्वीकार्य पता</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>नया भेजने वाला पता</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>एडिट स्वीकार्य पता </translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>एडिट भेजने वाला पता</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>डाला गया पता "%1" एड्रेस बुक में पहले से ही मोजूद है|</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>वॉलेट को unlock नहीं किया जा सकता|</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>नयी कुंजी का निर्माण असफल रहा|</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>high</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>medium-high</source>
         <translation type="unfinished"/>
+=======
+        <source>version</source>
+        <translation>संस्करण</translation>
     </message>
     <message>
+        <source>Usage:</source>
+        <translation>खपत :</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+<<<<<<< HEAD
         <source>medium</source>
         <translation type="unfinished"/>
+=======
+        <source>Error</source>
+        <translation>भूल</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>low-medium</source>
         <translation type="unfinished"/>
     </message>
@@ -727,20 +905,66 @@ Address: %4
     <message>
         <source>lower</source>
         <translation type="unfinished"/>
+=======
+        <source>Options</source>
+        <translation>विकल्प</translation>
     </message>
     <message>
+        <source>&amp;OK</source>
+        <translation>&amp;ओके</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;कैन्सल</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+<<<<<<< HEAD
         <source>lowest</source>
         <translation type="unfinished"/>
+=======
+        <source>Form</source>
+        <translation>फार्म</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>(%1 locked)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>none</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>राशि</translation>
     </message>
     <message>
+        <source>N/A</source>
+        <translation>लागू नही
+</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+<<<<<<< HEAD
         <source>Dust</source>
         <translation type="unfinished"/>
     </message>
@@ -2448,10 +2672,27 @@ Address: %4
     <message>
         <source>Min amount</source>
         <translation>लघुत्तम राशि</translation>
+=======
+        <source>N/A</source>
+        <translation>लागू नही
+</translation>
     </message>
     <message>
+        <source>&amp;Information</source>
+        <translation>जानकारी</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy address</source>
         <translation>पता कॉपी करे</translation>
+=======
+        <source>&amp;Label:</source>
+        <translation>लेबल:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy label</source>
@@ -2461,6 +2702,7 @@ Address: %4
         <source>Copy amount</source>
         <translation>कॉपी राशि</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Copy transaction ID</source>
         <translation type="unfinished"/>
@@ -2870,8 +3112,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation type="unfinished"/>
+=======
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>पता</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>राशि</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>लेबल</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Error: system error: </source>
         <translation type="unfinished"/>
     </message>
@@ -2886,8 +3148,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Failed to read block</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>taareek</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>लेबल</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>राशि</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(कोई लेबल नही !)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Failed to sync block index</source>
         <translation type="unfinished"/>
     </message>
@@ -2922,8 +3204,48 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Fee per kB to add to transactions you send</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>सिक्के भेजें|</translation>
     </message>
     <message>
+        <source>Amount:</source>
+        <translation>राशि :</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>एक साथ कई प्राप्तकर्ताओं को भेजें</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>बाकी रकम :</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>भेजने की पुष्टि करें</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>सिक्के भेजने की पुष्टि करें</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>कॉपी राशि</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>भेजा गया अमाउंट शुन्य से अधिक होना चाहिए|</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(कोई लेबल नही !)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
         <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
         <translation type="unfinished"/>
     </message>
@@ -2958,8 +3280,43 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Invalid -onion address: &apos;%s&apos;</source>
         <translation type="unfinished"/>
+=======
+        <source>A&amp;mount:</source>
+        <translation>अमाउंट:</translation>
     </message>
     <message>
+        <source>Pay &amp;To:</source>
+        <translation>प्राप्तकर्ता:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>आपकी एड्रेस बुक में इस एड्रेस के लिए एक लेबल लिखें</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>लेबल:</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt-A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Clipboard से एड्रेस paste करें</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt-P</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Not enough file descriptors available.</source>
         <translation type="unfinished"/>
     </message>
@@ -2974,12 +3331,43 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
         <translation type="unfinished"/>
+=======
+        <source>Alt+A</source>
+        <translation>Alt-A</translation>
     </message>
     <message>
+        <source>Paste address from clipboard</source>
+        <translation>Clipboard से एड्रेस paste करें</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt-P</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>हस्ताक्षर</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
         <source>Select SOCKS version for -proxy (4 or 5, default: 5)</source>
         <translation type="unfinished"/>
+=======
+        <source>[testnet]</source>
+        <translation>[टेस्टनेट]</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
     <message>
+<<<<<<< HEAD
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
         <translation type="unfinished"/>
     </message>
@@ -3018,16 +3406,72 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Wait for RPC server to start</source>
         <translation type="unfinished"/>
+=======
+        <source>Open until %1</source>
+        <translation>खुला है जबतक %1</translation>
     </message>
     <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/अपुष्ट</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 पुष्टियाँ</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>taareek</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>राशि</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>सही</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>ग़लत</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, अभी तक सफलतापूर्वक प्रसारित नहीं किया गया है</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>अज्ञात</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Wallet %s resides outside data directory %s</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Wallet options:</source>
         <translation type="unfinished"/>
+=======
+        <source>Transaction details</source>
+        <translation>लेन-देन का विवरण</translation>
     </message>
     <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation> ये खिड़की आपको लेन-देन का विस्तृत विवरण देगी !</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
         <translation type="unfinished"/>
     </message>
@@ -3134,8 +3578,80 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>taareek</translation>
     </message>
     <message>
+        <source>Type</source>
+        <translation>टाइप</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>खुला है जबतक %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>पक्के  ( %1 पक्का करना)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>यह ब्लॉक किसी भी और नोड को मिला नही है ! शायद यह ब्लॉक कोई भी नोड स्वीकारे गा नही !</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>जेनरेट किया गया किंतु स्वीकारा नही गया !</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>लेबल</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>स्वीकार करना</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>स्वीकार्य ओर से</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>भेजा गया</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>भेजा खुद को भुगतान</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>माइंड</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(लागू नहीं)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>ट्रांसेक्शन स्तिथि| पुष्टियों की संख्या जानने के लिए इस जगह पर माउस लायें|</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>तारीख तथा समय जब ये ट्रांसेक्शन प्राप्त हुई थी|</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>ट्रांसेक्शन का प्रकार|</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>अमाउंट बैलेंस से निकला या जमा किया गया |</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation type="unfinished"/>
     </message>
@@ -3266,12 +3782,138 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation type="unfinished"/>
+=======
+        <source>All</source>
+        <translation>सभी</translation>
     </message>
     <message>
+        <source>Today</source>
+        <translation>आज</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>इस हफ्ते</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>इस महीने</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>पिछले महीने</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>इस साल</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>विस्तार...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>स्वीकार करना</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>भेजा गया</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>अपनेआप को</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>माइंड</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>अन्य</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>ढूँदने के लिए कृपा करके पता या लेबल टाइप करे !</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>लघुत्तम राशि</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>पता कॉपी करे</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>लेबल कॉपी करे </translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>कॉपी राशि</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>एडिट लेबल</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma separated file (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>पक्का</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>taareek</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>टाइप</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>लेबल</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>पता</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>विस्तार:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>तक</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>सिक्के भेजें|</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+</context>
+<context>
+    <name>WalletView</name>
     <message>
+<<<<<<< HEAD
         <source>Loading addresses...</source>
         <translation>पता पुस्तक आ रही है...</translation>
     </message>
@@ -3286,8 +3928,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Wallet needed to be rewritten: restart Dogecoin to complete</source>
         <translation type="unfinished"/>
+=======
+        <source>Backup Wallet</source>
+        <translation>बैकप वॉलेट</translation>
     </message>
     <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>वॉलेट डेटा (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>बैकप असफल</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>बैकप सफल</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat</source>
         <translation type="unfinished"/>
     </message>
@@ -3322,20 +3984,60 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Insufficient funds</source>
         <translation type="unfinished"/>
+=======
+        <source>Options:</source>
+        <translation>विकल्प:</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>डेटा डायरेक्टरी बताएं </translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>बैकग्राउंड में डेमॉन बन कर रन करे तथा कमांड्स स्वीकार करें </translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>टेस्ट नेटवर्क का इस्तेमाल करे </translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>ब्लॉक्स जाँचे जा रहा है...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>वॉलेट जाँचा जा रहा है...</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>जानकारी</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>चेतावनी</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>पता पुस्तक आ रही है...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Loading block index...</source>
         <translation>ब्लॉक इंडेक्स आ रहा है...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Loading wallet...</source>
         <translation>वॉलेट आ रहा है...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot downgrade wallet</source>
         <translation type="unfinished"/>
     </message>
@@ -3344,6 +4046,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescanning...</source>
         <translation>रि-स्केनी-इंग...</translation>
     </message>
@@ -3352,6 +4056,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>लोड हो गया|</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation type="unfinished"/>
     </message>
@@ -3365,5 +4070,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation type="unfinished"/>
     </message>
+=======
+        <source>Error</source>
+        <translation>भूल</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

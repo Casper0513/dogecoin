@@ -1,4 +1,5 @@
 <TS language="hu" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -40,6 +41,13 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <source>Double-click to edit address or label</source>
         <translation>Dupla-kattintás a cím vagy a címke szerkesztéséhez</translation>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+        <source>Right-click to edit address or label</source>
+        <translation>A cím vagy címke szerkeszteséhez kattintson a jobb gombbal</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Create a new address</source>
@@ -75,7 +83,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exportálás...</translation>
+        <translation>&amp;Exportálás</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -94,7 +102,11 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>&amp;Kiválaszt</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very sending addresses</source>
+=======
+        <source>Such sending addresses</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>Küldési címek</translation>
     </message>
     <message>
@@ -103,15 +115,23 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>Ezekkel a Dogecoin-címekkel küldhetsz kifizetéseket. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
     </message>
     <message>
         <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ezekkel a címekkel fogadhatsz dogecoint. Ajánlott minden tranzakciónál egy új fogadó címet használni.</translation>
+=======
+        <translation>Ezekről a címekről küldhetsz dogecoint. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
+    </message>
+    <message>
+        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ezekkel a címekkel fogadhatsz dogecoint. Ajánlott minden tranzakcióhoz egy új fogadó címet használni.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Címke &amp;másolása</translation>
+        <translation>&amp;Címke másolása</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -123,15 +143,20 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Vesszővel elválasztott fájl (*. csv)</translation>
+        <translation>Vesszővel elválasztott fájl (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
         <translation>Az exportálás sikertelen volt</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the address list to %1.</source>
         <translation type="unfinished"/>
+=======
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Hiba történt a címjegyzék %1 helyre való mentésekor. Kérlek próbáld újra.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -153,7 +178,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Kulcsszó párbeszédablak</translation>
+        <translation>Jelszó párbeszédablak</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
@@ -168,16 +193,19 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Új jelszó újra</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Írd be az új jelszót a tárcához.&lt;br/&gt;Használj legalább 10&lt;br/&gt;véletlenszerű karaktert&lt;/b&gt; vagy &lt;b&gt;legalább nyolc szót&lt;/b&gt;.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
-        <translation>Tárca kódolása</translation>
+        <translation>Tárca titkosítása</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>A tárcád megnyitásához a műveletnek szüksége van a tárcád jelszavára.</translation>
+        <translation>A tárca megnyitásához a műveletnek szüksége van a tárcád jelszavára.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -185,7 +213,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>A tárcád dekódolásához a műveletnek szüksége van a tárcád jelszavára.</translation>
+        <translation>A tárca dekódolásához a műveletnek szüksége van a tárcád jelszavára.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -196,24 +224,31 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Jelszó megváltoztatása</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Írd be a tárca régi és új jelszavát.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
-        <translation>Biztosan kódolni akarod a tárcát?</translation>
+        <translation>Biztosan titkosítani akarod a tárcát?</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES DogecoinODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
+=======
+        <translation>Figyelem: ha titkosítod a tárcát és elveszted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES DOGECOINOD ELVESZIK!&lt;/b&gt;</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Biztosan kódolni akarod a tárcát?</translation>
+        <translation>Biztosan titkosítani akarod a tárcád?</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>FONTOS: A pénztárca-fájl korábbi mentéseit ezzel az új, titkosított pénztárca-fájllal kell helyettesíteni. Biztonsági okokból a pénztárca-fájl korábbi titkosítás nélküli mentései haszontalanná válnak amint elkezdi használni az új, titkosított pénztárcát.</translation>
+        <translation>FONTOS: A tárca-fájl minden korábbi mentését cseréld le ezzel az új, titkosított tárca-fájllal. Biztonsági okokból a tárca-fájl korábbi, titkosítás nélküli mentései használhatatlanná válnak, amint elkezded használni az új, titkosított tárcát.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -221,19 +256,24 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Tárca kódolva</translation>
+        <translation>Tárca titkosítva</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>Dogecoin will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Add meg a tárca új jelszavát.&lt;br/&gt;Olyan jelszót válassz, ami &lt;b&gt;legalább tíz véletlenszerű karakterből&lt;/b&gt; vagy &lt;b&gt;legalább 8 véletlenszerű szóból&lt;/b&gt; áll.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Tárca kódolása sikertelen.</translation>
+        <translation>A tárca titkosítása sikertelen.</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Tárca kódolása belső hiba miatt sikertelen. A tárcád nem lett kódolva.</translation>
+        <translation>Tárca titkosítása belső hiba miatt sikertelen. A tárcád nem lett titkosítva.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -284,7 +324,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Tranzakciótörténet megtekintése</translation>
+        <translation>Tranzakciós előzmények megtekintése</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -292,11 +332,15 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>Quit application</source>
+<<<<<<< HEAD
         <translation>Kilépés</translation>
     </message>
     <message>
         <source>Show information about Dogecoin</source>
         <translation>Információk a Dogecoinról</translation>
+=======
+        <translation>Kilépés az alkalmazásból</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -304,7 +348,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Információk a Qt ról</translation>
+        <translation>Információk a Qt-ról</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -312,7 +356,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Tárca &amp;kódolása...</translation>
+        <translation>Tárca &amp;titkosítása...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
@@ -323,7 +367,11 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Jelszó &amp;megváltoztatása...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
+=======
+        <source>Such &amp;sending addresses...</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>&amp;Küldési címek...</translation>
     </message>
     <message>
@@ -333,6 +381,13 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <source>Open &amp;URI...</source>
         <translation>&amp;URI azonosító megnyitása...</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Dogecoin Core client</source>
+        <translation>Dogecoin Core kliens</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -340,6 +395,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
+<<<<<<< HEAD
         <translation>A blokkok lemezen történő ujraindexelése...</translation>
     </message>
     <message>
@@ -349,14 +405,21 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <source>Modify configuration options for Dogecoin Core</source>
         <translation>Dogecoin konfigurációs opciók</translation>
+=======
+        <translation>Lemezen lévő blokkok újraindexelése...</translation>
+    </message>
+    <message>
+        <source>Send coins to a Dogecoin address</source>
+        <translation>Dogecoin küldése megadott címre</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Biztonsági másolat készítése a Tárcáról egy másik helyre</translation>
+        <translation>Biztonsági másolat készítése a tárcáról egy másik helyre</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Tárcakódoló jelszó megváltoztatása</translation>
+        <translation>Tárca-titkosító jelszó megváltoztatása</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -387,6 +450,13 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>&amp;Fogadás</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Dogecoin Core</source>
+        <translation>Dogecoin Core információ megjelenítése</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Show / Hide</source>
         <translation>&amp;Mutat / Elrejt</translation>
     </message>
@@ -396,15 +466,23 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>A pénztárcájához tartozó privát kulcsok titkosítása</translation>
+        <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
         <source>Sign messages with your Dogecoin addresses to prove you own them</source>
+<<<<<<< HEAD
         <translation>Üzenet aláírása a Dogecoin címmel, amivel bizonyítja, hogy a cím az ön tulajdona.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
         <translation>Annak ellenőrzése, hogy az üzenetek valóban a megjelölt Dogecoin címekkel vannak-e alaírva</translation>
+=======
+        <translation>Üzenetek aláírása a Dogecoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Dogecoin-címekkel vannak-e aláírva</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;File</source>
@@ -423,16 +501,23 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Fül eszköztár</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[teszthálózat]</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Dogecoin Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
+<<<<<<< HEAD
         <translation>Kifizetési kérelem (QR-kódot és &quot;dogecoin:&quot; azonosítót (URI-t) hoz létre)</translation>
+=======
+        <translation>Fizetési kérelem (QR-kódot és "dogecoin:" URI azonosítót hoz létre)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;About Dogecoin Core</source>
@@ -440,7 +525,11 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
+<<<<<<< HEAD
         <translation>A használt küldési címek és címkék mutatása</translation>
+=======
+        <translation>A használt küldési címek és címkék megtekintése</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
@@ -448,11 +537,16 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>Open a dogecoin: URI or payment request</source>
+<<<<<<< HEAD
         <translation>&quot;dogecoin:&quot; URI azonosító vagy fizetési kérelem megnyitása</translation>
+=======
+        <translation>"dogecoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Show the Dogecoin Core help message to get a list with possible command-line options</source>
@@ -465,12 +559,19 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message numerus="yes">
         <source>%n active connection(s) to Dogecoin network</source>
         <translation><numerusform>%n aktív kapcsolat a Dogecoin-hálózattal</numerusform><numerusform>%n aktív kapcsolat a Dogecoin-hálózattal</numerusform></translation>
+=======
+    </message>
+    <message>
+        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
+        <translation>A Dogecoin Core súgóüzenet megjelenítése a Dogecoin lehetséges parancssori kapcsolóival.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>No block source available...</source>
         <translation>Blokk forrása ismeretlen...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
         <translation>%1 blokk feldolgozva a tranzakciótörténet %2 (becsült) blokkjából</translation>
     </message>
@@ -499,6 +600,12 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation type="unfinished"><numerusform/><numerusform>%n év</numerusform></translation>
     </message>
     <message>
+=======
+        <source>%1 and %2</source>
+        <translation>%1 és %2</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>%1 behind</source>
         <translation>%1 lemaradás</translation>
     </message>
@@ -539,6 +646,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Beérkező tranzakció</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -551,17 +659,22 @@ Cím: %4
 </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;nyitva&lt;/b&gt;.</translation>
+        <translation>A tárca &lt;b&gt;titkosítva&lt;/b&gt; és jelenleg &lt;b&gt;nyitva&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;zárva&lt;/b&gt;.</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation>Végzetes hiba történt. A Dogecoin működése nem biztonságos és hamarosan leáll.</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>ClientModel</name>
@@ -573,10 +686,13 @@ Cím: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation>Ellenőrző cím kiválasztása</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Quantity:</source>
         <translation>Mennyiség:</translation>
     </message>
@@ -597,8 +713,13 @@ Cím: %4
         <translation>Díjak:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation type="unfinished"/>
+=======
+        <source>Dust:</source>
+        <translation>Por-határ:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>After Fee:</source>
@@ -625,6 +746,7 @@ Cím: %4
         <translation>Összeg</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
@@ -633,6 +755,8 @@ Cím: %4
         <translation>Cím</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Date</source>
         <translation>Dátum</translation>
     </message>
@@ -693,8 +817,13 @@ Cím: %4
         <translation>Prioritás másolása</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation type="unfinished"/>
+=======
+        <source>Copy dust</source>
+        <translation>Visszajáró másolása</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy change</source>
@@ -745,8 +874,13 @@ Cím: %4
         <translation>semmi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust</source>
         <translation type="unfinished"/>
+=======
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>Bemenetenként  +/- %1 satoshi-val változhat</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>yes</source>
@@ -757,10 +891,13 @@ Cím: %4
         <translation>nem</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation>Ez a címke piros lesz, ha tranzakció mérete nagyobb 1000 byte-nál.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>Legalább %1 díj szüksége kB-onként.</translation>
     </message>
@@ -771,6 +908,7 @@ Cím: %4
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
         <translation>Nagyobb prioritású tranzakciók nagyobb valószínűséggel kerülnek be egy blokkba.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
@@ -793,6 +931,10 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>(no label)</source>
         <translation>(nincs címke)</translation>
     </message>
@@ -844,12 +986,21 @@ Cím: %4
         <translation>Küldő cím szerkesztése</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>A megadott &quot;%1&quot; cím már szerepel a címjegyzékben.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
         <translation>A megadott &quot;%1&quot; cím nem egy érvényes Dogecoin-cím.</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>A megadott "%1" cím már szerepel a címjegyzékben.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <translation>A megadott "%1" cím nem egy érvényes Dogecoin-cím.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -871,10 +1022,13 @@ Cím: %4
         <translation>Név</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Path already exists, and is not a directory.</source>
         <translation>Az elérési út létezik, de nem egy könyvtáré.</translation>
     </message>
@@ -886,10 +1040,13 @@ Cím: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Dogecoin Core</translation>
     </message>
@@ -898,6 +1055,7 @@ Cím: %4
         <translation>verzió</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Használat:</translation>
     </message>
@@ -929,6 +1087,26 @@ Cím: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Adatkönyvtár kiválasztása induláskor (alapbeállítás: 0)</translation>
+=======
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+    <message>
+        <source>About Dogecoin Core</source>
+        <translation>A Dogecoin Core-ról</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Parancssoros opciók</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Használat:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>parancssoros opciók</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -936,6 +1114,7 @@ Cím: %4
     <message>
         <source>Welcome</source>
         <translation>Üdvözlünk</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Welcome to Dogecoin Core.</source>
@@ -950,25 +1129,43 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Welcome to Dogecoin Core.</source>
+        <translation>Üdvözlünk a Dogecoin Core-ban.</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use the default data directory</source>
-        <translation type="unfinished"/>
+        <translation>Az alapértelmezett adat könyvtár használata</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation type="unfinished"/>
+        <translation>Saját adatkönyvtár használata:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Dogecoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>Hiba: A megadott "%1" adatkönyvtár nem hozható létre. </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error</source>
         <translation>Hiba</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>GB of free space available</source>
         <translation>GB hely érhető el</translation>
@@ -978,6 +1175,9 @@ Cím: %4
         <translation>( ebből %1GB szükséges)</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -998,7 +1198,7 @@ Cím: %4
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation type="unfinished"/>
+        <translation>Fizetés kérelmi fájl kiválasztása</translation>
     </message>
 </context>
 <context>
@@ -1012,6 +1212,7 @@ Cím: %4
         <translation>&amp;Fő</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>Opcionális, kB-onkénti tranzakciós díj a tranzakcióid minél gyorsabb feldolgozásának elősegítésére.  A legtöbb tranzakció 1 kB-os.</translation>
     </message>
@@ -1054,6 +1255,22 @@ Cím: %4
     <message>
         <source>Active command-line options that override above options:</source>
         <translation type="unfinished"/>
+=======
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside</source>
+        <translation>Külső kapcsolatok elfogadása</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Bejövő kapcsolatok engedélyezése</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>A proxy IP címe (pl.: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -1068,6 +1285,7 @@ Cím: %4
         <translation>&amp;Hálózat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation type="unfinished"/>
     </message>
@@ -1092,6 +1310,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>A Dogecoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
@@ -1112,6 +1332,7 @@ Cím: %4
         <translation>Proxy portja (pl.: 9050)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>SOCKS &amp;Version:</source>
         <translation>SOCKS &amp;Verzió:</translation>
     </message>
@@ -1120,6 +1341,8 @@ Cím: %4
         <translation>A proxy SOCKS verziója  (pl. 5)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Window</source>
         <translation>&amp;Ablak</translation>
     </message>
@@ -1132,10 +1355,13 @@ Cím: %4
         <translation>&amp;Kicsinyítés a tálcára az eszköztár helyett</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>Az alkalmazásból való kilépés helyett az eszköztárba kicsinyíti az alkalmazást az ablak bezárásakor. Ez esetben az alkalmazás csak a Kilépés menüponttal zárható be.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>M&amp;inimize on close</source>
         <translation>K&amp;icsinyítés záráskor</translation>
     </message>
@@ -1148,10 +1374,13 @@ Cím: %4
         <translation>Felhasználófelület nye&amp;lve:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
         <translation>Itt beállíthatod a felhasználófelület nyelvét. Ez a beállítás a Dogecoin ujraindítása után lép érvénybe.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Mértékegység:</translation>
     </message>
@@ -1160,6 +1389,7 @@ Cím: %4
         <translation>Válaszd ki az interfészen és érmék küldésekor megjelenítendő alapértelmezett alegységet.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
         <translation>Mutassa-e a Dogecoin címeket a tranzakciólistában.</translation>
     </message>
@@ -1172,6 +1402,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
@@ -1193,6 +1425,7 @@ Cím: %4
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1202,6 +1435,9 @@ Cím: %4
     <message>
         <source>This change would require a client restart.</source>
         <translation type="unfinished"/>
+=======
+        <translation>A változtatások aktiválásahoz újra kell indítani a klienst.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -1217,10 +1453,13 @@ Cím: %4
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Dogecoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Wallet</source>
         <translation>Tárca</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Available:</source>
@@ -1255,14 +1494,23 @@ Cím: %4
         <translation>Aktuális egyenleged</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation>&lt;b&gt;Legutóbbi tranzakciók&lt;/b&gt;</translation>
     </message>
     <message>
         <source>out of sync</source>
         <translation>Nincs szinkronban.</translation>
+=======
+        <source>Spendable:</source>
+        <translation>Elkölthető:</translation>
     </message>
-</context>
+    <message>
+        <source>Recent transactions</source>
+        <translation>A legutóbbi tranzakciók</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
 <context>
     <name>PaymentServer</name>
     <message>
@@ -1270,6 +1518,7 @@ Cím: %4
         <translation>URI kezelés</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
@@ -1316,12 +1565,28 @@ Cím: %4
     <message>
         <source>Error communicating with %1: %2</source>
         <translation type="unfinished"/>
+=======
+        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <translation>A dogecoint nem lehet elindítani: click-to-pay handler</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>PeerTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>Payment request can not be parsed or processed!</source>
         <translation type="unfinished"/>
+=======
+        <source>Ping Time</source>
+        <translation>Ping idő</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+</context>
+<context>
+    <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Bad response from server %1</source>
         <translation type="unfinished"/>
     </message>
@@ -1332,11 +1597,21 @@ Cím: %4
     <message>
         <source>Network request error</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Összeg</translation>
     </message>
-</context>
-<context>
-    <name>QObject</name>
     <message>
+        <source>%1 d</source>
+        <translation>%1 n</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 ó</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Dogecoin</translation>
     </message>
@@ -1361,6 +1636,20 @@ Cím: %4
         <translation>Adj meg egy Dogecoin-címet (pl.: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM )</translation>
     </message>
 </context>
+=======
+        <source>%1 m</source>
+        <translation>%1 p</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 mp</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>Nem elérhető</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -1404,7 +1693,7 @@ Cím: %4
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished"/>
+        <translation>Általános</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
@@ -1435,8 +1724,33 @@ Cím: %4
         <translation>Aktuális blokkok száma</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Estimated total blocks</source>
         <translation>Becsült összes blokk</translation>
+=======
+        <source>Received</source>
+        <translation>Fogadott</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>Küldött</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>&amp;Peerek</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verzió</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>Szolgáltatások</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Ping idő</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Last block time</source>
@@ -1455,10 +1769,13 @@ Cím: %4
         <translation>&amp;Hálózati forgalom</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Clear</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Totals</source>
         <translation>Összesen:</translation>
     </message>
@@ -1479,18 +1796,24 @@ Cím: %4
         <translation>Debug naplófájl</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear console</source>
         <translation>Konzol törlése</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Dogecoin RPC console.</source>
         <translation>Üdv a Dogecoin RPC konzoljában!</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Navigálhat a fel és le nyilakkal, és &lt;b&gt;Ctrl-L&lt;/b&gt; -vel törölheti a képernyőt.</translation>
     </message>
@@ -1513,6 +1836,7 @@ Cím: %4
     <message>
         <source>%1 GB</source>
         <translation>%1 GB</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>%1 m</source>
@@ -1525,19 +1849,29 @@ Cím: %4
     <message>
         <source>%1 h %2 m</source>
         <translation type="unfinished"/>
+=======
     </message>
-</context>
+    <message>
+        <source>never</source>
+        <translation>soha</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Amount:</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Label:</source>
         <translation>Címke:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Message:</source>
         <translation type="unfinished"/>
     </message>
@@ -1570,10 +1904,13 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear</source>
         <translation>Törlés</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Requested payments history</source>
         <translation type="unfinished"/>
     </message>
@@ -1606,6 +1943,24 @@ Cím: %4
         <translation>Üzenet másolása</translation>
     </message>
     <message>
+=======
+        <source>Show</source>
+        <translation>Mutat</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eltávolítás</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Címke másolása</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Üzenet másolása</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy amount</source>
         <translation>Összeg másolása</translation>
     </message>
@@ -1627,6 +1982,7 @@ Cím: %4
     <message>
         <source>&amp;Save Image...</source>
         <translation>&amp;Kép mentése</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Request payment to %1</source>
@@ -1637,6 +1993,10 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>URI</source>
         <translation>URI:</translation>
     </message>
@@ -1687,6 +2047,7 @@ Cím: %4
         <source>(no label)</source>
         <translation>(nincs címke)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>(no message)</source>
         <translation type="unfinished"/>
@@ -1696,6 +2057,9 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -1703,6 +2067,7 @@ Cím: %4
         <translation>Érmék küldése</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Features</source>
         <translation type="unfinished"/>
     </message>
@@ -1717,6 +2082,10 @@ Cím: %4
     <message>
         <source>Insufficient funds!</source>
         <translation type="unfinished"/>
+=======
+        <source>Inputs...</source>
+        <translation>Bemenetek...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Quantity:</source>
@@ -1737,10 +2106,13 @@ Cím: %4
     <message>
         <source>Fee:</source>
         <translation>Díjak:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Low Output:</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>After Fee:</source>
@@ -1749,6 +2121,7 @@ Cím: %4
     <message>
         <source>Change:</source>
         <translation>Visszajáró:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
@@ -1757,6 +2130,8 @@ Cím: %4
     <message>
         <source>Custom change address</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1767,8 +2142,13 @@ Cím: %4
         <translation>&amp;Címzett hozzáadása</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear all fields of the form.</source>
         <translation type="unfinished"/>
+=======
+        <source>Dust:</source>
+        <translation>Por-határ:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1791,10 +2171,13 @@ Cím: %4
         <translation>Küldés megerősítése</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 to %2</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy quantity</source>
         <translation>Mennyiség másolása</translation>
     </message>
@@ -1817,26 +2200,35 @@ Cím: %4
     <message>
         <source>Copy priority</source>
         <translation>Prioritás másolása</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Copy low output</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy change</source>
         <translation>Visszajáró másolása</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Total Amount %1 (= %2)</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>or</source>
         <translation>vagy</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>A címzett címe érvénytelen, kérlek, ellenőrizd.</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -1851,6 +2243,7 @@ Cím: %4
         <translation>A küldeni kívánt összeg és a %1 tranzakciós díj együtt meghaladja az egyenlegeden rendelkezésedre álló összeget.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>Többször szerepel ugyanaz a cím. Egy küldési műveletben egy címre csak egyszer lehet küldeni.</translation>
     </message>
@@ -1867,10 +2260,13 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>(no label)</source>
         <translation>(nincs címke)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Unknown change address</source>
         <translation type="unfinished"/>
     </message>
@@ -1891,6 +2287,12 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Copy dust</source>
+        <translation>Visszajáró másolása</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1902,10 +2304,13 @@ Cím: %4
         <translation>Címzett:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The address to send the payment to (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Milyen címkével kerüljön be ez a cím a címtáradba?
 </translation>
@@ -1915,6 +2320,7 @@ Cím: %4
         <translation>Címke:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose previously used address</source>
         <translation type="unfinished"/>
     </message>
@@ -1923,6 +2329,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1935,14 +2343,18 @@ Cím: %4
         <translation>Alt+P</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Remove this entry</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Message:</source>
         <translation>Üzenet:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a verified payment request.</source>
         <translation type="unfinished"/>
     </message>
@@ -1963,6 +2375,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Memo:</source>
         <translation>Jegyzet:</translation>
     </message>
@@ -1972,12 +2386,15 @@ Cím: %4
     <message>
         <source>Dogecoin Core is shutting down...</source>
         <translation>A Dogecoin Core leáll...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
@@ -1989,6 +2406,7 @@ Cím: %4
         <translation>Üzenet aláírása...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Aláírhat a címeivel üzeneteket, amivel bizonyíthatja, hogy a címek az önéi. Vigyázzon, hogy ne írjon alá semmi félreérthetőt, mivel a phising támadásokkal megpróbálhatják becsapni, hogy az azonosságát átírja másokra. Csak olyan részletes állításokat írjon alá, amivel egyetért.</translation>
     </message>
@@ -2001,6 +2419,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -2033,10 +2453,13 @@ Cím: %4
         <translation>Üzenet &amp;aláírása</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reset all sign message fields</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear &amp;All</source>
         <translation>Mindent &amp;töröl</translation>
     </message>
@@ -2045,6 +2468,7 @@ Cím: %4
         <translation>Üzenet ellenőrzése</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>Írja be az aláírás címét, az üzenetet (ügyelve arra, hogy az új-sor, szóköz, tab, stb. karaktereket is pontosan) és az aláírást az üzenet ellenőrzéséhez. Ügyeljen arra, ne gondoljon többet az aláírásról, mint amennyi az aláírt szövegben ténylegesen áll, hogy elkerülje a köztes-ember (man-in-the-middle) támadást.</translation>
     </message>
@@ -2073,6 +2497,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The entered address is invalid.</source>
         <translation>A megadott cím nem érvényes.</translation>
     </message>
@@ -2081,6 +2507,7 @@ Cím: %4
         <translation>Ellenőrizze a címet és próbálja meg újra.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address does not refer to a key.</source>
         <translation type="unfinished"/>
     </message>
@@ -2089,6 +2516,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Private key for the entered address is not available.</source>
         <translation>A megadott cím privát kulcsa nem található.</translation>
     </message>
@@ -2109,10 +2538,13 @@ Cím: %4
         <translation>Ellenőrizd az aláírást és próbáld újra.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The signature did not match the message digest.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Message verification failed.</source>
         <translation>Az üzenet ellenőrzése nem sikerült.</translation>
     </message>
@@ -2147,6 +2579,7 @@ Cím: %4
     <name>TransactionDesc</name>
     <message>
         <source>Open until %1</source>
+<<<<<<< HEAD
         <translation>Megnyitva %1-ig</translation>
     </message>
     <message>
@@ -2156,6 +2589,9 @@ Cím: %4
     <message>
         <source>%1/offline</source>
         <translation type="unfinished"/>
+=======
+        <translation>%1-ig megnyitva</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>%1/unconfirmed</source>
@@ -2169,10 +2605,13 @@ Cím: %4
         <source>Status</source>
         <translation>Állapot</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>Date</source>
         <translation>Dátum</translation>
@@ -2205,10 +2644,13 @@ Cím: %4
         <source>Credit</source>
         <translation>Jóváírás</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation><numerusform>beérik %n blokk múlva</numerusform><numerusform>beérik %n blokk múlva</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>not accepted</source>
         <translation>elutasítva</translation>
@@ -2238,6 +2680,7 @@ Cím: %4
         <translation>Tranzakcióazonosító</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Merchant</source>
         <translation type="unfinished"/>
     </message>
@@ -2246,6 +2689,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Debug information</source>
         <translation>Debug információ</translation>
     </message>
@@ -2273,10 +2718,13 @@ Cím: %4
         <source>, has not been successfully broadcast yet</source>
         <translation>, még nem sikerült elküldeni.</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>%n további blokkra megnyitva</numerusform><numerusform>%n további blokkra megnyitva</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>unknown</source>
         <translation>ismeretlen</translation>
@@ -2304,6 +2752,7 @@ Cím: %4
         <translation>Típus</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Cím</translation>
     </message>
@@ -2320,6 +2769,8 @@ Cím: %4
         <translation><numerusform>%n további blokkra megnyitva</numerusform><numerusform>%n további blokkra megnyitva</numerusform></translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Open until %1</source>
         <translation>%1-ig megnyitva</translation>
     </message>
@@ -2340,6 +2791,7 @@ Cím: %4
         <translation>Offline</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unconfirmed</source>
         <translation type="unfinished"/>
     </message>
@@ -2350,6 +2802,10 @@ Cím: %4
     <message>
         <source>Conflicted</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>Címke</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Received with</source>
@@ -2388,10 +2844,13 @@ Cím: %4
         <translation>Tranzakció típusa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Destination address of transaction.</source>
         <translation>A tranzakció címzettjének címe.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount removed from or added to balance.</source>
         <translation>Az egyenleghez jóváírt vagy ráterhelt összeg.</translation>
     </message>
@@ -2479,6 +2938,7 @@ Cím: %4
         <translation>Tranzakciós részletek megjelenítése</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Export Transaction History</source>
         <translation type="unfinished"/>
     </message>
@@ -2499,6 +2959,12 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Exporting Failed</source>
+        <translation>Az exportálás sikertelen volt</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Comma separated file (*.csv)</source>
         <translation>Vesszővel elválasztott fájl (*.csv)</translation>
     </message>
@@ -2523,10 +2989,13 @@ Cím: %4
         <translation>Cím</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Összeg</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>ID</source>
         <translation>Azonosító</translation>
     </message>
@@ -2540,12 +3009,19 @@ Cím: %4
     </message>
 </context>
 <context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
     <name>WalletFrame</name>
+<<<<<<< HEAD
     <message>
         <source>No wallet has been loaded.</source>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>WalletModel</name>
     <message>
@@ -2557,7 +3033,7 @@ Cím: %4
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exportálás...</translation>
+        <translation>&amp;Exportálás</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -2576,6 +3052,7 @@ Cím: %4
         <translation>Biztonsági másolat készítése sikertelen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the wallet data to %1.</source>
         <translation type="unfinished"/>
     </message>
@@ -2584,6 +3061,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Backup Successful</source>
         <translation>Sikeres biztonsági mentés</translation>
     </message>
@@ -2591,6 +3070,7 @@ Cím: %4
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Használat:</translation>
     </message>
@@ -2605,11 +3085,14 @@ Cím: %4
 </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Options:</source>
         <translation>Opciók
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: dogecoin.conf)</source>
         <translation>Konfigurációs fájl (alapértelmezett: dogecoin.conf)
 </translation>
@@ -2620,11 +3103,14 @@ Cím: %4
 </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify data directory</source>
         <translation>Adatkönyvtár
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>Csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 8333 or testnet: 18333)</translation>
     </message>
@@ -2633,6 +3119,8 @@ Cím: %4
         <translation>Maximálisan &lt;n&gt; számú kapcsolat fenntartása a peerekkel (alapértelmezés: 125)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Kapcsolódás egy csomóponthoz a peerek címeinek megszerzése miatt, majd szétkapcsolás</translation>
     </message>
@@ -2641,6 +3129,7 @@ Cím: %4
         <translation>Adja meg az Ön saját nyilvános címét</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Helytelenül viselkedő peerek leválasztási határértéke (alapértelmezés: 100)</translation>
     </message>
@@ -2657,15 +3146,20 @@ Cím: %4
         <translation>JSON-RPC csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 8332 or testnet: 18332)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Parancssoros és JSON-RPC parancsok elfogadása
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Háttérben futtatás daemonként és parancsok elfogadása
 </translation>
@@ -2678,6 +3172,7 @@ Cím: %4
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Kívülről érkező kapcsolatok elfogadása (alapértelmezett: 1, ha nem használt a -proxy vagy a -connect)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>%s, you must set a rpcpassword in the configuration file:
@@ -2730,10 +3225,15 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Parancs, amit akkor hajt végre, amikor egy tárca-tranzakció megváltozik  (%s a parancsban lecserélődik a blokk TxID-re)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
         <translation type="unfinished"/>
     </message>
@@ -2770,10 +3270,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Figyelem: a -paytxfee nagyon magas.  Ennyi tranzakciós díjat fogsz fizetni, ha elküldöd a tranzakciót.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
         <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A Dogecoin nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
     </message>
@@ -2822,10 +3325,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect only to the specified node(s)</source>
         <translation>Csatlakozás csak a megadott csomóponthoz</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect through SOCKS proxy</source>
         <translation type="unfinished"/>
     </message>
@@ -2838,10 +3344,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Corrupted block database detected</source>
         <translation>Sérült blokk-adatbázis észlelve</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Debugging/Testing options:</source>
         <translation type="unfinished"/>
     </message>
@@ -2858,6 +3367,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Do you want to rebuild the block database now?</source>
         <translation>Újra akarod építeni a blokk adatbázist most?</translation>
     </message>
@@ -2880,6 +3391,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Error: Disk space is low!</source>
         <translation>Hiba: kevés a hely a lemezen!</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
@@ -2888,12 +3400,15 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Error: system error: </source>
         <translation>Hiba: rendszerhiba:</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Egyik hálózati porton sem sikerül hallgatni. Használja a -listen=0 kapcsolót, ha ezt szeretné.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Failed to read block info</source>
         <translation>A blokkinformáció olvasása nem sikerült</translation>
     </message>
@@ -2966,18 +3481,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Importálás</translation>
     </message>
     <message>
+=======
+        <source>Importing...</source>
+        <translation>Importálás</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
         <translation>Helytelen vagy nemlétező genézis blokk. Helytelen hálózati adatkönyvtár?</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -onion address: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Not enough file descriptors available.</source>
         <translation>Nincs elég fájlleíró. </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Prepend debug output with timestamp (default: 1)</source>
         <translation type="unfinished"/>
     </message>
@@ -3022,6 +3547,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verifying blocks...</source>
         <translation>Blokkok ellenőrzése...</translation>
     </message>
@@ -3030,6 +3557,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Tárca ellenőrzése...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wait for RPC server to start</source>
         <translation type="unfinished"/>
     </message>
@@ -3046,10 +3574,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Az adatbázist újra kell építeni -reindex használatával (módosítás -tindex).</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Imports blocks from external blk000??.dat file</source>
         <translation type="unfinished"/>
     </message>
@@ -3068,12 +3599,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation type="unfinished"/>
+=======
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Adatkönyvtár kiválasztása induláskor (alapbeállítás: 0)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Information</source>
         <translation>Információ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>Érvénytelen -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos; összeg</translation>
     </message>
@@ -3146,10 +3682,21 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Érvénytelen -minrelaytxfee=&lt;amount&gt;: '%s' összeg</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Érvénytelen -mintxfee=&lt;amount&gt;: '%s' összeg</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>trace/debug információ küldése a konzolra a debog.log fájl helyett</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation type="unfinished"/>
     </message>
@@ -3168,12 +3715,25 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation type="unfinished"/>
+=======
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>SLL gyökér-igazolások megadása fizetési kérelmekhez (alapértelmezett: -system-)</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Nyelvbeállítás, például "de_DE" (alapértelmezett: rendszer nyelve)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Indítóképernyő mutatása induláskor (alapértelmezett: 1)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Signing transaction failed</source>
         <translation>Tranzakció aláírása sikertelen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>Csatlakozás időkerete milliszekundumban (alapértelmezett: 5000)</translation>
     </message>
@@ -3184,6 +3744,15 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>System error: </source>
         <translation>Rendszerhiba:</translation>
+=======
+        <source>Start minimized</source>
+        <translation>Indítás lekicsinyítve
+</translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation>Ez egy kísérleti szoftver.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -3198,10 +3767,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Túl nagy tranzakció</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 0)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 1 when listening)</translation>
     </message>
@@ -3215,6 +3787,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Figyelem</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation type="unfinished"/>
     </message>
@@ -3235,11 +3808,14 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Password for JSON-RPC connections</source>
         <translation>Jelszó JSON-RPC csatlakozásokhoz
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>JSON-RPC csatlakozások engedélyezése meghatározott IP-címről
 </translation>
@@ -3250,6 +3826,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Parancs, amit akkor hajt végre, amikor a legjobb blokk megváltozik (%s a cmd-ban lecserélődik a blokk hash-re)</translation>
     </message>
@@ -3258,11 +3836,14 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>A Tárca frissítése a legfrissebb formátumra</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Kulcskarika mérete &lt;n&gt; (alapértelmezett: 100)
 </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Blokklánc újraszkennelése hiányzó tárca-tranzakciók után
 </translation>
@@ -3273,6 +3854,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Server certificate file (default: server.cert)</source>
         <translation>Szervertanúsítvány-fájl (alapértelmezett: server.cert)
 </translation>
@@ -3283,15 +3865,20 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This help message</source>
         <translation>Ez a súgó-üzenet
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>A %s nem elérhető ezen a gépen (bind returned error %d, %s)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>DNS-kikeresés engedélyezése az addnode-nál és a connect-nél</translation>
     </message>
@@ -3304,6 +3891,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Hiba a wallet.dat betöltése közben: meghibásodott tárca</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
         <translation>Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú Dogecoin-kliens szükséges</translation>
     </message>
@@ -3312,10 +3900,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>A Tárca újraírása szükséges: Indítsa újra a teljesen a Dogecoin-t</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error loading wallet.dat</source>
         <translation>Hiba az wallet.dat betöltése közben</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Érvénytelen -proxy cím: &apos;%s&apos;</translation>
     </message>
@@ -3344,6 +3935,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Étvénytelen összeg</translation>
     </message>
     <message>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Érvénytelen -proxy cím: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Ismeretlen hálózat lett megadva -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Csatlakozási cím (-bind address) feloldása nem sikerült: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Külső cím (-externalip address) feloldása nem sikerült: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Étvénytelen -paytxfee=&lt;összeg&gt; összeg: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Insufficient funds</source>
         <translation>Nincs elég dogecoinod.</translation>
     </message>
@@ -3376,6 +3989,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Betöltés befejezve.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation>Használd a %s opciót</translation>
     </message>
@@ -3391,5 +4005,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 %s
 Ha a fájl nem létezik, hozd létre &apos;csak a felhasználó által olvasható&apos; fájl engedéllyel</translation>
     </message>
+=======
+        <source>Error</source>
+        <translation>Hiba</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

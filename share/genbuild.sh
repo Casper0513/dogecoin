@@ -16,13 +16,21 @@ fi
 DESC=""
 SUFFIX=""
 LAST_COMMIT_DATE=""
+<<<<<<< HEAD
 if [ -e "$(which git 2>/dev/null)" -a -d ".git" ]; then
+=======
+if [ -e "$(which git 2>/dev/null)" -a "$(git rev-parse --is-inside-work-tree 2>/dev/null)" = "true" ]; then
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     # clean 'dirty' status of touched files that haven't been modified
     git diff >/dev/null 2>/dev/null 
 
     # if latest commit is tagged and not dirty, then override using the tag name
     RAWDESC=$(git describe --abbrev=0 2>/dev/null)
+<<<<<<< HEAD
     if [ "$(git rev-parse HEAD)" = "$(git rev-list -1 $RAWDESC)" ]; then
+=======
+    if [ "$(git rev-parse HEAD)" = "$(git rev-list -1 $RAWDESC 2>/dev/null)" ]; then
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         git diff-index --quiet HEAD -- && DESC=$RAWDESC
     fi
 

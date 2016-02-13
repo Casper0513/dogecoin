@@ -1,8 +1,13 @@
 // Copyright (c) 2012-2013 The Bitcoin Core developers
+<<<<<<< HEAD
 // Distributed under the MIT/X11 software license, see the accompanying
+=======
+// Distributed under the MIT software license, see the accompanying
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "netbase.h"
+#include "test/test_bitcoin.h"
 
 #include <string>
 
@@ -10,7 +15,7 @@
 
 using namespace std;
 
-BOOST_AUTO_TEST_SUITE(netbase_tests)
+BOOST_FIXTURE_TEST_SUITE(netbase_tests, BasicTestingSetup)
 
 BOOST_AUTO_TEST_CASE(netbase_networks)
 {
@@ -116,6 +121,14 @@ BOOST_AUTO_TEST_CASE(subnet_test)
     BOOST_CHECK(CSubNet("1:2:3:4:5:6:7:8").Match(CNetAddr("1:2:3:4:5:6:7:8")));
     BOOST_CHECK(!CSubNet("1:2:3:4:5:6:7:8").Match(CNetAddr("1:2:3:4:5:6:7:9")));
     BOOST_CHECK(CSubNet("1:2:3:4:5:6:7:0/112").Match(CNetAddr("1:2:3:4:5:6:7:1234")));
+<<<<<<< HEAD
+=======
+    BOOST_CHECK(CSubNet("192.168.0.1/24").Match(CNetAddr("192.168.0.2")));
+    BOOST_CHECK(CSubNet("192.168.0.20/29").Match(CNetAddr("192.168.0.18")));
+    BOOST_CHECK(CSubNet("1.2.2.1/24").Match(CNetAddr("1.2.2.4")));
+    BOOST_CHECK(CSubNet("1.2.2.110/31").Match(CNetAddr("1.2.2.111")));
+    BOOST_CHECK(CSubNet("1.2.2.20/26").Match(CNetAddr("1.2.2.63")));
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     // All-Matching IPv6 Matches arbitrary IPv4 and IPv6
     BOOST_CHECK(CSubNet("::/0").Match(CNetAddr("1:2:3:4:5:6:7:1234")));
     BOOST_CHECK(CSubNet("::/0").Match(CNetAddr("1.2.3.4")));

@@ -6,7 +6,11 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION @CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@
+<<<<<<< HEAD
 !define COMPANY "Dogecoin project"
+=======
+!define COMPANY "Dogecoin Core project"
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 !define URL http://www.dogecoin.com/
 
 # MUI Symbol Definitions
@@ -84,7 +88,11 @@ Section -Main SEC0000
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
+<<<<<<< HEAD
     # Remove old wxwidgets-based-dogecoin executable and locales:
+=======
+    # Remove old wxwidgets-based-bitcoin executable and locales:
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     Delete /REBOOTOK $INSTDIR\dogecoin.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd

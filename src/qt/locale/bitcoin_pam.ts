@@ -1,4 +1,5 @@
 <TS language="pam" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -39,6 +40,13 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
     <message>
         <source>Double-click to edit address or label</source>
         <translation>Pindutan meng makatidduang besis ban ayalilan me ing address o label</translation>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+        <source>Right-click to edit address or label</source>
+        <translation>I-right click ban alilan ing address o libel</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Create a new address</source>
@@ -46,7 +54,7 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Bayu</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
@@ -54,11 +62,11 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kopyan</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation type="unfinished"/>
+        <translation>I&amp;sara</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -69,6 +77,7 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>Ilako ya ing kasalungsungan makapiling address keng listahan</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Export the data in the current tab to a file</source>
         <translation type="unfinished"/>
     </message>
@@ -77,28 +86,39 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Delete</source>
         <translation>&amp;Ilako</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished"/>
+        <translation>Pilinan ing address a magpadalang coins kang</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished"/>
+        <translation>Pilinan ing address a tumanggap coins a atin</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation type="unfinished"/>
+        <translation>P&amp;ilinan</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very sending addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Much receiving addresses</source>
         <translation type="unfinished"/>
+=======
+        <source>Such sending addresses</source>
+        <translation>Address king pamag-Send</translation>
+    </message>
+    <message>
+        <source>Much receiving addresses</source>
+        <translation>Address king pamag-Tanggap</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
@@ -106,7 +126,11 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
     </message>
     <message>
         <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Reni reng kekang Dogecoin addresses keng pamananggap bayad. Rerekomenda mi na gumamit kang bayung address keng balang transaksiyon.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -117,6 +141,7 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>&amp;Alilan</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Export Address List</source>
         <translation type="unfinished"/>
     </message>
@@ -133,6 +158,12 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma separated file (*.csv)</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -167,10 +198,13 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>Pasibayuan ya ing bayung passphrase</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Palub ye ing bayung passphrase king wallet.&lt;br/&gt;Maliari pu sanang gumamit kayung passphrase a maki&lt;/b&gt; 10 or dakal pang miyayaliuang characters&lt;/b&gt;, o ualu o dakal pang salita&lt;/b&gt;</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>I-encrypt ye ing wallet</translation>
     </message>
@@ -195,10 +229,13 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>Alilan ya ing passphrase</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Palub ye ing luma ampo ing bayung passphrase king wallet.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Kumpirman ya ing wallet encryption</translation>
     </message>
@@ -223,10 +260,13 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>Me-encrypt ne ing wallet</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>Ing Dogecoin ngeni magsara ya ban ayari ing proseso ning pamag-encrypt. Tandanan yu king pamag-encrypt wallet, ali nala aprotektan king kabuuan reng dogecoins yu kareng malware a kasalunsungan atiu kareng computer yu.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>Memali ya ing pamag-encrypt king wallet </translation>
     </message>
@@ -270,10 +310,13 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>&amp;Overview</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Show general overview of wallet</source>
         <translation>Ipakit ing kabuuang lawe ning wallet</translation>
     </message>
@@ -294,10 +337,13 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>Tuknangan ing aplikasyon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Ipakit ing impormasyun tungkul king Dogecoin</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>Tungkul &amp;Qt</translation>
     </message>
@@ -322,6 +368,7 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>&amp;Alilan ing Passphrase...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
         <translation type="unfinished"/>
     </message>
@@ -348,6 +395,10 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
     <message>
         <source>Modify configuration options for Dogecoin Core</source>
         <translation>Alilan ing pipamilian konpigurasion para keng Dogecoin</translation>
+=======
+        <source>Send coins to a Dogecoin address</source>
+        <translation>Magpadalang barya king Dogecoin address</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -378,6 +429,7 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>Wallet</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Send</source>
         <translation type="unfinished"/>
     </message>
@@ -386,6 +438,8 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Show / Hide</source>
         <translation>&amp;Ipalto / Isalikut</translation>
     </message>
@@ -394,6 +448,7 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>Ipalto o isalikut ing pun a awang</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation type="unfinished"/>
     </message>
@@ -406,6 +461,8 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;File</source>
         <translation>&amp;File</translation>
     </message>
@@ -422,6 +479,7 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>Gamit para king Tabs</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -502,6 +560,12 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Kapilubluban ning Dogecoin</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Last received block was generated %1 ago.</source>
         <translation>Ing tatauling block a metanggap,  me-generate ya %1 ing milabas</translation>
     </message>
@@ -519,7 +583,7 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
     </message>
     <message>
         <source>Information</source>
-        <translation>Impormasion</translation>
+        <translation>&amp;Impormasion</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -538,6 +602,7 @@ Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project p
         <translation>Paparatang a transaksion</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -550,6 +615,8 @@ Address: %4
 </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Maka-&lt;b&gt;encrypt&lt;/b&gt; ya ing wallet at kasalukuyan yang maka-&lt;b&gt;unlocked&lt;/b&gt;</translation>
     </message>
@@ -557,10 +624,13 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Maka-&lt;b&gt;encrypt&lt;/b&gt; ya ing wallet at kasalukuyan yang maka-&lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation>Atin kamalian a milyari. Ali ne magsilbing sumulung pa ing Dogecoin at kailangan na ng tuknang.</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>ClientModel</name>
@@ -572,6 +642,7 @@ Address: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation type="unfinished"/>
     </message>
@@ -602,8 +673,40 @@ Address: %4
     <message>
         <source>After Fee:</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Alaga</translation>
     </message>
     <message>
+        <source>Date</source>
+        <translation>Kaaldauan</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Me-kumpirma</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Kopyan ing address</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopyan ing label</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopyan ing alaga</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(alang label)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Change:</source>
         <translation type="unfinished"/>
     </message>
@@ -650,8 +753,59 @@ Address: %4
     <message>
         <source>Copy address</source>
         <translation>Kopyan ing address</translation>
+=======
+        <source>Edit Address</source>
+        <translation>Alilan ing Address</translation>
     </message>
     <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Label</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Address</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Bayung address king pamagtanggap</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Bayung address king pamagpadala</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Alilan ya ing address king pamagpadala</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Alilan ya ing address king pamagpadala</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Ing pepalub yung address "%1" ati na yu king aklat dareng address</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <translation>Ing pepalub yung address "%1" ali ya katanggap-tanggap a Dogecoin address.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Ali ya bisang mag-unlock ing wallet</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Memali ya ing pamangaua king key</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy label</source>
         <translation>Kopyan ing label</translation>
     </message>
@@ -670,8 +824,32 @@ Address: %4
     <message>
         <source>Unlock unspent</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Kapilubluban ning Dogecoin</translation>
     </message>
     <message>
+        <source>version</source>
+        <translation>bersion</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Pipamilian command-line</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Pamanggamit:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>pipamilian command-line</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy quantity</source>
         <translation type="unfinished"/>
     </message>
@@ -682,8 +860,27 @@ Address: %4
     <message>
         <source>Copy after fee</source>
         <translation type="unfinished"/>
+=======
+        <source>Welcome</source>
+        <translation>Malaus ka</translation>
     </message>
     <message>
+        <source>Dogecoin Core</source>
+        <translation>Kapilubluban ning Dogecoin</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Mali</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy bytes</source>
         <translation type="unfinished"/>
     </message>
@@ -762,8 +959,92 @@ Address: %4
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation type="unfinished"/>
+=======
+        <source>Options</source>
+        <translation>Pipamilian</translation>
     </message>
     <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Pun</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;Network</translation>
+    </message>
+    <message>
+        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ibuklat yang antimanu ing Dogecoin client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
+    </message>
+    <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Mapa ng ning port gamit ing &amp;UPnP</translation>
+    </message>
+    <message>
+        <source>Proxy &amp;IP:</source>
+        <translation>Proxy &amp;IP:</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;Port:</translation>
+    </message>
+    <message>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>Port na ning proxy(e.g. 9050)</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Awang</translation>
+    </message>
+    <message>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>Ipakit mu ing tray icon kaibat meng pelatian ing awang.</translation>
+    </message>
+    <message>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>&amp;Latian ya ing tray kesa king taskbar</translation>
+    </message>
+    <message>
+        <source>M&amp;inimize on close</source>
+        <translation>P&amp;alatian istung isara</translation>
+    </message>
+    <message>
+        <source>&amp;Display</source>
+        <translation>&amp;Ipalto</translation>
+    </message>
+    <message>
+        <source>User Interface &amp;language:</source>
+        <translation>Amanu na ning user interface:</translation>
+    </message>
+    <message>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>Ing &amp;Unit a ipakit king alaga ning:</translation>
+    </message>
+    <message>
+        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <translation>Pilinan ing default subdivision unit a ipalto o ipakit king interface at istung magpadala kang barya.</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;OK</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>I-&amp;Cancel</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>default</translation>
+    </message>
+    <message>
+        <source>The supplied proxy address is invalid.</source>
+        <translation>Ing milageng proxy address eya katanggap-tanggap.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+<<<<<<< HEAD
         <source>Can vary +/- 1 byte per input.</source>
         <translation type="unfinished"/>
     </message>
@@ -794,19 +1075,73 @@ Address: %4
     <message>
         <source>(no label)</source>
         <translation>(alang label)</translation>
+=======
+        <source>Form</source>
+        <translation>Form</translation>
     </message>
     <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Dogecoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
+    </message>
+    <message>
+        <source>Your current spendable balance</source>
+        <translation>Ing kekang kasalungsungan balanse a malyari mung gastusan</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>Ing kabuuan dareng transaksion a kasalungsungan ali pa me-kumpirma, at kasalungsungan ali pa mebilang kareng kekang balanseng malyari mung gastusan</translation>
+    </message>
+    <message>
+        <source>Immature:</source>
+        <translation>Immature:</translation>
+    </message>
+    <message>
+        <source>Mined balance that has not yet matured</source>
+        <translation>Reng me-minang balanse a epa meg-matured</translation>
+    </message>
+    <message>
+        <source>Total:</source>
+        <translation>Kabuuan:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>Ing kekang kasalungsungan kabuuang balanse</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+<<<<<<< HEAD
         <source>change from %1 (%2)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>(change)</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Alaga</translation>
     </message>
-</context>
-<context>
-    <name>EditAddressDialog</name>
     <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+<<<<<<< HEAD
         <source>Edit Address</source>
         <translation>Alilan ing Address</translation>
     </message>
@@ -857,11 +1192,61 @@ Address: %4
     <message>
         <source>New key generation failed.</source>
         <translation>Memali ya ing pamangaua king key</translation>
+=======
+        <source>Client name</source>
+        <translation>Lagyu ning kliente</translation>
     </message>
-</context>
-<context>
-    <name>FreespaceChecker</name>
     <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <source>Client version</source>
+        <translation>Bersion ning Cliente</translation>
+    </message>
+    <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Impormasion</translation>
+    </message>
+    <message>
+        <source>Using OpenSSL version</source>
+        <translation>Gagamit bersion na ning OpenSSL</translation>
+    </message>
+    <message>
+        <source>Startup time</source>
+        <translation>Oras ning umpisa</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <translation>Network</translation>
+    </message>
+    <message>
+        <source>Number of connections</source>
+        <translation>Bilang dareng koneksion</translation>
+    </message>
+    <message>
+        <source>Block chain</source>
+        <translation>Block chain</translation>
+    </message>
+    <message>
+        <source>Current number of blocks</source>
+        <translation>Kasalungsungan bilang dareng blocks</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Tatauling oras na ning block</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Ibuklat</translation>
+    </message>
+    <message>
+        <source>&amp;Console</source>
+        <translation>&amp;Console</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>A new data directory will be created.</source>
         <translation type="unfinished"/>
     </message>
@@ -880,15 +1265,41 @@ Address: %4
     <message>
         <source>Cannot create data directory here.</source>
         <translation type="unfinished"/>
+=======
+        <source>Totals</source>
+        <translation>Kabuuan:</translation>
     </message>
-</context>
-<context>
-    <name>HelpMessageDialog</name>
     <message>
+        <source>Build date</source>
+        <translation>Kaaldauan ning pamaglalang</translation>
+    </message>
+    <message>
+        <source>Debug log file</source>
+        <translation>Debug log file</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>I-Clear ing console</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Gamitan me ing patas at pababang arrow para alibut me ing kasalesayan, at &lt;b&gt;Ctrl-L&lt;/b&gt; ban I-clear ya ing screen.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Dogecoin Core - Command-line options</source>
         <translation type="unfinished"/>
+=======
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>I-type ing &lt;b&gt;help&lt;/b&gt; ban akit la reng ati at magsilbing commands.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core</source>
         <translation>Kapilubluban ning Dogecoin</translation>
     </message>
@@ -899,8 +1310,24 @@ Address: %4
     <message>
         <source>Usage:</source>
         <translation>Pamanggamit:</translation>
+=======
+        <source>&amp;Label:</source>
+        <translation>&amp;Label:</translation>
     </message>
     <message>
+        <source>Copy label</source>
+        <translation>Kopyan ing label</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopyan ing alaga</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>command-line options</source>
         <translation>pipamilian command-line</translation>
     </message>
@@ -915,8 +1342,28 @@ Address: %4
     <message>
         <source>Start minimized</source>
         <translation>Umpisan ing pamaglati</translation>
+=======
+        <source>Address</source>
+        <translation>Address</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Alaga</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensayi</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation type="unfinished"/>
     </message>
@@ -927,11 +1374,17 @@ Address: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Kaaldauan</translation>
     </message>
-</context>
-<context>
-    <name>Intro</name>
     <message>
+        <source>Label</source>
+        <translation>Label</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Welcome</source>
         <translation>Malaus ka</translation>
     </message>
@@ -942,8 +1395,24 @@ Address: %4
     <message>
         <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
         <translation type="unfinished"/>
+=======
+        <source>Message</source>
+        <translation>Mensayi</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Alaga</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(alang label)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
@@ -974,11 +1443,41 @@ Address: %4
     <message>
         <source>(of %1GB needed)</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>Magpadalang Barya</translation>
     </message>
-</context>
-<context>
-    <name>OpenURIDialog</name>
     <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Misanang magpadala kareng alialiuang tumanggap</translation>
+    </message>
+    <message>
+        <source>Add &amp;Recipient</source>
+        <translation>Maglage &amp;Tumanggap</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>I-Clear &amp;Eganagana</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Balanse:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Kumpirman ing aksion king pamagpadala</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>Ipadala</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Kumpirman ing pamagpadalang barya</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Open URI</source>
         <translation type="unfinished"/>
     </message>
@@ -997,9 +1496,30 @@ Address: %4
     <message>
         <source>Select payment request file to open</source>
         <translation type="unfinished"/>
+=======
+        <source>Copy amount</source>
+        <translation>Kopyan ing alaga</translation>
     </message>
-</context>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Ing alaga na ning bayaran dapat mung mas matas ya king 0.</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>Ing alaga mipasobra ya king kekang balanse.</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>Ing kabuuan mipasobra ya king kekang balanse istung inabe ya ing %1 a bayad king transaksion </translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(alang label)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
@@ -1164,8 +1684,164 @@ Address: %4
     <message>
         <source>&amp;Display addresses in transaction list</source>
         <translation>&amp;Ipakit ing address king listahan naning transaksion</translation>
+=======
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>A&amp;laga:</translation>
     </message>
     <message>
+        <source>Pay &amp;To:</source>
+        <translation>Ibayad &amp;kang:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Magpalub kang label para king address a ini ban a-iabe me king aklat dareng address</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Label:</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Idikit ing address menibat king clipboard</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Pirma - Pirman / I-beripika ing mensayi</translation>
+    </message>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;Pirman ing Mensayi</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Idikit ing address menibat king clipboard</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>Ipalub ing mensayi a buri mung pirman keni</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Pirma</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Kopyan ing kasalungsungan pirma king system clipboard</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Dogecoin address</source>
+        <translation>Pirman ing mensayi ban patune na keka ya ining Dogecoin address</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>Pirman ing &amp;Mensayi</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Ibalik keng dati reng ngan fields keng pamamirmang mensayi</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>I-Clear &amp;Eganagana</translation>
+    </message>
+    <message>
+        <source>&amp;Verify Message</source>
+        <translation>&amp;Beripikan ing Mensayi</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
+        <translation>Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Dogecoin address</translation>
+    </message>
+    <message>
+        <source>Verify &amp;Message</source>
+        <translation>Beripikan ing &amp;Mensayi</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Ibalik king dati reng ngan fields na ning pamag beripikang mensayi</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>I-click ing "Pirman ing Mensayi" ban agawa ya ing metung a pirma</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Ing milub a address e ya katanggap-tanggap.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Maliaring pakilawe pasibayu ing address at pasibayuan ya iti.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Ing milub a address ali ya mag-refer king metung a key.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Me-kansela ya ing pamag-unlock king wallet.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Ing private key para king milub a address, ala ya.</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Me-mali ya ing pamag-pirma king mensayi .</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Me-pirman ne ing mensayi.</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>Ing pirma ali ya bisang ma-decode.</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>Maliaring pakilawe pasibayu ing pirma kaibat pasibayuan ya iti.</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>Ing pirma ali ya makatugma king message digest.</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>Me-mali ya ing pamag-beripika king mensayi.</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Me-beripika ne ing mensayi.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
         <source>Whether to show coin control features or not.</source>
         <translation type="unfinished"/>
     </message>
@@ -2828,8 +3504,134 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Corrupted block database detected</source>
         <translation>Mekapansin lang me-corrupt a block database</translation>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Kapilubluban ning Dogecoin</translation>
     </message>
     <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Makabuklat anggang %1</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/offline</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/ali me-kumpirma</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 kumpirmasion</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Kabilian</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Kaaldauan</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Pikuanan</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Megawa</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Menibat</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Para kang</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>sariling address</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>label</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Credit</translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>ali metanggap</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Debit</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Bayad king Transaksion</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Alaga dareng eganagana</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensayi</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Komentu</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Impormasion ning Debug</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Transaksion</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Alaga</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>tutu</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>e tutu</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, eya matagumpeng mibalita</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>e miya balu</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Debugging/Testing options:</source>
         <translation type="unfinished"/>
     </message>
@@ -2844,8 +3646,20 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
         <translation type="unfinished"/>
+=======
+        <source>Transaction details</source>
+        <translation>Detalye ning Transaksion</translation>
     </message>
     <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Ining pane a ini magpakit yang detalyadung description ning transaksion</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Do you want to rebuild the block database now?</source>
         <translation>Buri meng buuan pasibayu ing block database ngene?</translation>
     </message>
@@ -2912,8 +3726,80 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Failed to write to coin database</source>
         <translation>Me-mali king pamanyulat king coin database</translation>
+=======
+        <source>Date</source>
+        <translation>Kaaldauan</translation>
     </message>
     <message>
+        <source>Type</source>
+        <translation>Klase</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Makabuklat anggang %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Me-kumpirma(%1 kumpirmasion)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Ing block a ini ali de atanggap deng aliwa pang nodes ania ali ya magsilbing tanggapan</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Me-generate ya oneng ali ya metanggap</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Atanggap kayabe ning</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Atanggap menibat kang</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Mipadala kang</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Kabayaran keka</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Me-mina</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Status ning Transaksion: Itapat me babo na ning field a ini ban ipakit dala reng bilang dareng me-kumpirma na</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Aldo at oras nung kapilan me tanggap ya ing transaksion</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Klase ning transaksion</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Alagang milako o miragdag king balanse.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
         <source>Failed to write transaction index</source>
         <translation>Me-mali king pamanyulat king index ning transaksion</translation>
     </message>
@@ -3032,12 +3918,145 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
         <translation type="unfinished"/>
+=======
+        <source>All</source>
+        <translation>Eganagana</translation>
     </message>
     <message>
+        <source>Today</source>
+        <translation>Aldo iti</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Paruminggung iti</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Bulan a iti</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Milabas a bulan</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Banuang iti</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Angganan...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Atanggap kayabe ning</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Mipadala kang</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Keng sarili mu</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Me-mina</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Aliwa</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Magpalub kang address o label para pantunan</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Pekaditak a alaga</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Kopyan ing address</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopyan ing label</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopyan ing alaga</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Alilan ing label</translation>
+    </message>
+    <message>
+        <source>Show transaction details</source>
+        <translation>Ipakit ing detalye ning transaksion</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma separated file (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Me-kumpirma</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Kaaldauan</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Klase</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Address</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>Angga:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>para kang</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+<<<<<<< HEAD
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>Magpadalang Barya</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+</context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Imports blocks from external blk000??.dat file</source>
         <translation type="unfinished"/>
     </message>
@@ -3180,12 +4199,101 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Transaction amounts must be positive</source>
         <translation type="unfinished"/>
+=======
+        <source>Options:</source>
+        <translation>Pipamilian:</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Pilinan ing data directory</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Kumunekta king note ban ayakua mula reng peer address, at mako king panga konekta</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Sabyan me ing kekang pampublikong address</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Tumanggap command line at JSON-RPC commands</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Gumana king gulut bilang daemon at tumanggap commands</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Gamitan ing test network</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Tumanggap koneksion menibat king kilwal (default: 1 if no -proxy or -connect)</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Kapabaluan: Sobra ya katas ing makalage king -paytxfee. Ini ing maging bayad mu para king bayad na ning transaksion istung pepadala me ing transaksion a ini.</translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Pipamilian king pamag-gawang block:</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Kumunekta mu king mepiling node(s)</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation>Mekapansin lang me-corrupt a block database</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Buri meng buuan pasibayu ing block database ngene?</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation>Kamalian king pamag-initialize king block na ning database</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation>Kamalian king pamag buklat king block database</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Kamalian: Mababa ne ing espasyu king disk!</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Memali ya ing pamakiramdam kareng gang nanung port. Gamita me ini -listen=0 nung buri me ini.</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>&amp;Impormasion</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Magpadalang trace/debug info okeng console kesa keng debug.log file</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Mamiling Amanu, alimbawa "de_DE"(default: system locale)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Ipalto ing splash screen keng umpisa (default: 1)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Umpisan ing pamaglati</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transaction too large</source>
         <translation>Maragul yang masiadu ing transaksion</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation type="unfinished"/>
     </message>
@@ -3194,6 +4302,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Username for JSON-RPC connections</source>
         <translation>Username para king JSON-RPC koneksion</translation>
     </message>
@@ -3202,6 +4312,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Kapabaluan</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Kapabaluan: Ing bersioin a ini laus ne, kailangan nang mag-upgrade!</translation>
     </message>
@@ -3222,10 +4333,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Password for JSON-RPC connections</source>
         <translation>Password para king JSON-RPC koneksion</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Payagan ya i JSON-RPC koneksion para king metung a IP address</translation>
     </message>
@@ -3234,6 +4348,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Magpadalang command king node a gagana king &lt;ip&gt;(default: 127.0.0.1)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>I-execute ing command istung mialilan ya ing best block (%s in cmd is replaced by block hash)</translation>
     </message>
@@ -3242,10 +4358,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>I-upgrade ing wallet king pekabayung porma</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>I-set ing key pool size king &lt;n&gt;(default: 100)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>I-scan pasibayu ing block chain para kareng mauaualang transaksion</translation>
     </message>
@@ -3254,6 +4373,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Gumamit OpenSSL(https) para king JSON-RPC koneksion</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Server certificate file (default: server.cert)</source>
         <translation>Server certificate file (default: server.cert)</translation>
     </message>
@@ -3262,14 +4382,19 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Server private key (default: server.pem)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This help message</source>
         <translation>Ining saup a mensayi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Ali ya magsilbing mag-bind keng %s kening kompyuter a ini (bind returned error %d, %s)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Payagan ing pamaglawe DNS para king -addnode, -seednode and -connect</translation>
     </message>
@@ -3282,6 +4407,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Me-mali ya ing pamag-load king wallet.dat: Me-corrupt ya ing wallet</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
         <translation>Me-mali ya ing pamag-load na ning wallet.dat: Ing wallet mangailangan yang bayung bersion na ning Dogecoin</translation>
     </message>
@@ -3290,10 +4416,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Ing wallet mangailangan yang misulat pasibayu: Umpisan yang pasibayu ing Dogecoin ban ma-kumpleto ya</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error loading wallet.dat</source>
         <translation>Me-mali ya ing pamag-load king wallet.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Ali katanggap-tanggap a -proxy addresss: &apos;%s&apos;</translation>
     </message>
@@ -3322,6 +4451,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Ing alaga e ya katanggap-tanggap</translation>
     </message>
     <message>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Ali katanggap-tanggap a -proxy addresss: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>E kilalang network ing mepili king -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Eya me-resolve ing -bind address: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Eya me-resolve ing -externalip address: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Eya maliari ing alaga keng -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Insufficient funds</source>
         <translation>Kulang a pondo</translation>
     </message>
@@ -3354,6 +4505,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Yari ne ing pamag-load</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation>Para agamit ing %s a pimamilian</translation>
     </message>
@@ -3369,5 +4521,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 %s
 Nung ing file ala ya, gawa ka gamit ing owner-readable-only file permissions.</translation>
     </message>
+=======
+        <source>Error</source>
+        <translation>Mali</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

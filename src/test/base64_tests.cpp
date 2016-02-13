@@ -1,12 +1,20 @@
 // Copyright (c) 2011-2013 The Bitcoin Core developers
+<<<<<<< HEAD
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "util.h"
+=======
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#include "utilstrencodings.h"
+#include "test/test_bitcoin.h"
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 #include <boost/test/unit_test.hpp>
 
-BOOST_AUTO_TEST_SUITE(base64_tests)
+BOOST_FIXTURE_TEST_SUITE(base64_tests, BasicTestingSetup)
 
 BOOST_AUTO_TEST_CASE(base64_testvectors)
 {

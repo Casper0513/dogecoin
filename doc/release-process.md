@@ -23,8 +23,15 @@ Release Process
 
 * * *
 
-##perform gitian builds
+###update gitian
 
+ In order to take advantage of the new caching features in gitian, be sure to update to a recent version (`e9741525c` or later is recommended)
+
+<<<<<<< HEAD
+=======
+###perform gitian builds
+
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
  From a directory containing the dogecoin source, gitian-builder and gitian.sigs
   
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
@@ -34,6 +41,7 @@ Release Process
 	popd
 	pushd ./gitian-builder
 
+<<<<<<< HEAD
  Fetch and build inputs: (first time, or when dependency versions change)
 
 	mkdir -p inputs; cd inputs/
@@ -97,17 +105,35 @@ Release Process
 	mv dogecoin-${VERSION}-win-gitian.zip ../../../
 	popd
 	popd
+=======
+###fetch and build inputs: (first time, or when dependency versions change)
+ 
+	mkdir -p inputs
+	wget -P inputs https://bitcoincore.org/cfields/osslsigncode-Backports-to-1.7.1.patch
+	wget -P inputs http://downloads.sourceforge.net/project/osslsigncode/osslsigncode/osslsigncode-1.7.1.tar.gz
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
-  Build output expected:
+ Register and download the Apple SDK: (see OSX Readme for details)
+ 
+ https://developer.apple.com/devcenter/download.action?path=/Developer_Tools/xcode_6.1.1/xcode_6.1.1.dmg
+ 
+ Using a Mac, create a tarball for the 10.9 SDK and copy it to the inputs directory:
+ 
+	tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX10.9.sdk.tar.gz MacOSX10.9.sdk
 
+<<<<<<< HEAD
   1. linux 32-bit and 64-bit binaries + source (dogecoin-${VERSION}-linux-gitian.zip)
   2. windows 32-bit and 64-bit binaries + installer + source (dogecoin-${VERSION}-win-gitian.zip)
   3. Gitian signatures (in gitian.sigs/${VERSION}[-win]/(your gitian key)/
+=======
+###Optional: Seed the Gitian sources cache
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
-repackage gitian builds for release as stand-alone zip/tar/installer exe
+  By default, gitian will fetch source files as needed. For offline builds, they can be fetched ahead of time:
 
-**Linux .tar.gz:**
+	make -C ../dogecoin/depends download SOURCES_PATH=`pwd`/cache/common
 
+<<<<<<< HEAD
 	unzip dogecoin-${VERSION}-linux-gitian.zip -d dogecoin-${VERSION}-linux
 	tar czvf dogecoin-${VERSION}-linux.tar.gz dogecoin-${VERSION}-linux
 	rm -rf dogecoin-${VERSION}-linux
@@ -133,31 +159,83 @@ repackage gitian builds for release as stand-alone zip/tar/installer exe
 	python2.7 contrib/macdeploy/macdeployqtplus Dogecoin-Qt.app -sign -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
 
  Build output expected: Dogecoin-Qt.dmg
+=======
+  Only missing files will be fetched, so this is safe to re-run for each build.
+
+###Build Dogecoin Core for Linux, Windows, and OS X:
+  
+	./bin/gbuild --commit dogecoin=v${VERSION} ../dogecoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../dogecoin/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/dogecoin-*.tar.gz build/out/src/dogecoin-*.tar.gz ../
+	./bin/gbuild --commit dogecoin=v${VERSION} ../dogecoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../dogecoin/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/dogecoin-*-win-unsigned.tar.gz inputs/dogecoin-win-unsigned.tar.gz
+	mv build/out/dogecoin-*.zip build/out/dogecoin-*.exe ../
+	./bin/gbuild --commit dogecoin=v${VERSION} ../dogecoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../dogecoin/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/dogecoin-*-osx-unsigned.tar.gz inputs/dogecoin-osx-unsigned.tar.gz
+	mv build/out/dogecoin-*.tar.gz build/out/dogecoin-*.dmg ../
+	popd
+  Build output expected:
+
+  1. source tarball (dogecoin-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit dist tarballs (dogecoin-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (dogecoin-${VERSION}-win[32|64]-setup-unsigned.exe, dogecoin-${VERSION}-win[32|64].zip)
+  4. OSX unsigned installer and dist tarball (dogecoin-${VERSION}-osx-unsigned.dmg, dogecoin-${VERSION}-osx64.tar.gz)
+  5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your gitian key)/
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 ###Next steps:
-
-* Code-sign Windows -setup.exe (in a Windows virtual machine using signtool)
- Note: only Gavin has the code-signing keys currently.
-
-* upload builds to SourceForge
-
-* create SHA256SUMS for builds, and PGP-sign it
-
-* update dogecoin.com version
-  make sure all OS download links go to the right versions
-  
-* update forum version
-
-* update wiki download links
-
-* update wiki changelog: [https://en.bitcoin.it/wiki/Changelog](https://en.bitcoin.it/wiki/Changelog)
 
 Commit your signature to gitian.sigs:
 
 	pushd gitian.sigs
 	git add ${VERSION}-linux/${SIGNER}
+	git add ${VERSION}-win-unsigned/${SIGNER}
+	git add ${VERSION}-osx-unsigned/${SIGNER}
+	git commit -a
+	git push  # Assuming you can push to the gitian.sigs tree
+	popd
+
+  Wait for Windows/OSX detached signatures:
+	Once the Windows/OSX builds each have 3 matching signatures, they will be signed with their respective release keys.
+	Detached signatures will then be committed to the dogecoin-detached-sigs repository, which can be combined with the unsigned apps to create signed binaries.
+
+<<<<<<< HEAD
+* update dogecoin.com version
+  make sure all OS download links go to the right versions
+  
+* update forum version
+=======
+  Create the signed OSX binary:
+
+	pushd ./gitian-builder
+	./bin/gbuild -i --commit signature=v${VERSION} ../dogecoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../dogecoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/dogecoin-osx-signed.dmg ../dogecoin-${VERSION}-osx.dmg
+	popd
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+
+  Create the signed Windows binaries:
+
+	pushd ./gitian-builder
+	./bin/gbuild -i --commit signature=v${VERSION} ../dogecoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../dogecoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	mv build/out/dogecoin-*win64-setup.exe ../dogecoin-${VERSION}-win64-setup.exe
+	mv build/out/dogecoin-*win32-setup.exe ../dogecoin-${VERSION}-win32-setup.exe
+	popd
+
+Commit your signature for the signed OSX/Windows binaries:
+
+	pushd gitian.sigs
+<<<<<<< HEAD
+	git add ${VERSION}-linux/${SIGNER}
 	git add ${VERSION}-win/${SIGNER}
 	git add ${VERSION}-osx/${SIGNER}
+=======
+	git add ${VERSION}-osx-signed/${SIGNER}
+	git add ${VERSION}-win-signed/${SIGNER}
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 	git commit -a
 	git push  # Assuming you can push to the gitian.sigs tree
 	popd
@@ -166,6 +244,7 @@ Commit your signature to gitian.sigs:
 
 ### After 3 or more people have gitian-built and their results match:
 
+<<<<<<< HEAD
 From a directory containing dogecoin source, gitian.sigs and gitian zips
 
 	export VERSION=(new version, e.g. 0.8.0)
@@ -218,5 +297,31 @@ Hash: SHA256
   - Announce on reddit /r/dogecoin, /r/dogecoindev
 
   - Release sticky on discuss dogecoin: https://discuss.dogecoin.com/categories/announcements
+=======
+- Create `SHA256SUMS.asc` for the builds, and GPG-sign it:
+```bash
+sha256sum * > SHA256SUMS
+gpg --digest-algo sha256 --clearsign SHA256SUMS # outputs SHA256SUMS.asc
+rm SHA256SUMS
+```
+(the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
+Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
-- Celebrate 
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the dogecoin.com Github repo
+
+- Update dogecoin.com version - Langerhans to do
+
+- Announce the release:
+
+  - Release sticky on Dogecoin Forums: http://forum.dogecoin.com/forum/news-community/community-announcements
+
+  - Dogecoin-development mailing list
+
+  - Update title of #dogecoin on Freenode IRC
+
+  - Announce on reddit /r/dogecoin, /r/dogecoindev
+
+- Add release notes for the new version to the directory `doc/release-notes` in git master
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+
+- To the moon!

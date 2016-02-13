@@ -1,4 +1,5 @@
 <TS language="et" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -43,12 +44,17 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Topeltklõps aadressi või märgise muutmiseks</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Loo uus aadress</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Uus</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
@@ -56,15 +62,15 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kopeeri</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation type="unfinished"/>
+        <translation>S&amp;ulge</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Aadressi kopeerimine</translation>
+        <translation>&amp;Kopeeri Aadress</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -76,13 +82,14 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ekspordi</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
         <translation>&amp;Kustuta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose the address to send coins to</source>
         <translation type="unfinished"/>
     </message>
@@ -109,6 +116,14 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
+=======
+        <source>C&amp;hoose</source>
+        <translation>V&amp;ali</translation>
+    </message>
+    <message>
+        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Dogecoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -119,22 +134,29 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>&amp;Muuda</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Export Address List</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Comma separated file (*.csv)</source>
         <translation>Komaeraldatud fail (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Eksportimine Ebaõnnestus</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -169,10 +191,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Korda salafraasi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Sisesta rahakotile uus salafraas.&lt;br/&gt;Palun kasuta salafraasina &lt;b&gt;vähemalt 10 tähte/numbrit/sümbolit&lt;/b&gt;, või &lt;b&gt;vähemalt 8 sõna&lt;/b&gt;.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>Krüpteeri rahakott</translation>
     </message>
@@ -197,16 +222,23 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Muuda salafraasi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Sisesta rahakoti vana ning uus salafraas.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Kinnita rahakoti krüpteering</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA DogecoinID&lt;/b&gt;!</translation>
+=======
+        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA DOGECOINID&lt;/b&gt;!</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -225,10 +257,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Rahakott krüpteeritud</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>Dogecoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista bitcoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>Tõrge rahakoti krüpteerimisel</translation>
     </message>
@@ -272,10 +307,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>&amp;Ülevaade</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Show general overview of wallet</source>
         <translation>Kuva rahakoti üld-ülevaade</translation>
     </message>
@@ -296,10 +334,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Väljumine</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Kuva info Dogecoini kohta</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>Teave &amp;Qt kohta</translation>
     </message>
@@ -324,6 +365,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>&amp;Salafraasi muutmine</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
         <translation type="unfinished"/>
     </message>
@@ -332,8 +374,10 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Open &amp;URI...</source>
-        <translation type="unfinished"/>
+        <translation>Ava &amp;URI...</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -346,10 +390,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <source>Send coins to a Dogecoin address</source>
         <translation>Saada münte Dogecoini aadressile</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Modify configuration options for Dogecoin Core</source>
         <translation>Muuda Dogecoini seadeid</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -424,6 +471,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -478,6 +526,10 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <source>Processed %1 blocks of transaction history.</source>
         <translation>Protsessitud %1 tehingute ajaloo blokki.</translation>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Dogecoini tuumik</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -493,11 +545,19 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <source>%1 and %2</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/></translation>
+=======
+        <translation>%1 ja %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n aasta</numerusform><numerusform>%n aastat</numerusform></translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>%1 behind</source>
@@ -532,6 +592,39 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Jõuan...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Date: %1
+</source>
+        <translation>Kuupäev: %1
+</translation>
+    </message>
+    <message>
+        <source>Amount: %1
+</source>
+        <translation>Summa: %1
+</translation>
+    </message>
+    <message>
+        <source>Type: %1
+</source>
+        <translation>Tüüp: %1
+</translation>
+    </message>
+    <message>
+        <source>Label: %1
+</source>
+        <translation>&amp;Märgis: %1
+</translation>
+    </message>
+    <message>
+        <source>Address: %1
+</source>
+        <translation>Aadress: %1
+</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Sent transaction</source>
         <translation>Saadetud tehing</translation>
     </message>
@@ -540,6 +633,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Sisenev tehing</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -551,6 +645,8 @@ Tüüp: %3⏎
 Aadress: %4⏎</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Rahakott on &lt;b&gt;krüpteeritud&lt;/b&gt; ning hetkel &lt;b&gt;avatud&lt;/b&gt;</translation>
     </message>
@@ -558,10 +654,13 @@ Aadress: %4⏎</translation>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Rahakott on &lt;b&gt;krüpteeritud&lt;/b&gt; ning hetkel &lt;b&gt;suletud&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation>Ilmnes kriitiline tõrge. Dogecoin suletakse turvakaalutluste tõttu.</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>ClientModel</name>
@@ -573,6 +672,7 @@ Aadress: %4⏎</translation>
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation type="unfinished"/>
     </message>
@@ -583,12 +683,17 @@ Aadress: %4⏎</translation>
     <message>
         <source>Bytes:</source>
         <translation type="unfinished"/>
+=======
+        <source>Quantity:</source>
+        <translation>Kogus:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Amount:</source>
         <translation>Summa:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority:</source>
         <translation type="unfinished"/>
     </message>
@@ -621,10 +726,17 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Fee:</source>
+        <translation>Tasu:</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount</source>
         <translation>Kogus</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
@@ -633,22 +745,30 @@ Aadress: %4⏎</translation>
         <translation>Aadress</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Date</source>
         <translation>Kuupäev</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirmations</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirmed</source>
         <translation>Kinnitatud</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy address</source>
         <translation>Aadressi kopeerimine</translation>
     </message>
@@ -665,6 +785,7 @@ Aadress: %4⏎</translation>
         <translation>Kopeeri tehingu ID</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Lock unspent</source>
         <translation type="unfinished"/>
     </message>
@@ -701,43 +822,57 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Copy fee</source>
+        <translation>Kopeeri tasu</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>highest</source>
-        <translation type="unfinished"/>
+        <translation>kõrgeim</translation>
     </message>
     <message>
         <source>higher</source>
-        <translation type="unfinished"/>
+        <translation>kõrgem</translation>
     </message>
     <message>
         <source>high</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>medium-high</source>
         <translation type="unfinished"/>
+=======
+        <translation>kõrge</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>medium</source>
-        <translation type="unfinished"/>
+        <translation>keskmine</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>low-medium</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>low</source>
-        <translation type="unfinished"/>
+        <translation>madal</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation type="unfinished"/>
+        <translation>madalam</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation type="unfinished"/>
+        <translation>madalaim</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -749,11 +884,17 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <translation>(%1 lukustatud)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>yes</source>
-        <translation type="unfinished"/>
+        <translation>jah</translation>
     </message>
     <message>
         <source>no</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -805,6 +946,15 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <translation>ei</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(silti pole)</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -816,6 +966,7 @@ Aadress: %4⏎</translation>
         <translation>&amp;Märgis</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The label associated with this address list entry</source>
         <translation type="unfinished"/>
     </message>
@@ -824,6 +975,8 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Address</source>
         <translation>&amp;Aadress</translation>
     </message>
@@ -844,12 +997,21 @@ Aadress: %4⏎</translation>
         <translation>Väljaminevate aadresside muutmine</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>Selline aadress on juba olemas: &quot;%1&quot;</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
         <translation>Sisestatud aadress &quot;%1&quot; ei ole Dogecoinis kehtiv.</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Selline aadress on juba olemas: "%1"</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <translation>Sisestatud aadress "%1" ei ole Dogecoinis kehtiv.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -863,6 +1025,7 @@ Aadress: %4⏎</translation>
 <context>
     <name>FreespaceChecker</name>
     <message>
+<<<<<<< HEAD
         <source>A new data directory will be created.</source>
         <translation type="unfinished"/>
     </message>
@@ -881,15 +1044,22 @@ Aadress: %4⏎</translation>
     <message>
         <source>Cannot create data directory here.</source>
         <translation type="unfinished"/>
+=======
+        <source>name</source>
+        <translation>nimi</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Dogecoini tuumik</translation>
     </message>
@@ -898,6 +1068,7 @@ Aadress: %4⏎</translation>
         <translation>versioon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Kasutus:</translation>
     </message>
@@ -928,12 +1099,29 @@ Aadress: %4⏎</translation>
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation type="unfinished"/>
+=======
+        <source>About Dogecoin Core</source>
+        <translation>Kirjeldus Dogecoini Tuumast</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Käsurea valikud</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Kasutus:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>käsurea valikud</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -975,15 +1163,27 @@ Aadress: %4⏎</translation>
     <message>
         <source>(of %1GB needed)</source>
         <translation type="unfinished"/>
+=======
+        <translation>Teretulemast</translation>
     </message>
-</context>
+    <message>
+        <source>Dogecoin Core</source>
+        <translation>Dogecoini tuumik</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Tõrge</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation type="unfinished"/>
+        <translation>Ava URI</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open payment request from URI or file</source>
         <translation type="unfinished"/>
     </message>
@@ -1000,6 +1200,12 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -1007,6 +1213,7 @@ Aadress: %4⏎</translation>
         <translation>Valikud</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Main</source>
         <translation>&amp;Peamine</translation>
     </message>
@@ -1127,14 +1334,71 @@ Aadress: %4⏎</translation>
         <translation>Minimeeri systray alale.</translation>
     </message>
     <message>
+=======
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Taasta kõik klientprogrammi seadete vaikeväärtused.</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>&amp;Lähtesta valikud</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;Võrk</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>R&amp;ahakott</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Ekspert</translation>
+    </message>
+    <message>
+        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Dogecoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+    </message>
+    <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Suuna port &amp;UPnP kaudu</translation>
+    </message>
+    <message>
+        <source>Proxy &amp;IP:</source>
+        <translation>Proxi &amp;IP:</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;Port:</translation>
+    </message>
+    <message>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>Proxi port (nt 9050)</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Aken</translation>
+    </message>
+    <message>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>Minimeeri systray alale.</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Minimize to the tray instead of the taskbar</source>
         <translation>&amp;Minimeeri systray alale</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>Sulgemise asemel minimeeri aken. Selle valiku tegemisel suletakse programm Menüüst &quot;Välju&quot; käsuga.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>M&amp;inimize on close</source>
         <translation>M&amp;inimeeri sulgemisel</translation>
     </message>
@@ -1147,10 +1411,13 @@ Aadress: %4⏎</translation>
         <translation>Kasutajaliidese &amp;keel:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
         <translation>Kasutajaliidese keele valimise koht. Valik rakendub Dogecoini käivitamisel.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Unit to show amounts in:</source>
         <translation>Summade kuvamise &amp;Unit:</translation>
     </message>
@@ -1159,6 +1426,7 @@ Aadress: %4⏎</translation>
         <translation>Vali liideses ning müntide saatmisel kuvatav vaikimisi alajaotus.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
         <translation>Kuvada Dogecoini aadress tehingute loetelus või mitte.</translation>
     </message>
@@ -1171,6 +1439,8 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
@@ -1183,14 +1453,18 @@ Aadress: %4⏎</translation>
         <translation>vaikeväärtus</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>none</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm options reset</source>
         <translation>Kinnita valikute algseadistamine</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Client restart required to activate changes.</source>
         <translation type="unfinished"/>
     </message>
@@ -1203,6 +1477,8 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The supplied proxy address is invalid.</source>
         <translation>Sisestatud kehtetu proxy aadress.</translation>
     </message>
@@ -1218,6 +1494,7 @@ Aadress: %4⏎</translation>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet</source>
         <translation>Rahakott</translation>
     </message>
@@ -1238,14 +1515,17 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Immature:</source>
         <translation>Ebaküps:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Mitte aegunud mine&apos;itud jääk</translation>
+        <translation>Mitte aegunud mine'itud jääk</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Total:</source>
         <translation type="unfinished"/>
     </message>
@@ -1262,6 +1542,12 @@ Aadress: %4⏎</translation>
         <translation>sünkimata</translation>
     </message>
 </context>
+=======
+        <source>Recent transactions</source>
+        <translation>Hiljutised tehingud</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>PaymentServer</name>
     <message>
@@ -1269,6 +1555,7 @@ Aadress: %4⏎</translation>
         <translation>URI käsitsemine</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
         <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu Dogecoini aadress või vigased URI parameetrid.</translation>
     </message>
@@ -1331,11 +1618,19 @@ Aadress: %4⏎</translation>
     <message>
         <source>Network request error</source>
         <translation type="unfinished"/>
+=======
+        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <translation>Dogecoin ei käivitu: vajuta-maksa toiming</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Dogecoin</translation>
     </message>
@@ -1379,6 +1674,23 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Amount</source>
+        <translation>Kogus</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>Save QR Code</source>
+        <translation>Salvesta QR kood</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>RPCConsole</name>
     <message>
@@ -1398,12 +1710,15 @@ Aadress: %4⏎</translation>
         <translation>&amp;Informatsioon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>General</source>
-        <translation type="unfinished"/>
+        <translation>Üldine</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
@@ -1419,7 +1734,7 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"/>
+        <translation>Nimi</translation>
     </message>
     <message>
         <source>Number of connections</source>
@@ -1434,6 +1749,7 @@ Aadress: %4⏎</translation>
         <translation>Plokkide hetkearv</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Estimated total blocks</source>
         <translation>Ligikaudne plokkide kogus</translation>
     </message>
@@ -1468,6 +1784,38 @@ Aadress: %4⏎</translation>
     <message>
         <source>Out:</source>
         <translation type="unfinished"/>
+=======
+        <source>Received</source>
+        <translation>Vastuvõetud</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>Saadetud</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>Suund</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versioon</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>Teenused</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Viimane ploki aeg</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Ava</translation>
+    </message>
+    <message>
+        <source>&amp;Console</source>
+        <translation>&amp;Konsool</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Build date</source>
@@ -1478,18 +1826,24 @@ Aadress: %4⏎</translation>
         <translation>Debugimise logifail</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Ava Dogecoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear console</source>
         <translation>Puhasta konsool</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Dogecoin RPC console.</source>
         <translation>Teretulemast Dogecoini RPC konsooli.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Ajaloo sirvimiseks kasuta üles ja alla nooli, ekraani puhastamiseks &lt;b&gt;Ctrl-L&lt;/b&gt;.</translation>
     </message>
@@ -1499,18 +1853,19 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <source>%1 B</source>
-        <translation type="unfinished"/>
+        <translation>%1 B</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation type="unfinished"/>
+        <translation>%1 B</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation type="unfinished"/>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <source>%1 GB</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1524,13 +1879,16 @@ Aadress: %4⏎</translation>
     <message>
         <source>%1 h %2 m</source>
         <translation type="unfinished"/>
+=======
+        <translation>%1 GB</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Summa:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1538,6 +1896,7 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1595,6 +1954,29 @@ Aadress: %4⏎</translation>
     <message>
         <source>Remove</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;Sõnum:</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Näita</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eemalda</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Märgise kopeerimine</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Kopeeri sõnum</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopeeri summa</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy label</source>
@@ -1612,6 +1994,7 @@ Aadress: %4⏎</translation>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>QR Code</source>
         <translation type="unfinished"/>
     </message>
@@ -1640,6 +2023,8 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Address</source>
         <translation>Aadress</translation>
     </message>
@@ -1661,7 +2046,7 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Tõrge URI&apos;st QR koodi loomisel</translation>
+        <translation>Tõrge URI'st QR koodi loomisel</translation>
     </message>
 </context>
 <context>
@@ -1688,7 +2073,11 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation type="unfinished"/>
+        <translation>(sõnum puudub)</translation>
+    </message>
+    <message>
+        <source>(no amount)</source>
+        <translation>(summa puudub)</translation>
     </message>
     <message>
         <source>(no amount)</source>
@@ -1702,6 +2091,7 @@ Aadress: %4⏎</translation>
         <translation>Müntide saatmine</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Features</source>
         <translation type="unfinished"/>
     </message>
@@ -1724,20 +2114,28 @@ Aadress: %4⏎</translation>
     <message>
         <source>Bytes:</source>
         <translation type="unfinished"/>
+=======
+        <source>Quantity:</source>
+        <translation>Kogus:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Amount:</source>
         <translation>Summa:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority:</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Fee:</source>
-        <translation type="unfinished"/>
+        <translation>Tasu:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation type="unfinished"/>
     </message>
@@ -1756,6 +2154,26 @@ Aadress: %4⏎</translation>
     <message>
         <source>Custom change address</source>
         <translation type="unfinished"/>
+=======
+        <source>Choose...</source>
+        <translation>Vali...</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Peida</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>Soovitatud:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normaalne</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>kiire</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1766,10 +2184,13 @@ Aadress: %4⏎</translation>
         <translation>Lisa &amp;Saaja</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear all fields of the form.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear &amp;All</source>
         <translation>Puhasta &amp;Kõik</translation>
     </message>
@@ -1790,6 +2211,7 @@ Aadress: %4⏎</translation>
         <translation>Müntide saatmise kinnitamine</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 to %2</source>
         <translation type="unfinished"/>
     </message>
@@ -1798,11 +2220,14 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy amount</source>
         <translation>Kopeeri summa</translation>
     </message>
     <message>
         <source>Copy fee</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1830,14 +2255,22 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>or</source>
-        <translation type="unfinished"/>
+=======
+        <translation>Kopeeri tasu</translation>
     </message>
     <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+        <source>or</source>
+        <translation>või</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>The recipient address is not valid, please recheck.</source>
         <translation>Saaja aadress ei ole kehtiv, palun kontrolli.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The amount to pay must be larger than 0.</source>
         <translation>Makstav summa peab olema suurem kui 0.</translation>
     </message>
@@ -1850,6 +2283,7 @@ Aadress: %4⏎</translation>
         <translation>Summa koos tehingu tasuga %1 ületab sinu jääki.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>Ühe saatmisega topelt-adressaati olla ei tohi.</translation>
     </message>
@@ -1890,6 +2324,12 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>(no label)</source>
+        <translation>(silti pole)</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1901,10 +2341,13 @@ Aadress: %4⏎</translation>
         <translation>Maksa &amp;:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The address to send the payment to (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>Tehingu saaja aadress (nt: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Aadressiraamatusse sisestamiseks märgista aadress</translation>
     </message>
@@ -1913,6 +2356,7 @@ Aadress: %4⏎</translation>
         <translation>&amp;Märgis</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose previously used address</source>
         <translation type="unfinished"/>
     </message>
@@ -1921,6 +2365,8 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1933,6 +2379,7 @@ Aadress: %4⏎</translation>
         <translation>Alt+P</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Remove this entry</source>
         <translation type="unfinished"/>
     </message>
@@ -1976,6 +2423,15 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Message:</source>
+        <translation>Sõnum:</translation>
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
@@ -1987,6 +2443,7 @@ Aadress: %4⏎</translation>
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Omandiõigsuse tõestamiseks saad sõnumeid allkirjastada oma aadressiga. Ettevaatust petturitega, kes üritavad saada sinu allkirja endale saada. Allkirjasta ainult korralikult täidetud avaldusi, millega nõustud.</translation>
     </message>
@@ -1999,6 +2456,8 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -2043,6 +2502,7 @@ Aadress: %4⏎</translation>
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>Kinnitamiseks sisesta allkirjastamise aadress, sõnum (kindlasti kopeeri täpselt ka reavahetused, tühikud, tabulaatorid jms) ning allolev signatuur.</translation>
     </message>
@@ -2051,6 +2511,8 @@ Aadress: %4⏎</translation>
         <translation>Aadress, millega sõnum allkirjastati (nt: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
         <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Dogecoini aadressiga.</translation>
     </message>
@@ -2063,6 +2525,7 @@ Aadress: %4⏎</translation>
         <translation>Tühjenda kõik sõnumi kinnitamise väljad</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>Sisesta Dogecoini aadress (nt: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
@@ -2071,6 +2534,12 @@ Aadress: %4⏎</translation>
         <translation>Signatuuri genereerimiseks vajuta &quot;Allkirjasta Sõnum&quot;</translation>
     </message>
     <message>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Signatuuri genereerimiseks vajuta "Allkirjasta Sõnum"</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The entered address is invalid.</source>
         <translation>Sisestatud aadress ei kehti.</translation>
     </message>
@@ -2127,7 +2596,11 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <source>The Dogecoin Core developers</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Dogecoini Tuuma arendajad</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>[testnet]</source>
@@ -2138,7 +2611,7 @@ Aadress: %4⏎</translation>
     <name>TrafficGraphWidget</name>
     <message>
         <source>KB/s</source>
-        <translation type="unfinished"/>
+        <translation>KB/s</translation>
     </message>
 </context>
 <context>
@@ -2148,6 +2621,7 @@ Aadress: %4⏎</translation>
         <translation>Avatud kuni %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>conflicted</source>
         <translation type="unfinished"/>
     </message>
@@ -2156,6 +2630,8 @@ Aadress: %4⏎</translation>
         <translation>%1/offline&apos;is</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>%1/unconfirmed</source>
         <translation>%1/kinnitamata</translation>
     </message>
@@ -2167,10 +2643,13 @@ Aadress: %4⏎</translation>
         <source>Status</source>
         <translation>Staatus</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation><numerusform>, levita läbi %n node&apos;i</numerusform><numerusform>, levita läbi %n node&apos;i</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>Date</source>
         <translation>Kuupäev</translation>
@@ -2203,10 +2682,13 @@ Aadress: %4⏎</translation>
         <source>Credit</source>
         <translation>Krediit</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation><numerusform>aegub %n bloki pärast</numerusform><numerusform>aegub %n bloki pärast</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>not accepted</source>
         <translation>mitte aktsepteeritud</translation>
@@ -2236,6 +2718,7 @@ Aadress: %4⏎</translation>
         <translation>Tehingu ID</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Merchant</source>
         <translation type="unfinished"/>
     </message>
@@ -2244,8 +2727,10 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Debug information</source>
-        <translation>Debug&apos;imise info</translation>
+        <translation>Debug'imise info</translation>
     </message>
     <message>
         <source>Transaction</source>
@@ -2271,10 +2756,13 @@ Aadress: %4⏎</translation>
         <source>, has not been successfully broadcast yet</source>
         <translation>, veel esitlemata</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>Avaneb %n bloki pärast</numerusform><numerusform>Avaneb %n bloki pärast</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>unknown</source>
         <translation>tundmatu</translation>
@@ -2302,6 +2790,7 @@ Aadress: %4⏎</translation>
         <translation>Tüüp</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Aadress</translation>
     </message>
@@ -2318,6 +2807,8 @@ Aadress: %4⏎</translation>
         <translation><numerusform>Avaneb %n bloki pärast</numerusform><numerusform>Avaneb %n bloki pärast</numerusform></translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Open until %1</source>
         <translation>Avatud kuni %1</translation>
     </message>
@@ -2334,6 +2825,7 @@ Aadress: %4⏎</translation>
         <translation>Loodud, kuid aktsepteerimata</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Offline</source>
         <translation type="unfinished"/>
     </message>
@@ -2348,6 +2840,10 @@ Aadress: %4⏎</translation>
     <message>
         <source>Conflicted</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>Silt</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Received with</source>
@@ -2367,7 +2863,7 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Mine&apos;itud</translation>
+        <translation>Mine'itud</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -2386,10 +2882,13 @@ Aadress: %4⏎</translation>
         <translation>Tehingu tüüp.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Destination address of transaction.</source>
         <translation>Tehingu saaja aadress.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount removed from or added to balance.</source>
         <translation>Jäägile lisatud või eemaldatud summa.</translation>
     </message>
@@ -2438,7 +2937,7 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Mine&apos;itud</translation>
+        <translation>Mine'itud</translation>
     </message>
     <message>
         <source>Other</source>
@@ -2477,6 +2976,7 @@ Aadress: %4⏎</translation>
         <translation>Kuva tehingu detailid</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Export Transaction History</source>
         <translation type="unfinished"/>
     </message>
@@ -2495,6 +2995,10 @@ Aadress: %4⏎</translation>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
         <translation type="unfinished"/>
+=======
+        <source>Exporting Failed</source>
+        <translation>Eksportimine Ebaõnnestus</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -2521,10 +3025,13 @@ Aadress: %4⏎</translation>
         <translation>Aadress</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Kogus</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>ID</source>
         <translation>ID</translation>
     </message>
@@ -2538,12 +3045,19 @@ Aadress: %4⏎</translation>
     </message>
 </context>
 <context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
     <name>WalletFrame</name>
+<<<<<<< HEAD
     <message>
         <source>No wallet has been loaded.</source>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>WalletModel</name>
     <message>
@@ -2555,7 +3069,7 @@ Aadress: %4⏎</translation>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ekspordi</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -2574,6 +3088,7 @@ Aadress: %4⏎</translation>
         <translation>Varundamine nurjus</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the wallet data to %1.</source>
         <translation type="unfinished"/>
     </message>
@@ -2582,6 +3097,8 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Backup Successful</source>
         <translation>Varundamine õnnestus</translation>
     </message>
@@ -2589,6 +3106,7 @@ Aadress: %4⏎</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Kasutus:</translation>
     </message>
@@ -2601,10 +3119,13 @@ Aadress: %4⏎</translation>
         <translation>Käskluste abiinfo</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Options:</source>
         <translation>Valikud:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: dogecoin.conf)</source>
         <translation>Täpsusta sätete fail (vaikimisi: dogecoin.conf)</translation>
     </message>
@@ -2613,10 +3134,13 @@ Aadress: %4⏎</translation>
         <translation>Täpsusta PID fail (vaikimisi: dogecoind.pid)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify data directory</source>
         <translation>Täpsusta andmekataloog</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>Kuula ühendusi pordil &lt;port&gt; (vaikeväärtus: 8333 või testnet: 18333)</translation>
     </message>
@@ -2625,14 +3149,17 @@ Aadress: %4⏎</translation>
         <translation>Säilita vähemalt &lt;n&gt; ühendust peeridega (vaikeväärtus: 125)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Peeri aadressi saamiseks ühendu korraks node&apos;iga</translation>
+        <translation>Peeri aadressi saamiseks ühendu korraks node'iga</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
         <translation>Täpsusta enda avalik aadress</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Ulakate peeride valulävi (vaikeväärtus: 100)</translation>
     </message>
@@ -2649,14 +3176,19 @@ Aadress: %4⏎</translation>
         <translation>Kuula JSON-RPC ühendusel seda porti &lt;port&gt; (vaikeväärtus: 8332 või testnet: 18332)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Luba käsurea ning JSON-RPC käsklusi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
@@ -2669,6 +3201,7 @@ Aadress: %4⏎</translation>
         <translation>Luba välisühendusi (vaikeväärtus: 1 kui puudub -proxy või -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2701,10 +3234,13 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>RPC pordi %u kuulamiseks seadistamisel ilmnes viga IPv6&apos;l, lülitumine tagasi IPv4&apos;le : %s</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Määratud aadressiga sidumine ning sellelt kuulamine. IPv6 jaoks kasuta vormingut [host]:port</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
         <translation type="unfinished"/>
     </message>
@@ -2729,10 +3265,13 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Tõrge: Selle tehingu jaoks on nõutav lisatasu vähemalt %s. Põhjuseks võib olla summa suurus, keerukus või hiljuti saadud summade kasutamine!</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Käivita käsklus, kui rahakoti tehing muutub (%s cmd&apos;s muudetakse TxID&apos;ks)</translation>
+        <translation>Käivita käsklus, kui rahakoti tehing muutub (%s cmd's muudetakse TxID'ks)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
         <translation type="unfinished"/>
     </message>
@@ -2757,10 +3296,13 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>See on test-versioon - kasutamine omal riisikol - ära kasuta mining&apos;uks ega kaupmeeste programmides</translation>
+        <translation>See on test-versioon - kasutamine omal riisikol - ära kasuta mining'uks ega kaupmeeste programmides</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
@@ -2769,10 +3311,13 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Hoiatus: -paytxfee on seatud väga kõrgeks! See on sinu poolt makstav tehingu lisatasu.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
         <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis Dogecoin ei tööta korralikult</translation>
     </message>
@@ -2785,14 +3330,17 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Hoiatus: ilmnes tõrge wallet.dat faili lugemisel! Võtmed on terved, kuid tehingu andmed või aadressiraamatu kirjed võivad olla kadunud või vigased.</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Hoiatus: toimus wallet.dat faili andmete päästmine! Originaal wallet.dat nimetati kaustas %s ümber wallet.{ajatempel}.bak&apos;iks, jäägi või tehingute ebakõlade puhul tuleks teha backup&apos;ist taastamine.</translation>
+        <translation>Hoiatus: toimus wallet.dat faili andmete päästmine! Originaal wallet.dat nimetati kaustas %s ümber wallet.{ajatempel}.bak'iks, jäägi või tehingute ebakõlade puhul tuleks teha backup'ist taastamine.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: 1)</source>
         <translation type="unfinished"/>
     </message>
@@ -2813,10 +3361,17 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Püüa vigasest wallet.dat failist taastada turvavõtmed</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Block creation options:</source>
         <translation>Blokeeri loomise valikud:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
         <translation type="unfinished"/>
     </message>
@@ -2837,10 +3392,17 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Connect only to the specified node(s)</source>
+        <translation>Ühendu ainult määratud node'i(de)ga</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Corrupted block database detected</source>
         <translation>Tuvastati vigane bloki andmebaas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Debugging/Testing options:</source>
         <translation type="unfinished"/>
     </message>
@@ -2857,6 +3419,8 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Do you want to rebuild the block database now?</source>
         <translation>Kas soovid bloki andmebaasi taastada?</translation>
     </message>
@@ -2881,6 +3445,7 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Tõrge: liiga vähe kettaruumi!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>Tõrge: Rahakott on lukus, tehingu loomine ei ole võimalik!</translation>
     </message>
@@ -2889,10 +3454,13 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Tõrge: süsteemi tõrge:</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Pordi kuulamine nurjus. Soovikorral kasuta -listen=0.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Failed to read block info</source>
         <translation>Tõrge bloki sisu lugemisel</translation>
     </message>
@@ -3021,6 +3589,8 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verifying blocks...</source>
         <translation>Kontrollin blokke...</translation>
     </message>
@@ -3029,6 +3599,7 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Kontrollin rahakotti...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wait for RPC server to start</source>
         <translation type="unfinished"/>
     </message>
@@ -3049,10 +3620,17 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Wallet options:</source>
+        <translation>Rahakoti valikud:</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Imports blocks from external blk000??.dat file</source>
         <translation>Impordi blokid välisest blk000??.dat failist</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
@@ -3069,10 +3647,13 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Information</source>
         <translation>Informatsioon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
@@ -3145,10 +3726,17 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>RPC server options:</source>
+        <translation>RPC serveri valikud:</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Saada jälitus/debug, debug.log faili asemel, konsooli</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation>Sea minimaalne bloki suurus baitides (vaikeväärtus: 0)</translation>
     </message>
@@ -3165,14 +3753,25 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Keele valik, nt "ee_ET" (vaikeväärtus: system locale)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Käivitamisel teabeakna kuvamine (vaikeväärtus: 1)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Kahanda programmi käivitamisel debug.log faili (vaikeväärtus: 1, kui ei ole -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
+        <translation>Tehingu allkirjastamine ebaõnnestus</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>Sea ühenduse timeout millisekundites (vaikeväärtus: 5000)</translation>
     </message>
@@ -3191,14 +3790,31 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
     <message>
         <source>Transaction amounts must be positive</source>
         <translation type="unfinished"/>
+=======
+        <source>Start minimized</source>
+        <translation>Käivitu tegumiribale</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to pay the fee</source>
+        <translation>Tehingu summa on tasu maksmiseks liiga väikene</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>Tehingu summa liiga väikene</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation type="unfinished"/>
+        <translation>Tehing liiga suur</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Kasuta kuulatava pordi määramiseks UPnP ühendust (vaikeväärtus: 0)</translation>
+=======
+        <source>UI Options:</source>
+        <translation>UI Valikud:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
@@ -3213,6 +3829,7 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Hoiatus</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Hoiatus: versioon on aegunud, uuendus on nõutav!</translation>
     </message>
@@ -3227,6 +3844,10 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
     <message>
         <source>version</source>
         <translation>versioon</translation>
+=======
+        <source>on startup</source>
+        <translation>käivitamisel</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
@@ -3237,6 +3858,7 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>JSON-RPC ühenduste salasõna</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>JSON-RPC ühenduste lubamine kindla IP pealt</translation>
     </message>
@@ -3245,23 +3867,29 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Saada käsklusi node&apos;ile IP&apos;ga &lt;ip&gt; (vaikeväärtus: 127.0.0.1)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Käivita käsklus, kui parim plokk muutub (käskluse %s asendatakse ploki hash&apos;iga)</translation>
+        <translation>Käivita käsklus, kui parim plokk muutub (käskluse %s asendatakse ploki hash'iga)</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
         <translation>Uuenda rahakott uusimasse vormingusse</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Sea võtmete hulgaks &lt;n&gt; (vaikeväärtus: 100)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Otsi ploki jadast rahakoti kadunud tehinguid</translation>
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
+<<<<<<< HEAD
         <translation>Kasuta JSON-RPC ühenduste jaoks OpenSSL&apos;i (https)</translation>
     </message>
     <message>
@@ -3273,16 +3901,24 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Serveri privaatvõti (vaikeväärtus: server.pem)</translation>
     </message>
     <message>
+=======
+        <translation>Kasuta JSON-RPC ühenduste jaoks OpenSSL'i (https)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This help message</source>
         <translation>Käesolev abitekst</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Selle arvutiga ei ole võimalik siduda %s külge (katse nurjus %d, %s tõttu)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>-addnode, -seednode ja -connect tohivad kasutada DNS lookup&apos;i</translation>
+        <translation>-addnode, -seednode ja -connect tohivad kasutada DNS lookup'i</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -3293,6 +3929,7 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Viga wallet.dat käivitamisel. Vigane rahakkott</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
         <translation>Viga wallet.dat käivitamisel: Rahakott nõuab Dogecoini uusimat versiooni</translation>
     </message>
@@ -3301,10 +3938,17 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita Dogecoin</translation>
     </message>
     <message>
+=======
+        <source>(default: %s)</source>
+        <translation>(vaikimisi: %s)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error loading wallet.dat</source>
         <translation>Viga wallet.dat käivitamisel</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Vigane -proxi aadress: &apos;%s&apos;</translation>
     </message>
@@ -3333,6 +3977,28 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Kehtetu summa</translation>
     </message>
     <message>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Vigane -proxi aadress: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Kirjeldatud tundmatu võrgustik -onlynet'is: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Tundmatu -bind aadress: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Tundmatu -externalip aadress: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-paytxfee=&lt;amount&gt; jaoks vigane kogus: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Insufficient funds</source>
         <translation>Liiga suur summa</translation>
     </message>
@@ -3365,6 +4031,7 @@ nt: alertnotify=echo %%s | email -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Laetud</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation>%s valiku kasutamine</translation>
     </message>
@@ -3380,5 +4047,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 %s⏎
 Kui seda faili ei ole, loo see ainult-omanikule-lugemiseks faili õigustes.</translation>
     </message>
+=======
+        <source>Error</source>
+        <translation>Tõrge</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

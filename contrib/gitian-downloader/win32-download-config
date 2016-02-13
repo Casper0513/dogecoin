@@ -1,9 +1,15 @@
 --- 
 name: dogecoin
 urls:
+<<<<<<< HEAD
 - http://example.org/dogecoin-latest-win32-gitian.zip
 rss:
 - url: http://sourceforge.net/projects/dogecoin/rss
+=======
+- http://dogecoin.com/dogecoin-latest-win32-gitian.zip
+rss:
+- url: 
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
   xpath: //item/link/text()
   pattern: dogecoin-\d+.\d+.\d+-win32-gitian.zip
 signers:
@@ -15,10 +21,13 @@ signers:
     weight: 40
     name: langerhans
     key: langerhans
+<<<<<<< HEAD
   86601A39AEE177B1D1F0F7971AEF9F73ECA11726:
     weight: 20
     name: leofidus-ger
     key: leofidus-key
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
   6E9C3630F63C1541054C9503B1C60A65E5E64D7B:
     weight: 20
     name: "Patrick Lodder"
@@ -28,6 +37,12 @@ signers:
     name: stapler117
     key: stapler117
   BEC5406F9FE5B07FD93964073AF52B1CB90A06E5:
+<<<<<<< HEAD
     name: whit
     key: whit
 minimum_weight: 120
+=======
+    weight: 20
+    name: whit
+    key: whit
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707

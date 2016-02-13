@@ -44,12 +44,19 @@ If you run this script from src/ it will automatically update the year on the co
 .cpp and .h files if these have a git commit from the current year.
 
 For example a file changed in 2014 (with 2014 being the current year):
+<<<<<<< HEAD
 ```// Copyright (c) 2009-2013 The Bitcoin developers```
 ```// Copyright (c) 2013-2014 The Dogecoin developers```
 
 would be changed to:
 ```// Copyright (c) 2009-2013 The Bitcoin developers```
 ```// Copyright (c) 2013-2014 The Dogecoin developers```
+=======
+```// Copyright (c) 2009-2013 The Bitcoin Core developers```
+
+would be changed to:
+```// Copyright (c) 2009-2014 The Bitcoin Core developers```
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 symbol-check.py
 ==================
@@ -83,3 +90,19 @@ It will do the following automatically:
 
 See doc/translation-process.md for more information.
 
+<<<<<<< HEAD
+=======
+git-subtree-check.sh
+====================
+
+Run this script from the root of the repository to verify that a subtree matches the contents of
+the commit it claims to have been updated to.
+
+To use, make sure that you have fetched the upstream repository branch in which the subtree is
+maintained:
+* for src/secp256k1: https://github.com/bitcoin/secp256k1.git (branch master)
+* for sec/leveldb: https://github.com/bitcoin/leveldb.git (branch bitcoin-fork)
+
+Usage: git-subtree-check.sh DIR COMMIT
+COMMIT may be omitted, in which case HEAD is used.
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707

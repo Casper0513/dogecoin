@@ -1,4 +1,5 @@
 <TS language="ur_PK" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,30 +39,40 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>ایڈریس یا لیبل میں ترمیم کرنے پر ڈبل کلک کریں</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>نیا ایڈریس بنائیں</translation>
     </message>
     <message>
         <source>&amp;New</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation type="unfinished"/>
+=======
+        <translation>نیا</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation type="unfinished"/>
+        <translation>نقل</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation type="unfinished"/>
+        <translation>بند</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation type="unfinished"/>
+        <translation>کاپی پتہ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Delete the currently selected address from the list</source>
         <translation type="unfinished"/>
     </message>
@@ -70,11 +81,14 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>برآمد</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -130,6 +144,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <translation>مٹا</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>چننا</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -148,10 +171,13 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter passphrase</source>
         <translation>پاس فریز داخل کریں</translation>
     </message>
@@ -164,6 +190,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>نیا پاس فریز دہرائیں</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation type="unfinished"/>
     </message>
@@ -174,16 +201,23 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation type="unfinished"/>
+=======
+        <source>Encrypt wallet</source>
+        <translation>بٹوے کی رمزنگاری</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Unlock wallet</source>
         <translation>بٹوا ان لاک</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Decrypt wallet</source>
         <translation>خفیہ کشائی کر یںبٹوے کے</translation>
     </message>
@@ -191,6 +225,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>Change passphrase</source>
         <translation>پاس فریز تبدیل کریں</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation type="unfinished"/>
@@ -321,8 +356,23 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Very &amp;sending addresses...</source>
         <translation type="unfinished"/>
-    </message>
+=======
+    </context>
+<context>
+    <name>BitcoinGUI</name>
     <message>
+        <source>Error</source>
+        <translation>نقص</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Much &amp;receiving addresses...</source>
         <translation type="unfinished"/>
     </message>
@@ -333,16 +383,81 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Importing blocks from disk...</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>رقم</translation>
     </message>
     <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>چٹ کے بغیر</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+<<<<<<< HEAD
         <source>Reindexing blocks on disk...</source>
         <translation type="unfinished"/>
+=======
+        <source>Error</source>
+        <translation>نقص</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Dogecoin address</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>رقم</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Modify configuration options for Dogecoin Core</source>
         <translation type="unfinished"/>
     </message>
@@ -353,8 +468,24 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation> پتہ</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>رقم</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>چٹ</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Debug window</source>
         <translation type="unfinished"/>
     </message>
@@ -369,24 +500,86 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Dogecoin</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>تاریخ</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>چٹ</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>رقم</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>چٹ کے بغیر</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Wallet</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;Send</source>
         <translation type="unfinished"/>
+=======
+        <source>Balance:</source>
+        <translation>بیلنس:</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>چٹ کے بغیر</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Receive</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>تاریخ</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>رقم</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Show or hide the main Window</source>
         <translation type="unfinished"/>
     </message>
@@ -405,8 +598,32 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>&amp;File</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>تاریخ</translation>
     </message>
     <message>
+        <source>Type</source>
+        <translation>ٹائپ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>چٹ</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>کو بھیجا</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(N / A)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Settings</source>
         <translation type="unfinished"/>
     </message>
@@ -453,16 +670,85 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Show the Dogecoin Core help message to get a list with possible command-line options</source>
         <translation type="unfinished"/>
+=======
+        <source>All</source>
+        <translation>تمام</translation>
     </message>
     <message>
+        <source>Today</source>
+        <translation>آج</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>اس ہفتے</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>اس مہینے</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>پچھلے مہینے</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>اس سال</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>دیگر</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>کو بھیجا</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>ٹائپ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>چٹ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation> پتہ</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    <message>
+<<<<<<< HEAD
         <source>Dogecoin client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Dogecoin network</source>
         <translation type="unfinished"><numerusform/><numerusform/></translation>
+=======
+        <source>&amp;Export</source>
+        <translation>برآمد</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>No block source available...</source>
         <translation type="unfinished"/>
     </message>
@@ -3360,5 +3646,18 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation type="unfinished"/>
     </message>
+=======
+        <source>This help message</source>
+        <translation>یہ مدد کا پیغام</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>ناکافی فنڈز</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>نقص</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

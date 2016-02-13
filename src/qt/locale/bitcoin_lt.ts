@@ -1,4 +1,5 @@
 <TS language="lt" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -42,6 +43,11 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Spragtelėkite, kad pakeistumėte adresą arba žymę</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Sukurti naują adresą</translation>
     </message>
@@ -66,6 +72,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>&amp;Kopijuoti adresą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Delete the currently selected address from the list</source>
         <translation type="unfinished"/>
     </message>
@@ -74,6 +81,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Export</source>
         <translation>&amp;Eksportuoti</translation>
     </message>
@@ -82,6 +91,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>&amp;Trinti</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose the address to send coins to</source>
         <translation type="unfinished"/>
     </message>
@@ -110,6 +120,20 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>C&amp;hoose</source>
+        <translation>P&amp;asirinkti</translation>
+    </message>
+    <message>
+        <source>Such sending addresses</source>
+        <translation>Siunčiami adresai</translation>
+    </message>
+    <message>
+        <source>Much receiving addresses</source>
+        <translation>Gaunami adresai</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy &amp;Label</source>
         <translation>Kopijuoti ž&amp;ymę</translation>
     </message>
@@ -119,19 +143,24 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <source>Export Address List</source>
-        <translation type="unfinished"/>
+        <translation>Eksportuoti adresų sąrašą</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kableliais išskirtas failas (*.csv)</translation>
+        <translation>Kableliais atskirtų duomenų failas (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation type="unfinished"/>
+        <translation>Eksportavimas nepavyko</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the address list to %1.</source>
         <translation type="unfinished"/>
+=======
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Bandant išsaugoti adresų sąrašą - įvyko klaida keliant į %1. Prašome bandyti dar kartą.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -168,10 +197,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Pakartokite naują slaptafrazę</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Įveskite naują piniginės slaptafrazę.&lt;br/&gt;Prašome naudoti slaptafrazę iš &lt;b&gt; 10 ar daugiau atsitiktinių simbolių&lt;/b&gt; arba &lt;b&gt;aštuonių ar daugiau žodžių&lt;/b&gt;.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>Užšifruoti piniginę</translation>
     </message>
@@ -196,26 +228,36 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Pakeisti slaptafrazę</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Įveskite seną ir naują piniginės slaptafrazes.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Patvirtinkite piniginės užšifravimą</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO DogecoinUS&lt;/b&gt;! </translation>
+=======
+        <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO DOGECOINUS&lt;/b&gt;! </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite šifruoti savo piniginę?</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Įspėjimas: įjungtas Caps Lock klavišas!</translation>
     </message>
@@ -224,10 +266,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Piniginė užšifruota</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>Dogecoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti bitcoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>Nepavyko užšifruoti piniginę</translation>
     </message>
@@ -272,7 +317,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <source>Node</source>
-        <translation type="unfinished"/>
+        <translation>Taškas</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -295,10 +340,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Išjungti programą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Rodyti informaciją apie Dogecoin</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>Apie &amp;Qt</translation>
     </message>
@@ -323,6 +371,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>&amp;Keisti slaptafrazę...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
         <translation type="unfinished"/>
     </message>
@@ -333,6 +382,18 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     <message>
         <source>Open &amp;URI...</source>
         <translation type="unfinished"/>
+=======
+        <source>Such &amp;sending addresses...</source>
+        <translation>&amp;Siunčiami adresai...</translation>
+    </message>
+    <message>
+        <source>Much &amp;receiving addresses...</source>
+        <translation>&amp;Gaunami adresai...</translation>
+    </message>
+    <message>
+        <source>Dogecoin Core client</source>
+        <translation>Dogecoin Core klientas</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -345,10 +406,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     <message>
         <source>Send coins to a Dogecoin address</source>
         <translation>Siųsti monetas Dogecoin adresui</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Modify configuration options for Dogecoin Core</source>
         <translation>Keisti bitcoin konfigūracijos galimybes</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -387,6 +451,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>&amp;Gauti</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Dogecoin Core</source>
+        <translation>Rodyti informaciją apie Dogecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Show / Hide</source>
         <translation>&amp;Rodyti / Slėpti</translation>
     </message>
@@ -396,6 +467,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -405,6 +477,9 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     <message>
         <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
         <translation type="unfinished"/>
+=======
+        <translation>Užšifruoti privačius raktus, kurie priklauso jūsų piniginei</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;File</source>
@@ -423,6 +498,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Kortelių įrankinė</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testavimotinklas]</translation>
     </message>
@@ -509,6 +585,14 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     <message>
         <source>Transactions after this will not yet be visible.</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin branduolys</translation>
+    </message>
+    <message>
+        <source>&amp;About Dogecoin Core</source>
+        <translation>&amp;Apie Dogecoin Core</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error</source>
@@ -539,6 +623,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Ateinantis sandoris</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -550,6 +635,8 @@ Tipas: %3
 Adresas: %4</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Piniginė &lt;b&gt;užšifruota&lt;/b&gt; ir šiuo metu &lt;b&gt;atrakinta&lt;/b&gt;</translation>
     </message>
@@ -557,10 +644,13 @@ Adresas: %4</translation>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Piniginė &lt;b&gt;užšifruota&lt;/b&gt; ir šiuo metu &lt;b&gt;užrakinta&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>ClientModel</name>
@@ -572,16 +662,19 @@ Adresas: %4</translation>
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Quantity:</source>
-        <translation type="unfinished"/>
+        <translation>Kiekis:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation type="unfinished"/>
+        <translation>Baitai:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -589,41 +682,46 @@ Adresas: %4</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation type="unfinished"/>
+        <translation>Pirmumas:</translation>
     </message>
     <message>
         <source>Fee:</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Low Output:</source>
         <translation type="unfinished"/>
+=======
+        <translation>Mokestis:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>After Fee:</source>
-        <translation type="unfinished"/>
+        <translation>Po mokesčio:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation type="unfinished"/>
+        <translation>Graža:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation type="unfinished"/>
+        <translation>(ne)pasirinkti viską</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation type="unfinished"/>
+        <translation>Medžio režimas</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation type="unfinished"/>
+        <translation>Sąrašo režimas</translation>
     </message>
     <message>
         <source>Amount</source>
         <translation>Suma</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
@@ -632,12 +730,14 @@ Adresas: %4</translation>
         <translation>Adresas</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation type="unfinished"/>
+        <translation>Patvirtinimai</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -645,7 +745,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation type="unfinished"/>
+        <translation>Pirmumas</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -660,6 +760,7 @@ Adresas: %4</translation>
         <translation>Kopijuoti sumą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy transaction ID</source>
         <translation type="unfinished"/>
     </message>
@@ -672,23 +773,26 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy quantity</source>
-        <translation type="unfinished"/>
+        <translation>Kopijuoti kiekį</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation type="unfinished"/>
+        <translation>Kopijuoti mokestį</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation type="unfinished"/>
+        <translation>Kopijuoti po mokesčio</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation type="unfinished"/>
+        <translation>Kopijuoti baitus</translation>
     </message>
     <message>
         <source>Copy priority</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -698,41 +802,45 @@ Adresas: %4</translation>
     <message>
         <source>Copy change</source>
         <translation type="unfinished"/>
+=======
+        <translation>Kopijuoti pirmumą</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>highest</source>
-        <translation type="unfinished"/>
+        <translation>auksčiausias</translation>
     </message>
     <message>
         <source>higher</source>
-        <translation type="unfinished"/>
+        <translation>aukštesnis</translation>
     </message>
     <message>
         <source>high</source>
-        <translation type="unfinished"/>
+        <translation>aukštas</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation type="unfinished"/>
+        <translation>vidutiniškai aukštas</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation type="unfinished"/>
+        <translation>vidutiniškai</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation type="unfinished"/>
+        <translation>žemai-vidutiniškas</translation>
     </message>
     <message>
         <source>low</source>
-        <translation type="unfinished"/>
+        <translation>žemas</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation type="unfinished"/>
+        <translation>žemesnis</translation>
     </message>
     <message>
         <source>lowest</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -746,13 +854,21 @@ Adresas: %4</translation>
     <message>
         <source>Dust</source>
         <translation type="unfinished"/>
+=======
+        <translation>žemiausias</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>niekas</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>yes</source>
-        <translation type="unfinished"/>
+        <translation>taip</translation>
     </message>
     <message>
         <source>no</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -790,11 +906,15 @@ Adresas: %4</translation>
     <message>
         <source>This label turns red, if the change is smaller than %1.</source>
         <translation type="unfinished"/>
+=======
+        <translation>ne</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>(no label)</source>
         <translation>(nėra žymės)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>change from %1 (%2)</source>
         <translation type="unfinished"/>
@@ -804,6 +924,9 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -815,6 +938,7 @@ Adresas: %4</translation>
         <translation>Ž&amp;ymė</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The label associated with this address list entry</source>
         <translation type="unfinished"/>
     </message>
@@ -823,6 +947,8 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Address</source>
         <translation>&amp;Adresas</translation>
     </message>
@@ -843,11 +969,19 @@ Adresas: %4</translation>
         <translation>Keisti siuntimo adresą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>Įvestas adresas „%1“ jau yra adresų knygelėje.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Įvestas adresas „%1“ jau yra adresų knygelėje.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>Įvestas adresas „%1“ nėra galiojantis Dogecoin adresas.</translation>
     </message>
     <message>
@@ -862,6 +996,7 @@ Adresas: %4</translation>
 <context>
     <name>FreespaceChecker</name>
     <message>
+<<<<<<< HEAD
         <source>A new data directory will be created.</source>
         <translation type="unfinished"/>
     </message>
@@ -889,6 +1024,15 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>name</source>
+        <translation>pavadinimas</translation>
+    </message>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Dogecoin branduolys</translation>
     </message>
@@ -897,6 +1041,7 @@ Adresas: %4</translation>
         <translation>versija</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Naudojimas:</translation>
     </message>
@@ -927,6 +1072,22 @@ Adresas: %4</translation>
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation type="unfinished"/>
+=======
+        <source>About Dogecoin Core</source>
+        <translation>Apie Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Komandinės eilutės parametrai</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Naudojimas:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>komandinės eilutės parametrai</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -937,6 +1098,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <source>Welcome to Dogecoin Core.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -962,11 +1124,19 @@ Adresas: %4</translation>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Sveiki atvykę į Dogecoin Core.</translation>
+    </message>
+    <message>
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin branduolys</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error</source>
         <translation>Klaida</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>GB of free space available</source>
         <translation type="unfinished"/>
@@ -999,6 +1169,12 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -1010,6 +1186,7 @@ Adresas: %4</translation>
         <translation>&amp;Pagrindinės</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation type="unfinished"/>
     </message>
@@ -1062,10 +1239,13 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Network</source>
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation type="unfinished"/>
     </message>
@@ -1090,6 +1270,8 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automatiškai atidaryti Dogecoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
@@ -1110,6 +1292,7 @@ Adresas: %4</translation>
         <translation>Tarpinio serverio preivadas (pvz, 9050)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>SOCKS &amp;Version:</source>
         <translation>SOCKS &amp;versija:</translation>
     </message>
@@ -1118,6 +1301,8 @@ Adresas: %4</translation>
         <translation>Tarpinio serverio SOCKS versija (pvz., 5)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Window</source>
         <translation>&amp;Langas</translation>
     </message>
@@ -1130,10 +1315,13 @@ Adresas: %4</translation>
         <translation>&amp;M sumažinti langą bet ne užduočių juostą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>Uždarant langą neuždaryti programos. Kai ši parinktis įjungta, programa bus uždaryta tik pasirinkus  meniu komandą Baigti.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>M&amp;inimize on close</source>
         <translation>&amp;Sumažinti uždarant</translation>
     </message>
@@ -1146,10 +1334,13 @@ Adresas: %4</translation>
         <translation>Naudotojo sąsajos &amp;kalba:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
         <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Dogecoin.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Vienetai, kuriais rodyti sumas:</translation>
     </message>
@@ -1158,6 +1349,7 @@ Adresas: %4</translation>
         <translation>Rodomų ir siunčiamų monetų kiekio matavimo vienetai</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
@@ -1170,6 +1362,8 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;OK</source>
         <translation>&amp;Gerai</translation>
     </message>
@@ -1183,6 +1377,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <source>none</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1200,6 +1395,9 @@ Adresas: %4</translation>
     <message>
         <source>This change would require a client restart.</source>
         <translation type="unfinished"/>
+=======
+        <translation>niekas</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -1213,6 +1411,7 @@ Adresas: %4</translation>
         <translation>Forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
@@ -1237,14 +1436,19 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Immature:</source>
         <translation>Nepribrendę:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Mined balance that has not yet matured</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Total:</source>
         <translation>Viso:</translation>
     </message>
@@ -1252,6 +1456,7 @@ Adresas: %4</translation>
         <source>Your current total balance</source>
         <translation>Jūsų balansas</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation>&lt;b&gt;Naujausi sandoriai&lt;/b&gt;</translation>
@@ -1261,6 +1466,9 @@ Adresas: %4</translation>
         <translation>nesinchronizuota</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>PaymentServer</name>
     <message>
@@ -1268,6 +1476,7 @@ Adresas: %4</translation>
         <translation>URI apdorojimas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
@@ -1328,13 +1537,19 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Network request error</source>
         <translation>Tinklo užklausos klaida</translation>
     </message>
 </context>
 <context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Dogecoin</translation>
     </message>
@@ -1368,16 +1583,39 @@ Adresas: %4</translation>
     <message>
         <source>&amp;Copy Image</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Suma</translation>
     </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>nėra</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
     <message>
         <source>Save QR Code</source>
         <translation>Įrašyti QR kodą</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>PNG Image (*.png)</source>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>RPCConsole</name>
     <message>
@@ -1397,6 +1635,7 @@ Adresas: %4</translation>
         <translation>&amp;Informacija</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Debug window</source>
         <translation type="unfinished"/>
     </message>
@@ -1405,6 +1644,8 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Using OpenSSL version</source>
         <translation>Naudojama OpenSSL versija</translation>
     </message>
@@ -1417,10 +1658,13 @@ Adresas: %4</translation>
         <translation>Tinklas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Name</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Number of connections</source>
         <translation>Prisijungimų kiekis</translation>
     </message>
@@ -1433,10 +1677,13 @@ Adresas: %4</translation>
         <translation>Dabartinis blokų skaičius</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Estimated total blocks</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Last block time</source>
         <translation>Paskutinio bloko laikas</translation>
     </message>
@@ -1449,6 +1696,7 @@ Adresas: %4</translation>
         <translation>&amp;Konsolė</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Network Traffic</source>
         <translation type="unfinished"/>
     </message>
@@ -1467,6 +1715,10 @@ Adresas: %4</translation>
     <message>
         <source>Out:</source>
         <translation type="unfinished"/>
+=======
+        <source>Totals</source>
+        <translation>Viso:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Build date</source>
@@ -1477,14 +1729,18 @@ Adresas: %4</translation>
         <translation>Derinimo žurnalo failas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear console</source>
         <translation>Išvalyti konsolę</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Dogecoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
@@ -1497,6 +1753,8 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>%1 B</source>
         <translation>%1 B</translation>
     </message>
@@ -1512,6 +1770,7 @@ Adresas: %4</translation>
         <source>%1 GB</source>
         <translation>%1 GB</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>%1 m</source>
         <translation>%1 m</translation>
@@ -1532,10 +1791,17 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Label:</source>
         <translation>Ž&amp;ymė:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Message:</source>
         <translation type="unfinished"/>
     </message>
@@ -1594,6 +1860,14 @@ Adresas: %4</translation>
     <message>
         <source>Remove</source>
         <translation type="unfinished"/>
+=======
+        <source>Copy label</source>
+        <translation>Kopijuoti žymę</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopijuoti sumą</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy label</source>
@@ -1615,6 +1889,7 @@ Adresas: %4</translation>
         <translation>QR kodas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy &amp;URI</source>
         <translation type="unfinished"/>
     </message>
@@ -1631,14 +1906,19 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Payment information</source>
         <translation>Mokėjimo informacija</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Address</source>
         <translation>Adresas</translation>
     </message>
@@ -1655,10 +1935,13 @@ Adresas: %4</translation>
         <translation>Žinutė</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error encoding URI into QR Code.</source>
         <translation>Klaida, koduojant URI į QR kodą.</translation>
     </message>
@@ -1685,6 +1968,7 @@ Adresas: %4</translation>
         <source>(no label)</source>
         <translation>(nėra žymės)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>(no message)</source>
         <translation type="unfinished"/>
@@ -1694,6 +1978,9 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -1701,6 +1988,7 @@ Adresas: %4</translation>
         <translation>Siųsti monetas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Features</source>
         <translation type="unfinished"/>
     </message>
@@ -1717,12 +2005,14 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Quantity:</source>
-        <translation type="unfinished"/>
+        <translation>Kiekis:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation type="unfinished"/>
+        <translation>Baitai:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -1730,22 +2020,26 @@ Adresas: %4</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation type="unfinished"/>
+        <translation>Pirmumas:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation type="unfinished"/>
+        <translation>Mokestis:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>After Fee:</source>
-        <translation type="unfinished"/>
+        <translation>Po mokesčio:</translation>
     </message>
     <message>
         <source>Change:</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1757,6 +2051,11 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <translation>Graža:</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send to multiple recipients at once</source>
         <translation>Siųsti keliems gavėjams vienu metu</translation>
     </message>
@@ -1765,10 +2064,13 @@ Adresas: %4</translation>
         <translation>&amp;A Pridėti gavėją</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear all fields of the form.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear &amp;All</source>
         <translation>Išvalyti &amp;viską</translation>
     </message>
@@ -1789,12 +2091,15 @@ Adresas: %4</translation>
         <translation>Patvirtinti monetų siuntimą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 to %2</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy quantity</source>
-        <translation type="unfinished"/>
+        <translation>Kopijuoti kiekį</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -1802,18 +2107,19 @@ Adresas: %4</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation type="unfinished"/>
+        <translation>Kopijuoti mokestį</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation type="unfinished"/>
+        <translation>Kopijuoti po mokesčio</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation type="unfinished"/>
+        <translation>Kopijuoti baitus</translation>
     </message>
     <message>
         <source>Copy priority</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1837,6 +2143,11 @@ Adresas: %4</translation>
         <translation>Negaliojantis gavėjo adresas. Patikrinkite.</translation>
     </message>
     <message>
+=======
+        <translation>Kopijuoti pirmumą</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The amount to pay must be larger than 0.</source>
         <translation>Apmokėjimo suma turi būti didesnė nei 0.</translation>
     </message>
@@ -1849,6 +2160,7 @@ Adresas: %4</translation>
         <translation>Jei pridedame sandorio mokestį %1 bendra suma viršija jūsų balansą.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>Rastas adreso dublikatas.</translation>
     </message>
@@ -1889,6 +2201,12 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>(no label)</source>
+        <translation>(nėra žymės)</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1900,10 +2218,13 @@ Adresas: %4</translation>
         <translation>Mokėti &amp;gavėjui:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The address to send the payment to (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Įveskite žymę šiam adresui kad galėtumėte įtraukti ją į adresų knygelę</translation>
     </message>
@@ -1912,6 +2233,7 @@ Adresas: %4</translation>
         <translation>Ž&amp;ymė:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose previously used address</source>
         <translation type="unfinished"/>
     </message>
@@ -1920,6 +2242,8 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1932,6 +2256,7 @@ Adresas: %4</translation>
         <translation>Alt+P</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Remove this entry</source>
         <translation type="unfinished"/>
     </message>
@@ -1982,10 +2307,23 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Message:</source>
+        <translation>Žinutė:</translation>
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Sign Message</source>
         <translation>&amp;Pasirašyti žinutę</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"/>
     </message>
@@ -1998,6 +2336,8 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -2014,6 +2354,7 @@ Adresas: %4</translation>
         <translation>Įveskite pranešimą, kurį norite pasirašyti čia</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Signature</source>
         <translation type="unfinished"/>
     </message>
@@ -2022,16 +2363,21 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Sign the message to prove you own this Dogecoin address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
         <translation>Registruoti praneši&amp;mą</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Reset all sign message fields</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2042,6 +2388,7 @@ Adresas: %4</translation>
         <translation>&amp;Patikrinti žinutę</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation type="unfinished"/>
     </message>
@@ -2070,6 +2417,16 @@ Adresas: %4</translation>
         <translation>Spragtelėkite &quot;Registruotis žinutę&quot; tam, kad gauti parašą</translation>
     </message>
     <message>
+=======
+        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Dogecoin adresas</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Spragtelėkite "Registruotis žinutę" tam, kad gauti parašą</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The entered address is invalid.</source>
         <translation>Įvestas adresas negalioja.</translation>
     </message>
@@ -2078,18 +2435,24 @@ Adresas: %4</translation>
         <translation>Prašom patikrinti adresą ir bandyti iš naujo.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address does not refer to a key.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet unlock was cancelled.</source>
         <translation>Piniginės atrakinimas atšauktas.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Private key for the entered address is not available.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Message signing failed.</source>
         <translation>Žinutės pasirašymas nepavyko.</translation>
     </message>
@@ -2123,10 +2486,13 @@ Adresas: %4</translation>
     <message>
         <source>Dogecoin Core</source>
         <translation>Dogecoin branduolys</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>The Dogecoin Core developers</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>[testnet]</source>
@@ -2147,10 +2513,13 @@ Adresas: %4</translation>
         <translation>Atidaryta iki %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>conflicted</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>%1/offline</source>
         <translation>%1/neprisijungęs</translation>
     </message>
@@ -2166,10 +2535,13 @@ Adresas: %4</translation>
         <source>Status</source>
         <translation>Būsena</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/><numerusform/></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>Date</source>
         <translation>Data</translation>
@@ -2202,10 +2574,13 @@ Adresas: %4</translation>
         <source>Credit</source>
         <translation>Kreditas</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/><numerusform/></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>not accepted</source>
         <translation>nepriimta</translation>
@@ -2235,6 +2610,7 @@ Adresas: %4</translation>
         <translation>Sandorio ID</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Merchant</source>
         <translation type="unfinished"/>
     </message>
@@ -2243,6 +2619,8 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Debug information</source>
         <translation>Derinimo informacija</translation>
     </message>
@@ -2251,10 +2629,13 @@ Adresas: %4</translation>
         <translation>Sandoris</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Inputs</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount</source>
         <translation>Suma</translation>
     </message>
@@ -2270,10 +2651,13 @@ Adresas: %4</translation>
         <source>, has not been successfully broadcast yet</source>
         <translation>, transliavimas dar nebuvo sėkmingas</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/><numerusform/></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>unknown</source>
         <translation>nežinomas</translation>
@@ -2301,6 +2685,7 @@ Adresas: %4</translation>
         <translation>Tipas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Adresas</translation>
     </message>
@@ -2317,6 +2702,8 @@ Adresas: %4</translation>
         <translation type="unfinished"><numerusform/><numerusform/><numerusform/></translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Open until %1</source>
         <translation>Atidaryta iki %1</translation>
     </message>
@@ -2333,6 +2720,7 @@ Adresas: %4</translation>
         <translation>Išgauta bet nepriimta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Offline</source>
         <translation type="unfinished"/>
     </message>
@@ -2347,6 +2735,10 @@ Adresas: %4</translation>
     <message>
         <source>Conflicted</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>Žymė</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Received with</source>
@@ -2358,7 +2750,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Siųsta </translation>
+        <translation>Išsiųsta</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
@@ -2385,10 +2777,13 @@ Adresas: %4</translation>
         <translation>Sandorio tipas.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Destination address of transaction.</source>
         <translation>Sandorio paskirties adresas</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount removed from or added to balance.</source>
         <translation>Suma pridėta ar išskaičiuota iš balanso</translation>
     </message>
@@ -2464,10 +2859,13 @@ Adresas: %4</translation>
         <translation>Kopijuoti sumą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy transaction ID</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Edit label</source>
         <translation>Taisyti žymę</translation>
     </message>
@@ -2476,14 +2874,18 @@ Adresas: %4</translation>
         <translation>Rodyti sandėrio detales</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Export Transaction History</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Exporting Failed</source>
-        <translation type="unfinished"/>
+        <translation>Eksportavimas nepavyko</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the transaction history to %1.</source>
         <translation type="unfinished"/>
     </message>
@@ -2496,6 +2898,8 @@ Adresas: %4</translation>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Comma separated file (*.csv)</source>
         <translation>Kableliais atskirtų duomenų failas (*.csv)</translation>
     </message>
@@ -2520,10 +2924,13 @@ Adresas: %4</translation>
         <translation>Adresas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Suma</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>ID</source>
         <translation>ID</translation>
     </message>
@@ -2537,12 +2944,19 @@ Adresas: %4</translation>
     </message>
 </context>
 <context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
     <name>WalletFrame</name>
+<<<<<<< HEAD
     <message>
         <source>No wallet has been loaded.</source>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>WalletModel</name>
     <message>
@@ -2557,10 +2971,13 @@ Adresas: %4</translation>
         <translation>&amp;Eksportuoti</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Export the data in the current tab to a file</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Backup Wallet</source>
         <translation>Backup piniginę</translation>
     </message>
@@ -2571,6 +2988,7 @@ Adresas: %4</translation>
     <message>
         <source>Backup Failed</source>
         <translation>Nepavyko padaryti atsarginės kopijos</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
@@ -2579,6 +2997,8 @@ Adresas: %4</translation>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Backup Successful</source>
@@ -2588,6 +3008,7 @@ Adresas: %4</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Naudojimas:</translation>
     </message>
@@ -2600,10 +3021,13 @@ Adresas: %4</translation>
         <translation>Suteikti pagalba komandai</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Options:</source>
         <translation>Parinktys:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: dogecoin.conf)</source>
         <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: dogecoin.conf)</translation>
     </message>
@@ -2612,10 +3036,13 @@ Adresas: %4</translation>
         <translation>Nurodyti pid failą (pagal nutylėjimą: bitcoind.pid)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify data directory</source>
         <translation>Nustatyti duomenų aplanką</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 8333 arba testnet: 18333)</translation>
     </message>
@@ -2648,14 +3075,23 @@ Adresas: %4</translation>
         <translation>Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 8332 or testnet: 18332)</translation>
     </message>
     <message>
+=======
+        <source>Specify your own public address</source>
+        <translation>Nurodykite savo nuosavą viešą adresą</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Priimti komandinę eilutę ir JSON-RPC komandas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Dirbti fone kaip šešėlyje ir priimti komandas</translation>
     </message>
@@ -2664,6 +3100,7 @@ Adresas: %4</translation>
         <translation>Naudoti testavimo tinklą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation type="unfinished"/>
     </message>
@@ -2758,10 +3195,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Įspėjimas: -paytxfee yra nustatytas per didelis. Tai sandorio mokestis, kurį turėsite mokėti, jei siųsite sandorį.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
         <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Dogecoin, veiks netinkamai.</translation>
     </message>
@@ -2810,10 +3250,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect only to the specified node(s)</source>
         <translation>Prisijungti tik prie nurodyto mazgo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect through SOCKS proxy</source>
         <translation type="unfinished"/>
     </message>
@@ -2862,10 +3305,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error opening block database</source>
         <translation>Klaida atveriant blokų duombazę</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Disk space is low!</source>
         <translation type="unfinished"/>
     </message>
@@ -3010,6 +3456,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verifying blocks...</source>
         <translation>Tikrinami blokai...</translation>
     </message>
@@ -3018,6 +3466,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Tikrinama piniginė...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wait for RPC server to start</source>
         <translation type="unfinished"/>
     </message>
@@ -3058,10 +3507,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Information</source>
         <translation>Informacija</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
@@ -3134,10 +3586,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Siųsti atsekimo/derinimo info į konsolę vietoj debug.log failo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation type="unfinished"/>
     </message>
@@ -3188,6 +3643,14 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Bandymas naudoti UPnP struktūra klausymosi prievadui (default: 0)</translation>
+=======
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Nustatyti kalbą, pavyzdžiui "lt_LT" (numatyta: sistemos kalba)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Paleisti sumažintą</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
@@ -3202,6 +3665,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Įspėjimas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation type="unfinished"/>
     </message>
@@ -3222,10 +3686,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Password for JSON-RPC connections</source>
         <translation>Slaptažodis JSON-RPC sujungimams</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Leisti JSON-RPC tik iš nurodytų IP adresų</translation>
     </message>
@@ -3238,14 +3705,19 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Upgrade wallet to latest format</source>
         <translation>Atnaujinti piniginę į naujausią formatą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Nustatyti rakto apimties dydį &lt;n&gt; (pagal nutylėjimą: 100)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Ieškoti  prarastų piniginės sandorių blokų grandinėje</translation>
     </message>
@@ -3254,6 +3726,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Naudoti OpenSSL (https) jungimuisi JSON-RPC </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Server certificate file (default: server.cert)</source>
         <translation>Serverio sertifikato failas (pagal nutylėjimą: server.cert)</translation>
     </message>
@@ -3262,14 +3735,19 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Serverio privatus raktas (pagal nutylėjimą: server.pem)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This help message</source>
         <translation>Pagelbos žinutė</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Nepavyko susieti šiame kompiuteryje prievado %s (bind returned error %d, %s)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Leisti DNS paiešką sujungimui ir mazgo pridėjimui</translation>
     </message>
@@ -3282,6 +3760,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation> wallet.dat pakrovimo klaida,  wallet.dat sugadintas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
         <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Dogecoin versijos</translation>
     </message>
@@ -3290,10 +3769,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Dogecoin</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error loading wallet.dat</source>
         <translation> wallet.dat pakrovimo klaida</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Neteisingas proxy adresas: &apos;%s&apos;</translation>
     </message>
@@ -3322,6 +3804,16 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Neteisinga suma</translation>
     </message>
     <message>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Neteisingas proxy adresas: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Neteisinga suma -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Insufficient funds</source>
         <translation>Nepakanka lėšų</translation>
     </message>
@@ -3338,12 +3830,15 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Užkraunama piniginė...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot downgrade wallet</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Cannot write default address</source>
-        <translation type="unfinished"/>
+        <translation>Negalima parašyti įprasto adreso</translation>
     </message>
     <message>
         <source>Rescanning...</source>
@@ -3354,6 +3849,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Įkėlimas baigtas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation type="unfinished"/>
     </message>
@@ -3367,5 +3863,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation type="unfinished"/>
     </message>
+=======
+        <source>Error</source>
+        <translation>Klaida</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

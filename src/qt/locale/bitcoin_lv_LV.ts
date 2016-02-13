@@ -1,4 +1,5 @@
 <TS language="lv_LV" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,6 +39,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Adresi vai nosaukumu rediģē ar dubultklikšķi</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Izveidot jaunu adresi</translation>
     </message>
@@ -63,7 +69,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"/>
+        <translation>Izdzēst iezīmētās adreses no saraksta</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -79,15 +85,16 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished"/>
+        <translation>Izvēlies adresi uz kuru sūtīt dogecoins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished"/>
+        <translation>Izvēlies adresi ar kuru saņemt dogecoins</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
         <translation>&amp;Izvēlēties</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Very sending addresses</source>
@@ -106,6 +113,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Such sending addresses</source>
+        <translation>Sūtīšanas adreses</translation>
+    </message>
+    <message>
+        <source>Much receiving addresses</source>
+        <translation>Saņemšanas adreses</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy &amp;Label</source>
         <translation>Kopēt &amp;Nosaukumu</translation>
     </message>
@@ -124,12 +143,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Exporting Failed</source>
         <translation>Eksportēšana Neizdevās</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>There was an error trying to save the address list to %1.</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -164,10 +186,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Jaunā parole vēlreiz</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Ierakstiet maciņa jauno paroli.&lt;br/&gt;Lūdzu izmantojiet &lt;b&gt;10 vai vairāk nejauši izvēlētas zīmes&lt;/b&gt;, vai &lt;b&gt;astoņus un vairāk vārdus&lt;/b&gt;.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>Šifrēt maciņu</translation>
     </message>
@@ -192,15 +217,19 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Mainīt paroli</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Ierakstiet maciņa veco un jauno paroli.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Apstiprināt maciņa šifrēšanu</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -210,6 +239,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Brīdinājums: Ja tu nošifrē savu maciņu un pazaudē paroli, tu &lt;b&gt;PAZAUDĒSI VISAS SAVAS DOGECOINS&lt;/b&gt;!</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Vai tu tiešām vēlies šifrēt savu maciņu?</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -220,10 +256,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Maciņš nošifrēts</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>Dogecoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst dogekoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>Maciņa šifrēšana neizdevās</translation>
     </message>
@@ -249,7 +288,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation type="unfinished"/>
+        <translation>Maciņa parole tika veiksmīgi nomainīta.</translation>
     </message>
 </context>
 <context>
@@ -268,7 +307,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Node</source>
-        <translation type="unfinished"/>
+        <translation>Node</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -291,10 +330,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Aizvērt programmu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Parādīt informāciju par Dogecoin</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>Par &amp;Qt</translation>
     </message>
@@ -304,21 +346,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Iespējas</translation>
+        <translation>&amp;Iespējas...</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Š&amp;ifrēt maciņu...</translation>
+        <translation>Šifrēt &amp;maciņu...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Izveidot maciņa rezerves kopiju</translation>
+        <translation>&amp;Maciņa Rezerves Kopija...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Mainīt paroli</translation>
+        <translation>Mainīt &amp;Paroli...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
         <translation>&amp;Adrešu sūtīšana...</translation>
     </message>
@@ -345,6 +388,34 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Modify configuration options for Dogecoin Core</source>
         <translation>Mainīt Dogecoin konfigurācijas uzstādījumus</translation>
+=======
+        <source>Such &amp;sending addresses...</source>
+        <translation>&amp;Sūtīšanas adreses...</translation>
+    </message>
+    <message>
+        <source>Much &amp;receiving addresses...</source>
+        <translation>Saņemšanas &amp;adreses...</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Atvērt &amp;URI...</translation>
+    </message>
+    <message>
+        <source>Dogecoin Core client</source>
+        <translation>Dogecoin Core klients</translation>
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>Importē blokus no diska...</translation>
+    </message>
+    <message>
+        <source>Reindexing blocks on disk...</source>
+        <translation>Bloku reindeksēšana no diska...</translation>
+    </message>
+    <message>
+        <source>Send coins to a Dogecoin address</source>
+        <translation>Nosūtīt bitkoinus uz Dogecoin adresi</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -356,7 +427,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;Debug logs</translation>
+        <translation>&amp;Atkļūdošanas logs</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
@@ -380,7 +451,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Receive</source>
+<<<<<<< HEAD
         <translation>Saņe&amp;mt</translation>
+=======
+        <translation>&amp;Saņemt</translation>
+    </message>
+    <message>
+        <source>Show information about Dogecoin Core</source>
+        <translation>Parādīt informāciju par Dogecoin Core</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -388,7 +467,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation type="unfinished"/>
+        <translation>Parādīt vai paslēpt galveno Logu</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
@@ -419,22 +498,30 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Dogecoin Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Pieprasīt maksājumus (izveido QR kodu un dogecoin: URIs)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;About Dogecoin Core</source>
         <translation>Par &amp;Dogecoin Core</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the list of used sending addresses and labels</source>
         <translation type="unfinished"/>
     </message>
@@ -461,10 +548,19 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <source>%n active connection(s) to Dogecoin network</source>
         <translation><numerusform>%n aktīvu savienojumu ar Dogecoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar Dogecoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as Dogecoin tīklu</numerusform></translation>
+=======
+        <source>Open a dogecoin: URI or payment request</source>
+        <translation>Atvērt dogecoin URI vai maksājuma pieprasījumu</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Komandrindas iespējas</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>No block source available...</source>
         <translation>Nav pieejams neviens bloku avots...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
@@ -501,6 +597,16 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Last received block was generated %1 ago.</source>
         <translation type="unfinished"/>
+=======
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 un %2</translation>
+    </message>
+    <message>
+        <source>%1 behind</source>
+        <translation>%1 aizmugurē</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
@@ -535,6 +641,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Ienākoša transakcija</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -547,6 +654,8 @@ Adrese: %4
 </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Maciņš ir &lt;b&gt;šifrēts&lt;/b&gt; un pašlaik &lt;b&gt;atslēgts&lt;/b&gt;</translation>
     </message>
@@ -554,10 +663,13 @@ Adrese: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Maciņš ir &lt;b&gt;šifrēts&lt;/b&gt; un pašlaik &lt;b&gt;slēgts&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>ClientModel</name>
@@ -569,10 +681,13 @@ Adrese: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation>Dogecoin Kontroles Adrešu Atlase</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Quantity:</source>
         <translation>Daudzums:</translation>
     </message>
@@ -591,10 +706,13 @@ Adrese: %4
     <message>
         <source>Fee:</source>
         <translation>Maksa:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Low Output:</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>After Fee:</source>
@@ -606,7 +724,7 @@ Adrese: %4
     </message>
     <message>
         <source>(un)select all</source>
-        <translation type="unfinished"/>
+        <translation>iezīmēt visus</translation>
     </message>
     <message>
         <source>Tree mode</source>
@@ -621,6 +739,7 @@ Adrese: %4
         <translation>Daudzums</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
@@ -629,6 +748,8 @@ Adrese: %4
         <translation>Adrese</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Date</source>
         <translation>Datums</translation>
     </message>
@@ -662,11 +783,11 @@ Adrese: %4
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation type="unfinished"/>
+        <translation>Aizslēgt neiztērēto</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation type="unfinished"/>
+        <translation>Atslēgt neiztērēto</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -687,10 +808,13 @@ Adrese: %4
     <message>
         <source>Copy priority</source>
         <translation>Kopēt prioritāti</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Copy low output</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy change</source>
@@ -734,10 +858,11 @@ Adrese: %4
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation type="unfinished"/>
+        <translation>(%1 aizslēgts)</translation>
     </message>
     <message>
         <source>none</source>
+<<<<<<< HEAD
         <translation>neviens</translation>
     </message>
     <message>
@@ -745,12 +870,18 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <translation>neviena</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>yes</source>
         <translation>jā</translation>
     </message>
     <message>
         <source>no</source>
         <translation>nē</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
@@ -789,6 +920,10 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>(no label)</source>
         <translation>(bez nosaukuma)</translation>
     </message>
@@ -812,6 +947,7 @@ Adrese: %4
         <translation>&amp;Nosaukums</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The label associated with this address list entry</source>
         <translation type="unfinished"/>
     </message>
@@ -820,6 +956,8 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Address</source>
         <translation>&amp;Adrese</translation>
     </message>
@@ -840,12 +978,21 @@ Adrese: %4
         <translation>Mainīt nosūtīšanas adresi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>Nupat ierakstītā adrese &quot;%1&quot; jau atrodas adrešu grāmatā.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
         <translation>Ierakstītā adrese &quot;%1&quot; nav derīga Dogecoin adrese.</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Nupat ierakstītā adrese "%1" jau atrodas adrešu grāmatā.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <translation>Ierakstītā adrese "%1" nav derīga Dogecoin adrese.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -860,32 +1007,38 @@ Adrese: %4
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation type="unfinished"/>
+        <translation>Tiks izveidota jauna datu mape.</translation>
     </message>
     <message>
         <source>name</source>
         <translation>vārds</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Path already exists, and is not a directory.</source>
-        <translation type="unfinished"/>
+        <translation>Šāds ceļš jau pastāv un tā nav mape.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation type="unfinished"/>
+        <translation>Šeit nevar izveidot datu mapi.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core - Command-line options</source>
         <translation>Dogecoin Core - Komandrindas iespējas</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Dogecoin Core</translation>
     </message>
@@ -894,6 +1047,7 @@ Adrese: %4
         <translation>versija</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Lietojums:</translation>
     </message>
@@ -924,6 +1078,22 @@ Adrese: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation type="unfinished"/>
+=======
+        <source>(%1-bit)</source>
+        <translation>(%1-biti)</translation>
+    </message>
+    <message>
+        <source>About Dogecoin Core</source>
+        <translation>Par Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Lietojums:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>komandrindas izvēles</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -931,6 +1101,7 @@ Adrese: %4
     <message>
         <source>Welcome</source>
         <translation>Sveiciens</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Welcome to Dogecoin Core.</source>
@@ -945,11 +1116,20 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Welcome to Dogecoin Core.</source>
+        <translation>Sveicināts Dogecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use the default data directory</source>
-        <translation type="unfinished"/>
+        <translation>Izmantot noklusēto datu mapi</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -959,10 +1139,18 @@ Adrese: %4
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Izmantot pielāgotu datu mapi:</translation>
+    </message>
+    <message>
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error</source>
         <translation>Kļūda</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>GB of free space available</source>
@@ -971,8 +1159,10 @@ Adrese: %4
     <message>
         <source>(of %1GB needed)</source>
         <translation>(no %1GB nepieciešams)</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1007,6 +1197,7 @@ Adrese: %4
         <translation>&amp;Galvenais</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation type="unfinished"/>
     </message>
@@ -1025,6 +1216,10 @@ Adrese: %4
     <message>
         <source>Size of &amp;database cache</source>
         <translation type="unfinished"/>
+=======
+        <source>Size of &amp;database cache</source>
+        <translation>&amp;Datubāzes kešatmiņas izmērs</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>MB</source>
@@ -1032,6 +1227,7 @@ Adrese: %4
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1045,28 +1241,42 @@ Adrese: %4
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation type="unfinished"/>
+=======
+        <translation>Skriptu &amp;pārbaudes pavedienu skaits</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>Starpniekservera IP adrese (piem. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>Trešo personu transakciju URLs</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation type="unfinished"/>
+        <translation>Aktīvās komandrindas opcijas, kuras pārspēko šos iestatījumus:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
+        <translation>Atiestatīt visus klienta iestatījumus uz noklusējumu.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Atiestatīt Iestatījumus.</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Tīkls</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>W&amp;allet</source>
         <translation>&amp;Maciņš</translation>
     </message>
@@ -1076,11 +1286,15 @@ Adrese: %4
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
+<<<<<<< HEAD
         <translation>Ieslēgt bitcoin &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Ieslēgt dogecoin &amp;kontroles funkcijas</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -1096,7 +1310,7 @@ Adrese: %4
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP:</translation>
+        <translation>Starpniekservera &amp;IP:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
@@ -1104,6 +1318,7 @@ Adrese: %4
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
+<<<<<<< HEAD
         <translation>Proxy ports (piem. 9050)</translation>
     </message>
     <message>
@@ -1115,6 +1330,11 @@ Adrese: %4
         <translation>proxy SOCKS versija (piem. 5)</translation>
     </message>
     <message>
+=======
+        <translation>Starpniekservera ports (piem. 9050)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Window</source>
         <translation>&amp;Logs</translation>
     </message>
@@ -1127,10 +1347,13 @@ Adrese: %4
         <translation>&amp;Minimizēt uz sistēmas tekni, nevis rīkjoslu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>Logu aizverot, minimizēt, nevis beigt darbu. Kad šī izvēlne iespējota, programma aizvērsies tikai pēc Beigt komandas izvēlnē.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>M&amp;inimize on close</source>
         <translation>M&amp;inimizēt aizverot</translation>
     </message>
@@ -1143,10 +1366,13 @@ Adrese: %4
         <translation>Lietotāja interfeiss un &amp;valoda:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
         <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc Dogecoin pārstartēšanas.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Vienības, kurās attēlot daudzumus:</translation>
     </message>
@@ -1155,6 +1381,7 @@ Adrese: %4
         <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot dogekoinus.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
         <translation>Rādīt vai nē Dogecoin adreses transakciju sarakstā.</translation>
     </message>
@@ -1163,12 +1390,14 @@ Adrese: %4
         <translation>&amp;Attēlot adreses transakciju sarakstā</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Whether to show coin control features or not.</source>
         <translation>Vai rādīt Dogecoin kontroles funkcijas vai nē.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;Labi</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -1180,13 +1409,18 @@ Adrese: %4
     </message>
     <message>
         <source>none</source>
+<<<<<<< HEAD
         <translation>neviens</translation>
+=======
+        <translation>neviena</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation type="unfinished"/>
+        <translation>Apstiprināt iestatījumu atiestatīšanu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Client restart required to activate changes.</source>
         <translation type="unfinished"/>
     </message>
@@ -1199,8 +1433,10 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The supplied proxy address is invalid.</source>
-        <translation>Norādītā proxy adrese nav derīga.</translation>
+        <translation>Norādītā starpniekservera adrese nav derīga.</translation>
     </message>
 </context>
 <context>
@@ -1214,6 +1450,7 @@ Adrese: %4
         <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Dogecoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet</source>
         <translation>Maciņš</translation>
     </message>
@@ -1228,26 +1465,44 @@ Adrese: %4
     <message>
         <source>Pending:</source>
         <translation type="unfinished"/>
+=======
+        <source>Available:</source>
+        <translation>Pieejams:</translation>
+    </message>
+    <message>
+        <source>Your current spendable balance</source>
+        <translation>Tava pašreizējā tērējamā bilance</translation>
+    </message>
+    <message>
+        <source>Pending:</source>
+        <translation>Neizšķirts:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation type="unfinished"/>
+        <translation>Kopējā apstiprināmo transakciju vērtība, vēl nav ieskaitīta tērējamajā bilancē</translation>
     </message>
     <message>
         <source>Immature:</source>
         <translation>Nenobriedušu:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Mined balance that has not yet matured</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Total:</source>
         <translation>Kopā:</translation>
+=======
+        <source>Total:</source>
+        <translation>Kopsumma:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Your current total balance</source>
         <translation>Jūsu kopējā tekošā bilance</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
@@ -1258,10 +1513,15 @@ Adrese: %4
         <translation>nav sinhronizēts</translation>
     </message>
 </context>
+=======
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>PaymentServer</name>
     <message>
         <source>URI handling</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1319,19 +1579,42 @@ Adrese: %4
     <message>
         <source>Bad response from server %1</source>
         <translation type="unfinished"/>
+=======
+        <translation>URI apstrāde</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Nederīga maksājuma adrese %1</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Maksājumu pieprasījuma kļūda</translation>
+    </message>
+    <message>
+        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <translation>Nevar palaist Dogecoin: nospied-lai-maksātu apstrādātāju</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Atmaksa no %1</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation type="unfinished"/>
+        <translation>Maksājums atzīts</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation type="unfinished"/>
+        <translation>Tīkla pieprasījuma kļūda</translation>
     </message>
 </context>
 <context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Dogecoin</translation>
     </message>
@@ -1356,6 +1639,24 @@ Adrese: %4
         <translation>Ierakstiet Dogecoin adresi (piem. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
 </context>
+=======
+        <source>Amount</source>
+        <translation>Daudzums</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 st</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -1395,11 +1696,11 @@ Adrese: %4
     </message>
     <message>
         <source>Debug window</source>
-        <translation type="unfinished"/>
+        <translation>Atkļūdošanas logs</translation>
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished"/>
+        <translation>Vispārējs</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
@@ -1430,10 +1731,13 @@ Adrese: %4
         <translation>Pašreizējais bloku skaits</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Estimated total blocks</source>
         <translation>Bloku skaita novērtējums</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Last block time</source>
         <translation>Pēdējā bloka laiks</translation>
     </message>
@@ -1459,11 +1763,11 @@ Adrese: %4
     </message>
     <message>
         <source>In:</source>
-        <translation type="unfinished"/>
+        <translation>Ie.:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation type="unfinished"/>
+        <translation>Iz.:</translation>
     </message>
     <message>
         <source>Build date</source>
@@ -1471,21 +1775,27 @@ Adrese: %4
     </message>
     <message>
         <source>Debug log file</source>
-        <translation type="unfinished"/>
+        <translation>Atkļūdošanas žurnāla datne</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear console</source>
         <translation>Notīrīt konsoli</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Dogecoin RPC console.</source>
         <translation>Laipni lūgti Dogecoin RPC konsolē.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Izmantojiet bultiņas uz augšu un leju, lai pārvietotos pa vēsturi, un &lt;b&gt;Ctrl-L&lt;/b&gt; ekrāna notīrīšanai.</translation>
     </message>
@@ -1509,6 +1819,7 @@ Adrese: %4
         <source>%1 GB</source>
         <translation>%1 GB</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>%1 m</source>
         <translation>%1 m</translation>
@@ -1522,6 +1833,9 @@ Adrese: %4
         <translation>%1 st %2 m</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
@@ -1535,6 +1849,7 @@ Adrese: %4
     <message>
         <source>&amp;Message:</source>
         <translation>&amp;Ziņojums:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
@@ -1559,6 +1874,12 @@ Adrese: %4
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
         <translation type="unfinished"/>
+=======
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>&amp;Atkārtoti izmantot esošo saņemšanas adresi (nav ieteicams)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1578,7 +1899,7 @@ Adrese: %4
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation type="unfinished"/>
+        <translation>Parādīt atlasītos pieprasījumus (tas pats, kas dubultklikšķis uz ieraksta)</translation>
     </message>
     <message>
         <source>Show</source>
@@ -1586,7 +1907,7 @@ Adrese: %4
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation type="unfinished"/>
+        <translation>Noņemt atlasītos ierakstus no saraksta.</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -1621,7 +1942,11 @@ Adrese: %4
     </message>
     <message>
         <source>&amp;Save Image...</source>
+<<<<<<< HEAD
         <translation>&amp;Saglabāt Attēlu</translation>
+=======
+        <translation>&amp;Saglabāt Attēlu...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Request payment to %1</source>
@@ -1685,6 +2010,13 @@ Adrese: %4
     <message>
         <source>(no message)</source>
         <translation>(nav ziņojuma)</translation>
+<<<<<<< HEAD
+    </message>
+    <message>
+        <source>(no amount)</source>
+        <translation>(nav summas)</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>(no amount)</source>
@@ -1695,7 +2027,11 @@ Adrese: %4
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
+<<<<<<< HEAD
         <translation>Sūtīt dogekoinus</translation>
+=======
+        <translation>Sūtīt Dogekoinus</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1703,15 +2039,15 @@ Adrese: %4
     </message>
     <message>
         <source>Inputs...</source>
-        <translation type="unfinished"/>
+        <translation>Ieejas...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation type="unfinished"/>
+        <translation>automātiski atlasīts</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation type="unfinished"/>
+        <translation>Nepietiekami līdzekļi!</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -1732,10 +2068,13 @@ Adrese: %4
     <message>
         <source>Fee:</source>
         <translation>Maksa:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Low Output:</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>After Fee:</source>
@@ -1744,10 +2083,13 @@ Adrese: %4
     <message>
         <source>Change:</source>
         <translation>Atlikums:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Custom change address</source>
@@ -1812,10 +2154,13 @@ Adrese: %4
     <message>
         <source>Copy priority</source>
         <translation>Kopēt prioritāti</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Copy low output</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy change</source>
@@ -1828,10 +2173,13 @@ Adrese: %4
     <message>
         <source>or</source>
         <translation>vai</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -1846,14 +2194,18 @@ Adrese: %4
         <translation>Kopsumma pārsniedz pieejamo, ja pieskaitīta %1 transakcijas maksa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>Atrastas divas vienādas adreses, vienā nosūtīšanas reizē uz katru adresi var sūtīt tikai vienreiz.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Transaction creation failed!</source>
         <translation>Transakcijas izveidošana neizdevās!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation type="unfinished"/>
     </message>
@@ -1862,14 +2214,21 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Warning: Invalid Dogecoin address</source>
+        <translation>Brīdinājums: Nederīga Dogecoin adrese</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>(no label)</source>
         <translation>(bez nosaukuma)</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation type="unfinished"/>
+        <translation>Brīdinājums: Nezināma atlikuma adrese</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Are you sure you want to send?</source>
         <translation type="unfinished"/>
     </message>
@@ -1884,6 +2243,10 @@ Adrese: %4
     <message>
         <source>Invalid payment address %1</source>
         <translation type="unfinished"/>
+=======
+        <source>added as transaction fee</source>
+        <translation>pievienots kā transakcijas maksa</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1897,10 +2260,13 @@ Adrese: %4
         <translation>&amp;Saņēmējs:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The address to send the payment to (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>Adrese lai sūtītu maksājumu uz (piem. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Lai pievienotu adresi adrešu grāmatai, tai jādod nosaukums</translation>
     </message>
@@ -1910,7 +2276,7 @@ Adrese: %4
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation type="unfinished"/>
+        <translation>Izvēlies iepriekš izmantoto adresi</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
@@ -1937,6 +2303,7 @@ Adrese: %4
         <translation>Ziņojums:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a verified payment request.</source>
         <translation>Šis ir pārbaudīts maksājuma pieprasījums.</translation>
     </message>
@@ -1953,12 +2320,18 @@ Adrese: %4
         <translation>Šis ir nepārbaudīts maksājuma pieprasījums.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Pay To:</source>
         <translation>Maksāt:</translation>
     </message>
     <message>
         <source>Memo:</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Memo:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1969,7 +2342,7 @@ Adrese: %4
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation type="unfinished"/>
+        <translation>Neizslēdziet datoru kamēr šis logs nepazūd.</translation>
     </message>
 </context>
 <context>
@@ -1983,6 +2356,7 @@ Adrese: %4
         <translation>Parakstīt &amp;Ziņojumu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"/>
     </message>
@@ -1991,8 +2365,10 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Choose previously used address</source>
-        <translation type="unfinished"/>
+        <translation>Izvēlies iepriekš izmantoto adresi</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2008,7 +2384,7 @@ Adrese: %4
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished"/>
+        <translation>Šeit ievadi ziņojumu kuru vēlies parakstīt</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -2016,11 +2392,15 @@ Adrese: %4
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished"/>
+        <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Dogecoin address</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Dogecoin adreses īpašnieks.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2028,7 +2408,7 @@ Adrese: %4
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished"/>
+        <translation>Atiestatīt visus laukus</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2037,6 +2417,7 @@ Adrese: %4
     <message>
         <source>&amp;Verify Message</source>
         <translation>&amp;Pārbaudīt Ziņojumu</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
@@ -2051,14 +2432,19 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verify &amp;Message</source>
         <translation>&amp;Pārbaudīt Ziņojumu</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished"/>
+        <translation>Atiestatīt visus laukus</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>Ierakstiet Dogecoin adresi (piem. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
@@ -2067,24 +2453,30 @@ Adrese: %4
         <translation>Nospied &quot;Parakstīt Ziņojumu&quot; lai ģenerētu parakstu</translation>
     </message>
     <message>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Nospied "Parakstīt Ziņojumu" lai ģenerētu parakstu</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The entered address is invalid.</source>
-        <translation type="unfinished"/>
+        <translation>Ievadītā adrese ir nederīga.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation type="unfinished"/>
+        <translation>Lūdzu pārbaudi adresi un mēģini vēlreiz.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation type="unfinished"/>
+        <translation>Ievadītā adrese neattiecas uz atslēgu.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation type="unfinished"/>
+        <translation>Maciņa atslēgšana tika atcelta.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation type="unfinished"/>
+        <translation>Privātā atslēga priekš ievadītās adreses nav pieejama.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
@@ -2100,11 +2492,11 @@ Adrese: %4
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation type="unfinished"/>
+        <translation>Lūdzu pārbaudi parakstu un mēģini vēlreiz.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation type="unfinished"/>
+        <translation>Paraksts neatbilda ziņojuma apkopojumam.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
@@ -2145,6 +2537,7 @@ Adrese: %4
     </message>
     <message>
         <source>conflicted</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2152,6 +2545,15 @@ Adrese: %4
         <translation>%1/bezsaistē</translation>
     </message>
     <message>
+=======
+        <translation>pretrunā</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/bezsaistē</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>%1/unconfirmed</source>
         <translation>%1/neapstiprinātas</translation>
     </message>
@@ -2162,10 +2564,13 @@ Adrese: %4
     <message>
         <source>Status</source>
         <translation>Status</translation>
+<<<<<<< HEAD
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/><numerusform/></translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Date</source>
@@ -2177,7 +2582,7 @@ Adrese: %4
     </message>
     <message>
         <source>Generated</source>
-        <translation type="unfinished"/>
+        <translation>Ģenerēts</translation>
     </message>
     <message>
         <source>From</source>
@@ -2189,27 +2594,31 @@ Adrese: %4
     </message>
     <message>
         <source>own address</source>
-        <translation type="unfinished"/>
+        <translation>paša adrese</translation>
     </message>
     <message>
         <source>label</source>
-        <translation type="unfinished"/>
+        <translation>etiķete</translation>
     </message>
     <message>
         <source>Credit</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/><numerusform/></translation>
+=======
+        <translation>Kredīts</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>not accepted</source>
-        <translation type="unfinished"/>
+        <translation>nav pieņemts</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation type="unfinished"/>
+        <translation>Debets</translation>
     </message>
     <message>
         <source>Transaction fee</source>
@@ -2233,15 +2642,19 @@ Adrese: %4
     </message>
     <message>
         <source>Merchant</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Tirgotājs</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Debug information</source>
-        <translation type="unfinished"/>
+        <translation>Atkļūdošanas informācija</translation>
     </message>
     <message>
         <source>Transaction</source>
@@ -2249,7 +2662,7 @@ Adrese: %4
     </message>
     <message>
         <source>Inputs</source>
-        <translation type="unfinished"/>
+        <translation>Ieejas</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -2267,10 +2680,13 @@ Adrese: %4
         <source>, has not been successfully broadcast yet</source>
         <translation>, vēl nav veiksmīgi izziņots</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/><numerusform/></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>unknown</source>
         <translation>nav zināms</translation>
@@ -2298,6 +2714,7 @@ Adrese: %4
         <translation>Tips</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Adrese</translation>
     </message>
@@ -2314,6 +2731,8 @@ Adrese: %4
         <translation type="unfinished"><numerusform/><numerusform/><numerusform/></translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Open until %1</source>
         <translation>Atvērts līdz %1</translation>
     </message>
@@ -2334,6 +2753,7 @@ Adrese: %4
         <translation>Bezsaitē</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unconfirmed</source>
         <translation>Neapstiprināts</translation>
     </message>
@@ -2344,6 +2764,18 @@ Adrese: %4
     <message>
         <source>Conflicted</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Neapstiprināts</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>Pretrunā</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Received with</source>
@@ -2382,10 +2814,13 @@ Adrese: %4
         <translation>Transakcijas tips.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Destination address of transaction.</source>
         <translation>Transakcijas mērķa adrese.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount removed from or added to balance.</source>
         <translation>Bilancei pievienotais vai atņemtais daudzums.</translation>
     </message>
@@ -2481,16 +2916,19 @@ Adrese: %4
         <translation>Eksportēšana Neizdevās</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the transaction history to %1.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Exporting Successful</source>
         <translation>Eksportēšana Veiksmīga</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation type="unfinished"/>
+        <translation>Transakciju vēsture tika veiksmīgi saglabāta uz %1.</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -2517,10 +2955,13 @@ Adrese: %4
         <translation>Adrese</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Daudzums</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>ID</source>
         <translation>ID</translation>
     </message>
@@ -2533,6 +2974,9 @@ Adrese: %4
         <translation>uz</translation>
     </message>
 </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
 <context>
     <name>WalletFrame</name>
     <message>
@@ -2551,7 +2995,11 @@ Adrese: %4
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
+<<<<<<< HEAD
         <translation>&amp;Eksportēt...</translation>
+=======
+        <translation>&amp;Eksportēt</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -2585,6 +3033,7 @@ Adrese: %4
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Lietojums:</translation>
     </message>
@@ -2597,10 +3046,13 @@ Adrese: %4
         <translation>Palīdzība par komandu</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Options:</source>
         <translation>Iespējas:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: dogecoin.conf)</source>
         <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: dogecoin.conf)</translation>
     </message>
@@ -2609,10 +3061,13 @@ Adrese: %4
         <translation>Norādiet pid failu (pēc noklusēšanas: bitcoind.pid)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify data directory</source>
         <translation>Norādiet datu direktoriju</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>Gaidīt savienojumus portā &lt;port&gt; (pēc noklusēšanas: 8333 vai testnet: 18333)</translation>
     </message>
@@ -2621,6 +3076,8 @@ Adrese: %4
         <translation>Uzturēt līdz &lt;n&gt; savienojumiem ar citiem mezgliem(pēc noklusēšanas: 125)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Pievienoties mezglam, lai iegūtu citu mezglu adreses, un atvienoties</translation>
     </message>
@@ -2629,6 +3086,7 @@ Adrese: %4
         <translation>Norādiet savu publisko adresi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Slieksnis pārkāpējmezglu atvienošanai (pēc noklusēšanas: 100)</translation>
     </message>
@@ -2645,14 +3103,19 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Pieņemt komandrindas un JSON-RPC komandas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
     </message>
@@ -2661,6 +3124,7 @@ Adrese: %4
         <translation>Izmantot testa tīklu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation type="unfinished"/>
     </message>
@@ -3007,12 +3471,59 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>(default: 1)</source>
+        <translation>(noklusējums: 1)</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; var būt:</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Mēģināt atgūt privātās atslēgas no bojāta wallet.dat</translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Bloka izveidošanas iestatījumi:</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Savienoties tikai ar norādītajām nodēm.</translation>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation>Savienojuma iestatījumi:</translation>
+    </message>
+    <message>
+        <source>Debugging/Testing options:</source>
+        <translation>Atkļūdošanas/Testēšanas iestatījumi:</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation>Kļūda ielādējot bloku datubāzi</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Kļūda: Zema diska vieta!</translation>
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>Ja &lt;category&gt; nav norādīta, izvadīt visu atkļūdošanas informāciju.</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>Importē...</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verifying blocks...</source>
         <translation>Pārbauda blokus...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
         <translation>Pārbauda maciņu...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Wait for RPC server to start</source>
@@ -3021,12 +3532,15 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Wallet %s resides outside data directory %s</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet options:</source>
         <translation>Maciņa iespējas:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
         <translation type="unfinished"/>
     </message>
@@ -3131,10 +3645,25 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Importēt blokus no ārējās blk000??.dat datnes</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informācija</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>RPC servera iestatījumi:</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Debug/trace informāciju izvadīt konsolē, nevis debug.log failā</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation type="unfinished"/>
     </message>
@@ -3153,12 +3682,21 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation type="unfinished"/>
+=======
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Uzstādiet valodu, piemēram "de_DE" (pēc noklusēšanas: sistēmas lokāle)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Uzsākot, parādīt programmas informācijas logu (pēc noklusēšanas: 1)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
+        <translation>Transakcijas parakstīšana neizdevās</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation type="unfinished"/>
     </message>
@@ -3169,18 +3707,23 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>System error: </source>
         <translation type="unfinished"/>
+=======
+        <source>Start minimized</source>
+        <translation>Sākt minimizētu</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
+        <translation>Transakcijas summa ir pārāk maza</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
+        <translation>Transakcijas summai ir jābūt pozitīvai</translation>
     </message>
     <message>
         <source>Transaction too large</source>
         <translation>Transakcija ir pārāk liela</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
@@ -3189,6 +3732,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -3199,6 +3744,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Brīdinājums</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation type="unfinished"/>
     </message>
@@ -3215,14 +3761,21 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>versija</translation>
     </message>
     <message>
+=======
+        <source>on startup</source>
+        <translation>startēšanas laikā</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"/>
+        <translation>wallet.dat ir bojāts, glābšana neizdevās</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
         <translation>JSON-RPC savienojumu parole</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Atļaut JSON-RPC savienojumus no norādītās IP adreses</translation>
     </message>
@@ -3231,6 +3784,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Nosūtīt komandas mezglam, kas darbojas adresē &lt;ip&gt; (pēc noklusēšanas: 127.0.0.1)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Izpildīt komandu, kad labāk atbilstošais bloks izmainās (%s cmd aizvieto ar bloka hešu)</translation>
     </message>
@@ -3239,10 +3794,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Atjaunot maciņa formātu uz jaunāko</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Uzstādīt atslēgu bufera izmēru uz &lt;n&gt; (pēc noklusēšanas: 100)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Atkārtoti skanēt bloku virkni, meklējot trūkstošās maciņa transakcijas</translation>
     </message>
@@ -3251,6 +3809,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>JSON-RPC savienojumiem izmantot OpenSSL (https)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Server certificate file (default: server.cert)</source>
         <translation>Servera sertifikāta fails (pēc noklusēšanas: server.cert)</translation>
     </message>
@@ -3259,14 +3818,19 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Servera privātā atslēga (pēc noklusēšanas: server.pem)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This help message</source>
         <translation>Šis palīdzības paziņojums</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Nevar pievienoties pie %s šajā datorā (pievienošanās atgrieza kļūdu %d, %s)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Atļaut DNS uzmeklēšanu priekš -addnode, -seednode un -connect</translation>
     </message>
@@ -3279,6 +3843,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Nevar ielādēt wallet.dat: maciņš bojāts</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
         <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka Dogecoin versija</translation>
     </message>
@@ -3287,10 +3852,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet Dogecoin</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error loading wallet.dat</source>
         <translation>Kļūda ielādējot wallet.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Nederīga -proxy adrese: &apos;%s&apos;</translation>
     </message>
@@ -3319,6 +3887,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Nederīgs daudzums</translation>
     </message>
     <message>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Nederīga -proxy adrese: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>-onlynet komandā norādīts nepazīstams tīkls: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Nevar uzmeklēt -bind adresi: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Nevar atrisināt -externalip adresi: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nederīgs daudzums priekš -paytxfree=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Insufficient funds</source>
         <translation>Nepietiek dogekoinu</translation>
     </message>
@@ -3351,6 +3941,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Ielāde pabeigta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation>Izmantot opciju %s</translation>
     </message>
@@ -3366,5 +3957,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 %s
 Ja fails neeksistē, izveidojiet to ar atļauju lasīšanai tikai īpašniekam.</translation>
     </message>
+=======
+        <source>Error</source>
+        <translation>Kļūda</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

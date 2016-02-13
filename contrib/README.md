@@ -16,12 +16,22 @@ Repository Tools
 Specific tools for developers working on this repository.
 Contains the script `github-merge.sh` for merging github pull requests securely and signing them using GPG.
 
+<<<<<<< HEAD
+=======
+### [Verify-Commits](/contrib/verify-commits) ###
+Tool to verify that every merge commit was signed by a developer using the above `github-merge.sh` script.
+
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 ### [Linearize](/contrib/linearize) ###
 Construct a linear, no-fork, best version of the blockchain.
 
 ### [Qos](/contrib/qos) ###
 
+<<<<<<< HEAD
 A Linux bash script that will set up tc to limit the outgoing bandwidth for connections to the Dogecoin network. This means one can have an always-on bitcoind instance running, and another local dogecoind/dogecoin-qt instance which connects to this node and receives blocks from it.
+=======
+A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the Dogecoin network. This means one can have an always-on dogecoind instance running, and another local dogecoind/dogecoin-qt instance which connects to this node and receives blocks from it.
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 ### [Seeds](/contrib/seeds) ###
 Utility to generate the pnSeed[] array that is compiled into the client.
@@ -46,7 +56,7 @@ Test and Verify Tools
 ---------------------
 
 ### [TestGen](/contrib/testgen) ###
-Utilities to generate test vectors for the data-driven Bitcoin tests.
+Utilities to generate test vectors for the data-driven Dogecoin tests.
 
 ### [Test Patches](/contrib/test-patches) ###
 These patches are applied when the automated pull-tester

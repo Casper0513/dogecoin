@@ -1,4 +1,5 @@
 <TS language="ru" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -41,6 +42,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Double-click to edit address or label</source>
         <translation>Для того, чтобы изменить адрес или метку, дважды кликните по изменяемому объекту</translation>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+        <source>Right-click to edit address or label</source>
+        <translation>Клик правой кнопкой для редактирования адреса или метки</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Create a new address</source>
@@ -95,7 +103,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Выбрать</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very sending addresses</source>
+=======
+        <source>Such sending addresses</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>Адреса отправки</translation>
     </message>
     <message>
@@ -130,11 +142,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>Exporting Failed</source>
         <translation>Экспорт не удался</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>There was an error trying to save the address list to %1.</source>
         <translation>Произошла ошибка при сохранении списка адресов в %1.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -169,10 +185,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Повторите новый пароль</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Введите новый пароль для бумажника. &lt;br/&gt; Пожалуйста, используйте фразы из &lt;b&gt;10 или более случайных символов,&lt;/b&gt; или &lt;b&gt;восьми и более слов.&lt;/b&gt;</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>Зашифровать бумажник</translation>
     </message>
@@ -197,10 +216,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Сменить пароль</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Введите старый и новый пароль для бумажника.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Подтвердите шифрование бумажника</translation>
     </message>
@@ -225,8 +247,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Бумажник зашифрован</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши биткойны от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Введите новый пароль бумажника.&lt;br/&gt;Используйте пароль, состоящий из &lt;b&gt;десяти или более случайных символов&lt;/b&gt;, или &lt;b&gt;восьми или более слов&lt;/b&gt;.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -296,10 +323,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Закрыть приложение</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Показать информацию о Dogecoin</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>О &amp;Qt</translation>
     </message>
@@ -309,7 +339,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>Опции</translation>
+        <translation>&amp;Параметры</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -324,7 +354,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Изменить пароль...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
+=======
+        <source>Such &amp;sending addresses...</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>&amp;Адреса отправки...</translation>
     </message>
     <message>
@@ -336,6 +370,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Открыть &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Dogecoin Core client</source>
+        <translation>Dogecoin Core клиент</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Importing blocks from disk...</source>
         <translation>Импортируются блоки с диска...</translation>
     </message>
@@ -346,10 +387,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Send coins to a Dogecoin address</source>
         <translation>Отправить монеты на указанный адрес Dogecoin</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Modify configuration options for Dogecoin Core</source>
         <translation>Изменить параметры конфигурации Dogecoin</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -388,6 +432,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Получить</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Dogecoin Core</source>
+        <translation>Показать информацию о Dogecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Show / Hide</source>
         <translation>&amp;Показать / Скрыть</translation>
     </message>
@@ -424,10 +475,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Панель вкладок</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[тестовая сеть]</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Dogecoin Core</translation>
     </message>
@@ -453,6 +507,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Command-line options</source>
+<<<<<<< HEAD
         <translation>&amp;Опции командной строки</translation>
     </message>
     <message>
@@ -466,12 +521,20 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <source>%n active connection(s) to Dogecoin network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью Dogecoin</numerusform></translation>
+=======
+        <translation>&amp;Параметры командной строки</translation>
+    </message>
+    <message>
+        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
+        <translation>Показать помощь по Dogecoin Core и получить список доступных параметров командной строки.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>No block source available...</source>
         <translation>Источник блоков недоступен...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
         <translation>Обработано %1 из %2 (примерно) блоков истории транзакций.</translation>
     </message>
@@ -500,6 +563,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation><numerusform>%n год</numerusform><numerusform>%n лет</numerusform><numerusform>%n года</numerusform></translation>
     </message>
     <message>
+=======
+        <source>%1 and %2</source>
+        <translation>%1 и %2</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>%1 behind</source>
         <translation>%1 позади</translation>
     </message>
@@ -540,6 +609,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Входящая транзакция</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -552,6 +622,8 @@ Address: %4
 </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;разблокирован&lt;/b&gt;</translation>
     </message>
@@ -559,10 +631,13 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;заблокирован&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation>Произошла неисправимая ошибка. Dogecoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>ClientModel</name>
@@ -574,8 +649,13 @@ Address: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation>Выбор адреса контроля монет</translation>
+=======
+        <source>Coin Selection</source>
+        <translation>Выбор монет</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Quantity:</source>
@@ -598,8 +678,13 @@ Address: %4
         <translation>Комиссия:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation>Малый выход:</translation>
+=======
+        <source>Dust:</source>
+        <translation>Пыль:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>After Fee:</source>
@@ -626,12 +711,21 @@ Address: %4
         <translation>Сумма</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Address</source>
         <translation>Адрес</translation>
+=======
+        <source>Received with label</source>
+        <translation>Получено с пометкой</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>Получено с адреса</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Date</source>
@@ -694,8 +788,13 @@ Address: %4
         <translation>Копировать приоритет</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation>Копировать малый выход</translation>
+=======
+        <source>Copy dust</source>
+        <translation>Копировать пыль</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy change</source>
@@ -746,8 +845,13 @@ Address: %4
         <translation>ничего</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust</source>
         <translation>Пыль</translation>
+=======
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>Может отличаться на +/- %1 сатоши на вход.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>yes</source>
@@ -758,10 +862,13 @@ Address: %4
         <translation>нет</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation>Эта пометка становится красной, если размер транзакции больше 1000 байт.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>Это значит, что требуется комиссия как минимум %1 на КБ.</translation>
     </message>
@@ -774,6 +881,7 @@ Address: %4
         <translation>Транзакции с более высоким приоритетом будут вероятнее других включены в блок.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
         <translation>Эта пометка становится красной, если приоритет ниже, чем &quot;средний&quot;.</translation>
     </message>
@@ -794,6 +902,8 @@ Address: %4
         <translation>Эта пометка становится красной, если сдача меньше %1.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>(no label)</source>
         <translation>[нет метки]</translation>
     </message>
@@ -845,12 +955,21 @@ Address: %4
         <translation>Изменение адреса для отправки</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>Введённый адрес «%1» уже находится в адресной книге.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
         <translation>Введённый адрес &quot;%1&quot; не является правильным Dogecoin-адресом.</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Введённый адрес «%1» уже находится в адресной книге.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <translation>Введённый адрес "%1" не является правильным Dogecoin-адресом.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -887,10 +1006,13 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core - Command-line options</source>
         <translation>Dogecoin Core - опции командной строки</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Dogecoin Core</translation>
     </message>
@@ -899,6 +1021,7 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Использование:</translation>
     </message>
@@ -929,6 +1052,26 @@ Address: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Выбрать каталог данных при запуске (по умолчанию: 0)</translation>
+=======
+        <source>(%1-bit)</source>
+        <translation>(%1-бит)</translation>
+    </message>
+    <message>
+        <source>About Dogecoin Core</source>
+        <translation>О Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Параметры командной строки</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Использование:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>параметры командной строки</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -958,17 +1101,27 @@ Address: %4
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Dogecoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
         <translation>Ошибка: не удалось создать указанный каталог данных &quot;%1&quot;.</translation>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>Ошибка: не удалось создать указанный каталог данных "%1".</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>GB of free space available</source>
         <translation>ГБ свободного места доступно</translation>
@@ -978,6 +1131,9 @@ Address: %4
         <translation>(из необходимых %1ГБ)</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1005,13 +1161,14 @@ Address: %4
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Опции</translation>
+        <translation>Параметры</translation>
     </message>
     <message>
         <source>&amp;Main</source>
         <translation>&amp;Главная</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>Необязательная комиссия за каждый КБ транзакции, которая ускоряет обработку Ваших транзакций.  Большинство транзакций занимают 1КБ.</translation>
     </message>
@@ -1028,6 +1185,8 @@ Address: %4
         <translation>&amp;Запускать Dogecoin при входе в систему</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Size of &amp;database cache</source>
         <translation>Размер кэша &amp;БД</translation>
     </message>
@@ -1040,28 +1199,48 @@ Address: %4
         <translation>Число потоков проверки &amp;сценария</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Dogecoin network through a SOCKS proxy.</source>
         <translation>Подключаться к сети Dogecoin через прокси SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
         <translation>&amp;Подключаться через SOCKS прокси (прокси по умолчанию):</translation>
+=======
+        <source>Accept connections from outside</source>
+        <translation>Разрешать соединения извне</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Разрешить входящие подключения</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>IP-адрес прокси (например IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Сторонние URL (например, block explorer), которые отображаются на вкладке транзакций как пункты контекстного меню. %s в URL заменяется хэшем транзакции. URL отделяются друг от друга вертикальной чертой |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>Сторонние URL транзакций.</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Active command-line options that override above options:</source>
         <translation>Активные опции командной строки, которые перекрывают вышеуказанные опции:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Сбросить все опции клиента на значения по умолчанию.</translation>
+        <translation>Сбросить все настройки клиента на значения по умолчанию.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Сбросить опции</translation>
+        <translation>&amp;Сбросить параметры</translation>
     </message>
     <message>
         <source>&amp;Network</source>
@@ -1100,6 +1279,17 @@ Address: %4
         <translation>Пробросить порт через &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
+        <translation>Подключаться к сети Dogecoin через прокси SOCKS5</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>&amp;Подключаться к сети Dogecoin через прокси SOCKS5 (прокси по умолчанию):</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Proxy &amp;IP:</source>
         <translation>&amp;IP Прокси: </translation>
     </message>
@@ -1112,6 +1302,7 @@ Address: %4
         <translation>Порт прокси-сервера (например, 9050)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>SOCKS &amp;Version:</source>
         <translation>&amp;Версия SOCKS:</translation>
     </message>
@@ -1120,6 +1311,8 @@ Address: %4
         <translation>Версия SOCKS-прокси (например, 5)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Window</source>
         <translation>&amp;Окно</translation>
     </message>
@@ -1132,10 +1325,13 @@ Address: %4
         <translation>&amp;Cворачивать в системный лоток вместо панели задач</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>Сворачивать вместо закрытия. Если данная опция будет выбрана — приложение закроется только после выбора соответствующего пункта в меню.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>M&amp;inimize on close</source>
         <translation>С&amp;ворачивать при закрытии</translation>
     </message>
@@ -1148,10 +1344,13 @@ Address: %4
         <translation>&amp;Язык интерфейса:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
         <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Dogecoin.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Отображать суммы в единицах: </translation>
     </message>
@@ -1160,6 +1359,7 @@ Address: %4
         <translation>Выберите единицу измерения монет при отображении и отправке.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
         <translation>Показывать ли адреса Dogecoin в списке транзакций.</translation>
     </message>
@@ -1168,6 +1368,8 @@ Address: %4
         <translation>&amp;Показывать адреса в списке транзакций</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Whether to show coin control features or not.</source>
         <translation>Показывать ли функции контроля монет или нет.</translation>
     </message>
@@ -1189,17 +1391,20 @@ Address: %4
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Подтвердите сброс опций</translation>
+        <translation>Подтвердите сброс параметров</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
         <translation>Для применения изменений требуется перезапуск клиента.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Client will be shutdown, do you want to proceed?</source>
         <translation>Клиент будет выключен, желаете продолжить?</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This change would require a client restart.</source>
         <translation>Это изменение потребует перезапуска клиента.</translation>
     </message>
@@ -1219,8 +1424,13 @@ Address: %4
         <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Dogecoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet</source>
         <translation>Бумажник</translation>
+=======
+        <source>Watch-only:</source>
+        <translation>Только наблюдение:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Available:</source>
@@ -1247,6 +1457,13 @@ Address: %4
         <translation>Баланс добытых монет, который ещё не созрел</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Balances</source>
+        <translation>Балансы</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Total:</source>
         <translation>Итого:</translation>
     </message>
@@ -1255,12 +1472,37 @@ Address: %4
         <translation>Ваш текущий общий баланс</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation>&lt;b&gt;Недавние транзакции&lt;/b&gt;</translation>
     </message>
     <message>
         <source>out of sync</source>
         <translation>не синхронизировано</translation>
+=======
+        <source>Your current balance in watch-only addresses</source>
+        <translation>Ваш текущий баланс в адресах наблюдения</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>Доступно:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Последние транзакции</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Неподтверждённые транзакции на адреса наблюдения</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Баланс добытых монет на адресах наблюдения, который ещё не созрел</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Текущий общий баланс на адресах наблюдения</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1270,6 +1512,7 @@ Address: %4
         <translation>Обработка URI</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
         <translation>Не удалось разобрать URI! Это может быть связано с неверным адресом Dogecoin или неправильными параметрами URI.</translation>
     </message>
@@ -1292,18 +1535,58 @@ Address: %4
     <message>
         <source>Your active proxy doesn&apos;t support SOCKS5, which is required for payment requests via proxy.</source>
         <translation>Активный прокси не поддерживает SOCKS5, который необходим для запроса платежей через прокси.</translation>
+=======
+        <source>Invalid payment address %1</source>
+        <translation>Неверный адрес платежа %1</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>Запрос платежа отклонён</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>Сеть запроса платежа не совпадает с сетью клиента.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>Запрос платежа не инициализирован.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Запрошенная сумма платежа %1 слишком мала (считается пылью).</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Ошибка запроса платежа</translation>
+    </message>
+    <message>
+        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <translation>Не удаётся запустить dogecoin: обработчик click-to-pay</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>Неверный URL запроса платежа: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Dogecoin или неправильными параметрами URI.</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Payment request file handling</source>
         <translation>Обработка файла запроса платежа</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
         <translation>Файл запроса платежа не может быть прочитан или обработан! Обычно это происходит из-за неверного файла запроса платежа.</translation>
+=======
+        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+        <translation>Файл запроса платежа не может быть прочитан! Обычно это происходит из-за неверного файла запроса платежа.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
@@ -1314,12 +1597,28 @@ Address: %4
         <translation>Возврат от %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
+        <translation>Запрос платежа %1 слишком большой (%2 байтов, разрешено %3 байтов).</translation>
+    </message>
+    <message>
+        <source>Payment request DoS protection</source>
+        <translation>DoS-защита запроса платежа</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error communicating with %1: %2</source>
         <translation>Ошибка связи с %1: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request can not be parsed or processed!</source>
         <translation>Запрос платежа не может быть разобран или обработан!</translation>
+=======
+        <source>Payment request cannot be parsed!</source>
+        <translation>Запрос платежа не может быть разобран!</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Bad response from server %1</source>
@@ -1335,8 +1634,20 @@ Address: %4
     </message>
 </context>
 <context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>User Agent</source>
+        <translation>Юзер-агент</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Время задержки</translation>
+    </message>
+</context>
+<context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Dogecoin</translation>
     </message>
@@ -1351,6 +1662,42 @@ Address: %4
     <message>
         <source>Error: Invalid combination of -regtest and -testnet.</source>
         <translation>Ошибка: неверная комбинация -regtest и -testnet.</translation>
+=======
+        <source>Amount</source>
+        <translation>Сумма</translation>
+    </message>
+    <message>
+        <source>Enter a Dogecoin address (e.g. %1)</source>
+        <translation>Введите адрес Dogecoin (например, %1)</translation>
+    </message>
+    <message>
+        <source>%1 d</source>
+        <translation>%1 д</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 ч</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 мин</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 с</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ничего</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>Н/Д</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 мс</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Dogecoin Core did&apos;t yet exit safely...</source>
@@ -1411,6 +1758,13 @@ Address: %4
         <translation>Используется версия OpenSSL</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Using BerkeleyDB version</source>
+        <translation>Используется версия BerkeleyDB</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Startup time</source>
         <translation>Время запуска</translation>
     </message>
@@ -1435,8 +1789,77 @@ Address: %4
         <translation>Текущее число блоков</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Estimated total blocks</source>
         <translation>Расчётное число блоков</translation>
+=======
+        <source>Received</source>
+        <translation>Получено</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>Отправлено</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>&amp;Участники</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Выберите участника для просмотра подробностей.</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>Направление</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Версия</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>Юзер-агент</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>Сервисы</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Начальная высота</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Высота синхронизации</translation>
+    </message>
+    <message>
+        <source>Ban Score</source>
+        <translation>Очков бана</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>Время соединения</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>Последняя отправка</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>Последний раз получено</translation>
+    </message>
+    <message>
+        <source>Bytes Sent</source>
+        <translation>Байт передано</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>Байт получено</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Время задержки</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Last block time</source>
@@ -1479,18 +1902,24 @@ Address: %4
         <translation>Отладочный лог-файл</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Открыть отладочный лог-файл Dogecoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear console</source>
         <translation>Очистить консоль</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Dogecoin RPC console.</source>
         <translation>Добро пожаловать в RPC-консоль Dogecoin.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Используйте стрелки вверх и вниз для просмотра истории и &lt;b&gt;Ctrl-L&lt;/b&gt; для очистки экрана.</translation>
     </message>
@@ -1515,6 +1944,7 @@ Address: %4
         <translation>%1 ГБ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 m</source>
         <translation>%1 мин</translation>
     </message>
@@ -1525,6 +1955,30 @@ Address: %4
     <message>
         <source>%1 h %2 m</source>
         <translation>%1 ч %2 мин</translation>
+=======
+        <source>via %1</source>
+        <translation>через %1</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>никогда</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>Входящие</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>Исходящие</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Неизвестно</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Получение...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1597,6 +2051,7 @@ Address: %4
         <source>Remove</source>
         <translation>Удалить</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Copy label</source>
         <translation>Копировать метку</translation>
@@ -1617,6 +2072,28 @@ Address: %4
         <translation>QR код</translation>
     </message>
     <message>
+=======
+    <message>
+        <source>Copy label</source>
+        <translation>Копировать метку</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Копировать сообщение</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Скопировать сумму</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QR код</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy &amp;URI</source>
         <translation>Копировать &amp;URI</translation>
     </message>
@@ -1739,10 +2216,13 @@ Address: %4
         <translation>Комиссия:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation>Малый выход:</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>After Fee:</source>
         <translation>После комиссии:</translation>
     </message>
@@ -1759,6 +2239,73 @@ Address: %4
         <translation>Свой адрес для сдачи</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Transaction Fee:</source>
+        <translation>Комиссия</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>Выберите...</translation>
+    </message>
+    <message>
+        <source>collapse fee-settings</source>
+        <translation>Свернуть настройки комиссии</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>за килобайт</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Если комиссия установлена в 1000 сатоши, а транзакция составляет лишь 250 байт, тогда комиссия "на килобайт" составит 250 сатоши, а "всего как минимум" — 1000 сатоши. Для транзакций крупнее килобайта в обоих случаях будет использоваться платёж "на килобайт".</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>Итого как минимум</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
+        <translation>Уплата минимальной комиссии — не проблема, пока объём транзакций меньше, чем свободное место в блоках. Учтите, однако, что такая транзакция может никогда не подтвердиться, если спрос на транзакции превышает возможности сети по их обработке.</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(прочтите подсказку)</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>Рекомендовано:</translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>Выборочно:</translation>
+    </message>
+    <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation>(Умная комиссия пока не инициализирована. Обычно для этого требуется несколько блоков...)</translation>
+    </message>
+    <message>
+        <source>Confirmation time:</source>
+        <translation>Время подтверждения:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>обычный</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>ускоренный</translation>
+    </message>
+    <message>
+        <source>Send as zero-fee transaction if possible</source>
+        <translation>Осуществить транзакцию бесплатно, если возможно</translation>
+    </message>
+    <message>
+        <source>(confirmation may take longer)</source>
+        <translation>(подтверждение может занять больше времени)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send to multiple recipients at once</source>
         <translation>Отправить нескольким получателям одновременно</translation>
     </message>
@@ -1771,6 +2318,13 @@ Address: %4
         <translation>Очистить все поля формы</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Dust:</source>
+        <translation>Пыль:</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear &amp;All</source>
         <translation>Очистить &amp;всё</translation>
     </message>
@@ -1819,10 +2373,13 @@ Address: %4
         <translation>Копировать приоритет</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation>Копировать малый выход</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy change</source>
         <translation>Копировать размен</translation>
     </message>
@@ -1835,10 +2392,13 @@ Address: %4
         <translation>или</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The recipient address is not valid, please recheck.</source>
         <translation>Адрес получателя неверный, пожалуйста, перепроверьте.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The amount to pay must be larger than 0.</source>
         <translation>Сумма для отправки должно быть больше 0.</translation>
     </message>
@@ -1851,10 +2411,13 @@ Address: %4
         <translation>Сумма превысит Ваш баланс, если комиссия в размере %1 будет добавлена к транзакции</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>Обнаружен дублирующийся адрес. Отправка на один и тот же адрес возможна только один раз за одну операцию отправки</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Transaction creation failed!</source>
         <translation>Не удалось создать транзакцию!</translation>
     </message>
@@ -1863,6 +2426,13 @@ Address: %4
         <translation>Транзакция была отклонена! Такое может произойти, если некоторые монеты уже были потрачены, например, если Вы используете одну копию бумажника (wallet.dat), а монеты были потрачены из другой копии, но не были отмечены как потраченные в этой.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>Комиссия больше, чем %1, считается невероятно большой.</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: Invalid Dogecoin address</source>
         <translation>Внимание: неверный адрес Dogecoin</translation>
     </message>
@@ -1875,6 +2445,13 @@ Address: %4
         <translation>Внимание: неизвестный адрес для сдачи</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy dust</source>
+        <translation>Копировать пыль</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Are you sure you want to send?</source>
         <translation>Вы уверены, что хотите отправить?</translation>
     </message>
@@ -1882,6 +2459,7 @@ Address: %4
         <source>added as transaction fee</source>
         <translation>добавлено как комиссия</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Payment request expired</source>
         <translation>Запрос платежа просрочен</translation>
@@ -1890,6 +2468,8 @@ Address: %4
         <source>Invalid payment address %1</source>
         <translation>Неверный адрес платежа %1</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -1902,10 +2482,13 @@ Address: %4
         <translation>Полу&amp;чатель:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The address to send the payment to (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>Адрес, на который будет выслан платёж (например DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Введите метку для данного адреса (для добавления в адресную книгу)</translation>
     </message>
@@ -1922,6 +2505,13 @@ Address: %4
         <translation>Это нормальный платёж.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The Dogecoin address to send the payment to</source>
+        <translation>Адрес Dogecoin, на который отправить платёж</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1942,20 +2532,26 @@ Address: %4
         <translation>Сообщение:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a verified payment request.</source>
         <translation>Это проверенный запрос платежа.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Введите метку для этого адреса, чтобы добавить его в список использованных</translation>
     </message>
     <message>
         <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
         <translation>К dogecoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Dogecoin.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>This is an unverified payment request.</source>
         <translation>Это непроверенный запрос платежа.</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Pay To:</source>
@@ -1988,6 +2584,7 @@ Address: %4
         <translation>&amp;Подписать сообщение</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Вы можете подписывать сообщения своими адресами, чтобы доказать владение ими. Будьте осторожны, не подписывайте что-то неопределённое, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
@@ -1996,6 +2593,12 @@ Address: %4
         <translation>Адрес, которым вы хотите подписать сообщение  (напр. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+        <source>The Dogecoin address to sign the message with</source>
+        <translation>Адрес Dogecoin, которым подписать сообщение</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Choose previously used address</source>
         <translation>Выберите ранее использованный адрес</translation>
     </message>
@@ -2044,12 +2647,17 @@ Address: %4
         <translation>&amp;Проверить сообщение</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>Введите ниже адрес для подписи, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, по сравнению с самим подписываемым сообщением, чтобы не стать жертвой атаки &quot;man-in-the-middle&quot;.</translation>
     </message>
     <message>
         <source>The address the message was signed with (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>Адрес, которым было подписано сообщение (напр. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+=======
+        <source>The Dogecoin address the message was signed with</source>
+        <translation>Адрес Dogecoin, которым было подписано сообщение</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
@@ -2064,12 +2672,17 @@ Address: %4
         <translation>Сбросить все поля проверки сообщения</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>Введите адрес Dogecoin (напр. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Нажмите &quot;Подписать сообщение&quot; для создания подписи</translation>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Нажмите "Подписать сообщение" для создания подписи</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2168,10 +2781,13 @@ Address: %4
         <source>Status</source>
         <translation>Статус</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation><numerusform>, разослано через %n узел</numerusform><numerusform>, разослано через %n узла</numerusform><numerusform>, разослано через %n узлов</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>Date</source>
         <translation>Дата</translation>
@@ -2197,6 +2813,13 @@ Address: %4
         <translation>свой адрес</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>watch-only</source>
+        <translation>только наблюдение</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>label</source>
         <translation>метка</translation>
     </message>
@@ -2204,10 +2827,13 @@ Address: %4
         <source>Credit</source>
         <translation>Кредит</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation><numerusform>будет доступно через %n блок</numerusform><numerusform>будет доступно через %n блока</numerusform><numerusform>будет доступно через %n блоков</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>not accepted</source>
         <translation>не принято</translation>
@@ -2217,6 +2843,17 @@ Address: %4
         <translation>Дебет</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Total debit</source>
+        <translation>Всего дебет</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>Всего кредит</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Transaction fee</source>
         <translation>Комиссия</translation>
     </message>
@@ -2241,8 +2878,13 @@ Address: %4
         <translation>Продавец</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Сгенерированные монеты должны подождать %1 блоков, прежде чем они могут быть потрачены. Когда Вы сгенерировали этот блок, он был отправлен в сеть для добавления в цепочку блоков. Если он не попадёт в цепь, его статус изменится на &quot;не принят&quot;, и монеты будут недействительны. Это иногда происходит в случае, если другой узел сгенерирует блок на несколько секунд раньше вас.</translation>
+=======
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Сгенерированные монеты должны подождать %1 блоков, прежде чем они могут быть потрачены. Когда Вы сгенерировали этот блок, он был отправлен в сеть для добавления в цепочку блоков. Если он не попадёт в цепь, его статус изменится на "не принят", и монеты будут недействительны. Это иногда происходит в случае, если другой узел сгенерирует блок на несколько секунд раньше вас.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Debug information</source>
@@ -2272,10 +2914,13 @@ Address: %4
         <source>, has not been successfully broadcast yet</source>
         <translation>, ещё не было успешно разослано</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>Открыто для ещё %n блока</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>unknown</source>
         <translation>неизвестно</translation>
@@ -2303,6 +2948,7 @@ Address: %4
         <translation>Тип</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Адрес</translation>
     </message>
@@ -2318,6 +2964,11 @@ Address: %4
         <source>Open for %n more block(s)</source>
         <translation><numerusform>Открыто для ещё %n блока</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform></translation>
     </message>
+=======
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Незрелый (%1 подтверждений, будет доступен после %2)</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>Open until %1</source>
         <translation>Открыто до %1</translation>
@@ -2339,12 +2990,21 @@ Address: %4
         <translation>Нет активных соединений с сетью</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unconfirmed</source>
         <translation>Неподтверждено</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>Подтверждено(%1 подтверждений, рекомендуется %2 подтверждений)</translation>
+=======
+        <source>Label</source>
+        <translation>Метка</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Неподтверждено</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Conflicted</source>
@@ -2371,6 +3031,13 @@ Address: %4
         <translation>Добыто</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>watch-only</source>
+        <translation>только наблюдение</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>(n/a)</source>
         <translation>[не доступно]</translation>
     </message>
@@ -2387,8 +3054,13 @@ Address: %4
         <translation>Тип транзакции.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Destination address of transaction.</source>
         <translation>Адрес назначения транзакции.</translation>
+=======
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>Использовался ли в транзакции адрес для наблюдения.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2482,6 +3154,13 @@ Address: %4
         <translation>Экспортировать историю транзакций</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Watch-only</source>
+        <translation>Для наблюдения</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Exporting Failed</source>
         <translation>Экспорт не удался</translation>
     </message>
@@ -2522,10 +3201,13 @@ Address: %4
         <translation>Адрес</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Сумма</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>ID</source>
         <translation>ID</translation>
     </message>
@@ -2536,6 +3218,13 @@ Address: %4
     <message>
         <source>to</source>
         <translation>до</translation>
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    <message>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation>Единица измерения количества монет. Щёлкните для выбора другой единицы.</translation>
     </message>
 </context>
 <context>
@@ -2590,6 +3279,7 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Использование:</translation>
     </message>
@@ -2603,10 +3293,13 @@ Address: %4
         <translation>Получить помощь по команде</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Options:</source>
-        <translation>Опции:</translation>
+        <translation>Параметры:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: dogecoin.conf)</source>
         <translation>Указать конфигурационный файл (по умолчанию: dogecoin.conf)</translation>
     </message>
@@ -2615,10 +3308,13 @@ Address: %4
         <translation>Задать pid-файл (по умолчанию: dogecoind.pid)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify data directory</source>
         <translation>Задать каталог данных</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: 8333 или 18333 в тестовой сети)</translation>
     </message>
@@ -2627,14 +3323,17 @@ Address: %4
         <translation>Поддерживать не более &lt;n&gt; подключений к узлам (по умолчанию: 125)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Подключиться к узлу, чтобы получить список адресов других участников и отключиться</translation>
+        <translation>Подключиться к участнику, чтобы получить список адресов других участников и отключиться</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
         <translation>Укажите ваш собственный публичный адрес</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Порог для отключения неправильно ведущих себя узлов (по умолчанию: 100)</translation>
     </message>
@@ -2651,14 +3350,19 @@ Address: %4
         <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: 8332 или для testnet: 18332)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Принимать командную строку и команды JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core RPC client version</source>
         <translation>Версия RPC-клиента Dogecoin Core</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Запускаться в фоне как демон и принимать команды</translation>
     </message>
@@ -2671,6 +3375,7 @@ Address: %4
         <translation>Принимать подключения извне (по умолчанию: 1, если не используется -proxy или -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2703,10 +3408,13 @@ rpcpassword=%s
         <translation>Произошла ошибка при открытии на прослушивание IPv6 RCP-порта %u, возвращаемся к IPv4: %s</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Привязаться к указанному адресу и всегда прослушивать только его. Используйте [хост]:порт для IPv6</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
         <translation>Ограничить скорость передачи бесплатных транзакций до &lt;n&gt;*1000 байт в минуту (по умолчанию: 15)</translation>
     </message>
@@ -2729,12 +3437,21 @@ rpcpassword=%s
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
         <translation>Ошибка: эта транзакция требует комиссию как минимум %s из-за суммы, сложности или использования недавно полученных средств!</translation>
+=======
+        <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
+        <translation>Удалить все транзакции бумажника с возможностью восстановить эти части цепи блоков с помощью -rescan при запуске</translation>
+    </message>
+    <message>
+        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
+        <translation>Распространяется под лицензией MIT, см. приложенный файл COPYING или &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Выполнить команду, когда меняется транзакция в бумажнике (%s в команде заменяется на TxID)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
         <translation>Комиссии меньшие этого значения считаются нулевыми (для создания транзакции) (по умолчанию:</translation>
     </message>
@@ -2751,40 +3468,51 @@ rpcpassword=%s
         <translation>В этом режиме -genproclimit определяет, сколько блоков генерируется немедленно.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>Задать число потоков проверки скрипта (от %u до %d, 0=авто, &lt;0 = оставить столько ядер свободными, по умолчанию: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
         <translation>Задать лимит процессора, когда генерация работает (-1 = безлимитно, по умолчанию: -1)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>Это пре-релизная тестовая сборка - используйте на свой страх и риск - не используйте для добычи или торговых приложений</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
         <translation>Не удалось забиндиться на %s на этом компьютере. Возможно, Dogecoin Core уже запущен.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
         <translation>Использовать отдельный прокси SOCKS5 для соединения с участниками через скрытые сервисы Tor (по умолчанию: -proxy)</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Внимание: установлено очень большое значение -paytxfee. Это комиссия, которую вы заплатите при проведении транзакции.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
         <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Dogecoin будет работать некорректно.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Внимание: похоже, в сети нет полного согласия! Некоторый майнеры, возможно, испытывают проблемы.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Внимание: мы не полностью согласны с подключенными участниками! Вам или другим узлам, возможно, следует обновиться.</translation>
+        <translation>Внимание: мы не полностью согласны с подключенными участниками! Вам или другим участникам, возможно, следует обновиться.</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -2795,6 +3523,7 @@ rpcpassword=%s
         <translation>Внимание: wallet.dat повреждён, данные спасены! Оригинальный wallet.dat сохранён как wallet.{timestamp}.bak в %s; если ваш баланс или транзакции некорректны, вы должны восстановить файл из резервной копии.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: 1)</source>
         <translation>(по умолчанию: 1)</translation>
     </message>
@@ -2813,20 +3542,40 @@ rpcpassword=%s
     <message>
         <source>Dogecoin Core Daemon</source>
         <translation>Демон Dogecoin Core</translation>
+=======
+        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
+        <translation>Вносить в белый список участников, подключающихся с указанной маски сети или IP. Можно использовать многократно.</translation>
+    </message>
+    <message>
+        <source>(default: 1)</source>
+        <translation>(по умолчанию: 1)</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; может быть:</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Попытаться восстановить приватные ключи из повреждённого wallet.dat</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Block creation options:</source>
         <translation>Параметры создания блоков:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
         <translation>Очистить список транзакций кошелька (диагностический инструмент; включает в себя -rescan)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect only to the specified node(s)</source>
         <translation>Подключаться только к указанному узлу(ам)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect through SOCKS proxy</source>
         <translation>Подключаться через SOCKS прокси</translation>
     </message>
@@ -2839,12 +3588,19 @@ rpcpassword=%s
         <translation>Параметры подключения:</translation>
     </message>
     <message>
+=======
+        <source>Connection options:</source>
+        <translation>Параметры подключения:</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Corrupted block database detected</source>
         <translation>БД блоков повреждена</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
         <translation>Параметры отладки/тестирования:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: 0)</source>
@@ -2853,6 +3609,8 @@ rpcpassword=%s
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Определить свой IP (по умолчанию: 1 при прослушивании и если не используется -externalip)</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
@@ -2879,10 +3637,18 @@ rpcpassword=%s
         <translation>Не удалось открыть БД блоков</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>Ошибка: произошла неустранимая ошибка, детали в debug.log</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error: Disk space is low!</source>
         <translation>Ошибка: мало места на диске!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>Ошибка: бумажник заблокирован, невозможно создать транзакцию!</translation>
     </message>
@@ -3071,10 +3837,229 @@ rpcpassword=%s
         <translation>Задать максимальный размер высокоприоритетных/низкокомиссионных транзакций в байтах (по умолчанию: %d)</translation>
     </message>
     <message>
+=======
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Не удалось начать прослушивание на порту. Используйте -listen=0 если вас это устраивает.</translation>
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>Если &lt;category&gt; не предоставлена, выводить всю отладочную информацию.</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>Импорт ...</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>Неверный или отсутствующий начальный блок. Неправильный каталог данных для сети?</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Неверный -onion адрес: '%s'</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>Недостаточно файловых дескрипторов.</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
+        <translation>Соединяться только по сети &lt;net&gt; (ipv4, ipv6 или onion)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation>Установить размер кэша БД в мегабайтах(от %d до %d, по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>Задать максимальный размер блока в байтах (по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Укажите файл бумажника (внутри каталога данных)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Использовать UPnP для проброса порта (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Проверка блоков...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>Проверка бумажника...</translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>Бумажник %s располагается вне каталога данных %s</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Настройки бумажника:</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>Вам необходимо пересобрать базы данных с помощью -reindex, чтобы изменить -txindex</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Импортировать блоки из внешнего файла blk000??.dat</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+        <translation>Разрешить подключения JSON-RPC с указанного источника. Разрешённые значения для &lt;ip&gt; — отдельный IP (например, 1.2.3.4), сеть/маска сети (например, 1.2.3.4/255.255.255.0) или сеть/CIDR (например, 1.2.3.4/24). Эту опцию можно использовать многократно</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>Произошла ошибка в процессе открытия RPC адреса %s порта %u для прослушивания: %s</translation>
+    </message>
+    <message>
+        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
+        <translation>Привязаться к указанному адресу и внести в белый список подключающихся к нему участников. Используйте [хост]:порт для IPv6</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
+        <translation>Привязаться к указанному адресу для прослушивания JSON-RPC подключений. Используйте запись [хост]:порт для IPv6. Эту опцию можно использовать многократно (по умолчанию: привязываться ко всем интерфейсам)</translation>
+    </message>
+    <message>
+        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
+        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Dogecoin Core уже запущен.</translation>
+    </message>
+    <message>
+        <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
+        <translation>Создавать новые файлы с системными правами по умолчанию вместо umask 077 (эффективно только при отключенном бумажнике)</translation>
+    </message>
+    <message>
+        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
+        <translation>Ошибка: не удалось начать прослушивание входящих подключений (прослушивание вернуло ошибку %s)</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>Ошибка: обнаружен неподдерживаемый аргумент -socks. Выбор версии SOCKS более невозможен, поддерживаются только прокси SOCKS5.</translation>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Выполнить команду, когда приходит соответствующее сообщение о тревоге или наблюдается очень длинное расщепление цепи (%s в команде заменяется на сообщение)</translation>
+    </message>
+    <message>
+        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Комиссии (в DOGE/Кб) меньшие этого значения считаются нулевыми для трансляции (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Если paytxfee не задан, включить достаточную комиссию для подтверждения транзакции в среднем за n блоков (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Неверное значение для -maxtxfee=&lt;amount&gt;: '%s' (минимальная комиссия трансляции %s для предотвращения зависания транзакций)</translation>
+    </message>
+    <message>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Наибольший размер данных в носителе данных транзакций, которые мы передаем и генерируем (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation>Запрашивать адреса участников с помощью DNS, если адресов мало (по умолчанию: 1, если не указан -connect)</translation>
+    </message>
+    <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>Задать максимальный размер высокоприоритетных/низкокомиссионных транзакций в байтах (по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
+        <translation>Задать число потоков генерации монет, если она включена (-1 = все ядра процессора, по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>Этот продукт включает ПО, разработанное OpenSSL Project для использования в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографическое ПО, написанное Eric Young и ПО для работы с UPnP, написанное Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>To use dogecoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=dogecoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
+</source>
+        <translation>Для использования dogecoind или опции dogecoin-qt -server, вы должны установить опцию rpcpassword в конфигурационном файле:
+ %s
+Рекомендуется использовать следующий случайный пароль:
+rpcuser=dogecoinrpc
+rpcpassword=%s
+(вам не нужно запоминать этот пароль)
+Имя и пароль ДОЛЖНЫ различаться.
+Если файл не существует, создайте его и установите право доступа только для чтения только для владельца.
+Также рекомендуется включить alertnotify для оповещения о проблемах;
+Например: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Внимание: установлено очень большое значение -paytxfee. Такие большие комиссии могут быть уплачены в отдельной транзакции.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Dogecoin Core will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Dogecoin Core будет работать некорректно.</translation>
+    </message>
+    <message>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation>Участники из белого списка не могуть быть забанены за DoS, и их транзакции всегда транслируются, даже если они уже содержатся в памяти. Полезно, например, для шлюза.</translation>
+    </message>
+    <message>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>Принимать публичные REST-запросы (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -whitebind address: '%s'</source>
+        <translation>Не удаётся разрешить адрес в параметре -whitebind: '%s'</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Выбрать каталог данных при запуске (по умолчанию: 0)</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>Подключаться через SOCKS5 прокси</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Все права защищены © 2009-%i Разработчики Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2013-%i The Dogecoin Core Developers</source>
+        <translation>Все права защищены © 2013-%i Разработчики Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Could not parse -rpcbind value %s as network address</source>
+        <translation>Не удалось разобрать значение %s параметра -rpcbind как сетевой адрес</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin Core</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Ошибка чтения базы данных, работа завершается.</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Ошибка: обнаружен неподдерживаемый параметр -tor, используйте -onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
+        <translation>Комиссия (в DOGE/Кб) для добавления к вашим транзакциям (по умолчанию: %s)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Information</source>
         <translation>Информация</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>Неверная сумма в параметре -minrelaytxfee=&lt;кол-во&gt;: &apos;%s&apos;</translation>
     </message>
@@ -3119,6 +4104,44 @@ rpcpassword=%s
         <translation>Печатать дерево блоков при запуске (по умолчанию: 0)</translation>
     </message>
     <message>
+=======
+        <source>Initialization sanity check failed. Dogecoin Core is shutting down.</source>
+        <translation>Не удалось проверить чистоту. Dogecoin Core выключается.</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Неверное значение -maxtxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Неверная сумма в параметре -minrelaytxfee=&lt;кол-во&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Неверная сумма в параметре -mintxfee=&lt;кол-во&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
+        <translation>Неверное количество в параметре -paytxfee=&lt;кол-во&gt;: '%s' (должно быть как минимум %s)</translation>
+    </message>
+    <message>
+        <source>Invalid netmask specified in -whitelist: '%s'</source>
+        <translation>Указана неверная сетевая маска в -whitelist: '%s'</translation>
+    </message>
+    <message>
+        <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
+        <translation>Держать в памяти до &lt;n&gt; несвязных транзакций (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Need to specify a port with -whitebind: '%s'</source>
+        <translation>Необходимо указать порт с помощью -whitebind: '%s'</translation>
+    </message>
+    <message>
+        <source>Node relay options:</source>
+        <translation>Параметры трансляции узла:</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>Параметры RPC SSL: (см. Dogecoin вики для инструкций по настройке SSL)</translation>
     </message>
@@ -3127,6 +4150,7 @@ rpcpassword=%s
         <translation>Параметры сервера RPC:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
         <translation>Случайно отбрасывать 1 из каждых &lt;n&gt; сетевых сообщений</translation>
     </message>
@@ -3148,10 +4172,17 @@ rpcpassword=%s
         <translation>Отправить команду Dogecoin Core</translation>
     </message>
     <message>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>Поддержка RPC постоянных HTTP подключений (по умолчанию: %d)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Выводить информацию трассировки/отладки на консоль вместо файла debug.log</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation>Минимальный размер блока в байтах (по умолчанию: 0)</translation>
     </message>
@@ -3168,6 +4199,28 @@ rpcpassword=%s
         <translation>Показать информацию нагрузочного тестирования (по умолчанию: 0)</translation>
     </message>
     <message>
+=======
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>Осуществить транзакцию бесплатно, если возможно (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Указать корневые SSL-сертификаты для запроса платежа (по умолчанию: -system-)</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Выберите язык, например "de_DE" (по умолчанию: как в системе)</translation>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>Показать все отладочные параметры (использование: --help -help-debug)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Показывать сплэш при запуске (по умолчанию: 1)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Сжимать файл debug.log при запуске клиента (по умолчанию: 1, если нет -debug)</translation>
     </message>
@@ -3176,6 +4229,7 @@ rpcpassword=%s
         <translation>Не удалось подписать транзакцию</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>Тайм-аут соединения в миллисекундах (по умолчанию: 5000)</translation>
     </message>
@@ -3186,6 +4240,14 @@ rpcpassword=%s
     <message>
         <source>System error: </source>
         <translation>Системная ошибка:</translation>
+=======
+        <source>Start minimized</source>
+        <translation>Запускать свёрнутым</translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation>Это экспериментальное ПО.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -3196,12 +4258,24 @@ rpcpassword=%s
         <translation>Сумма транзакции должна быть положительна</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Transaction too large for fee policy</source>
+        <translation>Транзакция слишком большая для правил комиссии.</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Transaction too large</source>
         <translation>Транзакция слишком большая</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Использовать UPnP для проброса порта (по умолчанию: 0)</translation>
+=======
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>Невозможно привязаться к %s на этом компьютере (bind вернул ошибку %s)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
@@ -3212,10 +4286,18 @@ rpcpassword=%s
         <translation>Имя для подключений JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wallet needed to be rewritten: restart Dogecoin Core to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите Dogecoin Core для завершения операции.</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning</source>
         <translation>Внимание</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Внимание: эта версия устарела, требуется обновление!</translation>
     </message>
@@ -3246,6 +4328,30 @@ rpcpassword=%s
     <message>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
         <translation>Посылать команды узлу, запущенному на &lt;ip&gt; (по умолчанию: 127.0.0.1)</translation>
+=======
+        <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>Внимание: неподдерживаемый аргумент -benchmark проигнорирован, используйте -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>Внимание: неподдерживаемый аргумент -debugnet проигнорирован, используйте -debug=net.</translation>
+    </message>
+    <message>
+        <source>Zapping all transactions from wallet...</source>
+        <translation>Стираем все транзакции из кошелька...</translation>
+    </message>
+    <message>
+        <source>on startup</source>
+        <translation>при запуске</translation>
+    </message>
+    <message>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>wallet.dat повреждён, спасение данных не удалось</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Пароль для подключений JSON-RPC</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
@@ -3256,10 +4362,13 @@ rpcpassword=%s
         <translation>Обновить бумажник до последнего формата</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Установить размер запаса ключей в &lt;n&gt; (по умолчанию: 100)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Перепроверить цепь блоков на предмет отсутствующих в бумажнике транзакций</translation>
     </message>
@@ -3268,6 +4377,7 @@ rpcpassword=%s
         <translation>Использовать OpenSSL (https) для подключений JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Server certificate file (default: server.cert)</source>
         <translation>Файл серверного сертификата (по умолчанию: server.cert)</translation>
     </message>
@@ -3276,14 +4386,19 @@ rpcpassword=%s
         <translation>Приватный ключ сервера (по умолчанию: server.pem)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This help message</source>
         <translation>Эта справка</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Невозможно привязаться к %s на этом компьютере (bind вернул ошибку %d, %s)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Разрешить поиск в DNS для -addnode, -seednode и -connect</translation>
     </message>
@@ -3296,18 +4411,56 @@ rpcpassword=%s
         <translation>Ошибка загрузки wallet.dat: Бумажник поврежден</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
         <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Dogecoin</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Dogecoin to complete</source>
         <translation>Необходимо перезаписать бумажник, перезапустите Dogecoin для завершения операции.</translation>
+=======
+        <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
+        <translation>(1 = сохранять метаданные транзакции: например, владельца аккаунта и информацию запроса платежа; 2 = отбросить метаданные)</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation>Насколько тщательна проверка контрольных блоков -checkblocks (0-4, по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
+        <translation>Держать полный индекс транзакций, используемый RPC-запросом getrawtransaction (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
+        <translation>Число секунд блокирования неправильно ведущих себя узлов (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
+        <translation>Выводить отладочную информацию (по умолчанию: %u, указание &lt;category&gt; необязательно)</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+        <translation>Использовать отдельный прокси SOCKS5 для соединения с участниками через скрытые сервисы Tor (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>(default: %s)</source>
+        <translation>(по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Допустимые шифры (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
+        <translation>Всегда запрашивать адреса участников с помощью DNS (по умолчанию: %u)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error loading wallet.dat</source>
         <translation>Ошибка при загрузке wallet.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Неверный адрес -proxy: &apos;%s&apos;</translation>
     </message>
@@ -3334,6 +4487,106 @@ rpcpassword=%s
     <message>
         <source>Invalid amount</source>
         <translation>Неверная сумма</translation>
+=======
+        <source>Generate coins (default: %u)</source>
+        <translation>Включить добычу монет (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
+        <translation>Сколько блоков проверять при запуске (по умолчанию: %u, 0 = все)</translation>
+    </message>
+    <message>
+        <source>Include IP addresses in debug output (default: %u)</source>
+        <translation>Включить IP-адреса в отладочный вывод (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Неверный адрес -proxy: '%s'</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: %u или %u в тестовой сети)</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: %u или %u в тестовой сети)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>Поддерживать не более &lt;n&gt; подключений к узлам (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Максимальный размер буфера приёма на соединение, &lt;n&gt;*1000 байт (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Максимальный размер буфера отправки на соединение, &lt;n&gt;*1000 байт (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: %u)</source>
+        <translation>Дописывать отметки времени к отладочному выводу (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Relay and mine data carrier transactions (default: %u)</source>
+        <translation>Транслировать и генерировать транзакции носителей данных (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>Транслировать не-P2SH мультиподпись (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Файл сертификата сервера (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Закрытый ключ сервера (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>Установить размер пула ключей в &lt;n&gt; (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>Задать число потоков выполнения запросов RPC (по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Указать тайм-аут соединения в миллисекундах (минимум: 1, по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Указать pid-файл (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
+        <translation>Тратить неподтвержденную сдачу при отправке транзакций (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+        <translation>Порог для отключения неправильно ведущих себя узлов (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>В параметре -onlynet указана неизвестная сеть: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Не удаётся разрешить адрес в параметре -bind: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Не удаётся разрешить адрес в параметре -externalip: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Неверная сумма в параметре -paytxfee=&lt;кол-во&gt;: '%s'</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3368,6 +4621,7 @@ rpcpassword=%s
         <translation>Загрузка завершена</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation>Чтобы использовать опцию %s</translation>
     </message>
@@ -3383,5 +4637,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 %s
 Если файл не существует, создайте его и установите права доступа только для владельца.</translation>
     </message>
+=======
+        <source>Error</source>
+        <translation>Ошибка</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

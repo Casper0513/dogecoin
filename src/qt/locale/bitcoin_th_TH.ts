@@ -1,4 +1,5 @@
 <TS language="th_TH" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,18 +39,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>ดับเบิลคลิก เพื่อแก้ไขที่อยู่ หรือชื่อ</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>สร้างที่อยู่ใหม่</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;New</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>คัดลอกที่อยู่ที่ถูกเลือกไปยัง คลิปบอร์ดของระบบ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy</source>
         <translation type="unfinished"/>
     </message>
@@ -118,9 +128,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation type="unfinished"/>
+=======
+        <source>&amp;Delete</source>
+        <translation>&amp;ลบ</translation>
     </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+        <source>Comma separated file (*.csv)</source>
+        <translation>คั่นไฟล์ด้วยเครื่องหมายจุลภาค (*.csv)</translation>
+    </message>
+<<<<<<< HEAD
     <message>
         <source>Exporting Failed</source>
         <translation type="unfinished"/>
@@ -130,6 +147,9 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -148,10 +168,13 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter passphrase</source>
         <translation>ใส่รหัสผ่าน</translation>
     </message>
@@ -164,16 +187,19 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>กรุณากรอกรหัสผ่านใหม่อีกครั้งหนึ่ง</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>กระเป๋าสตางค์ที่เข้ารหัส</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation type="unfinished"/>
+        <translation>การดำเนินการนี้ต้องมีรหัสผ่านกระเป๋าเงินของคุณเพื่อปลดล็อคกระเป๋าเงิน</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -181,7 +207,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation type="unfinished"/>
+        <translation>การดำเนินการนี้ต้องมีรหัสผ่านกระเป๋าเงินของคุณในการถอดรหัสกระเป๋าเงิน</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -192,14 +218,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>เปลี่ยนรหัสผ่าน</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>กรอกรหัสผ่านเก่าและรหัสผ่านใหม่สำหรับกระเป๋าสตางค์</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>ยืนยันการเข้ารหัสกระเป๋าสตางค์</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
@@ -216,20 +246,25 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encrypted</source>
         <translation>กระเป๋าสตางค์ถูกเข้ารหัสเรียบร้อยแล้ว</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>การเข้ารหัสกระเป๋าสตางค์ผิดพลาด</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation type="unfinished"/>
+        <translation>กระเป๋าเงินเข้ารหัสล้มเหลวเนื่องจากข้อผิดพลาดภายใน กระเป๋าเงินของคุณไม่ได้เข้ารหัส</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -237,52 +272,64 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation type="unfinished"/>
+        <translation>ปลดล็อคกระเป๋าเงินล้มเหลว</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation type="unfinished"/>
+        <translation>ป้อนรหัสผ่านสำหรับการถอดรหัสกระเป๋าเงินไม่ถูกต้อง</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished"/>
+=======
+        <translation>ถอดรหัสกระเป๋าเงินล้มเหลว</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
+<<<<<<< HEAD
         <source>Sign &amp;message...</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Synchronizing with network...</source>
-        <translation type="unfinished"/>
+        <translation>กำลังทำข้อมูลให้ตรงกันกับเครือข่าย ...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Node</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;ภาพรวม</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished"/>
+        <translation>แสดงภาพรวมทั่วไปของกระเป๋าเงิน</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished"/>
+        <translation>&amp;การทำรายการ</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished"/>
+        <translation>เรียกดูประวัติการทำธุรกรรม</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>E&amp;xit</source>
         <translation type="unfinished"/>
     </message>
@@ -403,19 +450,34 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Quit application</source>
+        <translation>ออกจากโปรแกรม</translation>
+    </message>
+    <message>
+        <source>&amp;Options...</source>
+        <translation>&amp;ตัวเลือก...</translation>
+    </message>
+    <message>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>เปลี่ยนรหัสผ่านที่ใช้สำหรับการเข้ารหัสกระเป๋าเงิน</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;File</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ไฟล์</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished"/>
+        <translation>&amp;การตั้งค่า</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ช่วยเหลือ</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -517,21 +579,29 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Information</source>
         <translation type="unfinished"/>
+=======
+        <translation>แถบเครื่องมือ</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Dogecoin network</source>
+        <translation><numerusform>%n ที่ใช้งานการเชื่อมต่อกับเครือข่าย Dogecoin</numerusform></translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished"/>
+        <translation>ทันสมัย</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation type="unfinished"/>
+        <translation>จับได้...</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation type="unfinished"/>
+        <translation>รายการที่ส่ง</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -541,22 +611,30 @@ Type: %3
 Address: %4
 </source>
         <translation type="unfinished"/>
+=======
+        <translation>การทำรายการขาเข้า</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>ระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในขณะนี้ &lt;b&gt;ปลดล็อคแล้ว&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+        <translation>กระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในปัจจุบัน &lt;b&gt;ล็อค &lt;/b&gt;</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
     <name>ClientModel</name>
+<<<<<<< HEAD
     <message>
         <source>Network Alert</source>
         <translation type="unfinished"/>
@@ -567,8 +645,20 @@ Address: %4
     <message>
         <source>Coin Control Address Selection</source>
         <translation type="unfinished"/>
-    </message>
+=======
+    </context>
+<context>
+    <name>CoinControlDialog</name>
     <message>
+        <source>(no label)</source>
+        <translation>(ไม่มีชื่อ)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Quantity:</source>
         <translation type="unfinished"/>
     </message>
@@ -607,48 +697,199 @@ Address: %4
     <message>
         <source>Tree mode</source>
         <translation type="unfinished"/>
+=======
+        <source>Edit Address</source>
+        <translation>แก้ไขที่อยู่</translation>
     </message>
     <message>
+        <source>&amp;Label</source>
+        <translation>&amp;ชื่อ</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;ที่อยู่</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>ที่อยู่ผู้รับใหม่</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>ที่อยู่ผู้ส่งใหม่</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>แก้ไขที่อยู่ผู้รับ</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>แก้ไขที่อยู่ผู้ส่ง</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>ป้อนที่อยู่ "%1" ที่มีอยู่แล้วในสมุดที่อยู่</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>ไม่สามารถปลดล็อคกระเป๋าเงิน</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>สร้างกุญแจใหม่ล้มเหลว</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>List mode</source>
         <translation type="unfinished"/>
+=======
+        <source>Options</source>
+        <translation>ตัวเลือก</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation type="unfinished"/>
+=======
+        <source>Form</source>
+        <translation>รูป</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Address</source>
         <translation>ที่อยู่</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>ชื่อ</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>Confirmations</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Confirmed</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>ชื่อ</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(ไม่มีชื่อ)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Priority</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy address</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>ส่งเหรียญ</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(ไม่มีชื่อ)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy label</source>
         <translation type="unfinished"/>
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>Copy amount</source>
         <translation type="unfinished"/>
     </message>
@@ -850,9 +1091,33 @@ Address: %4
     <message>
         <source>New key generation failed.</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>ชื่อ</translation>
     </message>
-</context>
+    </context>
 <context>
+    <name>TransactionView</name>
+    <message>
+        <source>Today</source>
+        <translation>วันนี้</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>คั่นไฟล์ด้วยเครื่องหมายจุลภาค (*.csv)</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ชื่อ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ที่อยู่</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+<<<<<<< HEAD
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
@@ -3361,4 +3626,24 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>ส่งเหรียญ</translation>
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </TS>

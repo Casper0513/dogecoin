@@ -1,4 +1,5 @@
 <TS language="fr_CA" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -43,18 +44,27 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
         <translation>Double-cliquez afin de modifier l&apos;adress ou l&apos;étiquette</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Créer une nouvelle adresse</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;New</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copier l&apos;adresse surligné a votre presse-papier</translation>
+        <translation>Copier l'adresse surligné a votre presse-papier</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy</source>
         <translation type="unfinished"/>
     </message>
@@ -79,10 +89,13 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Delete</source>
         <translation>&amp;Supprimer</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose the address to send coins to</source>
         <translation type="unfinished"/>
     </message>
@@ -135,6 +148,12 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Fichier séparé par une virgule (*.csv)</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -153,10 +172,13 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter passphrase</source>
         <translation>Entrer Mot de Passe</translation>
     </message>
@@ -167,10 +189,13 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <message>
         <source>Repeat new passphrase</source>
         <translation>Répéter Mot de Passe</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Entrer le nouveau mot de passe pour le porte-feuille. Veuillez utiliser un mot de passe de 10 caractères au hasard ou plus, ou, 8 mots ou plus. </translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -187,6 +212,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Cette opération nécessite le mot de passe de votre porte-feuille pour le décrypter.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -255,11 +281,20 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Sign &amp;message...</source>
         <translation type="unfinished"/>
     </message>
@@ -454,8 +489,55 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <message>
         <source>&amp;Command-line options</source>
         <translation type="unfinished"/>
+=======
+        <source>(no label)</source>
+        <translation>(pas de record)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Show the Dogecoin Core help message to get a list with possible command-line options</source>
         <translation type="unfinished"/>
     </message>
@@ -466,16 +548,40 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <message numerus="yes">
         <source>%n active connection(s) to Dogecoin network</source>
         <translation type="unfinished"><numerusform/><numerusform/></translation>
+=======
+        <source>Address</source>
+        <translation>Addresse</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Record</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>No block source available...</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>Record</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(pas de record)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Processed %1 blocks of transaction history.</source>
         <translation type="unfinished"/>
     </message>
@@ -498,12 +604,49 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/></translation>
+=======
+        <source>(no label)</source>
+        <translation>(pas de record)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>%1 behind</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>Record</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>TransactionView</name>
     <message>
+<<<<<<< HEAD
         <source>Last received block was generated %1 ago.</source>
         <translation type="unfinished"/>
     </message>
@@ -3366,4 +3509,33 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Fichier séparé par une virgule (*.csv)</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Record</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Addresse</translation>
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </TS>

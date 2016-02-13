@@ -2,4 +2,8 @@ Building Dogecoin
 
 See doc/build-*.md for instructions on building dogecoind,
 the intended-for-services, no-graphical-interface, reference
+<<<<<<< HEAD
 implementation of Dogecoin.
+=======
+implementation of Dogecoin.
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707

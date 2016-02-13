@@ -1,4 +1,5 @@
 <TS language="vi_VN" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -36,6 +37,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Double-click to edit address or label</source>
         <translation type="unfinished"/>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+        <source>Right-click to edit address or label</source>
+        <translation>Nhấn chuột phải để sửa địa chỉ hoặc nhãn</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Create a new address</source>
@@ -43,50 +51,51 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Mới</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished"/>
+        <translation>Copy địa chỉ được chọn vào clipboard</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Copy</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation type="unfinished"/>
+        <translation>Đó&amp;ng</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Copy Địa Chỉ</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"/>
+        <translation>Xóa địa chỉ hiện tại từ danh sách</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <translation>Xuất dữ liệu trong mục hiện tại ra file</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>X&amp;uất</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Xó&amp;a</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished"/>
+        <translation>Chọn địa chỉ để gửi coin tới</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished"/>
+        <translation>Chọn địa chỉ để nhận coin</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -104,63 +113,79 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
+=======
+        <translation>C&amp;họn</translation>
+    </message>
+    <message>
+        <source>Such sending addresses</source>
+        <translation>Địa chỉ gửi</translation>
+    </message>
+    <message>
+        <source>Much receiving addresses</source>
+        <translation>Địa chỉ nhận</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation type="unfinished"/>
+        <translation>Copy &amp;Nhãn</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Sửa</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation type="unfinished"/>
+        <translation>Xuất Danh Sách Địa Chỉ</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation type="unfinished"/>
+        <translation>Comma separated file (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation type="unfinished"/>
+        <translation>Xuất Đã Thất Bại</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>There was an error trying to save the address list to %1.</source>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation type="unfinished"/>
+        <translation>Nhãn</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation type="unfinished"/>
+        <translation>Địa chỉ</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation type="unfinished"/>
+        <translation>(không nhãn)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Hội thoại Passphrase</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished"/>
+        <translation>Điền passphrase</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished"/>
+        <translation>Passphrase mới</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -182,16 +207,36 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Điền lại passphrase</translation>
+    </message>
+    <message>
+        <source>Encrypt wallet</source>
+        <translation>Mã hóa ví</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Mở khóa ví</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation type="unfinished"/>
+        <translation>Giải mã ví</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Change passphrase</source>
         <translation type="unfinished"/>
+=======
+        <source>Wallet encrypted</source>
+        <translation>Ví đã được mã hóa</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>BitcoinGUI</name>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation type="unfinished"/>
     </message>
@@ -250,11 +295,69 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Overview</source>
+        <translation>&amp;Tổng quan</translation>
     </message>
-</context>
-<context>
-    <name>BitcoinGUI</name>
     <message>
+        <source>Node</source>
+        <translation>Node</translation>
+    </message>
+    <message>
+        <source>E&amp;xit</source>
+        <translation>T&amp;hoát</translation>
+    </message>
+    <message>
+        <source>Quit application</source>
+        <translation>Thoát chương trình</translation>
+    </message>
+    <message>
+        <source>About &amp;Qt</source>
+        <translation>Về &amp;Qt</translation>
+    </message>
+    <message>
+        <source>Show information about Qt</source>
+        <translation>Xem thông tin về Qt</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Mở &amp;URI...</translation>
+    </message>
+    <message>
+        <source>Dogecoin Core client</source>
+        <translation>Dogecoin Core client</translation>
+    </message>
+    <message>
+        <source>Dogecoin</source>
+        <translation>Dogecoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Ví</translation>
+    </message>
+    <message>
+        <source>&amp;Send</source>
+        <translation>&amp;Gửi</translation>
+    </message>
+    <message>
+        <source>&amp;Receive</source>
+        <translation>&amp;Nhận</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>Ẩn / H&amp;iện</translation>
+    </message>
+    <message>
+        <source>Show or hide the main Window</source>
+        <translation>Hiện hoặc ẩn cửa sổ chính</translation>
+    </message>
+    <message>
+        <source>&amp;File</source>
+        <translation>&amp;File</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Sign &amp;message...</source>
         <translation type="unfinished"/>
     </message>
@@ -313,12 +416,84 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>&amp;Backup Wallet...</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Settings</source>
+        <translation>&amp;Thiết lập</translation>
     </message>
     <message>
+        <source>&amp;Help</source>
+        <translation>Trợ &amp;giúp</translation>
+    </message>
+    <message>
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>&amp;About Dogecoin Core</source>
+        <translation>&amp;Về Dogecoin Core</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n giờ</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n ngày</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n tuần</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 và %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n năm</numerusform></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Lỗi</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Chú ý</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Thông tin</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>Đã cập nhật</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>Giao dịch đã gửi</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>Giao dịch đang tới</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ClientModel</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Change Passphrase...</source>
         <translation type="unfinished"/>
+=======
+        <source>Network Alert</source>
+        <translation>Network Alert</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+</context>
+<context>
+    <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
         <translation type="unfinished"/>
     </message>
@@ -397,12 +572,107 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Sign messages with your Dogecoin addresses to prove you own them</source>
         <translation type="unfinished"/>
+=======
+        <source>Quantity:</source>
+        <translation>Lượng:</translation>
     </message>
     <message>
+        <source>Bytes:</source>
+        <translation>Bytes:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Lượng:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Tầm quan trọng:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Phí:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Thay đổi:</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Lượng</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Ngày tháng</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>Lần xác nhận</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Đã xác nhận</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation>Tầm quan trọng</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Copy địa chỉ</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copy nhãn</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Lượng copy</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>thấp</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>thấp hơn</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>thấp nhất</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>có</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>không</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(không nhãn)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+<<<<<<< HEAD
         <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
         <translation type="unfinished"/>
+=======
+        <source>name</source>
+        <translation>tên</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;File</source>
         <translation type="unfinished"/>
     </message>
@@ -413,8 +683,24 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>&amp;Help</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
     </message>
     <message>
+        <source>version</source>
+        <translation>version</translation>
+    </message>
+    <message>
+        <source>About Dogecoin Core</source>
+        <translation>Về Dogecoin Core</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+<<<<<<< HEAD
         <source>Tabs toolbar</source>
         <translation type="unfinished"/>
     </message>
@@ -425,16 +711,44 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>Welcome</source>
+        <translation>Chào mừng</translation>
     </message>
     <message>
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Lỗi</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;About Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>Open URI</source>
+        <translation>Mở URI</translation>
     </message>
     <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Show the list of used sending addresses and labels</source>
         <translation type="unfinished"/>
     </message>
@@ -465,8 +779,40 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>No block source available...</source>
         <translation type="unfinished"/>
+=======
+        <source>Options</source>
+        <translation>Lựa chọn</translation>
     </message>
     <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Chính</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>&amp;Display</source>
+        <translation>&amp;Hiển thị</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;OK</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Từ chối</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>mặc định</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+<<<<<<< HEAD
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
         <translation type="unfinished"/>
     </message>
@@ -493,16 +839,50 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished"><numerusform/></translation>
+=======
+        <source>Form</source>
+        <translation>Form</translation>
     </message>
     <message>
+        <source>Total:</source>
+        <translation>Tổng:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>%1 behind</source>
         <translation type="unfinished"/>
+=======
+        <source>User Agent</source>
+        <translation>User Agent</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Last received block was generated %1 ago.</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Lượng</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
     <message>
+<<<<<<< HEAD
         <source>Transactions after this will not yet be visible.</source>
         <translation type="unfinished"/>
     </message>
@@ -521,16 +901,52 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Up to date</source>
         <translation type="unfinished"/>
+=======
+        <source>General</source>
+        <translation>Nhìn Chung</translation>
     </message>
     <message>
+        <source>Name</source>
+        <translation>Tên</translation>
+    </message>
+    <message>
+        <source>Block chain</source>
+        <translation>Block chain</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>Đã gửi</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>User Agent</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Catching up...</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Sent transaction</source>
         <translation type="unfinished"/>
+=======
+        <source>Copy label</source>
+        <translation>Copy nhãn</translation>
     </message>
     <message>
+        <source>Copy amount</source>
+        <translation>Lượng copy</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Incoming transaction</source>
         <translation type="unfinished"/>
     </message>
@@ -545,47 +961,79 @@ Address: %4
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Địa chỉ</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Lượng</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nhãn</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Ngày tháng</translation>
     </message>
-</context>
-<context>
-    <name>ClientModel</name>
     <message>
+        <source>Label</source>
+        <translation>Nhãn</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Network Alert</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Lượng</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
-<context>
-    <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation type="unfinished"/>
+=======
+        <source>(no label)</source>
+        <translation>(không nhãn)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation type="unfinished"/>
+        <translation>Lượng:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation type="unfinished"/>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation type="unfinished"/>
+        <translation>Lượng:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation type="unfinished"/>
+        <translation>Tầm quan trọng:</translation>
     </message>
     <message>
         <source>Fee:</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -615,44 +1063,106 @@ Address: %4
     <message>
         <source>Amount</source>
         <translation type="unfinished"/>
+=======
+        <translation>Phí:</translation>
     </message>
     <message>
+        <source>Change:</source>
+        <translation>Thay đổi:</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Lượng copy</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(không nhãn)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Address</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
     <message>
         <source>Date</source>
-        <translation type="unfinished"/>
+        <translation>Ngày tháng</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirmations</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Lượng</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>Confirmed</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Priority</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Ngày tháng</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Nhãn</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
         <source>Copy address</source>
-        <translation type="unfinished"/>
+        <translation>Copy địa chỉ</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation type="unfinished"/>
+        <translation>Copy nhãn</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation type="unfinished"/>
+        <translation>Lượng copy</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy transaction ID</source>
         <translation type="unfinished"/>
     </message>
@@ -675,16 +1185,65 @@ Address: %4
     <message>
         <source>Copy after fee</source>
         <translation type="unfinished"/>
+=======
+        <source>Exporting Failed</source>
+        <translation>Xuất Đã Thất Bại</translation>
     </message>
     <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma separated file (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Đã xác nhận</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Ngày tháng</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nhãn</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Địa chỉ</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy bytes</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy priority</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Export</source>
+        <translation>X&amp;uất</translation>
     </message>
     <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Xuất dữ liệu trong mục hiện tại ra file</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation type="unfinished"/>
     </message>
@@ -3343,10 +3902,65 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Done loading</source>
-        <translation type="unfinished"/>
+=======
+        <source>Information</source>
+        <translation>Thông tin</translation>
     </message>
     <message>
+        <source>Transaction too large</source>
+        <translation>Giao dịch quá lớn</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Chú ý</translation>
+    </message>
+    <message>
+        <source>on startup</source>
+        <translation>khi khởi động</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Thông điệp trợ giúp này</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Đang đọc các địa chỉ...</translation>
+    </message>
+    <message>
+        <source>(default: %s)</source>
+        <translation>(mặc định: %s)</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Không đủ tiền</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Đang đọc block index...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Đang đọc ví...</translation>
+    </message>
+    <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Không downgrade được ví</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Không ghi được địa chỉ mặc định</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Đang quét lại...</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+        <source>Done loading</source>
+        <translation>Đã nạp xong</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation type="unfinished"/>
     </message>
@@ -3359,6 +3973,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation type="unfinished"/>
+=======
+        <source>Error</source>
+        <translation>Lỗi</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 </TS>

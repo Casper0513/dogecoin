@@ -1,19 +1,40 @@
 UNIX BUILD NOTES
 ====================
 Some notes on how to build Dogecoin in Unix. 
+<<<<<<< HEAD
+=======
+
+Note
+---------------------
+Always use absolute paths to configure and compile Dogecoin and the dependencies,
+for example, when specifying the the path of the dependency:
+
+	../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
+
+Here BDB_PREFIX must be an absolute path - it is defined using $(pwd) which ensures
+the usage of the absolute path.
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 To Build
 ---------------------
 
-	./autogen.sh
-	./configure
-	make
+```bash
+./autogen.sh
+./configure
+make
+make install # optional
+```
 
+<<<<<<< HEAD
 This will build dogecoin-qt as well if the dependencies are met.
+=======
+This will build Dogecoin-Qt as well if the dependencies are met.
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 Dependencies
 ---------------------
 
+<<<<<<< HEAD
  Library     | Purpose          | Description
  ------------|------------------|----------------------
  libssl      | SSL Support      | Secure communications
@@ -32,11 +53,16 @@ Dependencies
       qt 4.6.4
       protobuf-2.5.0
       qrencode-3.4.3
+=======
+These dependencies are required:
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
-[miniupnpc](http://miniupnp.free.fr/) may be used for UPnP port mapping.  It can be downloaded from [here](
-http://miniupnp.tuxfamily.org/files/).  UPnP support is compiled in and
-turned off by default.  See the configure options for upnp behavior desired:
+ Library     | Purpose          | Description
+ ------------|------------------|----------------------
+ libssl      | SSL Support      | Secure communications
+ libboost    | Boost            | C++ Library
 
+<<<<<<< HEAD
 	--without-miniupnpc      No UPnP support miniupnp not required
 	--disable-upnp-default   (the default) UPnP support turned off by default at runtime
 	--enable-upnp-default    UPnP support turned on by default at runtime
@@ -54,12 +80,32 @@ System requirements
 
 C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
 memory available when compiling Dogecoin Core. With 512MB of memory or less
+=======
+Optional dependencies:
+
+ Library     | Purpose          | Description
+ ------------|------------------|----------------------
+ miniupnpc   | UPnP Support     | Firewall-jumping support
+ libdb5.1    | Berkeley DB      | Wallet storage (only needed when wallet enabled)
+ qt          | GUI              | GUI toolkit (only needed when GUI enabled)
+ protobuf    | Payments in GUI  | Data interchange format used for payment protocol (only needed when GUI enabled)
+ libqrencode | QR codes in GUI  | Optional for generating QR codes (only needed when GUI enabled)
+
+For the versions used in the release, see [release-process.md](release-process.md) under *Fetch and build inputs*.
+
+System requirements
+--------------------
+
+C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
+memory available when compiling Dogecoin Core. With 512MB of memory or less,
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 compilation will take much longer due to swap thrashing.
 
 Dependency Build Instructions: Ubuntu & Debian
 ----------------------------------------------
 Build requirements:
 
+<<<<<<< HEAD
 	sudo apt-get install build-essential pkg-config
 	sudo apt-get install libtool autotools-dev autoconf automake
 	sudo apt-get install libssl-dev
@@ -73,6 +119,14 @@ for Debian 7 (Wheezy) and later:
 	sudo apt-get install libdb5.1-dev
         sudo apt-get install libdb5.1++-dev
 
+=======
+	sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev
+	
+for Ubuntu 12.04 and later or Debian 7 and later, libboost-all-dev has to be installed:
+
+	sudo apt-get install libboost-all-dev libdb5.1-dev libdb5.1++-dev
+
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 	Note that if you have Berkeley DB 4.8 packages installed (i.e. for other
 	wallet software), they are incompatible with the packages for 5.1. You
 	will have to manually download 5.1 from
@@ -92,13 +146,17 @@ are installed. Either Qt 4 or Qt 5 are necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 4 will be used. Pass `--with-gui=qt5` to configure to choose Qt5.
 To build without GUI pass `--without-gui`.
 
-To build with Qt 4 you need the following:
+To build with Qt 4, you need the following:
 
     sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
 
-For Qt 5 you need the following:
+For Qt 5, you need the following:
 
+<<<<<<< HEAD
     sudo apt-get install libqt5gui5 libqt5core5 libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev
+=======
+    sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 libqrencode (optional) can be installed with:
 
@@ -115,6 +173,17 @@ symbols, which reduces the executable size by about 90%.
 
 miniupnpc
 ---------
+
+[miniupnpc](http://miniupnp.free.fr/) may be used for UPnP port mapping.  It can be downloaded from [here](
+http://miniupnp.tuxfamily.org/files/).  UPnP support is compiled in and
+turned off by default.  See the configure options for upnp behavior desired:
+
+	--without-miniupnpc      No UPnP support miniupnp not required
+	--disable-upnp-default   (the default) UPnP support turned off by default at runtime
+	--enable-upnp-default    UPnP support turned on by default at runtime
+
+To build:
+
 	tar -xzvf miniupnpc-1.6.tar.gz
 	cd miniupnpc-1.6
 	make
@@ -132,6 +201,7 @@ BITCOIN_ROOT=$(pwd)
 # Pick some path to install BDB to, here we create a directory within the dogecoin directory
 BDB_PREFIX="${BITCOIN_ROOT}/db5"
 mkdir -p $BDB_PREFIX
+<<<<<<< HEAD
 
 # Fetch the source and verify that it is not tampered with
 wget 'http://download.oracle.com/berkeley-db/db-5.1.29.NC.tar.gz'
@@ -150,6 +220,26 @@ cd $BITCOIN_ROOT
 ./configure (other args...) LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
 ```
 
+=======
+
+# Fetch the source and verify that it is not tampered with
+wget 'http://download.oracle.com/berkeley-db/db-5.1.29.NC.tar.gz'
+echo '08238e59736d1aacdd47cfb8e68684c695516c37f4fbe1b8267dde58dc3a576c db-5.1.29.NC.tar.gz' | sha256sum -c
+# -> db-5.1.29.NC.tar.gz: OK
+tar -xzvf db-5.1.29.NC.tar.gz
+
+# Build the library and install to our prefix
+cd db-5.1.29.NC/build_unix/
+#  Note: Do a static build so that it can be embedded into the executable, instead of having to find a .so at runtime
+../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
+make install
+
+# Configure Dogecoin Core to use our own-built instance of BDB
+cd $BITCOIN_ROOT
+./configure (other args...) LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
+```
+
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 **Note**: You only need Berkeley DB if the wallet is enabled (see the section *Disable-Wallet mode* below).
 
 Boost
@@ -188,7 +278,11 @@ Optional:
 
 Security
 --------
+<<<<<<< HEAD
 To help make your dogecoin installation more secure by making certain attacks impossible to
+=======
+To help make your Dogecoin installation more secure by making certain attacks impossible to
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 exploit even if a vulnerability is found, binaries are hardened by default.
 This can be disabled with:
 
@@ -202,12 +296,12 @@ Hardening enables the following features:
 
 * Position Independent Executable
     Build position independent code to take advantage of Address Space Layout Randomization
-    offered by some kernels. An attacker who is able to cause execution of code at an arbitrary
-    memory location is thwarted if he doesn't know where anything useful is located.
+    offered by some kernels. Attackers who can cause execution of code at an arbitrary memory
+    location are thwarted if they don't know where anything useful is located.
     The stack and heap are randomly located by default but this allows the code section to be
     randomly located as well.
 
-    On an Amd64 processor where a library was not compiled with -fPIC, this will cause an error
+    On an AMD64 processor where a library was not compiled with -fPIC, this will cause an error
     such as: "relocation R_X86_64_32 against `......' can not be used when making a shared object;"
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
@@ -219,24 +313,37 @@ Hardening enables the following features:
     ET_DYN
 
 * Non-executable Stack
+<<<<<<< HEAD
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
     vulnerable buffers are found. By default, dogecoin should be built with a non-executable stack
+=======
+    If the stack is executable, trivial stack-based buffer overflow exploits are possible if
+    vulnerable buffers are found. By default, Dogecoin should be built with a non-executable stack,
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
 
+<<<<<<< HEAD
     To verify that the stack is non-executable after compiling use:
+=======
+    To verify that the stack is non-executable after compiling, use:
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     `scanelf -e ./dogecoin`
 
     the output should contain:
 	STK/REL/PTL
 	RW- R-- RW-
 
-    The STK RW- means that the stack is readable and writeable but not executable.
+    The STK RW- means that the stack is readable and writeable, but not executable.
 
 Disable-wallet mode
 --------------------
+<<<<<<< HEAD
 When the intention is to run only a P2P node without a wallet, dogecoin may be compiled in
+=======
+When the intention is to run only a P2P node without a wallet, Dogecoin may be compiled in
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 disable-wallet mode with:
 
     ./configure --disable-wallet
@@ -244,5 +351,5 @@ disable-wallet mode with:
 In this case there is no dependency on Berkeley DB 5.1.
 
 Mining is also possible in disable-wallet mode, but only using the `getblocktemplate` RPC
-call not `getwork`.
+call, not `getwork`.
 

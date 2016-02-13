@@ -1,6 +1,15 @@
 // Copyright (c) 2011-2013 The Bitcoin Core developers
+<<<<<<< HEAD
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
+=======
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+#include "arith_uint256.h"
+#include "uint256.h"
+#include "version.h"
+#include "test/test_bitcoin.h"
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 #include <boost/test/unit_test.hpp>
 #include <stdint.h>
@@ -8,59 +17,64 @@
 #include <iomanip>
 #include <limits>
 #include <cmath>
-#include "uint256.h"
 #include <string>
-#include "version.h"
+#include <stdio.h>
 
-BOOST_AUTO_TEST_SUITE(uint256_tests)
- 
-const unsigned char R1Array[] = 
+BOOST_FIXTURE_TEST_SUITE(uint256_tests, BasicTestingSetup)
+
+const unsigned char R1Array[] =
     "\x9c\x52\x4a\xdb\xcf\x56\x11\x12\x2b\x29\x12\x5e\x5d\x35\xd2\xd2"
     "\x22\x81\xaa\xb5\x33\xf0\x08\x32\xd5\x56\xb1\xf9\xea\xe5\x1d\x7d";
 const char R1ArrayHex[] = "7D1DE5EAF9B156D53208F033B5AA8122D2d2355d5e12292b121156cfdb4a529c";
-const double R1Ldouble = 0.4887374590559308955; // R1L equals roughly R1Ldouble * 2^256
-const double R1Sdouble = 0.7096329412477836074; 
 const uint256 R1L = uint256(std::vector<unsigned char>(R1Array,R1Array+32));
 const uint160 R1S = uint160(std::vector<unsigned char>(R1Array,R1Array+20));
-const uint64_t R1LLow64 = 0x121156cfdb4a529cULL;
 
-const unsigned char R2Array[] = 
+const unsigned char R2Array[] =
     "\x70\x32\x1d\x7c\x47\xa5\x6b\x40\x26\x7e\x0a\xc3\xa6\x9c\xb6\xbf"
     "\x13\x30\x47\xa3\x19\x2d\xda\x71\x49\x13\x72\xf0\xb4\xca\x81\xd7";
 const uint256 R2L = uint256(std::vector<unsigned char>(R2Array,R2Array+32));
 const uint160 R2S = uint160(std::vector<unsigned char>(R2Array,R2Array+20));
 
-const char R1LplusR2L[] = "549FB09FEA236A1EA3E31D4D58F1B1369288D204211CA751527CFC175767850C";
-
-const unsigned char ZeroArray[] = 
+const unsigned char ZeroArray[] =
     "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
     "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
 const uint256 ZeroL = uint256(std::vector<unsigned char>(ZeroArray,ZeroArray+32));
 const uint160 ZeroS = uint160(std::vector<unsigned char>(ZeroArray,ZeroArray+20));
-                             
-const unsigned char OneArray[] = 
+
+const unsigned char OneArray[] =
     "\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
     "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
 const uint256 OneL = uint256(std::vector<unsigned char>(OneArray,OneArray+32));
 const uint160 OneS = uint160(std::vector<unsigned char>(OneArray,OneArray+20));
 
-const unsigned char MaxArray[] = 
+const unsigned char MaxArray[] =
     "\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff"
     "\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff";
 const uint256 MaxL = uint256(std::vector<unsigned char>(MaxArray,MaxArray+32));
 const uint160 MaxS = uint160(std::vector<unsigned char>(MaxArray,MaxArray+20));
 
-const uint256 HalfL = (OneL << 255);
-const uint160 HalfS = (OneS << 159);
 std::string ArrayToString(const unsigned char A[], unsigned int width)
 {
     std::stringstream Stream;
     Stream << std::hex;
-    for (unsigned int i = 0; i < width; ++i) 
+    for (unsigned int i = 0; i < width; ++i)
     {
         Stream<<std::setw(2)<<std::setfill('0')<<(unsigned int)A[width-i-1];
-    }       
+    }
     return Stream.str();
+}
+
+inline uint160 uint160S(const char *str)
+{
+    uint160 rv;
+    rv.SetHex(str);
+    return rv;
+}
+inline uint160 uint160S(const std::string& str)
+{
+    uint160 rv;
+    rv.SetHex(str);
+    return rv;
 }
 
 BOOST_AUTO_TEST_CASE( basics ) // constructors, equality, inequality
@@ -85,58 +99,35 @@ BOOST_AUTO_TEST_CASE( basics ) // constructors, equality, inequality
     BOOST_CHECK(ZeroL != OneL && ZeroS != OneS);
     BOOST_CHECK(OneL != ZeroL && OneS != ZeroS);
     BOOST_CHECK(MaxL != ZeroL && MaxS != ZeroS);
-    BOOST_CHECK(~MaxL == ZeroL && ~MaxS == ZeroS);
-    BOOST_CHECK( ((R1L ^ R2L) ^ R1L) == R2L);
-    BOOST_CHECK( ((R1S ^ R2S) ^ R1S) == R2S);
-    
-    uint64_t Tmp64 = 0xc4dab720d9c7acaaULL;
-    for (unsigned int i = 0; i < 256; ++i) 
-    {
-        BOOST_CHECK(ZeroL != (OneL << i)); 
-        BOOST_CHECK((OneL << i) != ZeroL); 
-        BOOST_CHECK(R1L != (R1L ^ (OneL << i)));
-        BOOST_CHECK(((uint256(Tmp64) ^ (OneL << i) ) != Tmp64 ));
-    }
-    BOOST_CHECK(ZeroL == (OneL << 256)); 
-
-    for (unsigned int i = 0; i < 160; ++i) 
-    {
-        BOOST_CHECK(ZeroS != (OneS << i)); 
-        BOOST_CHECK((OneS << i) != ZeroS); 
-        BOOST_CHECK(R1S != (R1S ^ (OneS << i)));
-        BOOST_CHECK(((uint160(Tmp64) ^ (OneS << i) ) != Tmp64 ));
-    }
-    BOOST_CHECK(ZeroS == (OneS << 256)); 
 
     // String Constructor and Copy Constructor
-    BOOST_CHECK(uint256("0x"+R1L.ToString()) == R1L);
-    BOOST_CHECK(uint256("0x"+R2L.ToString()) == R2L);
-    BOOST_CHECK(uint256("0x"+ZeroL.ToString()) == ZeroL);
-    BOOST_CHECK(uint256("0x"+OneL.ToString()) == OneL);
-    BOOST_CHECK(uint256("0x"+MaxL.ToString()) == MaxL);
-    BOOST_CHECK(uint256(R1L.ToString()) == R1L);
-    BOOST_CHECK(uint256("   0x"+R1L.ToString()+"   ") == R1L);
-    BOOST_CHECK(uint256("") == ZeroL);
-    BOOST_CHECK(R1L == uint256(R1ArrayHex));
+    BOOST_CHECK(uint256S("0x"+R1L.ToString()) == R1L);
+    BOOST_CHECK(uint256S("0x"+R2L.ToString()) == R2L);
+    BOOST_CHECK(uint256S("0x"+ZeroL.ToString()) == ZeroL);
+    BOOST_CHECK(uint256S("0x"+OneL.ToString()) == OneL);
+    BOOST_CHECK(uint256S("0x"+MaxL.ToString()) == MaxL);
+    BOOST_CHECK(uint256S(R1L.ToString()) == R1L);
+    BOOST_CHECK(uint256S("   0x"+R1L.ToString()+"   ") == R1L);
+    BOOST_CHECK(uint256S("") == ZeroL);
+    BOOST_CHECK(R1L == uint256S(R1ArrayHex));
     BOOST_CHECK(uint256(R1L) == R1L);
-    BOOST_CHECK((uint256(R1L^R2L)^R2L) == R1L);
     BOOST_CHECK(uint256(ZeroL) == ZeroL);
     BOOST_CHECK(uint256(OneL) == OneL);
 
-    BOOST_CHECK(uint160("0x"+R1S.ToString()) == R1S);
-    BOOST_CHECK(uint160("0x"+R2S.ToString()) == R2S);
-    BOOST_CHECK(uint160("0x"+ZeroS.ToString()) == ZeroS);
-    BOOST_CHECK(uint160("0x"+OneS.ToString()) == OneS);
-    BOOST_CHECK(uint160("0x"+MaxS.ToString()) == MaxS);
-    BOOST_CHECK(uint160(R1S.ToString()) == R1S);
-    BOOST_CHECK(uint160("   0x"+R1S.ToString()+"   ") == R1S); 
-    BOOST_CHECK(uint160("") == ZeroS);
-    BOOST_CHECK(R1S == uint160(R1ArrayHex));
+    BOOST_CHECK(uint160S("0x"+R1S.ToString()) == R1S);
+    BOOST_CHECK(uint160S("0x"+R2S.ToString()) == R2S);
+    BOOST_CHECK(uint160S("0x"+ZeroS.ToString()) == ZeroS);
+    BOOST_CHECK(uint160S("0x"+OneS.ToString()) == OneS);
+    BOOST_CHECK(uint160S("0x"+MaxS.ToString()) == MaxS);
+    BOOST_CHECK(uint160S(R1S.ToString()) == R1S);
+    BOOST_CHECK(uint160S("   0x"+R1S.ToString()+"   ") == R1S);
+    BOOST_CHECK(uint160S("") == ZeroS);
+    BOOST_CHECK(R1S == uint160S(R1ArrayHex));
 
     BOOST_CHECK(uint160(R1S) == R1S);
-    BOOST_CHECK((uint160(R1S^R2S)^R2S) == R1S);
     BOOST_CHECK(uint160(ZeroS) == ZeroS);
     BOOST_CHECK(uint160(OneS) == OneS);
+<<<<<<< HEAD
 
     // uint64_t constructor
     BOOST_CHECK( (R1L & uint256("0xffffffffffffffff")) == uint256(R1LLow64));
@@ -369,114 +360,35 @@ BOOST_AUTO_TEST_CASE( bitwiseOperators )
     TmpS ^= 0; BOOST_CHECK(TmpS == R1S);
     TmpL ^= Tmp64;  BOOST_CHECK(TmpL == (R1L ^ uint256(Tmp64)));
     TmpS ^= Tmp64;  BOOST_CHECK(TmpS == (R1S ^ uint160(Tmp64)));
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 }
 
 BOOST_AUTO_TEST_CASE( comparison ) // <= >= < >
 {
-    uint256 TmpL;
-    for (unsigned int i = 0; i < 256; ++i) {
-        TmpL= OneL<< i;
-        BOOST_CHECK( TmpL >= ZeroL && TmpL > ZeroL && ZeroL < TmpL && ZeroL <= TmpL);
-        BOOST_CHECK( TmpL >= 0 && TmpL > 0 && 0 < TmpL && 0 <= TmpL);
-        TmpL |= R1L;
-        BOOST_CHECK( TmpL >= R1L ); BOOST_CHECK( (TmpL == R1L) != (TmpL > R1L)); BOOST_CHECK( (TmpL == R1L) || !( TmpL <= R1L));
-        BOOST_CHECK( R1L <= TmpL ); BOOST_CHECK( (R1L == TmpL) != (R1L < TmpL)); BOOST_CHECK( (TmpL == R1L) || !( R1L >= TmpL));
-        BOOST_CHECK(! (TmpL < R1L)); BOOST_CHECK(! (R1L > TmpL));
+    uint256 LastL;
+    for (int i = 255; i >= 0; --i) {
+        uint256 TmpL;
+        *(TmpL.begin() + (i>>3)) |= 1<<(7-(i&7));
+        BOOST_CHECK( LastL < TmpL );
+        LastL = TmpL;
     }
-    uint160 TmpS;
-    for (unsigned int i = 0; i < 160; ++i) {
-        TmpS= OneS<< i;
-        BOOST_CHECK( TmpS >= ZeroS && TmpS > ZeroS && ZeroS < TmpS && ZeroS <= TmpS);
-        BOOST_CHECK( TmpS >= 0 && TmpS > 0 && 0 < TmpS && 0 <= TmpS);
-        TmpS |= R1S;
-        BOOST_CHECK( TmpS >= R1S ); BOOST_CHECK( (TmpS == R1S) != (TmpS > R1S)); BOOST_CHECK( (TmpS == R1S) || !( TmpS <= R1S));
-        BOOST_CHECK( R1S <= TmpS ); BOOST_CHECK( (R1S == TmpS) != (R1S < TmpS)); BOOST_CHECK( (TmpS == R1S) || !( R1S >= TmpS));
-        BOOST_CHECK(! (TmpS < R1S)); BOOST_CHECK(! (R1S > TmpS));
-    }
-}
 
-BOOST_AUTO_TEST_CASE( plusMinus ) 
-{
-    uint256 TmpL = 0;
-    BOOST_CHECK(R1L+R2L == uint256(R1LplusR2L));
-    TmpL += R1L;
-    BOOST_CHECK(TmpL == R1L);
-    TmpL += R2L;
-    BOOST_CHECK(TmpL == R1L + R2L);
-    BOOST_CHECK(OneL+MaxL == ZeroL);
-    BOOST_CHECK(MaxL+OneL == ZeroL);
-    for (unsigned int i = 1; i < 256; ++i) {
-        BOOST_CHECK( (MaxL >> i) + OneL == (HalfL >> (i-1)) );
-        BOOST_CHECK( OneL + (MaxL >> i) == (HalfL >> (i-1)) );
-        TmpL = (MaxL>>i); TmpL += OneL;
-        BOOST_CHECK( TmpL == (HalfL >> (i-1)) );
-        TmpL = (MaxL>>i); TmpL += 1;
-        BOOST_CHECK( TmpL == (HalfL >> (i-1)) );
-        TmpL = (MaxL>>i); 
-        BOOST_CHECK( TmpL++ == (MaxL>>i) );
-        BOOST_CHECK( TmpL == (HalfL >> (i-1)));
-    }
-    BOOST_CHECK(uint256(0xbedc77e27940a7ULL) + 0xee8d836fce66fbULL == uint256(0xbedc77e27940a7ULL + 0xee8d836fce66fbULL));
-    TmpL = uint256(0xbedc77e27940a7ULL); TmpL += 0xee8d836fce66fbULL;
-    BOOST_CHECK(TmpL == uint256(0xbedc77e27940a7ULL+0xee8d836fce66fbULL));
-    TmpL -= 0xee8d836fce66fbULL;  BOOST_CHECK(TmpL == 0xbedc77e27940a7ULL);
-    TmpL = R1L;
-    BOOST_CHECK(++TmpL == R1L+1);
+    BOOST_CHECK( ZeroL < R1L );
+    BOOST_CHECK( R2L < R1L );
+    BOOST_CHECK( ZeroL < OneL );
+    BOOST_CHECK( OneL < MaxL );
+    BOOST_CHECK( R1L < MaxL );
+    BOOST_CHECK( R2L < MaxL );
 
-    BOOST_CHECK(R1L -(-R2L) == R1L+R2L);
-    BOOST_CHECK(R1L -(-OneL) == R1L+OneL);
-    BOOST_CHECK(R1L - OneL == R1L+(-OneL));
-    for (unsigned int i = 1; i < 256; ++i) {
-        BOOST_CHECK((MaxL>>i) - (-OneL)  == (HalfL >> (i-1)));
-        BOOST_CHECK((HalfL >> (i-1)) - OneL == (MaxL>>i));
-        TmpL = (HalfL >> (i-1));
-        BOOST_CHECK(TmpL-- == (HalfL >> (i-1)));
-        BOOST_CHECK(TmpL == (MaxL >> i));
-        TmpL = (HalfL >> (i-1));
-        BOOST_CHECK(--TmpL == (MaxL >> i));
+    uint160 LastS;
+    for (int i = 159; i >= 0; --i) {
+        uint160 TmpS;
+        *(TmpS.begin() + (i>>3)) |= 1<<(7-(i&7));
+        BOOST_CHECK( LastS < TmpS );
+        LastS = TmpS;
     }
-    TmpL = R1L;
-    BOOST_CHECK(--TmpL == R1L-1);
-
-    // 160-bit; copy-pasted
-    uint160 TmpS = 0;
-    BOOST_CHECK(R1S+R2S == uint160(R1LplusR2L));
-    TmpS += R1S;
-    BOOST_CHECK(TmpS == R1S);
-    TmpS += R2S;
-    BOOST_CHECK(TmpS == R1S + R2S);
-    BOOST_CHECK(OneS+MaxS == ZeroS);
-    BOOST_CHECK(MaxS+OneS == ZeroS);
-    for (unsigned int i = 1; i < 160; ++i) {
-        BOOST_CHECK( (MaxS >> i) + OneS == (HalfS >> (i-1)) );
-        BOOST_CHECK( OneS + (MaxS >> i) == (HalfS >> (i-1)) );
-        TmpS = (MaxS>>i); TmpS += OneS;
-        BOOST_CHECK( TmpS == (HalfS >> (i-1)) );
-        TmpS = (MaxS>>i); TmpS += 1;
-        BOOST_CHECK( TmpS == (HalfS >> (i-1)) );
-        TmpS = (MaxS>>i); 
-        BOOST_CHECK( TmpS++ == (MaxS>>i) );
-        BOOST_CHECK( TmpS == (HalfS >> (i-1)));
-    }
-    BOOST_CHECK(uint160(0xbedc77e27940a7ULL) + 0xee8d836fce66fbULL == uint160(0xbedc77e27940a7ULL + 0xee8d836fce66fbULL));
-    TmpS = uint160(0xbedc77e27940a7ULL); TmpS += 0xee8d836fce66fbULL;
-    BOOST_CHECK(TmpS == uint160(0xbedc77e27940a7ULL+0xee8d836fce66fbULL));
-    TmpS -= 0xee8d836fce66fbULL;  BOOST_CHECK(TmpS == 0xbedc77e27940a7ULL);
-    TmpS = R1S;
-    BOOST_CHECK(++TmpS == R1S+1);
-
-    BOOST_CHECK(R1S -(-R2S) == R1S+R2S);
-    BOOST_CHECK(R1S -(-OneS) == R1S+OneS);
-    BOOST_CHECK(R1S - OneS == R1S+(-OneS));
-    for (unsigned int i = 1; i < 160; ++i) {
-        BOOST_CHECK((MaxS>>i) - (-OneS)  == (HalfS >> (i-1)));
-        BOOST_CHECK((HalfS >> (i-1)) - OneS == (MaxS>>i));
-        TmpS = (HalfS >> (i-1));
-        BOOST_CHECK(TmpS-- == (HalfS >> (i-1)));
-        BOOST_CHECK(TmpS == (MaxS >> i));
-        TmpS = (HalfS >> (i-1));
-        BOOST_CHECK(--TmpS == (MaxS >> i));
-    }
+<<<<<<< HEAD
     TmpS = R1S;
     BOOST_CHECK(--TmpS == R1S-1);
 
@@ -556,6 +468,14 @@ BOOST_AUTO_TEST_CASE( divide )
 bool almostEqual(double d1, double d2) 
 {
     return fabs(d1-d2) <= 4*fabs(d1)*std::numeric_limits<double>::epsilon();
+=======
+    BOOST_CHECK( ZeroS < R1S );
+    BOOST_CHECK( R2S < R1S );
+    BOOST_CHECK( ZeroS < OneS );
+    BOOST_CHECK( OneS < MaxS );
+    BOOST_CHECK( R1S < MaxS );
+    BOOST_CHECK( R2S < MaxS );
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 }
 
 BOOST_AUTO_TEST_CASE( methods ) // GetHex SetHex begin() end() size() GetLow64 GetSerializeSize, Serialize, Unserialize
@@ -567,8 +487,7 @@ BOOST_AUTO_TEST_CASE( methods ) // GetHex SetHex begin() end() size() GetLow64 G
     uint256 TmpL(R1L);
     BOOST_CHECK(TmpL == R1L);
     TmpL.SetHex(R2L.ToString());   BOOST_CHECK(TmpL == R2L);
-    TmpL.SetHex(ZeroL.ToString()); BOOST_CHECK(TmpL == 0);
-    TmpL.SetHex(HalfL.ToString()); BOOST_CHECK(TmpL == HalfL);
+    TmpL.SetHex(ZeroL.ToString()); BOOST_CHECK(TmpL == uint256());
 
     TmpL.SetHex(R1L.ToString());
     BOOST_CHECK(memcmp(R1L.begin(), R1Array, 32)==0);
@@ -576,6 +495,8 @@ BOOST_AUTO_TEST_CASE( methods ) // GetHex SetHex begin() end() size() GetLow64 G
     BOOST_CHECK(memcmp(R2L.begin(), R2Array, 32)==0);
     BOOST_CHECK(memcmp(ZeroL.begin(), ZeroArray, 32)==0);
     BOOST_CHECK(memcmp(OneL.begin(), OneArray, 32)==0);
+    BOOST_CHECK(R1L.size() == sizeof(R1L));
+    BOOST_CHECK(sizeof(R1L) == 32);
     BOOST_CHECK(R1L.size() == 32);
     BOOST_CHECK(R2L.size() == 32);
     BOOST_CHECK(ZeroL.size() == 32);
@@ -585,9 +506,6 @@ BOOST_AUTO_TEST_CASE( methods ) // GetHex SetHex begin() end() size() GetLow64 G
     BOOST_CHECK(OneL.begin() + 32 == OneL.end());
     BOOST_CHECK(MaxL.begin() + 32 == MaxL.end());
     BOOST_CHECK(TmpL.begin() + 32 == TmpL.end());
-    BOOST_CHECK(R1L.GetLow64()  == R1LLow64);
-    BOOST_CHECK(HalfL.GetLow64() ==0x0000000000000000ULL);
-    BOOST_CHECK(OneL.GetLow64() ==0x0000000000000001ULL);
     BOOST_CHECK(R1L.GetSerializeSize(0,PROTOCOL_VERSION) == 32);
     BOOST_CHECK(ZeroL.GetSerializeSize(0,PROTOCOL_VERSION) == 32);
 
@@ -615,8 +533,7 @@ BOOST_AUTO_TEST_CASE( methods ) // GetHex SetHex begin() end() size() GetLow64 G
     uint160 TmpS(R1S);
     BOOST_CHECK(TmpS == R1S);
     TmpS.SetHex(R2S.ToString());   BOOST_CHECK(TmpS == R2S);
-    TmpS.SetHex(ZeroS.ToString()); BOOST_CHECK(TmpS == 0);
-    TmpS.SetHex(HalfS.ToString()); BOOST_CHECK(TmpS == HalfS);
+    TmpS.SetHex(ZeroS.ToString()); BOOST_CHECK(TmpS == uint160());
 
     TmpS.SetHex(R1S.ToString());
     BOOST_CHECK(memcmp(R1S.begin(), R1Array, 20)==0);
@@ -624,6 +541,8 @@ BOOST_AUTO_TEST_CASE( methods ) // GetHex SetHex begin() end() size() GetLow64 G
     BOOST_CHECK(memcmp(R2S.begin(), R2Array, 20)==0);
     BOOST_CHECK(memcmp(ZeroS.begin(), ZeroArray, 20)==0);
     BOOST_CHECK(memcmp(OneS.begin(), OneArray, 20)==0);
+    BOOST_CHECK(R1S.size() == sizeof(R1S));
+    BOOST_CHECK(sizeof(R1S) == 20);
     BOOST_CHECK(R1S.size() == 20);
     BOOST_CHECK(R2S.size() == 20);
     BOOST_CHECK(ZeroS.size() == 20);
@@ -633,9 +552,6 @@ BOOST_AUTO_TEST_CASE( methods ) // GetHex SetHex begin() end() size() GetLow64 G
     BOOST_CHECK(OneS.begin() + 20 == OneS.end());
     BOOST_CHECK(MaxS.begin() + 20 == MaxS.end());
     BOOST_CHECK(TmpS.begin() + 20 == TmpS.end());
-    BOOST_CHECK(R1S.GetLow64()  == R1LLow64);
-    BOOST_CHECK(HalfS.GetLow64() ==0x0000000000000000ULL); 
-    BOOST_CHECK(OneS.GetLow64() ==0x0000000000000001ULL);
     BOOST_CHECK(R1S.GetSerializeSize(0,PROTOCOL_VERSION) == 20);
     BOOST_CHECK(ZeroS.GetSerializeSize(0,PROTOCOL_VERSION) == 20);
 
@@ -654,55 +570,22 @@ BOOST_AUTO_TEST_CASE( methods ) // GetHex SetHex begin() end() size() GetLow64 G
     TmpS.Unserialize(ss,0,PROTOCOL_VERSION);
     BOOST_CHECK(MaxS == TmpS);
     ss.str("");
-    
-    for (unsigned int i = 0; i < 255; ++i) 
-    {
-        BOOST_CHECK((OneL << i).getdouble() == ldexp(1.0,i));
-        if (i < 160) BOOST_CHECK((OneS << i).getdouble() == ldexp(1.0,i));
-    }
-    BOOST_CHECK(ZeroL.getdouble() == 0.0);
-    BOOST_CHECK(ZeroS.getdouble() == 0.0);
-    for (int i = 256; i > 53; --i) 
-        BOOST_CHECK(almostEqual((R1L>>(256-i)).getdouble(), ldexp(R1Ldouble,i)));
-    for (int i = 160; i > 53; --i) 
-        BOOST_CHECK(almostEqual((R1S>>(160-i)).getdouble(), ldexp(R1Sdouble,i)));
-    uint64_t R1L64part = (R1L>>192).GetLow64();
-    uint64_t R1S64part = (R1S>>96).GetLow64();
-    for (int i = 53; i > 0; --i) // doubles can store all integers in {0,...,2^54-1} exactly
-    {
-        BOOST_CHECK((R1L>>(256-i)).getdouble() == (double)(R1L64part >> (64-i)));
-        BOOST_CHECK((R1S>>(160-i)).getdouble() == (double)(R1S64part >> (64-i)));
-    }
 }
 
-BOOST_AUTO_TEST_CASE( getmaxcoverage ) // some more tests just to get 100% coverage
+BOOST_AUTO_TEST_CASE( conversion )
 {
-    // ~R1L give a base_uint<256>
-    BOOST_CHECK((~~R1L >> 10) == (R1L >> 10)); BOOST_CHECK((~~R1S >> 10) == (R1S >> 10));
-    BOOST_CHECK((~~R1L << 10) == (R1L << 10)); BOOST_CHECK((~~R1S << 10) == (R1S << 10));
-    BOOST_CHECK(!(~~R1L < R1L)); BOOST_CHECK(!(~~R1S < R1S)); 
-    BOOST_CHECK(~~R1L <= R1L); BOOST_CHECK(~~R1S <= R1S); 
-    BOOST_CHECK(!(~~R1L > R1L)); BOOST_CHECK(!(~~R1S > R1S)); 
-    BOOST_CHECK(~~R1L >= R1L); BOOST_CHECK(~~R1S >= R1S); 
-    BOOST_CHECK(!(R1L < ~~R1L)); BOOST_CHECK(!(R1S < ~~R1S)); 
-    BOOST_CHECK(R1L <= ~~R1L); BOOST_CHECK(R1S <= ~~R1S); 
-    BOOST_CHECK(!(R1L > ~~R1L)); BOOST_CHECK(!(R1S > ~~R1S)); 
-    BOOST_CHECK(R1L >= ~~R1L); BOOST_CHECK(R1S >= ~~R1S); 
-    
-    BOOST_CHECK(~~R1L + R2L == R1L + ~~R2L);
-    BOOST_CHECK(~~R1S + R2S == R1S + ~~R2S);
-    BOOST_CHECK(~~R1L - R2L == R1L - ~~R2L);
-    BOOST_CHECK(~~R1S - R2S == R1S - ~~R2S);
-    BOOST_CHECK(~R1L != R1L); BOOST_CHECK(R1L != ~R1L); 
-    BOOST_CHECK(~R1S != R1S); BOOST_CHECK(R1S != ~R1S); 
-    unsigned char TmpArray[32];
-    CHECKBITWISEOPERATOR(~R1,R2,|)
-    CHECKBITWISEOPERATOR(~R1,R2,^)
-    CHECKBITWISEOPERATOR(~R1,R2,&)
-    CHECKBITWISEOPERATOR(R1,~R2,|)
-    CHECKBITWISEOPERATOR(R1,~R2,^)
-    CHECKBITWISEOPERATOR(R1,~R2,&)
+    BOOST_CHECK(ArithToUint256(UintToArith256(ZeroL)) == ZeroL);
+    BOOST_CHECK(ArithToUint256(UintToArith256(OneL)) == OneL);
+    BOOST_CHECK(ArithToUint256(UintToArith256(R1L)) == R1L);
+    BOOST_CHECK(ArithToUint256(UintToArith256(R2L)) == R2L);
+    BOOST_CHECK(UintToArith256(ZeroL) == 0);
+    BOOST_CHECK(UintToArith256(OneL) == 1);
+    BOOST_CHECK(ArithToUint256(0) == ZeroL);
+    BOOST_CHECK(ArithToUint256(1) == OneL);
+    BOOST_CHECK(arith_uint256(R1L.GetHex()) == UintToArith256(R1L));
+    BOOST_CHECK(arith_uint256(R2L.GetHex()) == UintToArith256(R2L));
+    BOOST_CHECK(R1L.GetHex() == UintToArith256(R1L).GetHex());
+    BOOST_CHECK(R2L.GetHex() == UintToArith256(R2L).GetHex());
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-

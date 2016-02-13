@@ -1,4 +1,5 @@
 <TS language="ky" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,10 +39,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Жаң даректи жасоо</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;New</source>
         <translation type="unfinished"/>
     </message>
@@ -137,6 +144,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>&amp;Delete</source>
+        <translation>Ө&amp;чүрүү</translation>
+    </message>
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Address</source>
         <translation>Дарек</translation>
     </message>
@@ -147,7 +163,11 @@ This product includes software developed by the OpenSSL Project for use in the O
 </context>
 <context>
     <name>AskPassphraseDialog</name>
+    </context>
+<context>
+    <name>BitcoinGUI</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation type="unfinished"/>
     </message>
@@ -238,8 +258,55 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Wallet unlock failed</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Transactions</source>
+        <translation>&amp;Транзакциялар</translation>
     </message>
     <message>
+        <source>&amp;Verify message...</source>
+        <translation>Билдирүүнү &amp;текшерүү...</translation>
+    </message>
+    <message>
+        <source>Dogecoin</source>
+        <translation>Dogecoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Капчык</translation>
+    </message>
+    <message>
+        <source>&amp;File</source>
+        <translation>&amp;Файл</translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation>&amp;Жардам</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Ката</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Эскертүү</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Маалымат</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>Жаңыланган</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation type="unfinished"/>
     </message>
@@ -250,23 +317,66 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Дата</translation>
     </message>
-</context>
-<context>
-    <name>BitcoinGUI</name>
     <message>
+        <source>none</source>
+        <translation>жок</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(аты жок)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Sign &amp;message...</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Address</source>
+        <translation>&amp;Дарек</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Synchronizing with network...</source>
         <translation type="unfinished"/>
+=======
+        <source>version</source>
+        <translation>версия</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>Intro</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Overview</source>
         <translation type="unfinished"/>
+=======
+        <source>Error</source>
+        <translation>Ката</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Node</source>
         <translation type="unfinished"/>
     </message>
@@ -297,8 +407,59 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>About &amp;Qt</source>
         <translation type="unfinished"/>
+=======
+        <source>MB</source>
+        <translation>МБ</translation>
     </message>
     <message>
+        <source>&amp;Network</source>
+        <translation>&amp;Тармак</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;Порт:</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Терезе</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;Жарайт</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Жокко чыгаруу</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>жарыяланбаган</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>жок</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+<<<<<<< HEAD
         <source>Show information about Qt</source>
         <translation type="unfinished"/>
     </message>
@@ -321,16 +482,59 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Very &amp;sending addresses...</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Information</source>
+        <translation>Маалымат</translation>
     </message>
     <message>
+        <source>General</source>
+        <translation>Жалпы</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Аты</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Ачуу</translation>
+    </message>
+    <message>
+        <source>&amp;Console</source>
+        <translation>&amp;Консоль</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>Консолду тазалоо</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Much &amp;receiving addresses...</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Open &amp;URI...</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Дарек</translation>
     </message>
     <message>
+        <source>Message</source>
+        <translation>Билдирүү</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Importing blocks from disk...</source>
         <translation type="unfinished"/>
     </message>
@@ -341,8 +545,24 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Send coins to a Dogecoin address</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Дата</translation>
     </message>
     <message>
+        <source>Message</source>
+        <translation>Билдирүү</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(аты жок)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Modify configuration options for Dogecoin Core</source>
         <translation type="unfinished"/>
     </message>
@@ -353,24 +573,73 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation type="unfinished"/>
+=======
+        <source>Clear &amp;All</source>
+        <translation>&amp;Бардыгын тазалоо</translation>
     </message>
     <message>
+        <source>S&amp;end</source>
+        <translation>&amp;Жөнөтүү</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(аты жок)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation type="unfinished"/>
+=======
+        <source>Paste address from clipboard</source>
+        <translation>Даректи алмашуу буферинен коюу</translation>
     </message>
     <message>
+        <source>Message:</source>
+        <translation>Билдирүү:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Verify message...</source>
         <translation>Билдирүүнү &amp;текшерүү...</translation>
     </message>
     <message>
         <source>Dogecoin</source>
         <translation>Dogecoin</translation>
+=======
+        <source>Paste address from clipboard</source>
+        <translation>Даректи алмашуу буферинен коюу</translation>
     </message>
     <message>
+        <source>Clear &amp;All</source>
+        <translation>&amp;Бардыгын тазалоо</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+<<<<<<< HEAD
         <source>Wallet</source>
         <translation>Капчык</translation>
     </message>
@@ -381,20 +650,71 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>&amp;Receive</source>
         <translation type="unfinished"/>
+=======
+        <source>%1/offline</source>
+        <translation>%1/тармакта эмес</translation>
     </message>
     <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Билдирүү</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Show / Hide</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Дата</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>TransactionView</name>
     <message>
+<<<<<<< HEAD
         <source>Show or hide the main Window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Дата</translation>
     </message>
     <message>
+        <source>Address</source>
+        <translation>Дарек</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+<<<<<<< HEAD
         <source>Sign messages with your Dogecoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
@@ -3360,5 +3680,18 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation type="unfinished"/>
     </message>
+=======
+        <source>Information</source>
+        <translation>Маалымат</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Эскертүү</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Ката</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

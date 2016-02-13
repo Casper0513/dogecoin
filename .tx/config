@@ -1,7 +1,11 @@
 [main]
 host = https://www.transifex.com
 
+<<<<<<< HEAD
 [bitcoin.tx]
+=======
+[bitcoin.qt-translation-011x]
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 file_filter = src/qt/locale/bitcoin_<lang>.ts
 source_file = src/qt/locale/bitcoin_en.ts
 source_lang = en

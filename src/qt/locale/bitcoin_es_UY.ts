@@ -1,4 +1,5 @@
 <TS language="es_UY" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,18 +39,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Doble clic para editar etiqueta o dirección </translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Crear una nueva dirección </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;New</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Copia la dirección seleccionada al portapapeles del sistema</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy</source>
         <translation type="unfinished"/>
     </message>
@@ -74,10 +84,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Delete</source>
         <translation>&amp;Borrar</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose the address to send coins to</source>
         <translation type="unfinished"/>
     </message>
@@ -130,6 +143,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Archivos separados por coma (*.csv)</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -148,10 +167,13 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter passphrase</source>
         <translation>Escriba la contraseña</translation>
     </message>
@@ -164,10 +186,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Repetir nueva contraseña</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Introduzca la nueva contraseña para el monedero. &lt;br/&gt; Utilice una contraseña de &lt;b&gt; 10 o más caracteres al azar &lt;/ b&gt;, o &lt;b&gt; ocho o más palabras &lt;/ b&gt;.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>Monedero cifrado</translation>
     </message>
@@ -192,14 +217,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cambiar contraseña</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Ingrese la contraseña anterior y la nueva de acceso a el monedero</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
@@ -216,14 +245,19 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encrypted</source>
         <translation>Monedero cifrado</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>Fallo en el cifrado del monedero</translation>
     </message>
@@ -247,6 +281,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>Wallet decryption failed</source>
         <translation>Fallo en el descifrado del monedero</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished"/>
@@ -259,6 +294,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Synchronizing with network...</source>
         <translation>Sincronizando con la red...</translation>
     </message>
@@ -267,10 +308,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Vista previa</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Show general overview of wallet</source>
         <translation>Mostrar descripción general del monedero</translation>
     </message>
@@ -283,14 +327,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Buscar en el historial de transacciones</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>E&amp;xit</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Quit application</source>
         <translation>Salir de la aplicacion </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Mostrar informacion sobre Dogecoin</translation>
     </message>
@@ -337,16 +385,83 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Options...</source>
+        <translation>&amp;Opciones...</translation>
     </message>
     <message>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>Cambie la clave utilizada para el cifrado del monedero</translation>
+    </message>
+    <message>
+        <source>&amp;File</source>
+        <translation>&amp;Archivo</translation>
+    </message>
+    <message>
+        <source>&amp;Settings</source>
+        <translation>&amp;Configuracion </translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation>&amp;Ayuda</translation>
+    </message>
+    <message>
+        <source>Tabs toolbar</source>
+        <translation>Barra de herramientas</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>A la fecha</translation>
+    </message>
+    <message>
+        <source>Catching up...</source>
+        <translation>Ponerse al dia...</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>Transaccion enviada</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>Transacción entrante</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>El Monedero esta &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;desbloqueado&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>El Monedero esta &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Send coins to a Dogecoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Modify configuration options for Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Fecha</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(Sin etiqueta)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Backup wallet to another location</source>
         <translation type="unfinished"/>
     </message>
@@ -381,28 +496,131 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>&amp;Receive</source>
         <translation type="unfinished"/>
+=======
+        <source>Edit Address</source>
+        <translation>Editar dirección</translation>
     </message>
     <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Etiqueta</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Direccion </translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Nueva dirección de recepción </translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Nueva dirección de envío </translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Editar dirección de recepcion </translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Editar dirección de envío </translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>No se puede abrir el monedero.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Fallo en la nueva clave generada.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Show / Hide</source>
         <translation type="unfinished"/>
+=======
+        <source>Options</source>
+        <translation>Opciones</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
         <source>Show or hide the main Window</source>
         <translation type="unfinished"/>
+=======
+        <source>Form</source>
+        <translation>Formulario</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Label:</source>
+        <translation>&amp;Etiqueta:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Dogecoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Direccion </translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;File</source>
         <translation>&amp;Archivo</translation>
     </message>
@@ -413,8 +631,24 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>&amp;Help</source>
         <translation>&amp;Ayuda</translation>
+=======
+        <source>Date</source>
+        <translation>Fecha</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(Sin etiqueta)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Tabs toolbar</source>
         <translation>Barra de herramientas</translation>
     </message>
@@ -441,8 +675,40 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Show the list of used receiving addresses and labels</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>Enviar monedas</translation>
     </message>
     <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Enviar a varios destinatarios a la vez</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Balance:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Confirmar el envío</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Confirmar el envio de monedas</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>La cantidad a pagar debe ser mayor que 0.</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(Sin etiqueta)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
         <source>Open a dogecoin: URI or payment request</source>
         <translation type="unfinished"/>
     </message>
@@ -493,8 +759,43 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished"><numerusform/><numerusform/></translation>
+=======
+        <source>A&amp;mount:</source>
+        <translation>A&amp;Monto:</translation>
     </message>
     <message>
+        <source>Pay &amp;To:</source>
+        <translation>Pagar &amp;A:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Introduzca una etiqueta para esta dirección para añadirla a su libreta de direcciones</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Etiqueta:</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Pegar la dirección desde el portapapeles</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>%1 behind</source>
         <translation type="unfinished"/>
     </message>
@@ -505,12 +806,39 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Transactions after this will not yet be visible.</source>
         <translation type="unfinished"/>
+=======
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
     </message>
     <message>
+        <source>Paste address from clipboard</source>
+        <translation>Pegar la dirección desde el portapapeles</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
         <source>Error</source>
         <translation type="unfinished"/>
+=======
+        <source>[testnet]</source>
+        <translation>[prueba_de_red]</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
     <message>
+<<<<<<< HEAD
         <source>Warning</source>
         <translation type="unfinished"/>
     </message>
@@ -521,8 +849,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Up to date</source>
         <translation>A la fecha</translation>
+=======
+        <source>Open until %1</source>
+        <translation>Abrir hasta %1</translation>
     </message>
     <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>desconocido</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Catching up...</source>
         <translation>Ponerse al dia...</translation>
     </message>
@@ -553,16 +900,27 @@ Address: %4
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Fecha</translation>
     </message>
-</context>
-<context>
-    <name>ClientModel</name>
     <message>
+        <source>Open until %1</source>
+        <translation>Abrir hasta %1</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Network Alert</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Control Address Selection</source>
@@ -3361,4 +3719,43 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    <name>TransactionView</name>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Archivos separados por coma (*.csv)</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Direccion </translation>
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Enviar monedas</translation>
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </TS>

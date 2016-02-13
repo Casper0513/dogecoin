@@ -1,4 +1,5 @@
 <TS language="vi" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,18 +39,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Click đúp chuột để chỉnh sửa địa chỉ hoặc nhãn dữ liệu</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Tạo một địa chỉ mới</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;New</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Sao chép các địa chỉ đã được chọn vào bộ nhớ tạm thời của hệ thống</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy</source>
         <translation type="unfinished"/>
     </message>
@@ -74,10 +84,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Delete</source>
         <translation>&amp;Xóa</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose the address to send coins to</source>
         <translation type="unfinished"/>
     </message>
@@ -130,6 +143,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Tập tin tách biệt bởi dấu phẩy (*.csv)</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -147,6 +166,7 @@ This product includes software developed by the OpenSSL Project for use in the O
 </context>
 <context>
     <name>AskPassphraseDialog</name>
+<<<<<<< HEAD
     <message>
         <source>Passphrase Dialog</source>
         <translation type="unfinished"/>
@@ -252,9 +272,19 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>BitcoinGUI</name>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Sign &amp;message...</source>
         <translation type="unfinished"/>
     </message>
@@ -393,12 +423,68 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Số lượng</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(chưa có nhãn)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+<<<<<<< HEAD
         <source>Sign messages with your Dogecoin addresses to prove you own them</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Số lượng</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
         <translation type="unfinished"/>
     </message>
@@ -409,8 +495,24 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>&amp;Settings</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Địa chỉ</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Số lượng</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nhãn dữ liệu</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Help</source>
         <translation type="unfinished"/>
     </message>
@@ -421,20 +523,78 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>[testnet]</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>Nhãn dữ liệu</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Số lượng</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(chưa có nhãn)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>(no label)</source>
+        <translation>(chưa có nhãn)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Số lượng</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;About Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>Nhãn dữ liệu</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>TransactionView</name>
     <message>
+<<<<<<< HEAD
         <source>Show the list of used sending addresses and labels</source>
         <translation type="unfinished"/>
     </message>
@@ -3361,4 +3521,33 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Tập tin tách biệt bởi dấu phẩy (*.csv)</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nhãn dữ liệu</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Địa chỉ</translation>
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </TS>

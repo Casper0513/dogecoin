@@ -1,4 +1,5 @@
 <TS language="eu_ES" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,18 +39,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Klik bikoitza helbidea edo etiketa editatzeko</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Sortu helbide berria</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;New</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopiatu hautatutako helbidea sistemaren arbelera</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy</source>
         <translation type="unfinished"/>
     </message>
@@ -74,10 +84,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Delete</source>
         <translation>&amp;Ezabatu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose the address to send coins to</source>
         <translation type="unfinished"/>
     </message>
@@ -130,6 +143,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Komaz bereizitako artxiboa (*.csv)</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -148,10 +167,13 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter passphrase</source>
         <translation>Sartu pasahitza</translation>
     </message>
@@ -164,10 +186,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Errepikatu pasahitz berria</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Sartu zorrorako pasahitz berria.&lt;br/&gt; Mesedez erabili &lt;b&gt;gutxienez ausazko 10 karaktere&lt;/b&gt;, edo &lt;b&gt;gutxienez zortzi hitz&lt;/b&gt; pasahitza osatzeko.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>Enkriptatu zorroa</translation>
     </message>
@@ -192,14 +217,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Aldatu pasahitza</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Sartu zorroaren pasahitz zaharra eta berria.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Berretsi zorroaren enkriptazioa</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
@@ -216,14 +245,19 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encrypted</source>
         <translation>Zorroa enkriptatuta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>Zorroaren enkriptazioak huts egin du</translation>
     </message>
@@ -247,6 +281,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>Wallet decryption failed</source>
         <translation>Zorroaren desenkriptazioak huts egin du</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished"/>
@@ -259,6 +294,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Synchronizing with network...</source>
         <translation>Sarearekin sinkronizatzen...</translation>
     </message>
@@ -267,10 +308,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Gainbegiratu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Show general overview of wallet</source>
         <translation>Ikusi zorroaren begirada orokorra</translation>
     </message>
@@ -291,10 +335,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Irten aplikaziotik</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Erakutsi Dogecoin-i buruzko informazioa</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>&amp;Qt-ari buruz</translation>
     </message>
@@ -307,6 +354,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Aukerak...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Encrypt Wallet...</source>
         <translation type="unfinished"/>
     </message>
@@ -349,8 +397,59 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Backup wallet to another location</source>
         <translation type="unfinished"/>
+=======
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>Aldatu zorroa enkriptatzeko erabilitako pasahitza</translation>
     </message>
     <message>
+        <source>&amp;File</source>
+        <translation>&amp;Artxiboa</translation>
+    </message>
+    <message>
+        <source>&amp;Settings</source>
+        <translation>&amp;Ezarpenak</translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation>&amp;Laguntza</translation>
+    </message>
+    <message>
+        <source>Tabs toolbar</source>
+        <translation>Fitxen tresna-barra</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>Egunean</translation>
+    </message>
+    <message>
+        <source>Catching up...</source>
+        <translation>Eguneratzen...</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>Bidalitako transakzioa</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>Sarrerako transakzioa</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>Zorroa &lt;b&gt;enkriptatuta&lt;/b&gt; eta &lt;b&gt;desblokeatuta&lt;/b&gt; dago une honetan</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>Zorroa &lt;b&gt;enkriptatuta&lt;/b&gt; eta &lt;b&gt;blokeatuta&lt;/b&gt; dago une honetan</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Aldatu zorroa enkriptatzeko erabilitako pasahitza</translation>
     </message>
@@ -373,8 +472,36 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Wallet</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount:</source>
+        <translation>Kopurua</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Kopurua</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Kopiatu helbidea</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopiatu etiketa</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(etiketarik ez)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Send</source>
         <translation type="unfinished"/>
     </message>
@@ -413,28 +540,132 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>&amp;Help</source>
         <translation>&amp;Laguntza</translation>
+=======
+        <source>Edit Address</source>
+        <translation>Editatu helbidea</translation>
     </message>
     <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Etiketa</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Helbidea</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Jasotzeko helbide berria</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Bidaltzeko helbide berria</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Editatu jasotzeko helbidea</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Editatu bidaltzeko helbidea</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Sartu berri den helbidea, "%1", helbide-liburuan dago jadanik.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Ezin desblokeatu zorroa.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Gako berriaren sorrerak huts egin du.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Tabs toolbar</source>
         <translation>Fitxen tresna-barra</translation>
+=======
+        <source>Options</source>
+        <translation>Aukerak</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
+=======
+        <source>Form</source>
+        <translation>Inprimakia</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Kopurua</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;About Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Label:</source>
+        <translation>&amp;Etiketa:</translation>
     </message>
     <message>
+        <source>Copy label</source>
+        <translation>Kopiatu etiketa</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Show the list of used sending addresses and labels</source>
         <translation type="unfinished"/>
     </message>
@@ -445,8 +676,24 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Open a dogecoin: URI or payment request</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Helbidea</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Kopurua</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketa</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Command-line options</source>
         <translation type="unfinished"/>
     </message>
@@ -465,8 +712,28 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>No block source available...</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Data</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Kopurua</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(etiketarik ez)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
         <translation type="unfinished"/>
     </message>
@@ -517,8 +784,44 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Information</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>Bidali txanponak</translation>
     </message>
     <message>
+        <source>Amount:</source>
+        <translation>Kopurua</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Bidali hainbat jasotzaileri batera</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Saldoa:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Berretsi bidaltzeko ekintza</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Berretsi txanponak bidaltzea</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Ordaintzeko kopurua 0 baino handiagoa izan behar du.</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(etiketarik ez)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
         <source>Up to date</source>
         <translation>Egunean</translation>
     </message>
@@ -553,9 +856,42 @@ Address: %4
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+        <source>A&amp;mount:</source>
+        <translation>K&amp;opurua:</translation>
     </message>
-</context>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>Ordaindu &amp;honi:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Sartu etiketa bat helbide honetarako, eta gehitu zure helbide-liburuan</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Etiketa:</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Itsatsi helbidea arbeletik</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Mezua</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>ClientModel</name>
     <message>
         <source>Network Alert</source>
@@ -603,12 +939,44 @@ Address: %4
     <message>
         <source>(un)select all</source>
         <translation type="unfinished"/>
+=======
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
     </message>
     <message>
+        <source>Paste address from clipboard</source>
+        <translation>Itsatsi helbidea arbeletik</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
         <source>Tree mode</source>
         <translation type="unfinished"/>
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
     <message>
+<<<<<<< HEAD
         <source>List mode</source>
         <translation type="unfinished"/>
     </message>
@@ -623,12 +991,25 @@ Address: %4
     <message>
         <source>Address</source>
         <translation>Helbidea</translation>
+=======
+        <source>Open until %1</source>
+        <translation>Zabalik %1 arte</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/konfirmatu gabe</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 konfirmazioak</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirmations</source>
         <translation type="unfinished"/>
     </message>
@@ -639,16 +1020,44 @@ Address: %4
     <message>
         <source>Priority</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Kopurua</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, ez da arrakastaz emititu oraindik</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ezezaguna</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy address</source>
         <translation>Kopiatu helbidea</translation>
     </message>
     <message>
         <source>Copy label</source>
         <translation>Kopiatu etiketa</translation>
+=======
+        <source>Transaction details</source>
+        <translation>Transakzioaren xehetasunak</translation>
     </message>
     <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Panel honek transakzioaren deskribapen xehea erakusten du</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy amount</source>
         <translation type="unfinished"/>
     </message>
@@ -711,8 +1120,76 @@ Address: %4
     <message>
         <source>medium</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Data</translation>
     </message>
     <message>
+        <source>Type</source>
+        <translation>Mota</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Zabalik %1 arte</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Konfirmatuta (%1 konfirmazio)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Bloke hau ez du beste inongo nodorik jaso, eta seguruenik ez da onartuko!</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Sortua, baina ez onartua</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Jasota honekin: </translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Hona bidalia: </translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Ordainketa zeure buruari</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Bildua</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Transakzioaren egoera. Pasatu sagua gainetik konfirmazio kopurua ikusteko.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Transakzioa jasotako data eta ordua.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Transakzio mota.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Saldoan kendu edo gehitutako kopurua.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
         <source>low-medium</source>
         <translation type="unfinished"/>
     </message>
@@ -795,9 +1272,94 @@ Address: %4
     <message>
         <source>(change)</source>
         <translation type="unfinished"/>
+=======
+        <source>All</source>
+        <translation>Denak</translation>
     </message>
-</context>
+    <message>
+        <source>Today</source>
+        <translation>Gaur</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Aste honetan</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Hil honetan</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Azken hilean</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Aurten</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Muga...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Jasota honekin: </translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Hona bidalia: </translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Zeure buruari</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Bildua</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Beste</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Sartu bilatzeko helbide edo etiketa</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Kopuru minimoa</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Kopiatu helbidea</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopiatu etiketa</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Komaz bereizitako artxiboa (*.csv)</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Mota</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Helbidea</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -3361,4 +3923,40 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Bidali txanponak</translation>
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Aukerak</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Laguntza mezu hau</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Birbilatzen...</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation>Zamaketa amaitua</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </TS>

@@ -1,4 +1,5 @@
 <TS language="es_MX" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,6 +39,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Haga doble clic para editar el domicilio o la etiqueta</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Crear una dirección nueva</translation>
     </message>
@@ -90,7 +96,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Elegir</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very sending addresses</source>
+=======
+        <source>Such sending addresses</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>Enviando direcciones</translation>
     </message>
     <message>
@@ -119,17 +129,20 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Archivo separado por comas (*.CSV)</translation>
+        <translation>Arhchivo separado por comas (*.CSV)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
         <translation>Exportación fallida</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>There was an error trying to save the address list to %1.</source>
         <translation>Ocurrio un error al intentar guardar la lista de direcciones en %1</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -148,10 +161,13 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter passphrase</source>
         <translation>Ingrese la contraseña</translation>
     </message>
@@ -164,10 +180,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Repita la nueva contraseña</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Ingrese la nueva contraseña a la cartera&lt;br/&gt;Por favor use una contraseña de&lt;b&gt;10 o más caracteres aleatorios&lt;/b&gt; o &lt;b&gt;ocho o más palabras&lt;/b&gt;.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>Encriptar cartera.</translation>
     </message>
@@ -192,10 +211,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cambiar contraseña</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Ingrese la antugüa y nueva contraseña de la cartera</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Confirmar la encriptación de cartera</translation>
     </message>
@@ -208,10 +230,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>¿Está seguro que desea encriptar su cartera?</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Advertencia: ¡La tecla Bloq Mayus está activada!</translation>
     </message>
@@ -220,10 +245,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cartera encriptada</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>Dogecoin se cerrará para finalizar el proceso de encriptación. Recuerda que encriptar tu cartera no protege completamente a tus dogecoins de ser robadas por malware infectando tu computadora.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>Encriptación de la cartera fallida</translation>
     </message>
@@ -291,10 +319,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Salir de la aplicación</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Mostrar información acerca de Dogecoin</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>Acerca de &amp;Qt</translation>
     </message>
@@ -319,7 +350,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Cambiar contraseña...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
+=======
+        <source>Such &amp;sending addresses...</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>&amp;Enviando direcciones...</translation>
     </message>
     <message>
@@ -337,6 +372,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Reindexando bloques en el disco...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Send coins to a Dogecoin address</source>
@@ -345,6 +381,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Modify configuration options for Dogecoin Core</source>
         <translation>Modificar las opciones de configuración de Dogecoin</translation>
+=======
+    </message>
+    <message>
+        <source>Send coins to a Dogecoin address</source>
+        <translation>Enviar monedas a una dirección Dogecoin</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -367,6 +409,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation type="unfinished"/>
     </message>
@@ -403,6 +446,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;File</source>
         <translation>&amp;Archivo</translation>
     </message>
@@ -419,6 +464,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Pestañas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation type="unfinished"/>
     </message>
@@ -519,6 +565,20 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Dogecoin Core</source>
+        <translation>nucleo Dogecoin</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>opciones de la &amp;Linea de comandos</translation>
+    </message>
+    <message>
+        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
+        <translation>Mostrar mensaje de ayuda del nucleo de Dogecoin para optener una lista con los posibles comandos  de Dogecoin</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Up to date</source>
         <translation>Actualizado al dia </translation>
     </message>
@@ -535,6 +595,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Transacción entrante</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -543,6 +604,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>La cartera esta &lt;b&gt;encriptada&lt;/b&gt; y &lt;b&gt;desbloqueada&lt;/b&gt; actualmente </translation>
     </message>
@@ -550,6 +613,7 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>La cartera esta &lt;b&gt;encriptada&lt;/b&gt; y &lt;b&gt;bloqueada&lt;/b&gt; actualmente </translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
@@ -573,6 +637,15 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+</context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Bytes:</source>
         <translation>Bytes:</translation>
     </message>
@@ -589,6 +662,7 @@ Address: %4
         <translation>Cuota:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation type="unfinished"/>
     </message>
@@ -613,10 +687,13 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount</source>
         <translation>Monto</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
@@ -625,22 +702,30 @@ Address: %4
         <translation>Domicilio</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Date</source>
         <translation>Fecha</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirmations</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirmed</source>
         <translation>Confirmado </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy address</source>
         <translation>Copiar dirección </translation>
     </message>
@@ -651,6 +736,7 @@ Address: %4
     <message>
         <source>Copy amount</source>
         <translation>copiar monto</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Copy transaction ID</source>
@@ -663,6 +749,8 @@ Address: %4
     <message>
         <source>Unlock unspent</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy quantity</source>
@@ -683,14 +771,18 @@ Address: %4
     <message>
         <source>Copy priority</source>
         <translation>copiar prioridad</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Copy low output</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy change</source>
         <translation>copiar cambio</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>highest</source>
@@ -783,11 +875,14 @@ Address: %4
     <message>
         <source>This label turns red, if the change is smaller than %1.</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>(no label)</source>
         <translation>(sin etiqueta)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>change from %1 (%2)</source>
         <translation type="unfinished"/>
@@ -797,6 +892,9 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -808,6 +906,7 @@ Address: %4
         <translation>&amp;Etiqueta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The label associated with this address list entry</source>
         <translation type="unfinished"/>
     </message>
@@ -816,6 +915,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Address</source>
         <translation>&amp;Dirección</translation>
     </message>
@@ -836,6 +937,7 @@ Address: %4
         <translation>Editar dirección de envios</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>El domicilio ingresado &quot;%1&quot; ya existe en la libreta de direcciones</translation>
     </message>
@@ -844,6 +946,12 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>El domicilio ingresado "%1" ya existe en la libreta de direcciones</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Could not unlock wallet.</source>
         <translation>No se puede desbloquear la cartera</translation>
     </message>
@@ -854,6 +962,7 @@ Address: %4
 </context>
 <context>
     <name>FreespaceChecker</name>
+<<<<<<< HEAD
     <message>
         <source>A new data directory will be created.</source>
         <translation type="unfinished"/>
@@ -882,6 +991,12 @@ Address: %4
         <translation>Opciones de lineas de comando del nucleo de Dogecoin</translation>
     </message>
     <message>
+=======
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>nucleo Dogecoin</translation>
     </message>
@@ -890,6 +1005,7 @@ Address: %4
         <translation>Versión</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Uso:</translation>
     </message>
@@ -920,31 +1036,99 @@ Address: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Escojer el directorio de información al iniciar (por defecto : 0)</translation>
+=======
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+    <message>
+        <source>About Dogecoin Core</source>
+        <translation>Acerca de Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Uso:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>Opciones de comando de lineas</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
+<<<<<<< HEAD
         <source>Welcome</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core</source>
+        <translation>nucleo Dogecoin</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Welcome to Dogecoin Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
         <translation type="unfinished"/>
+=======
+        <source>Options</source>
+        <translation>Opciones</translation>
     </message>
     <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Activar las opciones de linea de comando que sobre escriben las siguientes opciones:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+<<<<<<< HEAD
         <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
+=======
+        <source>Form</source>
+        <translation>Formulario</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Use the default data directory</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Monto</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Use a custom data directory:</source>
         <translation type="unfinished"/>
     </message>
@@ -967,11 +1151,36 @@ Address: %4
     <message>
         <source>(of %1GB needed)</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Label:</source>
+        <translation>&amp;Etiqueta</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
+        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Dogecoin.</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>Use este formulario para la solicitud de pagos. Todos los campos son &lt;b&gt;opcionales&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>Monto opcional a solicitar. Dejarlo vacion o en cero no solicita un monto especifico.</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copiar capa </translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>copiar monto</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
-    <name>OpenURIDialog</name>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Open URI</source>
         <translation type="unfinished"/>
     </message>
@@ -2777,8 +2986,24 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>(default: 1)</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Domicilio</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Monto</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>(default: wallet.dat)</source>
         <translation type="unfinished"/>
     </message>
@@ -2797,8 +3022,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Block creation options:</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Fecha</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Monto</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(sin etiqueta)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
         <translation type="unfinished"/>
     </message>
@@ -2909,8 +3154,108 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Failed to write transaction index</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>Mandar monedas</translation>
     </message>
     <message>
+        <source>Bytes:</source>
+        <translation>Bytes:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Monto:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Prioridad:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Cuota:</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Enviar a múltiples receptores a la vez</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Saldo:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Confirme la acción de enviar</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Confirme para mandar monedas</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>copiar cantidad</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>copiar monto</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>copiar cuota</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>copiar despues de cuota</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>copiar bytes</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>copiar prioridad</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>copiar cambio</translation>
+    </message>
+    <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Monto total %1(=%2)</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>o</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>El monto a pagar debe ser mayor a 0</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>¡La creación de transacion falló!</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>¡La transación fue rechazada! Esto puede ocurrir si algunas de tus monedas en tu cartera han sido gastadas, al igual que si usas una cartera copiada y la monedas fueron gastadas en la copia pero no se marcaron como gastadas.</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Dogecoin address</source>
+        <translation>Advertencia: Dirección de Dogecoin invalida</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(sin etiqueta)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>Advertencia: Cambio de dirección desconocido</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
         <source>Failed to write undo data</source>
         <translation type="unfinished"/>
     </message>
@@ -2961,16 +3306,76 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Prepend debug output with timestamp (default: 1)</source>
         <translation type="unfinished"/>
+=======
+        <source>A&amp;mount:</source>
+        <translation>M&amp;onto</translation>
     </message>
     <message>
+        <source>Pay &amp;To:</source>
+        <translation>Pagar &amp;a:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Ingrese una etiqueta para esta dirección para agregarlo en su libreta de direcciones.</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Etiqueta</translation>
+    </message>
+    <message>
+        <source>This is a normal payment.</source>
+        <translation>Este es un pago normal</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Pegar dirección  del portapapeles</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Remove this entry</source>
+        <translation>Quitar esta entrada</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Mensaje:</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Pago para:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+<<<<<<< HEAD
         <source>RPC client options:</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core is shutting down...</source>
+        <translation>Apagando el nucleo de Dogecoin...</translation>
     </message>
     <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>No apague su computadora hasta que esta ventana desaparesca.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Select SOCKS version for -proxy (4 or 5, default: 5)</source>
         <translation type="unfinished"/>
     </message>
@@ -2981,16 +3386,47 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation type="unfinished"/>
+=======
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
     </message>
     <message>
+        <source>Paste address from clipboard</source>
+        <translation>Pegar dirección  del portapapeles</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
         <source>Set the number of threads to service RPC calls (default: 4)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core</source>
+        <translation>nucleo Dogecoin</translation>
     </message>
     <message>
+        <source>The Dogecoin Core developers</source>
+        <translation>Los desarrolladores de Dogecoin Core</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+<<<<<<< HEAD
         <source>Spend unconfirmed change when sending transactions (default: 1)</source>
         <translation type="unfinished"/>
     </message>
@@ -3021,16 +3457,64 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Wallet options:</source>
         <translation>Opciones de cartera:</translation>
+=======
+        <source>Open until %1</source>
+        <translation>Abrir hasta %1</translation>
     </message>
     <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/No confirmado</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 confirmaciones</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Monto</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, no ha sido transmitido aun</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>desconocido</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation type="unfinished"/>
+=======
+        <source>Transaction details</source>
+        <translation>Detalles de la transacción</translation>
     </message>
     <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Este panel muestras una descripción detallada de la transacción</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Imports blocks from external blk000??.dat file</source>
         <translation type="unfinished"/>
     </message>
@@ -3129,8 +3613,72 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Fecha</translation>
     </message>
     <message>
+        <source>Type</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Abrir hasta %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Confimado (%1 confirmaciones)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Este bloque no fue recibido por ningun nodo y probablemente no fue aceptado !</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Generado pero no aprovado</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Recivido con</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Enviar a</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Pagar a si mismo</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Minado </translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Fecha y hora en que la transacción fue recibida </translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Escriba una transacción</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Cantidad removida del saldo o agregada </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation type="unfinished"/>
     </message>
@@ -3269,16 +3817,155 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Loading addresses...</source>
         <translation>Cargando direcciones...</translation>
+=======
+        <source>All</source>
+        <translation>Todo</translation>
     </message>
     <message>
+        <source>Today</source>
+        <translation>Hoy</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Esta semana </translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Este mes </translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>El mes pasado </translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Este año</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Recivido con</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Enviar a</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Para ti mismo</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Minado </translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Otro</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Ingrese dirección o capa a buscar </translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Monto minimo </translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Copiar dirección </translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copiar capa </translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>copiar monto</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Editar capa </translation>
+    </message>
+    <message>
+        <source>Export Transaction History</source>
+        <translation>Exportar el historial de transacción</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Exportación fallida</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Ocurrio un error intentando guardar el historial de transaciones a %1</translation>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation>Exportacion satisfactoria</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Arhchivo separado por comas (*.CSV)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confirmado </translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Domicilio</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>Para</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation type="unfinished"/>
+=======
+        <source>No wallet has been loaded.</source>
+        <translation>No se há cargado la cartera.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+</context>
+<context>
+    <name>WalletModel</name>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>Mandar monedas</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+</context>
+<context>
+    <name>WalletView</name>
     <message>
+<<<<<<< HEAD
         <source>Wallet needed to be rewritten: restart Dogecoin to complete</source>
         <translation type="unfinished"/>
     </message>
@@ -3289,8 +3976,24 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Export</source>
+        <translation>&amp;Exportar</translation>
     </message>
     <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exportar la información en la tabla actual a un archivo</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>Ocurrio un error tratando de guardar la información de la cartera %1</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+<<<<<<< HEAD
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
@@ -3317,20 +4020,52 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Insufficient funds</source>
         <translation type="unfinished"/>
+=======
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;categoria&gt; puede ser:</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Opciones de cartera:</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Escojer el directorio de información al iniciar (por defecto : 0)</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Definir idioma, por ejemplo "de_DE" (por defecto: Sistema local)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Mostrar pantalla de arraque al iniciar (por defecto: 1)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Iniciar minimizado</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Cargando direcciones...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Loading block index...</source>
         <translation>Cargando indice de bloques... </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Loading wallet...</source>
         <translation>Cargando billetera...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot downgrade wallet</source>
         <translation type="unfinished"/>
     </message>
@@ -3361,4 +4096,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Done loading</source>
+        <translation>Carga completa</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </TS>

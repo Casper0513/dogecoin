@@ -1,13 +1,20 @@
-// Copyright (c) 2011-2013 The Bitcoin developers
-// Distributed under the MIT/X11 software license, see the accompanying
+// Copyright (c) 2011-2013 The Bitcoin Core developers
+// Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef GUIUTIL_H
-#define GUIUTIL_H
+#ifndef BITCOIN_QT_GUIUTIL_H
+#define BITCOIN_QT_GUIUTIL_H
 
+<<<<<<< HEAD
+=======
+#include "amount.h"
+
+#include <QEvent>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 #include <QHeaderView>
 #include <QMessageBox>
 #include <QObject>
+#include <QProgressBar>
 #include <QString>
 #include <QTableView>
 
@@ -46,7 +53,7 @@ namespace GUIUtil
     QString formatBitcoinURI(const SendCoinsRecipient &info);
 
     // Returns true if given address+amount meets "dust" definition
-    bool isDust(const QString& address, qint64 amount);
+    bool isDust(const QString& address, const CAmount& amount);
 
     // HTML escaping for rich text controls
     QString HtmlEscape(const QString& str, bool fMultiLine=false);
@@ -101,6 +108,9 @@ namespace GUIUtil
 
     // Open debug.log
     void openDebugLogfile();
+
+    // Replace invalid default fonts with known good ones
+    void SubstituteFonts(const QString& language);
 
     /** Qt event filter that intercepts ToolTipChange events, and replaces the tooltip with a rich text
       representation if needed. This assures that Qt can word-wrap long tooltip messages.
@@ -173,6 +183,35 @@ namespace GUIUtil
     /* Convert OS specific boost path to QString through UTF-8 */
     QString boostPathToQString(const boost::filesystem::path &path);
 
+<<<<<<< HEAD
+=======
+    /* Convert seconds into a QString with days, hours, mins, secs */
+    QString formatDurationStr(int secs);
+
+    /* Format CNodeStats.nServices bitmask into a user-readable string */
+    QString formatServicesStr(quint64 mask);
+
+    /* Format a CNodeCombinedStats.dPingTime into a user-readable string or display N/A, if 0*/
+    QString formatPingTime(double dPingTime);
+
+    /* Format a CNodeCombinedStats.nTimeOffset into a user-readable string. */
+    QString formatTimeOffset(int64_t nTimeOffset);
+
+#if defined(Q_OS_MAC) && QT_VERSION >= 0x050000
+    // workaround for Qt OSX Bug:
+    // https://bugreports.qt-project.org/browse/QTBUG-15631
+    // QProgressBar uses around 10% CPU even when app is in background
+    class ProgressBar : public QProgressBar
+    {
+        bool event(QEvent *e) {
+            return (e->type() != QEvent::StyleAnimationUpdate) ? QProgressBar::event(e) : false;
+        }
+    };
+#else
+    typedef QProgressBar ProgressBar;
+#endif
+    
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 } // namespace GUIUtil
 
-#endif // GUIUTIL_H
+#endif // BITCOIN_QT_GUIUTIL_H

@@ -1,5 +1,9 @@
 // Copyright (c) 2011-2014 The Bitcoin Core developers
+<<<<<<< HEAD
 // Distributed under the MIT/X11 software license, see the accompanying
+=======
+// Distributed under the MIT software license, see the accompanying
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 //
@@ -8,12 +12,15 @@
 
 
 
-#include "bignum.h"
 #include "keystore.h"
 #include "main.h"
 #include "net.h"
-#include "script.h"
+#include "pow.h"
+#include "script/sign.h"
 #include "serialize.h"
+#include "util.h"
+
+#include "test/test_bitcoin.h"
 
 #include <stdint.h>
 
@@ -26,7 +33,15 @@
 extern bool AddOrphanTx(const CTransaction& tx, NodeId peer);
 extern void EraseOrphansFor(NodeId peer);
 extern unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans);
+<<<<<<< HEAD
 extern std::map<uint256, CTransaction> mapOrphanTransactions;
+=======
+struct COrphanTx {
+    CTransaction tx;
+    NodeId fromPeer;
+};
+extern std::map<uint256, COrphanTx> mapOrphanTransactions;
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 extern std::map<uint256, std::set<uint256> > mapOrphanTransactionsByPrev;
 
 CService ip(uint32_t i)
@@ -36,7 +51,7 @@ CService ip(uint32_t i)
     return CService(CNetAddr(s), Params().GetDefaultPort());
 }
 
-BOOST_AUTO_TEST_SUITE(DoS_tests)
+BOOST_FIXTURE_TEST_SUITE(DoS_tests, TestingSetup)
 
 BOOST_AUTO_TEST_CASE(DoS_banning)
 {
@@ -101,6 +116,7 @@ BOOST_AUTO_TEST_CASE(DoS_bantime)
     BOOST_CHECK(!CNode::IsBanned(addr));
 }
 
+<<<<<<< HEAD
 static bool CheckNBits(unsigned int nbits1, int64_t time1, unsigned int nbits2, int64_t time2)\
 {
     if (time1 > time2)
@@ -147,13 +163,15 @@ BOOST_AUTO_TEST_CASE(DoS_checknbits)
     BOOST_CHECK(CheckNBits(firstcheck.second, lastcheck.first+60*60*24*365*4, lastcheck.second, lastcheck.first));
 }
 
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 CTransaction RandomOrphan()
 {
-    std::map<uint256, CTransaction>::iterator it;
+    std::map<uint256, COrphanTx>::iterator it;
     it = mapOrphanTransactions.lower_bound(GetRandHash());
     if (it == mapOrphanTransactions.end())
         it = mapOrphanTransactions.begin();
-    return it->second;
+    return it->second.tx;
 }
 
 BOOST_AUTO_TEST_CASE(DoS_mapOrphans)
@@ -166,14 +184,14 @@ BOOST_AUTO_TEST_CASE(DoS_mapOrphans)
     // 50 orphan transactions:
     for (int i = 0; i < 50; i++)
     {
-        CTransaction tx;
+        CMutableTransaction tx;
         tx.vin.resize(1);
         tx.vin[0].prevout.n = 0;
         tx.vin[0].prevout.hash = GetRandHash();
         tx.vin[0].scriptSig << OP_1;
         tx.vout.resize(1);
         tx.vout[0].nValue = 1*CENT;
-        tx.vout[0].scriptPubKey.SetDestination(key.GetPubKey().GetID());
+        tx.vout[0].scriptPubKey = GetScriptForDestination(key.GetPubKey().GetID());
 
         AddOrphanTx(tx, i);
     }
@@ -183,13 +201,13 @@ BOOST_AUTO_TEST_CASE(DoS_mapOrphans)
     {
         CTransaction txPrev = RandomOrphan();
 
-        CTransaction tx;
+        CMutableTransaction tx;
         tx.vin.resize(1);
         tx.vin[0].prevout.n = 0;
         tx.vin[0].prevout.hash = txPrev.GetHash();
         tx.vout.resize(1);
         tx.vout[0].nValue = 1*CENT;
-        tx.vout[0].scriptPubKey.SetDestination(key.GetPubKey().GetID());
+        tx.vout[0].scriptPubKey = GetScriptForDestination(key.GetPubKey().GetID());
         SignSignature(keystore, txPrev, tx, 0);
 
         AddOrphanTx(tx, i);
@@ -200,10 +218,10 @@ BOOST_AUTO_TEST_CASE(DoS_mapOrphans)
     {
         CTransaction txPrev = RandomOrphan();
 
-        CTransaction tx;
+        CMutableTransaction tx;
         tx.vout.resize(1);
         tx.vout[0].nValue = 1*CENT;
-        tx.vout[0].scriptPubKey.SetDestination(key.GetPubKey().GetID());
+        tx.vout[0].scriptPubKey = GetScriptForDestination(key.GetPubKey().GetID());
         tx.vin.resize(500);
         for (unsigned int j = 0; j < tx.vin.size(); j++)
         {
@@ -237,6 +255,7 @@ BOOST_AUTO_TEST_CASE(DoS_mapOrphans)
     BOOST_CHECK(mapOrphanTransactionsByPrev.empty());
 }
 
+<<<<<<< HEAD
 BOOST_AUTO_TEST_CASE(DoS_checkSig)
 {
     // Test signature caching code (see key.cpp Verify() methods)
@@ -324,4 +343,6 @@ BOOST_AUTO_TEST_CASE(DoS_checkSig)
     LimitOrphanTxSize(0);
 }
 
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 BOOST_AUTO_TEST_SUITE_END()

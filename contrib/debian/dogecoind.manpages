@@ -1,2 +1,6 @@
 debian/manpages/dogecoind.1
 debian/manpages/dogecoin.conf.5
+<<<<<<< HEAD
+=======
+debian/manpages/dogecoin-cli.1
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707

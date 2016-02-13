@@ -1,4 +1,5 @@
 <TS language="uz@Cyrl" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -43,6 +44,11 @@ MIT/X11 дастурий таъминот лицензияси остида та
         <translation>Манзил ёки ёрлиқни таҳрирлаш учун икки марта босинг</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Янги манзил яратинг</translation>
     </message>
@@ -95,7 +101,11 @@ MIT/X11 дастурий таъминот лицензияси остида та
         <translation>&amp;Танлаш</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very sending addresses</source>
+=======
+        <source>Such sending addresses</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>Жўнатиладиган манзиллар</translation>
     </message>
     <message>
@@ -131,8 +141,13 @@ MIT/X11 дастурий таъминот лицензияси остида та
         <translation>Экспорт қилиб бўлмади</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the address list to %1.</source>
         <translation>Манзил рўйхатини %1га сақланаётганда хатолик юз берди.</translation>
+=======
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Манзил рўйхатини %1.га сақлашда хатолик юз берди. Яна уриниб кўринг.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -167,10 +182,13 @@ MIT/X11 дастурий таъминот лицензияси остида та
     <message>
         <source>Repeat new passphrase</source>
         <translation>Янги махфий сузни такрорланг</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Ҳамёнга янги махфий сўз киритинг.&lt;br/&gt;Илтимос, &lt;b&gt;10 махфий сўздан ёки кўпроқ тасодифий белгилар &lt;/b&gt; ёки &lt;b&gt;8 та ёки кўпроқ&lt;/b&gt; махфий сўзлардан фойдаланинг.</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -197,36 +215,48 @@ MIT/X11 дастурий таъминот лицензияси остида та
         <translation>Махфий сузни узгартириш</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Ҳамёнга эски ва янги паролларингизни киритинг.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Ҳамённи кодлашни тасдиқлаш</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Диққат: Агар сиз ҳамёнингизни кодласангиз ва махфий сўзингизни унутсангиз, сиз &lt;b&gt;БАРЧА DOGECOIN ПУЛЛАРИНГИЗНИ ЙЎҚОТАСИЗ&lt;/b&gt;!</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation type="unfinished"/>
+        <translation>Ҳамёнингизни кодлашни ростдан хоҳлайсизми?</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation type="unfinished"/>
+        <translation>МУҲИМ: Сиз қилган олдинги ҳамён файли заҳиралари янги яратилган, кодланган ҳамён файли билан алмаштирилиши керак. Хавфсизлик сабабларига кўра олдинги кодланган ҳамён файли заҳираси янги кодланган ҳамёндан фойдаланишингиз билан яроқсиз ҳолга келади.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation type="unfinished"/>
+        <translation>Диққат: Caps Lock тугмаси ёқилган!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
         <translation>Ҳамёни кодланган</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Ҳамёнга янги махфий сўз киритинг.&lt;br/&gt;Илтимос, &lt;b&gt;ўнта ёки тасодифий белгили&lt;/b&gt; махфий сўздан фойдаланинг ёки &lt;b&gt;саккизта ёки кўпроқ сўзлар&lt;/b&gt;дан фойдаланинг.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -254,14 +284,14 @@ MIT/X11 дастурий таъминот лицензияси остида та
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation type="unfinished"/>
+        <translation>Ҳамён пароли муваффақиятли алмаштирилди.</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Хабар ёзиш...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -273,7 +303,7 @@ MIT/X11 дастурий таъминот лицензияси остида та
     </message>
     <message>
         <source>Node</source>
-        <translation type="unfinished"/>
+        <translation>Улам</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -294,18 +324,21 @@ MIT/X11 дастурий таъминот лицензияси остида та
     <message>
         <source>Quit application</source>
         <translation>Иловадан чиқиш</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Show information about Dogecoin</source>
         <translation>Dogecoin ҳақидаги маълумотларни кўрсатиш</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Qt ҳақида</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished"/>
+        <translation>Qt ҳақидаги маълумотларни кўрсатиш</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -313,18 +346,22 @@ MIT/X11 дастурий таъминот лицензияси остида та
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>Ҳамённи &amp;кодлаш...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>Ҳамённи &amp;заҳиралаш...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished"/>
+        <translation>Махфий сўзни &amp;ўзгартириш...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
+=======
+        <source>Such &amp;sending addresses...</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>&amp;Жўнатилувчи манзиллар...</translation>
     </message>
     <message>
@@ -336,6 +373,7 @@ MIT/X11 дастурий таъминот лицензияси остида та
         <translation>Интернет манзилни очиш</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Importing blocks from disk...</source>
         <translation type="unfinished"/>
     </message>
@@ -350,10 +388,26 @@ MIT/X11 дастурий таъминот лицензияси остида та
     <message>
         <source>Modify configuration options for Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core client</source>
+        <translation>Dogecoin асос мижози</translation>
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>Дискдан блоклар импорт қилинмоқда...</translation>
+    </message>
+    <message>
+        <source>Reindexing blocks on disk...</source>
+        <translation>Дискдаги блоклар қайта индексланмоқда...</translation>
+    </message>
+    <message>
+        <source>Send coins to a Dogecoin address</source>
+        <translation>Тангаларни Dogecoin манзилига жўнатиш</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished"/>
+        <translation>Ҳамённи бошқа манзилга заҳиралаш</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -361,46 +415,55 @@ MIT/X11 дастурий таъминот лицензияси остида та
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Носозликни ҳал қилиш ойнаси</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"/>
+        <translation>Носозликни ҳал қилиш ва ташхис терминали</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation type="unfinished"/>
+        <translation>Хабарни &amp;тасдиқлаш...</translation>
     </message>
     <message>
         <source>Dogecoin</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Dogecoin</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet</source>
-        <translation type="unfinished"/>
+        <translation>Ҳамён</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Жўнатиш</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Қабул қилиш</translation>
+    </message>
+    <message>
+        <source>Show information about Dogecoin Core</source>
+        <translation>Dogecoin Core ҳақидаги маълумотларни кўрсатиш</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Кўрсатиш / Яшириш</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation type="unfinished"/>
+        <translation>Асосий ойнани кўрсатиш ёки яшириш</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished"/>
+        <translation>Ҳамёнингизга тегишли махфий калитларни кодлаш</translation>
     </message>
     <message>
         <source>Sign messages with your Dogecoin addresses to prove you own them</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -410,6 +473,17 @@ MIT/X11 дастурий таъминот лицензияси остида та
     <message>
         <source>&amp;File</source>
         <translation>&amp; файл</translation>
+=======
+        <translation>Dogecoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
+        <translation>Хабарларни махсус Dogecoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
+    </message>
+    <message>
+        <source>&amp;File</source>
+        <translation>&amp;Файл</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Settings</source>
@@ -422,6 +496,7 @@ MIT/X11 дастурий таъминот лицензияси остида та
     <message>
         <source>Tabs toolbar</source>
         <translation>Ички ойналар асбоблар панели</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>[testnet]</source>
@@ -438,17 +513,32 @@ MIT/X11 дастурий таъминот лицензияси остида та
     <message>
         <source>&amp;About Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+    </message>
+    <message>
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
+        <translation>Тўловлар (QR кодлари ва dogecoin ёрдамида яратишлар: URI’лар) сўраш</translation>
+    </message>
+    <message>
+        <source>&amp;About Dogecoin Core</source>
+        <translation>Dogecoin Core &amp;ҳақида</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation type="unfinished"/>
+        <translation>Фойдаланилган жўнатилган манзиллар ва ёрлиқлар рўйхатини кўрсатиш</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation type="unfinished"/>
+        <translation>Фойдаланилган қабул қилинган манзиллар ва ёрлиқлар рўйхатини кўрсатиш</translation>
     </message>
     <message>
         <source>Open a dogecoin: URI or payment request</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -462,6 +552,17 @@ MIT/X11 дастурий таъминот лицензияси остида та
     <message>
         <source>Dogecoin client</source>
         <translation>Dogecoin мижози</translation>
+=======
+        <translation>Dogecoin’ни очиш: URI ёки тўлов сўрови</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Буйруқлар сатри мосламалари</translation>
+    </message>
+    <message>
+        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
+        <translation>Мавжуд Dogecoin буйруқлар матни мосламалари билан  Dogecoin Core ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Dogecoin network</source>
@@ -469,6 +570,7 @@ MIT/X11 дастурий таъминот лицензияси остида та
     </message>
     <message>
         <source>No block source available...</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -478,6 +580,9 @@ MIT/X11 дастурий таъминот лицензияси остида та
     <message>
         <source>Processed %1 blocks of transaction history.</source>
         <translation>Ўтказма тарихи блоклари %1 та амалга оширилган. </translation>
+=======
+        <translation>Блок манбалари мавжуд эмас...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -501,27 +606,27 @@ MIT/X11 дастурий таъминот лицензияси остида та
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished"/>
+        <translation>%1 орқада</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"/>
+        <translation>Сўнги қабул қилинган блок %1 олдин яратилган.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
+        <translation>Бундан кейинги пул ўтказмалари кўринмайдиган бўлади.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Хатолик</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>Диққат</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation>Маълумот</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -529,7 +634,7 @@ MIT/X11 дастурий таъминот лицензияси остида та
     </message>
     <message>
         <source>Catching up...</source>
-        <translation type="unfinished"/>
+        <translation>Банд қилинмоқда...</translation>
     </message>
     <message>
         <source>Sent transaction</source>
@@ -538,6 +643,7 @@ MIT/X11 дастурий таъминот лицензияси остида та
     <message>
         <source>Incoming transaction</source>
         <translation>Кирувчи операция</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Date: %1
@@ -546,6 +652,8 @@ Type: %3
 Address: %4
 </source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -554,28 +662,34 @@ Address: %4
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Ҳамён &lt;b&gt;кодланган&lt;/b&gt; ва вақтинча &lt;b&gt;қулфланган&lt;/b&gt;</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Network Alert</source>
-        <translation type="unfinished"/>
+        <translation>Тармоқ огоҳлантиргичи</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Quantity:</source>
-        <translation type="unfinished"/>
+        <translation>Сони:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -583,43 +697,49 @@ Address: %4
     </message>
     <message>
         <source>Amount:</source>
-        <translation type="unfinished"/>
+        <translation>Миқдори:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation type="unfinished"/>
+        <translation>Муҳимлиги:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation type="unfinished"/>
+        <translation>Солиқ:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation type="unfinished"/>
+=======
+        <source>Dust:</source>
+        <translation>Ахлат қутиси:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>After Fee:</source>
-        <translation type="unfinished"/>
+        <translation>Солиқдан сўнг:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation type="unfinished"/>
+        <translation>Ўзгартириш:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation type="unfinished"/>
+        <translation>барчасини танаш (бекор қилиш)</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation type="unfinished"/>
+        <translation>Дарахт усулида</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation type="unfinished"/>
+        <translation>Рўйхат усулида</translation>
     </message>
     <message>
         <source>Amount</source>
         <translation>Миқдори</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Label</source>
@@ -628,6 +748,8 @@ Address: %4
     <message>
         <source>Address</source>
         <translation>Манзил</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Date</source>
@@ -635,7 +757,7 @@ Address: %4
     </message>
     <message>
         <source>Confirmations</source>
-        <translation type="unfinished"/>
+        <translation>Тасдиқлашлар</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -643,7 +765,7 @@ Address: %4
     </message>
     <message>
         <source>Priority</source>
-        <translation type="unfinished"/>
+        <translation>Муҳимлиги</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -659,59 +781,64 @@ Address: %4
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
+        <translation>Ўтказам рақамидан нусха олиш</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation type="unfinished"/>
+        <translation>Сарфланмаганларни қулфлаш</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation type="unfinished"/>
+        <translation>Сарфланмаганларни қулфдан чиқариш</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation type="unfinished"/>
+        <translation>Нусха сони</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation type="unfinished"/>
+        <translation>Нусха солиғи</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation type="unfinished"/>
+        <translation>Нусха солиқдан сўнг</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation type="unfinished"/>
+        <translation>Нусха байти</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation type="unfinished"/>
+        <translation>Нусха муҳимлиги</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation type="unfinished"/>
+=======
+        <source>Copy dust</source>
+        <translation>Нусха чангги</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy change</source>
-        <translation type="unfinished"/>
+        <translation>Нусха қайтими</translation>
     </message>
     <message>
         <source>highest</source>
-        <translation type="unfinished"/>
+        <translation>энг юқори</translation>
     </message>
     <message>
         <source>higher</source>
-        <translation type="unfinished"/>
+        <translation>юқорирок</translation>
     </message>
     <message>
         <source>high</source>
-        <translation type="unfinished"/>
+        <translation>юқори</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation type="unfinished"/>
+        <translation>ўртача-юқори</translation>
     </message>
     <message>
         <source>medium</source>
@@ -719,54 +846,63 @@ Address: %4
     </message>
     <message>
         <source>low-medium</source>
-        <translation type="unfinished"/>
+        <translation>паст-юқори</translation>
     </message>
     <message>
         <source>low</source>
-        <translation type="unfinished"/>
+        <translation>паст</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation type="unfinished"/>
+        <translation>пастроқ</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation type="unfinished"/>
+        <translation>энг паст</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation type="unfinished"/>
+        <translation>(%1 қулфланган)</translation>
     </message>
     <message>
         <source>none</source>
-        <translation type="unfinished"/>
+        <translation>йўқ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust</source>
         <translation type="unfinished"/>
+=======
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>Ҳар бир кирим +/- %1 сатоши(лар) билан ўзгариши мумкин.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>yes</source>
-        <translation type="unfinished"/>
+        <translation>ҳа</translation>
     </message>
     <message>
         <source>no</source>
-        <translation type="unfinished"/>
+        <translation>йўқ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation type="unfinished"/>
+        <translation>Бу дегани солиқ ҳар кб учун камида %1  талаб қилинади.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
-        <translation type="unfinished"/>
+        <translation>Ҳар бир кирим +/- 1 байт билан ўзгариши мумкин.</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -790,16 +926,21 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <translation>Юқори муҳимликка эга бўлган ўтказмалар тезда блокнинг ичига қўшимча олади.</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>(no label)</source>
         <translation>(Ёрлик мавжуд эмас)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation type="unfinished"/>
+        <translation>%1 (%2)дан ўзгартириш</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation type="unfinished"/>
+        <translation>(ўзгартириш)</translation>
     </message>
 </context>
 <context>
@@ -814,11 +955,11 @@ Address: %4
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation type="unfinished"/>
+        <translation>Ёрлиқ ушбу манзилар рўйхати ёзуви билан боғланган</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation type="unfinished"/>
+        <translation>Манзил ушбу манзиллар рўйхати ёзуви билан боғланган. Уни фақат жўнатиладиган манзиллар учун ўзгартирса бўлади.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -841,12 +982,21 @@ Address: %4
         <translation>Жунатилувчи манзилни тахрирлаш</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>Киритилган &quot;%1&quot; манзили аллақачон манзил китобида.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
         <translation type="unfinished"/>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Киритилган "%1" манзили аллақачон манзил китобида.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <translation>Киритилган "%1" манзили тўғри Dogecoin манзили эмас.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -861,28 +1011,29 @@ Address: %4
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation type="unfinished"/>
+        <translation>Янги маълумотлар директорияси яратилади.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation type="unfinished"/>
+        <translation>номи</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation type="unfinished"/>
+        <translation>Директория аллақачон мавжуд. Агар бу ерда янги директория яратмоқчи бўлсангиз, %1 қўшинг.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation type="unfinished"/>
+        <translation>Йўл аллақачон мавжуд. У директория эмас.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation type="unfinished"/>
+        <translation>Маълумотлар директориясини бу ерда яратиб бўлмайди..</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
@@ -925,16 +1076,41 @@ Address: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>версияси</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+    <message>
+        <source>About Dogecoin Core</source>
+        <translation>Dogecoin Core ҳақида</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Фойдаланиш:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>буйруқлар қатори орқали мослаш</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation type="unfinished"/>
+        <translation>Хуш келибсиз</translation>
     </message>
     <message>
         <source>Welcome to Dogecoin Core.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -944,16 +1120,28 @@ Address: %4
     <message>
         <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
+=======
+        <translation>"Dogecoin Core"га хуш келибсиз.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
+        <translation>Биринчи марта дастур ишга тушгани каби сиз Dogecoin Core маълумотларини жойлаштирадиган жойни танлашингиз мумкин.</translation>
+    </message>
+    <message>
+        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Dogecoin Core юклаб олинади ва Dogecoin блок занжири нусхаси жойлаштирилади. Камида %1GB  маълумот ушбу директорияга жойлаштирилади ва вақт давомида ўсиб боради. Ҳамён ҳам ушбу директорияда жойлашади.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation type="unfinished"/>
+        <translation>Стандарт маълумотлар директориясидан фойдаланиш</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation type="unfinished"/>
+        <translation>Бошқа маълумотлар директориясида фойдаланинг:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation type="unfinished"/>
     </message>
@@ -974,27 +1162,41 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>Хато: кўрсатилган "%1" маълумотлар директориясини яратиб бўлмайди.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Хатолик</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation type="unfinished"/>
+        <translation>URI ни очиш</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation type="unfinished"/>
+        <translation>URL файлдан тўлов сўровларини очиш</translation>
     </message>
     <message>
         <source>URI:</source>
-        <translation type="unfinished"/>
+        <translation>URI:</translation>
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation type="unfinished"/>
+        <translation>Тўлов сўрови файлини танлаш</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation type="unfinished"/>
+        <translation>Очиш учун тўлов сўрови файлини танлаш</translation>
     </message>
 </context>
 <context>
@@ -1005,6 +1207,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Main</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1026,13 +1229,21 @@ Address: %4
     <message>
         <source>Size of &amp;database cache</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;Асосий</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation>&amp;Маълумотлар базаси кеши</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>MB</source>
-        <translation type="unfinished"/>
+        <translation>МБ</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1094,17 +1305,37 @@ Address: %4
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation type="unfinished"/>
+=======
+        <translation>Мавзуларни &amp;тўғрилаш скрипти миқдори</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside</source>
+        <translation>Ташқаридан уланишларга рози бўлиш</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Кирувчи уланишларга рухсат бериш</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>Прокси IP манзили (масалан: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>Бегона тараф ўтказмалари URL манзиллари</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"/>
+        <translation>Прокси &amp;IP рақами:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Порт:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1114,33 +1345,41 @@ Address: %4
     <message>
         <source>SOCKS version of the proxy (e.g. 5)</source>
         <translation type="unfinished"/>
+=======
+        <translation>Прокси порти (e.g. 9050)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ойна</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished"/>
+        <translation>Ойна йиғилгандан сўнг фақат трэй нишончаси кўрсатилсин.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Манзиллар панели ўрнига трэйни &amp;йиғиш</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation type="unfinished"/>
+        <translation>Ёпишда й&amp;иғиш</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Кўрсатиш</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1166,42 +1405,53 @@ Address: %4
     <message>
         <source>Whether to show coin control features or not.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Фойдаланувчи интерфейси &amp;тили:</translation>
+    </message>
+    <message>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>Миқдорларни кўрсатиш учун &amp;қисм:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Бекор қилиш</translation>
     </message>
     <message>
         <source>default</source>
-        <translation type="unfinished"/>
+        <translation>стандарт</translation>
     </message>
     <message>
         <source>none</source>
-        <translation type="unfinished"/>
+        <translation>йўқ</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation type="unfinished"/>
+        <translation>Тасдиқлаш танловларини рад қилиш</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
         <translation type="unfinished"/>
+=======
+        <translation>Ўзгаришлар амалга ошиши учун мижозни қайта ишга тушириш талаб қилинади.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation type="unfinished"/>
+        <translation>Ушбу ўзгариш мижозни қайтадан ишга туширишни талаб қилади.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished"/>
+        <translation>Келтирилган прокси манзили ишламайди.</translation>
     </message>
 </context>
 <context>
@@ -1212,6 +1462,7 @@ Address: %4
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1229,17 +1480,37 @@ Address: %4
     <message>
         <source>Pending:</source>
         <translation type="unfinished"/>
+=======
+        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Dogecoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
+    </message>
+    <message>
+        <source>Watch-only:</source>
+        <translation>Фақат кўришга</translation>
+    </message>
+    <message>
+        <source>Available:</source>
+        <translation>Мавжуд:</translation>
+    </message>
+    <message>
+        <source>Your current spendable balance</source>
+        <translation>Жорий сарфланадиган балансингиз</translation>
+    </message>
+    <message>
+        <source>Pending:</source>
+        <translation>Кутилмоқда:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation type="unfinished"/>
+        <translation>Жами ўтказмалар ҳозиргача тасдиқланган ва сафланадиган баланс томонга ҳали ҳам ҳисобланмади</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation type="unfinished"/>
+        <translation>Тайёр эмас:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1316,23 +1587,71 @@ Address: %4
     <message>
         <source>Payment request can not be parsed or processed!</source>
         <translation type="unfinished"/>
+=======
+        <translation>Миналаштирилган баланс ҳалигача тайёр эмас</translation>
     </message>
     <message>
+        <source>Balances</source>
+        <translation>Баланслар</translation>
+    </message>
+    <message>
+        <source>Total:</source>
+        <translation>Жами:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>Жорий умумий балансингиз</translation>
+    </message>
+    <message>
+        <source>Your current balance in watch-only addresses</source>
+        <translation>Жорий балансингиз фақат кўринадиган манзилларда</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>Сарфланадиган:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Сўнгги пул ўтказмалари</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Bad response from server %1</source>
         <translation type="unfinished"/>
+=======
+        <source>Ping Time</source>
+        <translation>Ping вақти</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+</context>
+<context>
+    <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Payment acknowledged</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Network request error</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Миқдори</translation>
     </message>
-</context>
-<context>
-    <name>QObject</name>
     <message>
+        <source>%1 m</source>
+        <translation>%1 д</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation type="unfinished"/>
     </message>
@@ -1355,48 +1674,68 @@ Address: %4
     <message>
         <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation type="unfinished"/>
+=======
+        <source>%1 s</source>
+        <translation>%1 с</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Йўқ</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>Тўғри келмайди</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 мс</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation type="unfinished"/>
+        <translation>Расмни &amp;сақлаш</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation type="unfinished"/>
+        <translation>Расмдан &amp;нусха олиш</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation type="unfinished"/>
+        <translation>QR кодни сақлаш</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation type="unfinished"/>
+        <translation>PNG расм (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Client name</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Мижоз номи</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>N/A</source>
-        <translation type="unfinished"/>
+        <translation>Тўғри келмайди</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation type="unfinished"/>
+        <translation>Мижоз номи</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Маълумот</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation type="unfinished"/>
+        <translation>Тузатиш ойнаси</translation>
     </message>
     <message>
         <source>General</source>
@@ -1404,19 +1743,24 @@ Address: %4
     </message>
     <message>
         <source>Using OpenSSL version</source>
-        <translation type="unfinished"/>
+        <translation>Фойдаланилаётган OpenSSL версияси</translation>
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>Фойдаланилаётган BerkeleyDB версияси</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation type="unfinished"/>
+        <translation>Бошланиш вақти</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished"/>
+        <translation>Тармоқ</translation>
     </message>
     <message>
         <source>Name</source>
         <translation>Ном</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Number of connections</source>
@@ -1433,45 +1777,92 @@ Address: %4
     <message>
         <source>Estimated total blocks</source>
         <translation type="unfinished"/>
+=======
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>&amp;Уламлар</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Батафсил маълумотларни кўриш учун уламни танланг.</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Узунликнинг бошланиши</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Узунликни синхронлаш</translation>
+    </message>
+    <message>
+        <source>Ban Score</source>
+        <translation>Тезликни бан қилиш</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>Уланиш вақти</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>Сўнгги жўнатилган</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>Сўнгги қабул қилинган</translation>
+    </message>
+    <message>
+        <source>Bytes Sent</source>
+        <translation>Жўнатилган байтлар</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>Қабул қилинган байтлар</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Ping вақти</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Last block time</source>
-        <translation type="unfinished"/>
+        <translation>Сўнгги блок вақти</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Очиш</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Терминал</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Тармоқ трафиги</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Тозалаш</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation type="unfinished"/>
+        <translation>Жами</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation type="unfinished"/>
+        <translation>Ичига:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation type="unfinished"/>
+        <translation>Ташқарига:</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation type="unfinished"/>
+        <translation>Тузилган санаси</translation>
     </message>
     <message>
         <source>Debug log file</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1485,32 +1876,40 @@ Address: %4
     <message>
         <source>Welcome to the Dogecoin RPC console.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Тузатиш журнали файли</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>Терминални тозалаш</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation type="unfinished"/>
+        <translation>Тарихни кўриш учун тепага ва пастга кўрсаткичларидан фойдаланинг, экранни тозалаш учун &lt;b&gt;Ctrl-L&lt;/b&gt; тугмалар бирикмасидан фойдаланинг.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"/>
+        <translation>Мавжуд буйруқларни кўриш учун &lt;b&gt;help&lt;/b&gt; деб ёзинг.</translation>
     </message>
     <message>
         <source>%1 B</source>
-        <translation type="unfinished"/>
+        <translation>%1 Б</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation type="unfinished"/>
+        <translation>%1 КБ</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation type="unfinished"/>
+        <translation>%1 МБ</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation type="unfinished"/>
+        <translation>%1 ГБ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 m</source>
         <translation type="unfinished"/>
     </message>
@@ -1521,13 +1920,29 @@ Address: %4
     <message>
         <source>%1 h %2 m</source>
         <translation type="unfinished"/>
+=======
+        <source>via %1</source>
+        <translation>%1 орқали</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ҳеч қачон</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Номаълум</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Олинмоқда...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Миқдор:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1535,13 +1950,14 @@ Address: %4
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Хабар:</translation>
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation type="unfinished"/>
+        <translation>Олдинги фойдаланилган қабул қилинган манзиллардан биридан қайта фойдаланилсин. Хавсизлик ва махфийлик муаммолар мавжуд манзиллардан қайта фойдаланилмоқда. Бундан тўлов сўров қайта яратилмагунича фойдаланманг.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>R&amp;euse an existing receiving address (not recommended)</source>
         <translation type="unfinished"/>
     </message>
@@ -1550,48 +1966,50 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>An optional label to associate with the new receiving address.</source>
-        <translation type="unfinished"/>
+        <translation>Янги қабул қилинаётган манзил билан боғланган танланадиган ёрлиқ.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation type="unfinished"/>
+        <translation>Ушбу сўровдан тўловларни сўраш учун фойдаланинг. Барча майдонлар &lt;b&gt;мажбурий эмас&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation type="unfinished"/>
+        <translation>Хоҳланган миқдор сўрови. Кўрсатилган миқдорни сўраш учун буни бўш ёки ноль қолдиринг.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation type="unfinished"/>
+        <translation>Шаклнинг барча майдончаларини тозалаш</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation type="unfinished"/>
+        <translation>Тозалаш</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation type="unfinished"/>
+        <translation>Сўралган тўлов тарихи</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation type="unfinished"/>
+        <translation>Тўловни &amp;сўраш</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation type="unfinished"/>
+        <translation>Танланган сўровни кўрсатиш (икки марта босилганда ҳам бир хил амал бажарилсин)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation type="unfinished"/>
+        <translation>Кўрсатиш</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation type="unfinished"/>
+        <translation>Танланганларни рўйхатдан ўчириш</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Ўчириш</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -1609,6 +2027,7 @@ Address: %4
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>QR Code</source>
         <translation type="unfinished"/>
     </message>
@@ -1635,6 +2054,10 @@ Address: %4
     <message>
         <source>URI</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Save Image...</source>
+        <translation>Расмни &amp;сақлаш</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Address</source>
@@ -1648,6 +2071,7 @@ Address: %4
         <source>Label</source>
         <translation>Ёрлик</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Message</source>
         <translation type="unfinished"/>
@@ -1661,6 +2085,9 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
@@ -1670,10 +2097,13 @@ Address: %4
     <message>
         <source>Label</source>
         <translation>Ёрлик</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Message</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Amount</source>
@@ -1682,6 +2112,7 @@ Address: %4
     <message>
         <source>(no label)</source>
         <translation>(Ёрлик мавжуд эмас)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>(no message)</source>
@@ -1690,13 +2121,16 @@ Address: %4
     <message>
         <source>(no amount)</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
         <translation>Тангаларни жунат</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1715,8 +2149,12 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Quantity:</source>
-        <translation type="unfinished"/>
+        <translation>Сони:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -1724,51 +2162,63 @@ Address: %4
     </message>
     <message>
         <source>Amount:</source>
-        <translation type="unfinished"/>
+        <translation>Миқдори:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation type="unfinished"/>
+        <translation>Муҳимлиги:</translation>
     </message>
     <message>
         <source>Fee:</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Low Output:</source>
         <translation type="unfinished"/>
+=======
+        <translation>Солиқ:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>After Fee:</source>
-        <translation type="unfinished"/>
+        <translation>Солиқдан сўнг:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation type="unfinished"/>
+        <translation>Ўзгартириш:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation type="unfinished"/>
+        <translation>Агар бу фаоллаштирилса, аммо ўзгартирилган манзил бўл ёки нотўғри бўлса, ўзгариш янги яратилган манзилга жўнатилади.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation type="unfinished"/>
+        <translation>Бошқа ўзгартирилган манзил</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
         <translation>Бирданига бир нечта қабул қилувчиларга жўнатиш</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Add &amp;Recipient</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear all fields of the form.</source>
-        <translation type="unfinished"/>
+        <translation>Шаклнинг барча майдончаларини тозалаш</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear &amp;All</source>
         <translation type="unfinished"/>
+=======
+        <source>Dust:</source>
+        <translation>Ахлат қутиси:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Balance:</source>
@@ -1777,22 +2227,28 @@ Address: %4
     <message>
         <source>Confirm the send action</source>
         <translation>Жўнатиш амалини тасдиқлаш</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>S&amp;end</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Confirm send coins</source>
         <translation>Тангалар жўнаишни тасдиқлаш</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 to %2</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy quantity</source>
-        <translation type="unfinished"/>
+        <translation>Нусха сони</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -1800,29 +2256,34 @@ Address: %4
     </message>
     <message>
         <source>Copy fee</source>
-        <translation type="unfinished"/>
+        <translation>Нусха солиғи</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation type="unfinished"/>
+        <translation>Нусха солиқдан сўнг</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation type="unfinished"/>
+        <translation>Нусха байти</translation>
     </message>
     <message>
         <source>Copy priority</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy low output</source>
         <translation type="unfinished"/>
+=======
+        <translation>Нусха муҳимлиги</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy change</source>
-        <translation type="unfinished"/>
+        <translation>Нусха қайтими</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Total Amount %1 (= %2)</source>
         <translation type="unfinished"/>
     </message>
@@ -1849,8 +2310,40 @@ Address: %4
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation type="unfinished"/>
+=======
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Тўлов миқдори 0. дан катта бўлиши керак. </translation>
     </message>
     <message>
+        <source>Warning: Invalid Dogecoin address</source>
+        <translation>Диққат: Нотўғр Dogecoin манзили</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(Ёрлик мавжуд эмас)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>Диққат: Номаълум ўзгариш манзили</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>Нусха чангги</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Жўнатишни хоҳлашингизга ишончингиз комилми?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>ўтказма солиғи қўшилди</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
         <source>Transaction creation failed!</source>
         <translation type="unfinished"/>
     </message>
@@ -1922,12 +2415,35 @@ Address: %4
         <translation>Alt+A</translation>
     </message>
     <message>
+=======
+        <source>A&amp;mount:</source>
+        <translation>&amp;Миқдори:</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>&amp;Тўлов олувчи:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Манзил китобингизга қўшиш учун ушбу манзил учун ёрлиқ киритинг</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Ёрлиқ:</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Paste address from clipboard</source>
         <translation>Клипбоарддан манзилни қўйиш</translation>
     </message>
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Remove this entry</source>
@@ -1996,6 +2512,16 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -2006,6 +2532,7 @@ Address: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
@@ -2116,11 +2643,23 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Имзо</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>SplashScreen</name>
     <message>
         <source>Dogecoin Core</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>Dogecoin Core</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The Dogecoin Core developers</source>
@@ -2133,16 +2672,21 @@ Address: %4
 </context>
 <context>
     <name>TrafficGraphWidget</name>
+<<<<<<< HEAD
     <message>
         <source>KB/s</source>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>TransactionDesc</name>
     <message>
         <source>Open until %1</source>
         <translation>%1 гача очиш</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>conflicted</source>
@@ -2151,6 +2695,8 @@ Address: %4
     <message>
         <source>%1/offline</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>%1/unconfirmed</source>
@@ -2159,6 +2705,7 @@ Address: %4
     <message>
         <source>%1 confirmations</source>
         <translation>%1 тасдиқлашлар</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Status</source>
@@ -2167,12 +2714,15 @@ Address: %4
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation type="unfinished"><numerusform/></translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Date</source>
         <translation>Сана</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Source</source>
         <translation type="unfinished"/>
     </message>
@@ -2271,6 +2821,18 @@ Address: %4
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation type="unfinished"><numerusform/></translation>
+=======
+        <source>Transaction ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Миқдори</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, ҳалигача трансляция қилингани йўқ</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>unknown</source>
@@ -2297,6 +2859,7 @@ Address: %4
     <message>
         <source>Type</source>
         <translation>Тури</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Address</source>
@@ -2313,10 +2876,13 @@ Address: %4
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation type="unfinished"><numerusform/></translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Open until %1</source>
         <translation>%1 гача очиш</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
@@ -2353,6 +2919,28 @@ Address: %4
     <message>
         <source>Received from</source>
         <translation type="unfinished"/>
+=======
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Тасдиқланди (%1 та тасдиқ)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Ушбу тўсиқ бирорта бошқа уланишлар томонидан қабул қилинмаган ва тасдиқланмаган!</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Яратилди, аммо қабул қилинмади</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Ёрлиқ</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Ёрдамида қабул қилиш</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Sent to</source>
@@ -2381,10 +2969,13 @@ Address: %4
     <message>
         <source>Type of transaction.</source>
         <translation>Пул ўтказмаси тури</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Destination address of transaction.</source>
         <translation>Ўтказиладиган жараён манзили.</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2463,13 +3054,14 @@ Address: %4
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
+        <translation>Ўтказам рақамидан нусха олиш</translation>
     </message>
     <message>
         <source>Edit label</source>
         <translation>Ёрликни тахрирлаш</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show transaction details</source>
         <translation type="unfinished"/>
     </message>
@@ -2492,6 +3084,10 @@ Address: %4
     <message>
         <source>The transaction history was successfully saved to %1.</source>
         <translation type="unfinished"/>
+=======
+        <source>Exporting Failed</source>
+        <translation>Экспорт қилиб бўлмади</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -2516,10 +3112,13 @@ Address: %4
     <message>
         <source>Address</source>
         <translation>Манзил</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Amount</source>
         <translation>Миқдори</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>ID</source>
@@ -2535,12 +3134,19 @@ Address: %4
     </message>
 </context>
 <context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
     <name>WalletFrame</name>
+<<<<<<< HEAD
     <message>
         <source>No wallet has been loaded.</source>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>WalletModel</name>
     <message>
@@ -2558,6 +3164,7 @@ Address: %4
         <source>Export the data in the current tab to a file</source>
         <translation>Жорий ички ойна ичидаги маълумотларни файлга экспорт қилиш</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Backup Wallet</source>
         <translation type="unfinished"/>
@@ -2608,10 +3215,19 @@ Address: %4
     <message>
         <source>Specify pid file (default: bitcoind.pid)</source>
         <translation>pid файлини кўрсатинг (default: bitcoind.pid)</translation>
+=======
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Танламалар:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Specify data directory</source>
         <translation>Маълумотлар директориясини кўрсатинг</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
@@ -2652,6 +3268,12 @@ Address: %4
     <message>
         <source>Dogecoin Core RPC client version</source>
         <translation type="unfinished"/>
+=======
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Буйруқлар сатри ва JSON-RPC буйруқларига рози бўлинг</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2660,6 +3282,7 @@ Address: %4
     <message>
         <source>Use the test network</source>
         <translation>Синов тармоғидан фойдаланинг</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
@@ -3190,6 +3813,24 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation type="unfinished"/>
+=======
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Ишга тушиш вақтида маълумотлар директориясини танлаш (стандарт: 0)</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Маълумот</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Тўлов сўровлари учун SSL асос сертификатларини ўрнатиш (стандарт: -system-)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Йиғилганларни бошлаш</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -3197,9 +3838,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>Диққат</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation type="unfinished"/>
     </message>
@@ -3246,10 +3888,15 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation type="unfinished"/>
+=======
+        <source>Password for JSON-RPC connections</source>
+        <translation>JSON-RPC уланишлари учун парол</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>JSON-RPC уланишлари учун OpenSSL (https)дан фойдаланиш</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Server certificate file (default: server.cert)</source>
@@ -3258,10 +3905,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Server private key (default: server.pem)</source>
         <translation>Сервер махфий калити (бирламчи: server.pem)</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>This help message</source>
         <translation>Бу ёрдам хабари</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
@@ -3270,10 +3920,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Loading addresses...</source>
         <translation>Манзиллар юкланмоқда...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
@@ -3324,18 +3977,26 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Loading block index...</source>
         <translation>Тўсиқ индекси юкланмоқда...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Loading wallet...</source>
         <translation>Ҳамён юкланмоқда...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot downgrade wallet</source>
         <translation type="unfinished"/>
     </message>
@@ -3344,6 +4005,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescanning...</source>
         <translation>Қайта текшириб чиқилмоқда...</translation>
     </message>
@@ -3352,6 +4015,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Юклаш тайёр</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation type="unfinished"/>
     </message>
@@ -3364,6 +4028,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation type="unfinished"/>
+=======
+        <source>Error</source>
+        <translation>Хатолик</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 </TS>

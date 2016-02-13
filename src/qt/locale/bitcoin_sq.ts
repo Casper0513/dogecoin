@@ -1,4 +1,5 @@
 <TS language="sq" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -36,6 +37,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Double-click to edit address or label</source>
         <translation>Klikoni 2 herë për të ndryshuar adressën ose etiketën</translation>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+        <source>Right-click to edit address or label</source>
+        <translation>Kliko me të djathtën për të ndryshuar adresën ose etiketen.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Create a new address</source>
@@ -43,7 +51,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished"/>
+        <translation>&amp;E re</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
@@ -51,18 +59,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kopjo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>C&amp;lose</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Copy Address</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kopjo adresen</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -74,11 +86,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <translation>Fshi adresen e selektuar nga lista</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Delete</source>
         <translation>&amp;Fshi</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -110,10 +128,24 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;Edit</source>
-        <translation type="unfinished"/>
+=======
+        <translation>Zgjidh adresen ku do te dergoni monedhat</translation>
     </message>
     <message>
+        <source>Such sending addresses</source>
+        <translation>Duke derguar adresen</translation>
+    </message>
+    <message>
+        <source>Much receiving addresses</source>
+        <translation>Duke marr adresen</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+        <source>&amp;Edit</source>
+        <translation>&amp;Ndrysho</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Export Address List</source>
         <translation type="unfinished"/>
     </message>
@@ -130,6 +162,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Skedar i ndarë me pikëpresje(*.csv)</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -148,10 +186,13 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter passphrase</source>
         <translation>Futni frazkalimin</translation>
     </message>
@@ -164,20 +205,23 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Përsërisni frazkalimin e ri</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Futni frazkalimin e ri në portofol.&lt;br/&gt;Ju lutemi përdorni një frazkalim prej&lt;b&gt;10 ose më shumë shkronjash të rastësishme&lt;b/&gt;, ose tetë apo më shumë fjalë&lt;/b&gt;.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
-        <translation>Enkripto portofolin</translation>
+        <translation>Kripto portofolin</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ky veprim ka nevojë per frazkalimin e portofolit tuaj që të ç&apos;kyç portofolin.</translation>
+        <translation>Ky veprim ka nevojë per frazkalimin e portofolit tuaj që të ç'kyç portofolin.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>ç&apos;kyç portofolin.</translation>
+        <translation>ç'kyç portofolin.</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
@@ -192,14 +236,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Ndrysho frazkalimin</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Futni frazkalimin e vjetër dhe të ri në portofol. </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Konfirmoni enkriptimin e portofolit</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
@@ -214,16 +262,23 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Warning: The Caps Lock key is on!</source>
         <translation type="unfinished"/>
+=======
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Jeni te sigurt te enkriptoni portofolin tuaj?</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet encrypted</source>
         <translation>Portofoli u enkriptua</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>Enkriptimi i portofolit dështoi</translation>
     </message>
@@ -237,7 +292,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>ç&apos;kyçja e portofolit dështoi</translation>
+        <translation>ç'kyçja e portofolit dështoi</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
@@ -247,6 +302,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>Wallet decryption failed</source>
         <translation>Dekriptimi i portofolit dështoi</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished"/>
@@ -259,6 +315,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Synchronizing with network...</source>
         <translation>Duke u sinkronizuar me rrjetin...</translation>
     </message>
@@ -267,10 +329,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Përmbledhje</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Show general overview of wallet</source>
         <translation>Trego një përmbledhje te përgjithshme të portofolit</translation>
     </message>
@@ -283,14 +348,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Shfleto historinë e transaksioneve</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>E&amp;xit</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Quit application</source>
         <translation>Mbyllni aplikacionin</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Trego informacionin rreth Botkoin-it</translation>
     </message>
@@ -303,10 +372,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Options...</source>
         <translation>&amp;Opsione</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Encrypt Wallet...</source>
         <translation type="unfinished"/>
     </message>
@@ -351,10 +423,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Ndrysho frazkalimin e përdorur per enkriptimin e portofolit</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Debug window</source>
         <translation type="unfinished"/>
     </message>
@@ -371,19 +446,26 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Dogecoin</source>
+        <translation>Dogecoin</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet</source>
-        <translation type="unfinished"/>
+        <translation>Portofol</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Dergo</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Merr</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -403,6 +485,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <translation>&amp;Shfaq / Fsheh</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;File</source>
         <translation>&amp;Skedar</translation>
     </message>
@@ -419,6 +506,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Shiriti i mjeteve</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testo rrjetin]</translation>
     </message>
@@ -513,10 +601,30 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Warning</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Berthama Dogecoin</translation>
+    </message>
+    <message>
+        <source>&amp;About Dogecoin Core</source>
+        <translation>Rreth Berthames Dogekoin</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 dhe %2</translation>
+    </message>
+    <message>
+        <source>%1 behind</source>
+        <translation>%1 Pas</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Problem</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation>Informacion</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -535,6 +643,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Transaksion në ardhje</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -543,13 +652,16 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Portofoli po &lt;b&gt; enkriptohet&lt;/b&gt; dhe është &lt;b&gt; i ç&apos;kyçur&lt;/b&gt;</translation>
+        <translation>Portofoli po &lt;b&gt; enkriptohet&lt;/b&gt; dhe është &lt;b&gt; i ç'kyçur&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Portofoli po &lt;b&gt; enkriptohet&lt;/b&gt; dhe është &lt;b&gt; i kyçur&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
@@ -595,8 +707,51 @@ Address: %4
     <message>
         <source>After Fee:</source>
         <translation type="unfinished"/>
+=======
+</context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <source>Coin Selection</source>
+        <translation>Zgjedhja e monedhes</translation>
     </message>
     <message>
+        <source>Amount:</source>
+        <translation>Shuma:</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Sasia</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Kopjo adresën</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>po</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>jo</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(pa etiketë)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Change:</source>
         <translation type="unfinished"/>
     </message>
@@ -639,12 +794,64 @@ Address: %4
     <message>
         <source>Priority</source>
         <translation type="unfinished"/>
+=======
+        <source>Edit Address</source>
+        <translation>Ndrysho Adresën</translation>
     </message>
     <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Etiketë</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Adresa</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Adresë e re pritëse</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Adresë e re dërgimi</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Ndrysho adresën pritëse</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>ndrysho adresën dërguese</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Adresa e dhënë "%1" është e zënë në librin e adresave. </translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Nuk mund të ç'kyçet portofoli.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Krijimi i çelësit të ri dështoi.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy address</source>
         <translation type="unfinished"/>
+=======
+        <source>name</source>
+        <translation>emri</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Copy label</source>
         <translation type="unfinished"/>
     </message>
@@ -655,8 +862,24 @@ Address: %4
     <message>
         <source>Copy transaction ID</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Berthama Dogecoin</translation>
     </message>
     <message>
+        <source>version</source>
+        <translation>versioni</translation>
+    </message>
+    <message>
+        <source>About Dogecoin Core</source>
+        <translation>Rreth Berthames Dogekoin</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+<<<<<<< HEAD
         <source>Lock unspent</source>
         <translation type="unfinished"/>
     </message>
@@ -671,20 +894,76 @@ Address: %4
     <message>
         <source>Copy fee</source>
         <translation type="unfinished"/>
+=======
+        <source>Welcome</source>
+        <translation>Miresevini</translation>
     </message>
     <message>
+        <source>Welcome to Dogecoin Core.</source>
+        <translation>Miresevini ne Berthamen Dogecoin</translation>
+    </message>
+    <message>
+        <source>Dogecoin Core</source>
+        <translation>Berthama Dogecoin</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Problem</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy after fee</source>
         <translation type="unfinished"/>
+=======
+        <source>Options</source>
+        <translation>Opsionet</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
         <source>Copy bytes</source>
         <translation type="unfinished"/>
+=======
+        <source>Form</source>
+        <translation>Formilarë</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Copy priority</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Sasia</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation type="unfinished"/>
     </message>
@@ -699,12 +978,40 @@ Address: %4
     <message>
         <source>higher</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Open</source>
+        <translation>&amp;Hap</translation>
     </message>
     <message>
+        <source>&amp;Clear</source>
+        <translation>&amp;Pastro</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>asnjehere</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>i/e panjohur</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>high</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Label:</source>
+        <translation>&amp;Etiketë:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>medium-high</source>
         <translation type="unfinished"/>
     </message>
@@ -715,8 +1022,24 @@ Address: %4
     <message>
         <source>low-medium</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Adresë</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Sasia</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketë</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>low</source>
         <translation type="unfinished"/>
     </message>
@@ -731,8 +1054,28 @@ Address: %4
     <message>
         <source>(%1 locked)</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Data</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Etiketë</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Sasia</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(pa etiketë)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>none</source>
         <translation type="unfinished"/>
     </message>
@@ -763,8 +1106,44 @@ Address: %4
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>Dërgo Monedha</translation>
     </message>
     <message>
+        <source>Amount:</source>
+        <translation>Shuma:</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Dërgo marrësve të ndryshëm njëkohësisht</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Balanca:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Konfirmo veprimin e dërgimit</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>konfirmo dërgimin e monedhave</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Shuma e paguar duhet të jetë më e madhe se 0.</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(pa etiketë)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
         <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
         <translation type="unfinished"/>
     </message>
@@ -795,9 +1174,38 @@ Address: %4
     <message>
         <source>(change)</source>
         <translation type="unfinished"/>
+=======
+        <source>A&amp;mount:</source>
+        <translation>Sh&amp;uma:</translation>
     </message>
-</context>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>Paguaj &amp;drejt:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Krijoni një etiketë për këtë adresë që t'ja shtoni librit të adresave</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Etiketë:</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Ngjit nga memorja e sistemit</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -873,9 +1281,27 @@ Address: %4
     <message>
         <source>Cannot create data directory here.</source>
         <translation type="unfinished"/>
-    </message>
-</context>
+=======
+    <name>ShutdownWindow</name>
+    </context>
 <context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Ngjit nga memorja e sistemit</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+<<<<<<< HEAD
     <name>HelpMessageDialog</name>
     <message>
         <source>Dogecoin Core - Command-line options</source>
@@ -1161,8 +1587,118 @@ Address: %4
     <message>
         <source>Whether to show coin control features or not.</source>
         <translation type="unfinished"/>
+=======
+    <name>SplashScreen</name>
+    <message>
+        <source>Dogecoin Core</source>
+        <translation>Berthama Dogecoin</translation>
     </message>
     <message>
+        <source>[testnet]</source>
+        <translation>[testo rrjetin]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Hapur deri më %1</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/I pakonfirmuar</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 konfirmimet</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Sasia</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, nuk është transmetuar me sukses deri tani</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>i/e panjohur</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>Detajet e transaksionit</translation>
+    </message>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Ky panel tregon një përshkrim të detajuar të transaksionit</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Lloji</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Hapur deri më %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>I/E konfirmuar(%1 konfirmime)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Ky bllok është marrë nga ndonjë nyje dhe ka shumë mundësi të mos pranohet! </translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>I krijuar por i papranuar</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketë</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Marrë me</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Dërguar drejt</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Pagesë ndaj vetvetes</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Minuar</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(p/a)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;OK</source>
         <translation type="unfinished"/>
     </message>
@@ -1193,8 +1729,54 @@ Address: %4
     <message>
         <source>This change would require a client restart.</source>
         <translation type="unfinished"/>
+=======
+        <source>Received with</source>
+        <translation>Marrë me</translation>
     </message>
     <message>
+        <source>Sent to</source>
+        <translation>Dërguar drejt</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Minuar</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Kopjo adresën</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Skedar i ndarë me pikëpresje(*.csv)</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Lloji</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketë</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresë</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+<<<<<<< HEAD
         <source>The supplied proxy address is invalid.</source>
         <translation type="unfinished"/>
     </message>
@@ -3359,6 +3941,32 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation type="unfinished"/>
+=======
+        <source>Send Coins</source>
+        <translation>Dërgo Monedha</translation>
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Information</source>
+        <translation>Informacion</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Fonde te pamjaftueshme</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Rikerkim</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Problem</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 </TS>

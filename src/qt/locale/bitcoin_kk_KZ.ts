@@ -1,4 +1,5 @@
 <TS language="kk_KZ" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,26 +39,35 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Адресті немесе белгіні өзгерту үшін екі рет шертіңіз</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Жаңа адрес енгізу</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished"/>
+        <translation>Жаңа</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Таңдаған адресті тізімнен жою</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>C&amp;lose</source>
-        <translation type="unfinished"/>
+        <translation>Жабу</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy Address</source>
         <translation type="unfinished"/>
     </message>
@@ -70,14 +80,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>Экспорт</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
         <translation>Жою</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose the address to send coins to</source>
         <translation type="unfinished"/>
     </message>
@@ -130,6 +143,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Үтірмен бөлінген текст (*.csv)</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -148,10 +167,13 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter passphrase</source>
         <translation>Құпия сөзді енгізу</translation>
     </message>
@@ -162,10 +184,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Repeat new passphrase</source>
         <translation>Жаңа құпия сөзді қайта енгізу</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Әмиянға жаңа қүпия сөзді енгізіңіз.&lt;br/&gt;&lt;b&gt;10 немесе одан әрі кездейсоқ белгілерді&lt;/b&gt;, әлде &lt;b&gt;сегіз немесе одан әрі сөздерді&lt;/b&gt;құпия сөзіңізде пайдалану өтінеміз.</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -190,6 +215,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Change passphrase</source>
         <translation>Құпия сөзді өзгерту</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
@@ -250,11 +276,14 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished"/>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
+<<<<<<< HEAD
         <source>Sign &amp;message...</source>
         <translation type="unfinished"/>
     </message>
@@ -275,10 +304,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Transactions</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Транзакциялар</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Browse transaction history</source>
         <translation type="unfinished"/>
     </message>
@@ -309,16 +341,25 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation type="unfinished"/>
+=======
+        <source>E&amp;xit</source>
+        <translation>Шығу</translation>
+    </message>
+    <message>
+        <source>&amp;Options...</source>
+        <translation>Параметрлері</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>Әмиянды жасыру</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished"/>
+        <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
         <translation type="unfinished"/>
     </message>
@@ -381,8 +422,79 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>&amp;Receive</source>
         <translation type="unfinished"/>
+=======
+        <source>Dogecoin</source>
+        <translation>Биткоин</translation>
     </message>
     <message>
+        <source>Wallet</source>
+        <translation>Әмиян</translation>
+    </message>
+    <message>
+        <source>&amp;Send</source>
+        <translation>Жіберу</translation>
+    </message>
+    <message>
+        <source>&amp;Receive</source>
+        <translation>Алу</translation>
+    </message>
+    <message>
+        <source>&amp;File</source>
+        <translation>Файл</translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation>Көмек</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n сағат</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n күн</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n апта</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 немесе %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n жыл</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 behind</source>
+        <translation>%1 қалмады</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>қате</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Ескерту</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Информация</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>Жаңартылған</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Show / Hide</source>
         <translation type="unfinished"/>
     </message>
@@ -429,20 +541,126 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Request payments (generates QR codes and dogecoin: URIs)</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount:</source>
+        <translation>Саны</translation>
     </message>
     <message>
+        <source>Priority:</source>
+        <translation>Басымдық</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Комиссия</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>Шаң</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Комиссия алу кейін</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Саны</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Күні</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>Растау саны</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Растық</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation>Басымдық</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>жоқ</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(таңбасыз)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;About Dogecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Address</source>
+        <translation>Адрес</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
     <message>
+<<<<<<< HEAD
         <source>Show the list of used sending addresses and labels</source>
         <translation type="unfinished"/>
+=======
+        <source>Error</source>
+        <translation>қате</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Show the list of used receiving addresses and labels</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>Саны</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Open a dogecoin: URI or payment request</source>
         <translation type="unfinished"/>
     </message>
@@ -453,8 +671,24 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Show the Dogecoin Core help message to get a list with possible command-line options</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Адрес</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Саны</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>таңба</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Dogecoin client</source>
         <translation type="unfinished"/>
     </message>
@@ -493,8 +727,28 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished"><numerusform/></translation>
+=======
+        <source>Date</source>
+        <translation>Күні</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>таңба</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Саны</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(таңбасыз)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>%1 behind</source>
         <translation type="unfinished"/>
     </message>
@@ -517,24 +771,94 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Information</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount:</source>
+        <translation>Саны</translation>
     </message>
     <message>
+        <source>Priority:</source>
+        <translation>Басымдық</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Комиссия:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Комиссия алу кейін:</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>Шаң</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(таңбасыз)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+<<<<<<< HEAD
         <source>Up to date</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Catching up...</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Күні</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Саны</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Sent transaction</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Incoming transaction</source>
         <translation type="unfinished"/>
+=======
+        <source>Date</source>
+        <translation>Күні</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>таңба</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -553,22 +877,58 @@ Address: %4
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Үтірмен бөлінген файл (*.csv)</translation>
     </message>
-</context>
-<context>
-    <name>ClientModel</name>
     <message>
+        <source>Confirmed</source>
+        <translation>Растық</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Күні</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>таңба</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Network Alert</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Адрес</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
-    <name>CoinControlDialog</name>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Export</source>
+        <translation>Экспорт</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Quantity:</source>
         <translation type="unfinished"/>
     </message>
@@ -3359,6 +3719,26 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation type="unfinished"/>
+=======
+        <source>Information</source>
+        <translation>Информация</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>Транзакция өте кішкентай</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation>Транзакция өте үлкен</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Ескерту</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>қате</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 </TS>

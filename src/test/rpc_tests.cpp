@@ -1,5 +1,9 @@
 // Copyright (c) 2012-2013 The Bitcoin Core developers
+<<<<<<< HEAD
 // Distributed under the MIT/X11 software license, see the accompanying
+=======
+// Distributed under the MIT software license, see the accompanying
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "rpcserver.h"
@@ -7,6 +11,11 @@
 
 #include "base58.h"
 #include "netbase.h"
+<<<<<<< HEAD
+=======
+
+#include "test/test_bitcoin.h"
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 #include <boost/algorithm/string.hpp>
 #include <boost/test/unit_test.hpp>
@@ -39,14 +48,13 @@ Value CallRPC(string args)
         Value result = (*method)(params, false);
         return result;
     }
-    catch (Object& objError)
-    {
+    catch (const Object& objError) {
         throw runtime_error(find_value(objError, "message").get_str());
     }
 }
 
 
-BOOST_AUTO_TEST_SUITE(rpc_tests)
+BOOST_FIXTURE_TEST_SUITE(rpc_tests, TestingSetup)
 
 BOOST_AUTO_TEST_CASE(rpc_rawparams)
 {
@@ -99,10 +107,17 @@ BOOST_AUTO_TEST_CASE(rpc_rawsign)
       "\"vout\":1,\"scriptPubKey\":\"a914ae20ad2a36715ceb9a4d108855f43739d57bf5ff87\","
       "\"redeemScript\":\"522102aa2b9ccf32a31e9dc02dfd609492db92cd6bbf60ac051dddd83bc2ef23835235210204dfd2dd68a82c091ee17e4cbf0b4aade7f4af16ac36bfc86ab059fbbd965d7152ae\"}]";
     r = CallRPC(string("createrawtransaction ")+prevout+" "+
+<<<<<<< HEAD
       "{\"A8JyPAauw5YtNaBshKgVjPGyAqt7xv17Ad\":18}");
     string notsigned = r.get_str();
     string privkey1 = "\"QVLhi74xEKV5Y3JEyMcst7GSGBccgJmuawgjQxGHxjgjXqG6AaR9\"";
     string privkey2 = "\"QWQbSTCKxQb1e7KHuMv88udFTu88tvh1A71h44CC1SLa9hVVGEBT\"";
+=======
+      "{\"A8aRNzQnSFcgn2iXd7CzkbRHu9raZFHSkT\":11}"); // 3HqAe9LtNBjnsfM4CyYaWTnvCaUYT7v4oZ\":11}");
+    string notsigned = r.get_str();
+    string privkey1 = "\"QSGT8Sd8z8aBcc3o7HAGqeEicLjTCU8JzbVmUZcvp4hCx66fsLPE\"";
+    string privkey2 = "\"QR6Yov9ta4v5JD38kFRx56Z5dYm4TsCLACrEXeeF5AdeBCNKeB44\"";
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     r = CallRPC(string("signrawtransaction ")+notsigned+" "+prevout+" "+"[]");
     BOOST_CHECK(find_value(r.get_obj(), "complete").get_bool() == false);
     r = CallRPC(string("signrawtransaction ")+notsigned+" "+prevout+" "+"["+privkey1+","+privkey2+"]");
@@ -111,14 +126,14 @@ BOOST_AUTO_TEST_CASE(rpc_rawsign)
 
 BOOST_AUTO_TEST_CASE(rpc_format_monetary_values)
 {
-    BOOST_CHECK(write_string(ValueFromAmount(0LL), false) == "0.00000000");
-    BOOST_CHECK(write_string(ValueFromAmount(1LL), false) == "0.00000001");
-    BOOST_CHECK(write_string(ValueFromAmount(17622195LL), false) == "0.17622195");
-    BOOST_CHECK(write_string(ValueFromAmount(50000000LL), false) == "0.50000000");
-    BOOST_CHECK(write_string(ValueFromAmount(89898989LL), false) == "0.89898989");
-    BOOST_CHECK(write_string(ValueFromAmount(100000000LL), false) == "1.00000000");
-    BOOST_CHECK(write_string(ValueFromAmount(2099999999999990LL), false) == "20999999.99999990");
-    BOOST_CHECK(write_string(ValueFromAmount(2099999999999999LL), false) == "20999999.99999999");
+    BOOST_CHECK_EQUAL(write_string(ValueFromAmount(0LL), false), "0.00000000");
+    BOOST_CHECK_EQUAL(write_string(ValueFromAmount(1LL), false), "0.00000001");
+    BOOST_CHECK_EQUAL(write_string(ValueFromAmount(17622195LL), false), "0.17622195");
+    BOOST_CHECK_EQUAL(write_string(ValueFromAmount(50000000LL), false), "0.50000000");
+    BOOST_CHECK_EQUAL(write_string(ValueFromAmount(89898989LL), false), "0.89898989");
+    BOOST_CHECK_EQUAL(write_string(ValueFromAmount(100000000LL), false), "1.00000000");
+    BOOST_CHECK_EQUAL(write_string(ValueFromAmount(2099999999999990LL), false), "20999999.99999990");
+    BOOST_CHECK_EQUAL(write_string(ValueFromAmount(2099999999999999LL), false), "20999999.99999999");
 }
 
 static Value ValueFromString(const std::string &str)
@@ -130,14 +145,47 @@ static Value ValueFromString(const std::string &str)
 
 BOOST_AUTO_TEST_CASE(rpc_parse_monetary_values)
 {
-    BOOST_CHECK(AmountFromValue(ValueFromString("0.00000001")) == 1LL);
-    BOOST_CHECK(AmountFromValue(ValueFromString("0.17622195")) == 17622195LL);
-    BOOST_CHECK(AmountFromValue(ValueFromString("0.5")) == 50000000LL);
-    BOOST_CHECK(AmountFromValue(ValueFromString("0.50000000")) == 50000000LL);
-    BOOST_CHECK(AmountFromValue(ValueFromString("0.89898989")) == 89898989LL);
-    BOOST_CHECK(AmountFromValue(ValueFromString("1.00000000")) == 100000000LL);
-    BOOST_CHECK(AmountFromValue(ValueFromString("20999999.9999999")) == 2099999999999990LL);
-    BOOST_CHECK(AmountFromValue(ValueFromString("20999999.99999999")) == 2099999999999999LL);
+    BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("0.00000001")), 1LL);
+    BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("0.17622195")), 17622195LL);
+    BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("0.5")), 50000000LL);
+    BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("0.50000000")), 50000000LL);
+    BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("0.89898989")), 89898989LL);
+    BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("1.00000000")), 100000000LL);
+    BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("20999999.9999999")), 2099999999999990LL);
+    BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("20999999.99999999")), 2099999999999999LL);
+}
+
+BOOST_AUTO_TEST_CASE(json_parse_errors)
+{
+    Value value;
+    // Valid
+    BOOST_CHECK_EQUAL(read_string(std::string("1.0"), value), true);
+    // Valid, with trailing whitespace
+    BOOST_CHECK_EQUAL(read_string(std::string("1.0 "), value), true);
+    // Invalid, initial garbage
+    BOOST_CHECK_EQUAL(read_string(std::string("[1.0"), value), false);
+    BOOST_CHECK_EQUAL(read_string(std::string("a1.0"), value), false);
+    // Invalid, trailing garbage
+    BOOST_CHECK_EQUAL(read_string(std::string("1.0sds"), value), false);
+    BOOST_CHECK_EQUAL(read_string(std::string("1.0]"), value), false);
+    // BTC addresses should fail parsing
+    BOOST_CHECK_EQUAL(read_string(std::string("175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W"), value), false);
+    BOOST_CHECK_EQUAL(read_string(std::string("3J98t1WpEZ73CNmQviecrnyiWrnqRhWNL"), value), false);
+}
+
+BOOST_AUTO_TEST_CASE(rpc_boostasiotocnetaddr)
+{
+    // Check IPv4 addresses
+    BOOST_CHECK_EQUAL(BoostAsioToCNetAddr(boost::asio::ip::address::from_string("1.2.3.4")).ToString(), "1.2.3.4");
+    BOOST_CHECK_EQUAL(BoostAsioToCNetAddr(boost::asio::ip::address::from_string("127.0.0.1")).ToString(), "127.0.0.1");
+    // Check IPv6 addresses
+    BOOST_CHECK_EQUAL(BoostAsioToCNetAddr(boost::asio::ip::address::from_string("::1")).ToString(), "::1");
+    BOOST_CHECK_EQUAL(BoostAsioToCNetAddr(boost::asio::ip::address::from_string("123:4567:89ab:cdef:123:4567:89ab:cdef")).ToString(),
+                                         "123:4567:89ab:cdef:123:4567:89ab:cdef");
+    // v4 compatible must be interpreted as IPv4
+    BOOST_CHECK_EQUAL(BoostAsioToCNetAddr(boost::asio::ip::address::from_string("::0:127.0.0.1")).ToString(), "127.0.0.1");
+    // v4 mapped must be interpreted as IPv4
+    BOOST_CHECK_EQUAL(BoostAsioToCNetAddr(boost::asio::ip::address::from_string("::ffff:127.0.0.1")).ToString(), "127.0.0.1");
 }
 
 BOOST_AUTO_TEST_CASE(rpc_boostasiotocnetaddr)

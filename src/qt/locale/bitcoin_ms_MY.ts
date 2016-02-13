@@ -1,4 +1,5 @@
 <TS language="ms_MY" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -38,12 +39,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Klik dua kali untuk mengubah alamat atau label</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Cipta alamat baru</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Baru</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
@@ -51,6 +57,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Copy</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -68,10 +75,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;Salin</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Salin Alamat</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Eksport</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -79,14 +93,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished"/>
+        <translation>Pilih alamat untuk menghantar syiling</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished"/>
+        <translation>Pilih alamat untuk menerima syiling</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -116,11 +131,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Export Address List</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;Pilih</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
         <translation>Fail yang dipisahkan dengan koma</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Exporting Failed</source>
         <translation type="unfinished"/>
@@ -303,10 +322,36 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    <message>
+        <source>Address</source>
+        <translation>Alamat</translation>
+    </message>
+    </context>
+<context>
+    <name>AskPassphraseDialog</name>
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Options...</source>
         <translation>Pilihan</translation>
     </message>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Encrypt Wallet...</source>
         <translation type="unfinished"/>
     </message>
@@ -441,16 +486,107 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Show the list of used receiving addresses and labels</source>
         <translation type="unfinished"/>
+=======
+        <source>Edit Address</source>
+        <translation>Alamat</translation>
     </message>
     <message>
+        <source>&amp;Address</source>
+        <translation>Alamat</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Open a dogecoin: URI or payment request</source>
         <translation type="unfinished"/>
+=======
+        <source>Address</source>
+        <translation>Alamat</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Command-line options</source>
         <translation type="unfinished"/>
+=======
+        <source>Balance:</source>
+        <translation>Baki</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
     <message>
+<<<<<<< HEAD
         <source>Show the Dogecoin Core help message to get a list with possible command-line options</source>
         <translation type="unfinished"/>
     </message>
@@ -461,8 +597,29 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <source>%n active connection(s) to Dogecoin network</source>
         <translation type="unfinished"><numerusform/></translation>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Fail yang dipisahkan dengan koma</translation>
     </message>
     <message>
+        <source>Address</source>
+        <translation>Alamat</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    <message>
+<<<<<<< HEAD
         <source>No block source available...</source>
         <translation type="unfinished"/>
     </message>
@@ -3361,4 +3518,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+        <source>&amp;Export</source>
+        <translation>&amp;Eksport</translation>
+    </message>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </TS>

@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 // Copyright (c) 2014 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef WINSHUTDOWNMONITOR_H
 #define WINSHUTDOWNMONITOR_H
+=======
+// Copyright (c) 2014 The Bitcoin Core developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#ifndef BITCOIN_QT_WINSHUTDOWNMONITOR_H
+#define BITCOIN_QT_WINSHUTDOWNMONITOR_H
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 #ifdef WIN32
 #include <QByteArray>
@@ -26,4 +35,8 @@ public:
 #endif
 #endif
 
+<<<<<<< HEAD
 #endif // WINSHUTDOWNMONITOR_H
+=======
+#endif // BITCOIN_QT_WINSHUTDOWNMONITOR_H
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707

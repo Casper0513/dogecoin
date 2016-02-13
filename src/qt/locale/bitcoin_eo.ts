@@ -1,4 +1,5 @@
 <TS language="eo" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -43,6 +44,11 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>Duoble-klaku por redakti adreson aŭ etikedon</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>Krei novan adreson</translation>
     </message>
@@ -72,7 +78,7 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksporti al dosiero la datumojn el la aktuala langeto</translation>
+        <translation>Eksporti la datumojn el la aktuala langeto al dosiero</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -95,7 +101,11 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>&amp;Elekti</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very sending addresses</source>
+=======
+        <source>Such sending addresses</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>Sendaj adresoj</translation>
     </message>
     <message>
@@ -128,13 +138,17 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
     </message>
     <message>
         <source>Exporting Failed</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1.</source>
         <translation type="unfinished"/>
+=======
+        <translation>ekspotado malsukcesinta</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -169,10 +183,13 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>Ripetu la novan pasfrazon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Enigu novan pasfrazon por la monujo.&lt;br/&gt;Bonvolu uzi pasfrazon kun &lt;b&gt;almenaŭ 10 hazardaj signoj&lt;/b&gt;, aŭ &lt;b&gt;almenaŭ ok vortoj&lt;/b&gt;.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>Ĉifri la monujon</translation>
     </message>
@@ -197,10 +214,13 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>Ŝanĝi la pasfrazon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Tajpu la malnovan kaj novan monujajn pasfrazojn.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>Konfirmo de ĉifrado de la monujo</translation>
     </message>
@@ -225,10 +245,13 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>La monujo estas ĉifrita</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>Bitmono nun fermiĝos por fini la ĉifradon. Memoru, ke eĉ ĉifrado ne protektas kontraŭ ĉiu atako, ekz. se viruso infektus vian komputilon.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>Ĉifrado de la monujo fiaskis</translation>
     </message>
@@ -296,10 +319,13 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>Eliri la aplikaĵon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>Vidigi informojjn pri Bitmono</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>Pri &amp;Qt</translation>
     </message>
@@ -324,7 +350,11 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>Ŝanĝi &amp;Pasfrazon...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
+=======
+        <source>Such &amp;sending addresses...</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>&amp;Sendaj adresoj...</translation>
     </message>
     <message>
@@ -336,6 +366,13 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>Malfermi &amp;URI-on...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Dogecoin Core client</source>
+        <translation>kliento de bitmon-kerno</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Importing blocks from disk...</source>
         <translation>Importado de blokoj el disko...</translation>
     </message>
@@ -348,10 +385,13 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>Sendi monon al Bitmon-adreso</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Modify configuration options for Dogecoin Core</source>
         <translation>Modifi agordaĵojn por Bitmono</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Backup wallet to another location</source>
         <translation>Krei alilokan sekurkopion de monujo</translation>
     </message>
@@ -424,10 +464,13 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>Langeto-breto</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Kerno de Bitmono</translation>
     </message>
@@ -456,6 +499,7 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>&amp;Komandliniaj agordaĵoj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the Dogecoin Core help message to get a list with possible command-line options</source>
         <translation type="unfinished"/>
     </message>
@@ -468,10 +512,13 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation><numerusform>%n aktiva konekto al la bitmona reto</numerusform><numerusform>%n aktivaj konektoj al la bitmona reto</numerusform></translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>No block source available...</source>
         <translation>Neniu fonto de blokoj trovebla...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
         <translation>Traktis %1 el (ĉirkaŭ) %2 blokoj de la transakcia historio.</translation>
     </message>
@@ -500,6 +547,12 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation type="unfinished"><numerusform/><numerusform/></translation>
     </message>
     <message>
+=======
+        <source>%1 and %2</source>
+        <translation>%1 kaj %2</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>%1 behind</source>
         <translation>mankas %1</translation>
     </message>
@@ -540,6 +593,7 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>Envenanta transakcio</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -552,6 +606,8 @@ Adreso: %4
 </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj aktuale &lt;b&gt;malŝlosita&lt;/b&gt;</translation>
     </message>
@@ -559,10 +615,13 @@ Adreso: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj aktuale &lt;b&gt;ŝlosita&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation>Okazis neriparebla eraro. Bitmono ne plu povas sekure daŭri, do ĝi sekure ĉesos.</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>ClientModel</name>
@@ -574,10 +633,13 @@ Adreso: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Quantity:</source>
         <translation>Kvanto:</translation>
     </message>
@@ -598,10 +660,13 @@ Adreso: %4
         <translation>Krompago:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation>Malalta Eligo:</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>After Fee:</source>
         <translation>Post krompago:</translation>
     </message>
@@ -626,6 +691,7 @@ Adreso: %4
         <translation>Sumo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
@@ -634,6 +700,8 @@ Adreso: %4
         <translation>Adreso</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Date</source>
         <translation>Dato</translation>
     </message>
@@ -694,10 +762,13 @@ Adreso: %4
         <translation>Kopii prioritaton</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation>Kopii malaltan eligon</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy change</source>
         <translation>Kopii restmonon</translation>
     </message>
@@ -746,10 +817,13 @@ Adreso: %4
         <translation>neniu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust</source>
         <translation>Polvo</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>yes</source>
         <translation>jes</translation>
     </message>
@@ -758,10 +832,13 @@ Adreso: %4
         <translation>ne</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation>Tiu ĉi etikedo ruĝiĝas se la grando de la transakcio estas pli ol 1000 bajtoj.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>Tio signifas, ke krompago de almenaŭ po %1 por ĉiu kB estas deviga.</translation>
     </message>
@@ -774,6 +851,7 @@ Adreso: %4
         <translation>Transakcioj kun pli alta prioritato havas pli altan ŝancon inkluziviĝi en bloko.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
         <translation type="unfinished"/>
     </message>
@@ -794,6 +872,8 @@ Adreso: %4
         <translation>Tiu ĉi etikedo ruĝiĝas se la restmono estas malpli ol %1.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>(no label)</source>
         <translation>(neniu etikedo)</translation>
     </message>
@@ -845,12 +925,21 @@ Adreso: %4
         <translation>Redakti adreson por sendi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>La adreso enigita &quot;%1&quot; jam ekzistas en la adresaro.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
         <translation>La adreso enigita &quot;%1&quot; ne estas valida Bitmon-adreso.</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>La adreso enigita "%1" jam ekzistas en la adresaro.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <translation>La adreso enigita "%1" ne estas valida Bitmon-adreso.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -887,10 +976,13 @@ Adreso: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core - Command-line options</source>
         <translation>Bitmona Kerno - Komandliniaj agordaĵoj</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>Kerno de Bitmono</translation>
     </message>
@@ -899,6 +991,7 @@ Adreso: %4
         <translation>versio</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Uzado:</translation>
     </message>
@@ -929,6 +1022,22 @@ Adreso: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Elekti dosierujon por datumoj dum lanĉo (defaŭlte: 0)</translation>
+=======
+        <source>About Dogecoin Core</source>
+        <translation>Pri la Bitmona Kerno</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Komandliniaj agordaĵoj</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Uzado:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>komandliniaj agordaĵoj</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -958,17 +1067,23 @@ Adreso: %4
         <translation>Uzi alian dosierujon por datumoj:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Bitmono</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
         <translation>Eraro: ne eblas krei la elektitan dosierujon por datumoj &quot;%1&quot;.</translation>
+=======
+        <source>Dogecoin Core</source>
+        <translation>Kerno de Bitmono</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error</source>
         <translation>Eraro</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>GB of free space available</source>
         <translation>GB de libera loko disponebla</translation>
@@ -978,6 +1093,9 @@ Adreso: %4
         <translation>(el %1GB bezonataj)</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1012,6 +1130,7 @@ Adreso: %4
         <translation>Ĉ&amp;efa</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>Nedeviga krompago por ĉiu kB, kiu helpas plirapidigi la traktadon de via transakcio. Plej multaj transakcioj grandas je 1kB.</translation>
     </message>
@@ -1028,6 +1147,8 @@ Adreso: %4
         <translation>&amp;Lanĉi Bitmonon tuj post ensaluto al la sistemo</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Size of &amp;database cache</source>
         <translation>Dosiergrando de &amp;datumbasa kaŝmemoro</translation>
     </message>
@@ -1036,6 +1157,7 @@ Adreso: %4
         <translation>MB</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Number of script &amp;verification threads</source>
         <translation type="unfinished"/>
     </message>
@@ -1056,6 +1178,8 @@ Adreso: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Reset all client options to default.</source>
         <translation>Reagordi ĉion al defaŭlataj valoroj.</translation>
     </message>
@@ -1068,6 +1192,7 @@ Adreso: %4
         <translation>&amp;Reto</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation type="unfinished"/>
     </message>
@@ -1092,6 +1217,8 @@ Adreso: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Aŭtomate malfermi la kursilan pordon por Bitmono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
@@ -1112,6 +1239,7 @@ Adreso: %4
         <translation>la pordo de la prokurilo (ekz. 9050)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>SOCKS &amp;Version:</source>
         <translation>Versio de SOCKS:</translation>
     </message>
@@ -1120,6 +1248,8 @@ Adreso: %4
         <translation>la versio de SOCKS ĉe la prokurilo (ekz. 5)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Window</source>
         <translation>&amp;Fenestro</translation>
     </message>
@@ -1132,10 +1262,13 @@ Adreso: %4
         <translation>&amp;Minimumigi al la sistempleto anstataŭ al la taskopleto</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>Minimumigi la aplikaĵon anstataŭ eliri kaj ĉesi kiam la fenestro estas fermita. Se tiu ĉi estas agordita, la aplikaĵo ĉesas nur kiam oni elektas &quot;Eliri&quot; el la menuo.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>M&amp;inimize on close</source>
         <translation>M&amp;inimumigi je fermo</translation>
     </message>
@@ -1148,10 +1281,13 @@ Adreso: %4
         <translation>&amp;Lingvo de la fasado:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
         <translation>Vi povas elekti la lingvon uzata en la aplikaĵo ĉi tie. Tiu ekefikos nur post relanĉo de Bitmono.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Unuo por vidigi sumojn:</translation>
     </message>
@@ -1160,6 +1296,7 @@ Adreso: %4
         <translation>Elekti la defaŭltan manieron por montri bitmonajn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
         <translation>Elekti ĉu videblu Bitmon-adresoj en la listo de transakcioj.</translation>
     </message>
@@ -1168,6 +1305,8 @@ Adreso: %4
         <translation>&amp;Montri adresojn en la listo de transakcioj</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Whether to show coin control features or not.</source>
         <translation>Ĉu montri detalan adres-regilon, aŭ ne.</translation>
     </message>
@@ -1192,6 +1331,7 @@ Adreso: %4
         <translation>Konfirmi reŝargo de agordoj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Client restart required to activate changes.</source>
         <translation type="unfinished"/>
     </message>
@@ -1204,6 +1344,8 @@ Adreso: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The supplied proxy address is invalid.</source>
         <translation>La prokurila adreso estas malvalida.</translation>
     </message>
@@ -1219,6 +1361,7 @@ Adreso: %4
         <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la bitmona reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet</source>
         <translation>Monujo</translation>
     </message>
@@ -1227,14 +1370,19 @@ Adreso: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Your current spendable balance</source>
         <translation>via aktuala elspezebla saldo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Pending:</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
         <translation>la sumo de transakcioj ankoraŭ ne konfirmitaj, kiuj ankoraŭ ne elspezeblas</translation>
     </message>
@@ -1254,6 +1402,7 @@ Adreso: %4
         <source>Your current total balance</source>
         <translation>via aktuala totala saldo</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation>&lt;b&gt;Lastaj transakcioj&lt;/b&gt;</translation>
@@ -1263,6 +1412,9 @@ Adreso: %4
         <translation>nesinkronigita</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>PaymentServer</name>
     <message>
@@ -1270,8 +1422,13 @@ Adreso: %4
         <translation>Traktado de URI-oj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
         <translation>Fiaskis la analizon de la URI! Eble la Bitmon-adreso estas nevalida, aŭ povus esti problemo kun la parametroj de la URI.</translation>
+=======
+        <source>Invalid payment address %1</source>
+        <translation>Nevalida pagadreso %1</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1283,6 +1440,7 @@ Adreso: %4
     </message>
     <message>
         <source>Cannot start dogecoin: click-to-pay handler</source>
+<<<<<<< HEAD
         <translation>Ne eblas lanĉi la ilon &apos;klaki-por-pagi&apos;</translation>
     </message>
     <message>
@@ -1310,6 +1468,11 @@ Adreso: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <translation>Ne eblas lanĉi la ilon 'klaki-por-pagi'</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Refund from %1</source>
         <translation>Repago de %1</translation>
     </message>
@@ -1318,10 +1481,13 @@ Adreso: %4
         <translation>Eraro dum komunikado kun %1: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request can not be parsed or processed!</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Bad response from server %1</source>
         <translation>Malbona respondo de la servilo %1</translation>
     </message>
@@ -1335,8 +1501,12 @@ Adreso: %4
     </message>
 </context>
 <context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>Bitmono</translation>
     </message>
@@ -1361,6 +1531,24 @@ Adreso: %4
         <translation>Enigi Bitmon-adreson (ekz. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
 </context>
+=======
+        <source>Amount</source>
+        <translation>Sumo</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>neaplikebla</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -1435,10 +1623,13 @@ Adreso: %4
         <translation>Aktuala nombro de blokoj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Estimated total blocks</source>
         <translation>Supozita totalo da blokoj</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Last block time</source>
         <translation>Horo de la lasta bloko</translation>
     </message>
@@ -1479,18 +1670,24 @@ Adreso: %4
         <translation>Sencimiga protokoldosiero</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Malfermi la sencimiga protokoldosiero de Bitmono el la aktuala dosierujo por datumoj. Tio eble daŭros plurajn sekundojn por granda protokoldosiero.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear console</source>
         <translation>Malplenigi konzolon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Dogecoin RPC console.</source>
         <translation>Bonvenon al la RPC-konzolo de Bitmono.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Uzu la sagojn supran kaj malsupran por esplori la historion, kaj &lt;b&gt;stir-L&lt;/b&gt; por malplenigi la ekranon.</translation>
     </message>
@@ -1514,6 +1711,7 @@ Adreso: %4
         <source>%1 GB</source>
         <translation>%1 GB</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>%1 m</source>
         <translation>%1 m</translation>
@@ -1527,6 +1725,9 @@ Adreso: %4
         <translation>%1 h %2 m</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
@@ -1550,6 +1751,7 @@ Adreso: %4
         <translation>R&amp;euzi ekzistantan ricevan adreson (malrekomendinda)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
         <translation type="unfinished"/>
     </message>
@@ -1566,6 +1768,8 @@ Adreso: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear all fields of the form.</source>
         <translation>Malplenigi ĉiujn kampojn de la formularo.</translation>
     </message>
@@ -1574,6 +1778,7 @@ Adreso: %4
         <translation>Forigi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Requested payments history</source>
         <translation type="unfinished"/>
     </message>
@@ -1596,6 +1801,30 @@ Adreso: %4
     <message>
         <source>Remove</source>
         <translation>Forigi</translation>
+=======
+        <source>&amp;Request payment</source>
+        <translation>&amp;Peti pagon</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Vidigi</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Forigi</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopii etikedon</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Kopiu mesaĝon</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopii sumon</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy label</source>
@@ -1691,16 +1920,20 @@ Adreso: %4
         <source>(no message)</source>
         <translation>(neniu mesaĝo)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>(no amount)</source>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Monon</translation>
+        <translation>Sendi Bitmonon</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1711,10 +1944,13 @@ Adreso: %4
         <translation>Enigoj...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>automatically selected</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Insufficient funds!</source>
         <translation>Nesufiĉa mono!</translation>
     </message>
@@ -1739,10 +1975,13 @@ Adreso: %4
         <translation>Krompago:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation>Malalta Eligo:</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>After Fee:</source>
         <translation>Post krompago:</translation>
     </message>
@@ -1751,6 +1990,7 @@ Adreso: %4
         <translation>Restmono:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
         <translation type="unfinished"/>
     </message>
@@ -1759,6 +1999,8 @@ Adreso: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send to multiple recipients at once</source>
         <translation>Sendi samtempe al pluraj ricevantoj</translation>
     </message>
@@ -1772,7 +2014,7 @@ Adreso: %4
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;Forigi ĉion</translation>
+        <translation>&amp;Forigi Ĉion</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -1819,10 +2061,13 @@ Adreso: %4
         <translation>Kopii prioritaton</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation>Kopii malaltan eligon</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy change</source>
         <translation>Kopii restmonon</translation>
     </message>
@@ -1835,10 +2080,13 @@ Adreso: %4
         <translation>aŭ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The recipient address is not valid, please recheck.</source>
         <translation>La adreso de la ricevonto ne validas. Bonvolu kontroli.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The amount to pay must be larger than 0.</source>
         <translation>La pagenda sumo devas esti pli ol 0.</translation>
     </message>
@@ -1851,18 +2099,24 @@ Adreso: %4
         <translation>La sumo kun la %1 krompago estas pli granda ol via saldo.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>Iu adreso estas ripetita. Vi povas sendi al ĉiu adreso po unufoje en iu send-operacio.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Transaction creation failed!</source>
         <translation>Kreo de transakcio fiaskis!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: Invalid Dogecoin address</source>
         <translation>Averto: Nevalida Bitmon-adreso</translation>
     </message>
@@ -1871,10 +2125,13 @@ Adreso: %4
         <translation>(neniu etikedo)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Unknown change address</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Are you sure you want to send?</source>
         <translation>Ĉu vi certas, ke vi volas sendi?</translation>
     </message>
@@ -1882,6 +2139,7 @@ Adreso: %4
         <source>added as transaction fee</source>
         <translation>aldonita kiel krompago</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Payment request expired</source>
         <translation>Pagopeto nun estas eksdata</translation>
@@ -1890,6 +2148,8 @@ Adreso: %4
         <source>Invalid payment address %1</source>
         <translation>Nevalida pagadreso %1</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -1902,10 +2162,13 @@ Adreso: %4
         <translation>&amp;Ricevonto:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The address to send the payment to (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>La adreso kie vi sendos la pagon (ekz. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Tajpu etikedon por tiu ĉi adreso kaj aldonu ĝin al via adresaro</translation>
     </message>
@@ -1927,7 +2190,7 @@ Adreso: %4
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Alglui adreson el tondejo</translation>
+        <translation>Alglui adreson de tondejo</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1942,14 +2205,18 @@ Adreso: %4
         <translation>Mesaĝo:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a verified payment request.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Tajpu etikedon por tiu ĉi adreso por aldoni ĝin al la listo de uzitaj adresoj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
         <translation type="unfinished"/>
     </message>
@@ -1958,6 +2225,8 @@ Adreso: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Pay To:</source>
         <translation>Pagi Al:</translation>
     </message>
@@ -1969,10 +2238,13 @@ Adreso: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Ne sistemfermu ĝis ĉi tiu fenestro malaperas.</translation>
     </message>
@@ -1988,6 +2260,7 @@ Adreso: %4
         <translation>&amp;Subskribi Mesaĝon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Vi povas subskribi mesaĝon per viaj adresoj, por pravigi ke vi estas la posedanto de tiuj adresoj. Atentu, ke vi ne subskriu ion neprecizan, ĉar trompisto povus ruzi kontraŭ vi kaj ŝteli vian identecon. Subskribu nur plene detaligitaj deklaroj pri kiuj vi konsentas.</translation>
     </message>
@@ -1996,6 +2269,8 @@ Adreso: %4
         <translation>La adreso por subskribi la mesaĝon (ekz. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Choose previously used address</source>
         <translation>Elektu la jam uzitan adreson</translation>
     </message>
@@ -2044,6 +2319,7 @@ Adreso: %4
         <translation>&amp;Kontroli Mesaĝon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>Enmeti la subskriban adreson, la mesaĝon (kune kun ĉiu linisalto, spaceto, taboj, ktp. precize) kaj la subskribon ĉi sube por kontroli la mesaĝon. Atentu, ke vi ne komprenu per la subskribo pli ol la enhavo de la mesaĝo mem, por eviti homo-en-la-mezo-atakon.</translation>
     </message>
@@ -2052,6 +2328,8 @@ Adreso: %4
         <translation>La adreso per kio oni subskribis la mesaĝon (ekz. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
         <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Bitmon-adreso</translation>
     </message>
@@ -2064,12 +2342,17 @@ Adreso: %4
         <translation>Reagordigi ĉiujn prikontrolajn kampojn</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>Enigi Bitmon-adreson (ekz. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Klaku &quot;Subskribi Mesaĝon&quot; por krei subskribon</translation>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Klaku "Subskribi Mesaĝon" por krei subskribon</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2149,10 +2432,13 @@ Adreso: %4
         <translation>Malferma ĝis %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>conflicted</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>%1/offline</source>
         <translation>%1/senkonekte</translation>
     </message>
@@ -2168,10 +2454,13 @@ Adreso: %4
         <source>Status</source>
         <translation>Stato</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation><numerusform>, elsendita(j) tra %n nodo</numerusform><numerusform>, elsendita(j) tra %n nodoj</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>Date</source>
         <translation>Dato</translation>
@@ -2204,10 +2493,13 @@ Adreso: %4
         <source>Credit</source>
         <translation>Kredito</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation><numerusform>maturiĝos post %n bloko</numerusform><numerusform>maturiĝos post %n blokoj</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>not accepted</source>
         <translation>ne akceptita</translation>
@@ -2241,8 +2533,13 @@ Adreso: %4
         <translation>Vendisto</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Kreitaj moneroj devas esti maturaj je %1 blokoj antaŭ ol eblas elspezi ilin. Kiam vi generis tiun ĉi blokon, ĝi estis elsendita al la reto por aldono al la blokĉeno. Se tiu aldono malsukcesas, ĝia stato ŝanĝiĝos al &quot;neakceptita&quot; kaj ne eblos elspezi ĝin. Tio estas malofta, sed povas okazi se alia bloko estas kreita je preskaŭ la sama momento kiel la via.</translation>
+=======
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Kreitaj moneroj devas esti maturaj je %1 blokoj antaŭ ol eblas elspezi ilin. Kiam vi generis tiun ĉi blokon, ĝi estis elsendita al la reto por aldono al la blokĉeno. Se tiu aldono malsukcesas, ĝia stato ŝanĝiĝos al "neakceptita" kaj ne eblos elspezi ĝin. Tio estas malofta, sed povas okazi se alia bloko estas kreita je preskaŭ la sama momento kiel la via.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Debug information</source>
@@ -2272,10 +2569,13 @@ Adreso: %4
         <source>, has not been successfully broadcast yet</source>
         <translation>, ankoraŭ ne elsendita sukcese</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>Malferma dum ankoraŭ %n bloko</numerusform><numerusform>Malferma dum ankoraŭ %n blokoj</numerusform></translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>unknown</source>
         <translation>nekonata</translation>
@@ -2303,6 +2603,7 @@ Adreso: %4
         <translation>Tipo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Adreso</translation>
     </message>
@@ -2319,6 +2620,8 @@ Adreso: %4
         <translation><numerusform>Malferma dum ankoraŭ %n bloko</numerusform><numerusform>Malferma dum ankoraŭ %n blokoj</numerusform></translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Open until %1</source>
         <translation>Malferma ĝis %1</translation>
     </message>
@@ -2339,6 +2642,7 @@ Adreso: %4
         <translation>Senkonekte</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unconfirmed</source>
         <translation>Nekonfirmita</translation>
     </message>
@@ -2349,6 +2653,14 @@ Adreso: %4
     <message>
         <source>Conflicted</source>
         <translation type="unfinished"/>
+=======
+        <source>Label</source>
+        <translation>Etikedo</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Nekonfirmita</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Received with</source>
@@ -2387,10 +2699,13 @@ Adreso: %4
         <translation>Tipo de transakcio.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Destination address of transaction.</source>
         <translation>Celadreso de la transakcio.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount removed from or added to balance.</source>
         <translation>Sumo elprenita de aŭ aldonita al la saldo.</translation>
     </message>
@@ -2478,6 +2793,7 @@ Adreso: %4
         <translation>Montri detalojn de transakcio</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Export Transaction History</source>
         <translation type="unfinished"/>
     </message>
@@ -2498,6 +2814,12 @@ Adreso: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Exporting Failed</source>
+        <translation>ekspotado malsukcesinta</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Comma separated file (*.csv)</source>
         <translation>Perkome disigita dosiero (*.csv)</translation>
     </message>
@@ -2522,10 +2844,13 @@ Adreso: %4
         <translation>Adreso</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Sumo</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>ID</source>
         <translation>ID</translation>
     </message>
@@ -2539,12 +2864,19 @@ Adreso: %4
     </message>
 </context>
 <context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
     <name>WalletFrame</name>
+<<<<<<< HEAD
     <message>
         <source>No wallet has been loaded.</source>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>WalletModel</name>
     <message>
@@ -2575,6 +2907,7 @@ Adreso: %4
         <translation>Malsukcesis sekurkopio</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the wallet data to %1.</source>
         <translation type="unfinished"/>
     </message>
@@ -2583,6 +2916,8 @@ Adreso: %4
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Backup Successful</source>
         <translation>Sukcesis krei sekurkopion</translation>
     </message>
@@ -2590,6 +2925,7 @@ Adreso: %4
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Uzado:</translation>
     </message>
@@ -2602,10 +2938,13 @@ Adreso: %4
         <translation>Vidigi helpon pri iu komando</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Options:</source>
         <translation>Agordoj:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: dogecoin.conf)</source>
         <translation>Specifi konfiguran dosieron (defaŭlte: dogecoin.conf)</translation>
     </message>
@@ -2614,10 +2953,13 @@ Adreso: %4
         <translation>Specifi pid-dosieron (defaŭlte: bitcoind.pid)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify data directory</source>
         <translation>Specifi dosieron por datumoj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>Aŭskulti al &lt;port&gt; por konektoj (defaŭlte: 8333 aŭ testnet: 18333)</translation>
     </message>
@@ -2626,6 +2968,8 @@ Adreso: %4
         <translation>Subteni maksimume &lt;n&gt; konektojn al samtavolanoj (defaŭlte: 125)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Konekti al nodo por ricevi adresojn de samtavolanoj, kaj malkonekti</translation>
     </message>
@@ -2634,6 +2978,7 @@ Adreso: %4
         <translation>Specifi vian propran publikan adreson</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Sojlo por malkonekti misagantajn samtavolanojn (defaŭlte: 100)</translation>
     </message>
@@ -2650,14 +2995,19 @@ Adreso: %4
         <translation>Aŭskulti al &lt;port&gt; por JSON-RPC-konektoj (defaŭlte: 8332 aŭ testnet: 18332)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Akcepti komandojn JSON-RPC kaj el komandlinio</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Ruli fone kiel demono kaj akcepti komandojn</translation>
     </message>
@@ -2670,6 +3020,7 @@ Adreso: %4
         <translation>Akcepti konektojn el ekstere (defaŭlte: 1 se ne estas -proxy nek -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2702,10 +3053,13 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Eraro okazis dum estigo de RPC-pordo %u por aŭskulti per IPv6; retrodefaŭltas al IPv4: %s</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bindi al donita adreso kaj ĉiam aŭskulti per ĝi. Uzu la formaton [gastigo]:pordo por IPv6</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
         <translation type="unfinished"/>
     </message>
@@ -2730,10 +3084,13 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Eraro: tiu ĉi transakcio bezonas krompagon de almenaŭ %s pro la sumo, la komplekseco, aŭ la uzo de ĵus ricevita mono!</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Plenumi komandon kiam monuja transakcio ŝanĝiĝas (%s en cmd anstataŭiĝas per TxID)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
         <translation type="unfinished"/>
     </message>
@@ -2758,10 +3115,13 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>Tiu ĉi estas antaŭeldona testa versio - uzu laŭ via propra risko - ne uzu por minado aŭ por aplikaĵoj por vendistoj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
@@ -2770,14 +3130,19 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Averto: -paytxfee estas agordita per tre alta valoro! Tio estas la krompago, kion vi pagos se vi sendas la transakcion.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
         <translation>Averto: Bonvolu kontroli, ke la horo kaj dato de via komputilo estas ĝuste agorditaj! Se via horloĝo malĝustas, Bitmono ne bone funkcios.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Averto: La reto ne tute konsentas! Kelkaj minantoj ŝajne spertas problemojn aktuale.</translation>
     </message>
@@ -2794,6 +3159,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Averto: via wallet.dat estas difektita, sed la datumoj sukcese saviĝis! La originala wallet.dat estas nun konservita kiel wallet.{timestamp}.bak en %s; se via saldo aŭ transakcioj estas malĝustaj vi devus restaŭri per alia sekurkopio.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: 1)</source>
         <translation type="unfinished"/>
     </message>
@@ -2802,6 +3168,8 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;category&gt; povas esti:</translation>
     </message>
@@ -2810,22 +3178,29 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Provo ripari privatajn ŝlosilojn el difektita wallet.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core Daemon</source>
         <translation>Bitmonakerna Demono</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Block creation options:</source>
         <translation>Blok-kreaj agordaĵoj:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect only to the specified node(s)</source>
         <translation>Konekti nur al specifita(j) nodo(j)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect through SOCKS proxy</source>
         <translation type="unfinished"/>
     </message>
@@ -2838,10 +3213,13 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Corrupted block database detected</source>
         <translation>Difektita blokdatumbazo trovita</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Debugging/Testing options:</source>
         <translation type="unfinished"/>
     </message>
@@ -2858,6 +3236,8 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Do you want to rebuild the block database now?</source>
         <translation>Ĉu vi volas rekonstrui la blokdatumbazon nun?</translation>
     </message>
@@ -2882,6 +3262,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Eraro: restas malmulte da diskospaco!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>Eraro: monujo ŝlosita, ne eblas krei transakcion!</translation>
     </message>
@@ -2890,10 +3271,13 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Eraro: sistema eraro: </translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Ne sukcesis aŭskulti ajnan pordon. Uzu -listen=0 se tion vi volas.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Failed to read block info</source>
         <translation>Malsukcesis legi blokinformojn</translation>
     </message>
@@ -2966,18 +3350,26 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
         <translation>Geneza bloko aŭ netrovita aŭ neĝusta. Ĉu eble la datadir de la reto malĝustas?</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -onion address: &apos;%s&apos;</source>
         <translation>Nevalida -onion-adreso: &apos;%s&apos;</translation>
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Nevalida -onion-adreso: '%s'</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
         <translation>Nesufiĉa nombro de dosierpriskribiloj disponeblas.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Prepend debug output with timestamp (default: 1)</source>
         <translation type="unfinished"/>
     </message>
@@ -3006,10 +3398,13 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Specifi la nombron de fadenoj por priatenti RPC-alvokojn (defaŭlte: 4)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify wallet file (within data directory)</source>
         <translation>Specifi monujan dosieron (ene de dosierujo por datumoj)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Spend unconfirmed change when sending transactions (default: 1)</source>
         <translation type="unfinished"/>
     </message>
@@ -3022,6 +3417,8 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Uzado (malaktuala, uzu anstataŭe dogecoin-cli):</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verifying blocks...</source>
         <translation>Kontrolado de blokoj...</translation>
     </message>
@@ -3030,10 +3427,13 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Kontrolado de monujo...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wait for RPC server to start</source>
         <translation>Atendu por RPC-an servilo komenci</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet %s resides outside data directory %s</source>
         <translation>Monujo %s troviĝas ekster la dosierujo por datumoj %s</translation>
     </message>
@@ -3042,10 +3442,13 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Monujaj opcioj:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Vi devas rekontrui la datumbazon kun -reindex por ŝanĝi -txindex</translation>
     </message>
@@ -3054,26 +3457,35 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Importas blokojn el ekstera dosiero blk000??.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Plenumi komandon kiam rilata alerto riceviĝas, aŭ kiam ni vidas tre longan forkon (%s en cms anstataŭiĝas per mesaĝo)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation type="unfinished"/>
+=======
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Elekti dosierujon por datumoj dum lanĉo (defaŭlte: 0)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Information</source>
         <translation>Informoj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>Nevalida sumo por -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
@@ -3146,10 +3558,21 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nevalida sumo por -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nevalida sumo por -mintxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Sendi spurajn/sencimigajn informojn al la konzolo anstataŭ al dosiero debug.log</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation>Agordi minimuman grandon de blokoj je bajtoj (defaŭlte: 0)</translation>
     </message>
@@ -3166,6 +3589,16 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
+=======
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Agordi lingvon, ekzemple "de_DE" (defaŭlte: tiu de la sistemo)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Montri salutŝildon dum lanĉo (defaŭlte: 1)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Malpligrandigi la sencimigan protokol-dosieron kiam kliento lanĉiĝas (defaŭlte: 1 kiam mankas -debug)</translation>
     </message>
@@ -3174,6 +3607,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Subskriba transakcio fiaskis</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>Specifi konektan tempolimon je milisekundoj (defaŭlte: 5000)</translation>
     </message>
@@ -3184,6 +3618,14 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
     <message>
         <source>System error: </source>
         <translation>Sistema eraro: </translation>
+=======
+        <source>Start minimized</source>
+        <translation>Lanĉiĝi plejete</translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation>ĝi estas eksperimenta programo</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -3198,10 +3640,13 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Transakcio estas tro granda</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Uzi UPnP por mapi la aŭskultan pordon (defaŭlte: 0)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>Uzi UPnP por mapi la aŭskultan pordon (defaŭlte: 1 dum aŭskultado)</translation>
     </message>
@@ -3214,6 +3659,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Averto</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Averto: tiu ĉi versio estas eksdata. Vi bezonas ĝisdatigon!</translation>
     </message>
@@ -3230,6 +3676,8 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>versio</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat estas difektita, riparo malsukcesis</translation>
     </message>
@@ -3238,6 +3686,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Pasvorto por konektoj JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Permesi konektojn JSON-RPC de specifa IP-adreso</translation>
     </message>
@@ -3246,6 +3695,8 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Sendi komandon al nodo ĉe &lt;ip&gt; (defaŭlte: 127.0.0.1)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Plenumi komandon kiam plej bona bloko ŝanĝiĝas (%s en cmd anstataŭiĝas per bloka haketaĵo)</translation>
     </message>
@@ -3254,10 +3705,13 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Ĝisdatigi monujon al plej lasta formato</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Agordi la grandon de la ŝlosilo-vico al &lt;n&gt; (defaŭlte: 100)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Reskani la blokĉenon por mankantaj monujaj transakcioj</translation>
     </message>
@@ -3266,6 +3720,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Uzi OpenSSL (https) por konektoj JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Server certificate file (default: server.cert)</source>
         <translation>Dosiero de servila atestilo (defaŭlte: server.cert)</translation>
     </message>
@@ -3274,14 +3729,19 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Dosiero de servila privata ŝlosilo (defaŭlte: server.pem)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This help message</source>
         <translation>Tiu ĉi helpmesaĝo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Ne eblis bindi al %s en tiu ĉi komputilo (bind resendis eraron %d, %s)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Permesi DNS-elserĉojn por -addnote, -seednote kaj -connect</translation>
     </message>
@@ -3294,6 +3754,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Eraro dum ŝargado de wallet.dat: monujo difektita</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
         <translation>Eraro dum ŝargo de wallet.dat: monujo bezonas pli novan version de Bitmono</translation>
     </message>
@@ -3302,10 +3763,13 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Monujo bezonas esti reskribita: relanĉu Bitmonon por finfari tion</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error loading wallet.dat</source>
         <translation>Eraro dum ŝargado de wallet.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Nevalid adreso -proxy: &apos;%s&apos;</translation>
     </message>
@@ -3334,6 +3798,28 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Nevalida sumo</translation>
     </message>
     <message>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Nevalid adreso -proxy: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Nekonata reto specifita en -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Ne eblas trovi la adreson -bind: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Ne eblas trovi la adreson -externalip: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nevalida sumo por -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Insufficient funds</source>
         <translation>Nesufiĉa mono</translation>
     </message>
@@ -3366,6 +3852,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Ŝargado finiĝis</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation>Por uzi la agordon %s</translation>
     </message>
@@ -3381,5 +3868,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 %s
 Se la dosiero ne ekzistas, kreu ĝin kun permeso &quot;nur posedanto rajtas legi&quot;.</translation>
     </message>
+=======
+        <source>Error</source>
+        <translation>Eraro</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

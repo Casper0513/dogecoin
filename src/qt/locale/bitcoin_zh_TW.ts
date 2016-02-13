@@ -1,4 +1,5 @@
 <TS language="zh_TW" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -43,10 +44,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Double-click to edit address or label</source>
         <translation>按兩下來編輯位址或標記</translation>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+        <source>Right-click to edit address or label</source>
+        <translation>右鍵點一下來修改位址或標記</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>製造新的位址</translation>
+        <translation>新增新的位址</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -97,7 +105,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>選取</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very sending addresses</source>
+=======
+        <source>Such sending addresses</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>付款位址</translation>
     </message>
     <message>
@@ -133,8 +145,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>匯出失敗</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the address list to %1.</source>
         <translation>儲存位址列表到 %1 時發生錯誤。</translation>
+=======
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>儲存位址列表到 %1 時發生錯誤。請重試一次。</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -171,10 +188,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>重複新密碼</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>請輸入錢包的新密碼。&lt;br/&gt;建議用&lt;b&gt;10 個以上的任意字元&lt;/b&gt;，或是&lt;b&gt;8 個以上的單字&lt;/b&gt;。</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>加密錢包</translation>
     </message>
@@ -199,15 +219,22 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>改變密碼</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>請輸入錢包的舊密碼及新密碼。</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Confirm wallet encryption</source>
         <translation>確認錢包加密</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+=======
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的位元幣了&lt;/b&gt;！</translation>
     </message>
     <message>
@@ -215,6 +242,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>你確定要把錢包加密嗎？</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Dogecoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
+        <translation>位元幣核心現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取位元幣。</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>重要: 請改用新產生有加密的錢包檔，來取代舊錢包檔的備份。為了安全性的理由，當你開始使用新的有加密的錢包後，舊錢包檔的備份就不能再使用了。</translation>
     </message>
@@ -227,8 +261,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>錢包已加密</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
         <translation>位元幣軟體現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取位元幣。</translation>
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>輸入錢包的新密碼。&lt;br/&gt;密碼請用&lt;b&gt;10 個以上的字元&lt;/b&gt;，或是&lt;b&gt;8 個以上的字詞&lt;/b&gt;。</translation>
+    </message>
+    <message>
+        <source>Enter the old passphrase and new passphrase to the wallet.</source>
+        <translation>請輸入錢包的舊密碼和新密碼。</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -298,10 +341,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>結束應用程式</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>顯示位元幣軟體相關資訊</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>關於 &amp;Qt</translation>
     </message>
@@ -326,7 +372,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>改變密碼...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
+=======
+        <source>Such &amp;sending addresses...</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>付款位址...</translation>
     </message>
     <message>
@@ -338,6 +388,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>開啓 URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Dogecoin Core client</source>
+        <translation>位元幣核心客戶端軟體</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Importing blocks from disk...</source>
         <translation>正在從磁碟匯入區塊資料...</translation>
     </message>
@@ -350,10 +407,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>付錢給一個位元幣位址</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Modify configuration options for Dogecoin Core</source>
         <translation>修改位元幣軟體的設定選項</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Backup wallet to another location</source>
         <translation>把錢包備份到其它地方</translation>
     </message>
@@ -383,11 +443,19 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>付款</translation>
+        <translation>已傳送</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
+<<<<<<< HEAD
         <translation>收受</translation>
+=======
+        <translation>已接收</translation>
+    </message>
+    <message>
+        <source>Show information about Dogecoin Core</source>
+        <translation>顯示位元幣核心的相關資訊</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -426,10 +494,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>分頁工具列</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>位元幣核心</translation>
     </message>
@@ -442,6 +513,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>關於位元幣核心</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Modify configuration options for Dogecoin Core</source>
+        <translation>修改位元幣軟體的設定選項</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Show the list of used sending addresses and labels</source>
         <translation>顯示已使用過的付款位址和標記的清單</translation>
     </message>
@@ -451,13 +529,18 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Open a dogecoin: URI or payment request</source>
+<<<<<<< HEAD
         <translation>開啓 bitcoin 協議的 URI 或付款要求</translation>
+=======
+        <translation>開啓 dogecoin 協議的 URI 或付款要求</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>命令列選項</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the Dogecoin Core help message to get a list with possible command-line options</source>
         <translation>顯示位元幣核心的說明訊息，來取得可用命令列選項的列表</translation>
     </message>
@@ -465,6 +548,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>Dogecoin client</source>
         <translation>位元幣客戶端軟體</translation>
     </message>
+=======
+        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
+        <translation>顯示位元幣核心的說明訊息，來取得可用命令列選項的列表</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message numerus="yes">
         <source>%n active connection(s) to Dogecoin network</source>
         <translation><numerusform>%n 個運作中的位元幣網路連線</numerusform></translation>
@@ -473,6 +561,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>No block source available...</source>
         <translation>沒有可用的區塊來源...</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
         <translation>已處理了估計全部 %2 個區塊中的 %1 個的交易紀錄。</translation>
@@ -480,6 +569,11 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>Processed %1 blocks of transaction history.</source>
         <translation>已處理了 %1 個區塊的交易紀錄。</translation>
+=======
+    <message numerus="yes">
+        <source>Processed %n block(s) of transaction history.</source>
+        <translation><numerusform>已經處理了 %n 個區塊的交易紀錄。</numerusform></translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -534,6 +628,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>正在趕進度...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sent transaction</source>
         <translation>付款交易</translation>
     </message>
@@ -546,14 +641,49 @@ This product includes software developed by the OpenSSL Project for use in the O
 Amount: %2
 Type: %3
 Address: %4
+=======
+        <source>Date: %1
 </source>
         <translation>日期: %1
-金額: %2
-種類: %3
-位址: %4
 </translation>
     </message>
     <message>
+        <source>Amount: %1
+</source>
+        <translation>金額: %1
+</translation>
+    </message>
+    <message>
+        <source>Type: %1
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+</source>
+        <translation>種類: %1
+</translation>
+    </message>
+    <message>
+        <source>Label: %1
+</source>
+        <translation>標記: %1
+</translation>
+    </message>
+    <message>
+        <source>Address: %1
+</source>
+        <translation>位址: %1
+</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+=======
+        <source>Sent transaction</source>
+        <translation>付款交易</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>收款交易</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>錢包&lt;b&gt;已加密&lt;/b&gt;並且&lt;b&gt;解鎖中&lt;/b&gt;</translation>
     </message>
@@ -561,10 +691,13 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>錢包&lt;b&gt;已加密&lt;/b&gt;並且&lt;b&gt;上鎖中&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
         <translation>發生了致命的錯誤。位元幣軟體沒辦法再繼續安全執行，只好結束。</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>ClientModel</name>
@@ -576,8 +709,13 @@ Address: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation>錢幣控制的位址選擇</translation>
+=======
+        <source>Coin Selection</source>
+        <translation>選擇錢幣</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Quantity:</source>
@@ -600,8 +738,13 @@ Address: %4
         <translation>手續費:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation>低輸出:</translation>
+=======
+        <source>Dust:</source>
+        <translation>零散錢:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>After Fee:</source>
@@ -628,12 +771,21 @@ Address: %4
         <translation>金額</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Address</source>
         <translation>地址</translation>
+=======
+        <source>Received with label</source>
+        <translation>收款標記</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>收款位址</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Date</source>
@@ -696,8 +848,13 @@ Address: %4
         <translation>複製優先度</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation>複製低輸出</translation>
+=======
+        <source>Copy dust</source>
+        <translation>複製零散金額</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy change</source>
@@ -748,8 +905,25 @@ Address: %4
         <translation>無</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust</source>
         <translation>零散錢</translation>
+=======
+        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
+        <translation>當交易大小大於 1000 位元組時，文字會變紅色。</translation>
+    </message>
+    <message>
+        <source>This label turns red if the priority is smaller than "medium".</source>
+        <translation>當優先度低於「中等」時，文字會變紅色。</translation>
+    </message>
+    <message>
+        <source>This label turns red if any recipient receives an amount smaller than %1.</source>
+        <translation>當任何一個收款金額小於 %1 時，文字會變紅色。</translation>
+    </message>
+    <message>
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>每組輸入可能有 +/- %1 個 satoshi 的誤差。</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>yes</source>
@@ -760,10 +934,13 @@ Address: %4
         <translation>否</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation>當交易大小大於 1000 位元組時，文字會變紅色。</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>表示每一千位元組(kB)需要至少 %1 的手續費。</translation>
     </message>
@@ -776,6 +953,7 @@ Address: %4
         <translation>優先度較高的交易比較有可能被接受放進區塊中。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
         <translation>當優先度低於「中等」時，文字會變紅色。</translation>
     </message>
@@ -796,6 +974,8 @@ Address: %4
         <translation>當找零金額小於 %1 時，文字會變紅色。</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>(no label)</source>
         <translation>(無標記)</translation>
     </message>
@@ -847,11 +1027,19 @@ Address: %4
         <translation>編輯付款位址</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>輸入的位址 %1 在位址簿中已經有了。</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>輸入的位址 %1 在位址簿中已經有了。</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>輸入的位址 %1 並不是有效的位元幣位址。</translation>
     </message>
     <message>
@@ -867,7 +1055,7 @@ Address: %4
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>就要造出新的資料目錄。</translation>
+        <translation>就要產生新的資料目錄。</translation>
     </message>
     <message>
         <source>name</source>
@@ -889,10 +1077,13 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core - Command-line options</source>
         <translation>位元幣核心 - 命令列選項</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>位元幣核心</translation>
     </message>
@@ -901,6 +1092,7 @@ Address: %4
         <translation>版本</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>用法:</translation>
     </message>
@@ -931,6 +1123,26 @@ Address: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>啓動時選擇資料目錄(預設值: 0)</translation>
+=======
+        <source>(%1-bit)</source>
+        <translation>(%1 位元)</translation>
+    </message>
+    <message>
+        <source>About Dogecoin Core</source>
+        <translation>關於位元幣核心</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>命令列選項</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>用法:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>命令列選項</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -960,17 +1172,27 @@ Address: %4
         <translation>使用自定的資料目錄:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>位元幣</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
         <translation>錯誤: 沒辦法造出指定的資料目錄 %1 。</translation>
+=======
+        <source>Dogecoin Core</source>
+        <translation>位元幣核心</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>錯誤: 無法新增指定的資料目錄: %1</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>GB of free space available</source>
         <translation>GB 可用空間</translation>
@@ -978,6 +1200,15 @@ Address: %4
     <message>
         <source>(of %1GB needed)</source>
         <translation>(需要 %1GB)</translation>
+=======
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>可用空間尚存 %n GB</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(需要 %n GB)</numerusform></translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1014,6 +1245,7 @@ Address: %4
         <translation>主要</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>每一千位元組(kB)要付的交易手續費，如果有付可以加速網路處理你的交易。大部份交易資料的大小是 1 kB.</translation>
     </message>
@@ -1030,6 +1262,8 @@ Address: %4
         <translation>系統登入時啟動位元幣</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Size of &amp;database cache</source>
         <translation>資料庫快取大小</translation>
     </message>
@@ -1042,18 +1276,46 @@ Address: %4
         <translation>指令碼驗證執行緒數目</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Dogecoin network through a SOCKS proxy.</source>
         <translation>透過 SOCKS 代理伺服器來連線到位元幣網路。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
         <translation>透過 SOCKS 代理伺服器連線(預設代理伺服器):</translation>
+=======
+        <source>Accept connections from outside</source>
+        <translation>接受外來連線</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>接受外來連線</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>代理伺服器的網際網路位址(像是 IPv4 的 127.0.0.1 或 IPv6 的 ::1)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
+        <translation>當視窗關閉時，把應用程式縮到最小，而不是結束。當勾選這個選項時，只能夠用選單中的結束來關掉應用程式。</translation>
+    </message>
+    <message>
+        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
+        <translation>可以在這裡設定使用者介面的語言。這個設定在重啓位元幣軟體後才會生效。</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>在交易頁籤的情境選單出現的第三方(比如說區塊探索網站)網址連結。網址中的 %s 會被取代為交易的雜湊值。可以用直線符號 | 來分隔多個連結。</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>交易的第三方網址連結</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Active command-line options that override above options:</source>
         <translation>從命令列取代掉以上設定的選項有:</translation>
     </message>
@@ -1070,6 +1332,17 @@ Address: %4
         <translation>網路</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Automatically start Dogecoin Core after logging in to the system.</source>
+        <translation>在登入系統後自動啓動位元幣軟體。</translation>
+    </message>
+    <message>
+        <source>&amp;Start Dogecoin Core on system login</source>
+        <translation>系統登入時啟動位元幣</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation>(0 表示程式自動決定，小於 0 表示保留處理器核心不用的數目)</translation>
     </message>
@@ -1102,6 +1375,17 @@ Address: %4
         <translation>用 &amp;UPnP 設定通訊埠對應</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
+        <translation>透過 SOCKS5 代理伺服器來連線到位元幣網路。</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>透過 SOCKS5 代理伺服器連線(預設代理伺服器):</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Proxy &amp;IP:</source>
         <translation>代理位址:</translation>
     </message>
@@ -1114,6 +1398,7 @@ Address: %4
         <translation>代理伺服器的通訊埠(像是 9050)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>SOCKS &amp;Version:</source>
         <translation>SOCKS 版本:</translation>
     </message>
@@ -1122,6 +1407,8 @@ Address: %4
         <translation>代理伺服器的 SOCKS 協定版本(像是 5)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Window</source>
         <translation>視窗</translation>
     </message>
@@ -1134,10 +1421,13 @@ Address: %4
         <translation>縮到最小到通知區域而不是工作列</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>當視窗關閉時，把應用程式縮到最小，而不是結束。當勾選這個選項時，只能夠用選單中的結束來關掉應用程式。</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>M&amp;inimize on close</source>
         <translation>關閉時縮到最小</translation>
     </message>
@@ -1150,10 +1440,13 @@ Address: %4
         <translation>使用界面語言:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
         <translation>可以在這裡設定使用者介面的語言。這個設定在重啓位元幣軟體後才會生效。</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Unit to show amounts in:</source>
         <translation>金額顯示單位:</translation>
     </message>
@@ -1162,6 +1455,7 @@ Address: %4
         <translation>選擇操作界面和付款時，預設顯示金額的細分單位。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
         <translation>是否要在交易列表中顯示位元幣位址。</translation>
     </message>
@@ -1170,6 +1464,8 @@ Address: %4
         <translation>在交易列表顯示位址</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Whether to show coin control features or not.</source>
         <translation>是否要顯示錢幣控制功能。</translation>
     </message>
@@ -1198,8 +1494,13 @@ Address: %4
         <translation>需要重新啟動客戶端軟體來讓改變生效。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Client will be shutdown, do you want to proceed?</source>
         <translation>客戶端軟體就要關掉了，繼續做下去嗎?</translation>
+=======
+        <source>Client will be shut down. Do you want to proceed?</source>
+        <translation>客戶端軟體就要關掉了。繼續做下去嗎？</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>This change would require a client restart.</source>
@@ -1221,8 +1522,13 @@ Address: %4
         <translation>顯示的資訊可能是過期的。跟位元幣網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet</source>
         <translation>錢包</translation>
+=======
+        <source>Watch-only:</source>
+        <translation>只能看:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Available:</source>
@@ -1249,6 +1555,13 @@ Address: %4
         <translation>還沒成熟的開採金額</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Balances</source>
+        <translation>餘額</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Total:</source>
         <translation>總金額:</translation>
     </message>
@@ -1257,12 +1570,37 @@ Address: %4
         <translation>目前全部餘額</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation>&lt;b&gt;最近交易&lt;/b&gt;</translation>
     </message>
     <message>
         <source>out of sync</source>
         <translation>還沒同步</translation>
+=======
+        <source>Your current balance in watch-only addresses</source>
+        <translation>所有只能看位址的目前餘額</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>可支配:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>最近的交易</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>所有只能看位址還沒確認的交易</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>所有只能看位址還沒成熟的開採金額</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>所有只能看位址的目前全部餘額</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1272,6 +1610,7 @@ Address: %4
         <translation>URI 處理</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
         <translation>沒辦法解析 URI 位址！可能是因為位元幣位址無效，或是 URI 參數格式錯誤。</translation>
     </message>
@@ -1294,34 +1633,101 @@ Address: %4
     <message>
         <source>Your active proxy doesn&apos;t support SOCKS5, which is required for payment requests via proxy.</source>
         <translation>目前使用中的代理伺服器不支援 SOCKS5 通訊協定，因此不能透過它來要求付款。</translation>
+=======
+        <source>Invalid payment address %1</source>
+        <translation>無效的付款位址 %1</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>付款的要求被拒絕了</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>付款要求的網路類型跟客戶端不符。</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>付款的要求沒有完成初始化。</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>要求付款的金額 %1 太少(會被網路認為是沒必要的零散錢)。</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>要求付款時發生錯誤</translation>
+    </message>
+    <message>
+        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <translation>沒辦法啟動 dogecoin 協議的按就付處理器</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>取得付款要求的 URL 無效: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
+        <translation>沒辦法解析 URI 位址！可能是因為位元幣位址無效，或是 URI 參數格式錯誤。</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Payment request file handling</source>
         <translation>處理付款要求檔案</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
         <translation>沒辦法讀或處理付款要求檔案！可能是無效的檔案造成的。</translation>
+=======
+        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+        <translation>沒辦法讀取付款要求檔案！可能是無效的檔案造成的。</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>付款的要求過期了。</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>不支援含有自訂付款指令碼，且沒驗證過的付款要求。</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Invalid payment request.</source>
+        <translation>付款的要求無效。</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Refund from %1</source>
         <translation>來自 %1 的退款</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
+        <translation>付款要求 %1 過大 (%2 位元組, 上限 %3 位元組).</translation>
+    </message>
+    <message>
+        <source>Payment request DoS protection</source>
+        <translation>支付請求的分佈式阻斷服務攻擊DoS保護</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error communicating with %1: %2</source>
         <translation>跟 %1 通訊時發生錯誤: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request can not be parsed or processed!</source>
         <translation>沒辦法解析或處理付款要求！</translation>
+=======
+        <source>Payment request cannot be parsed!</source>
+        <translation>沒辦法解析付款要求內容！</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Bad response from server %1</source>
@@ -1337,6 +1743,7 @@ Address: %4
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>QObject</name>
     <message>
         <source>Dogecoin</source>
@@ -1361,6 +1768,73 @@ Address: %4
     <message>
         <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>請輸入位元幣位址(像是 DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+=======
+    <name>PeerTableModel</name>
+    <message>
+        <source>User Agent</source>
+        <translation>使用者代理</translation>
+    </message>
+    <message>
+        <source>Node/Service</source>
+        <translation>節點/服務</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Ping 時間</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+<<<<<<< HEAD
+        <source>&amp;Save Image...</source>
+        <translation>儲存圖片...</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>複製圖片</translation>
+    </message>
+    <message>
+        <source>Save QR Code</source>
+        <translation>儲存 QR Code</translation>
+    </message>
+    <message>
+=======
+        <source>Amount</source>
+        <translation>金額</translation>
+    </message>
+    <message>
+        <source>Enter a Dogecoin address (e.g. %1)</source>
+        <translation>請輸入位元幣位址(像是 %1)</translation>
+    </message>
+    <message>
+        <source>%1 d</source>
+        <translation>%1 天</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 小時</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 分鐘</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 秒</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>無</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>未知</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 毫秒</translation>
     </message>
 </context>
 <context>
@@ -1378,6 +1852,7 @@ Address: %4
         <translation>儲存 QR Code</translation>
     </message>
     <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>PNG Image (*.png)</source>
         <translation>PNG 圖檔(*.png)</translation>
     </message>
@@ -1413,6 +1888,13 @@ Address: %4
         <translation>使用的 OpenSSL 版本</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Using BerkeleyDB version</source>
+        <translation>使用 BerkeleyDB 版本</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Startup time</source>
         <translation>啓動時間</translation>
     </message>
@@ -1437,8 +1919,85 @@ Address: %4
         <translation>目前區塊數</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Estimated total blocks</source>
         <translation>估計總區塊數</translation>
+=======
+        <source>Open the Dogecoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>從目前的資料目錄下開啓位元幣核心的除錯紀錄檔。當紀錄檔很大時，可能會花好幾秒的時間。</translation>
+    </message>
+    <message>
+        <source>Received</source>
+        <translation>收款</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>付款</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>節點</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>選一個節點來看詳細資訊</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>方向</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>版本</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>使用者代理</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>服務</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>起始高度</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>同步高度</translation>
+    </message>
+    <message>
+        <source>Ban Score</source>
+        <translation>惡劣分數</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>連線時間</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>最近送出</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>最近收到</translation>
+    </message>
+    <message>
+        <source>Bytes Sent</source>
+        <translation>送出位元組</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>收到位元組</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Ping 時間</translation>
+    </message>
+    <message>
+        <source>Time Offset</source>
+        <translation>時間差</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Last block time</source>
@@ -1481,16 +2040,24 @@ Address: %4
         <translation>除錯紀錄檔</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>從目前的資料目錄下開啓位元幣軟體的除錯紀錄檔。當紀錄檔很大時，可能會花好幾秒的時間。</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear console</source>
         <translation>清主控台</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Dogecoin RPC console.</source>
         <translation>歡迎使用位元幣 RPC 主控台。</translation>
+=======
+        <source>Welcome to the Dogecoin Core RPC console.</source>
+        <translation>歡迎使用位元幣核心 RPC 主控台。</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1517,6 +2084,7 @@ Address: %4
         <translation>%1 GB (十億位元組)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 m</source>
         <translation>%1 分鐘</translation>
     </message>
@@ -1527,6 +2095,30 @@ Address: %4
     <message>
         <source>%1 h %2 m</source>
         <translation>%1 小時 %2 分</translation>
+=======
+        <source>via %1</source>
+        <translation>經由 %1</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>沒有過</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>進來</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>出去</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>正在擷取中...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1741,10 +2333,13 @@ Address: %4
         <translation>手續費:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation>低輸出:</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>After Fee:</source>
         <translation>計費後金額:</translation>
     </message>
@@ -1761,6 +2356,77 @@ Address: %4
         <translation>自定找零位址</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Transaction Fee:</source>
+        <translation>交易手續費:</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>選項...</translation>
+    </message>
+    <message>
+        <source>collapse fee-settings</source>
+        <translation>展開手續費設定</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>每千位元組</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>如果自訂手續費設定為 1000 satoshi, 而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 satoshi 的手續費，換做選「總共至少」就會付 1000 satoshi. 但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>隱藏</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>總共最少</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
+        <translation>當交易量少於區塊可容納的空間時，只付最低手續費不會有什麽問題。但是當交易量的需求成長到超過整體網路可以處理的量時，可能會造成一筆一直不會被確認的交易。</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(請看提示)</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>建議值:</translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>自訂:</translation>
+    </message>
+    <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation>(手續費智慧演算法還沒準備好。通常都要等幾個區塊才行...)</translation>
+    </message>
+    <message>
+        <source>Confirmation time:</source>
+        <translation>確認時間:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>正常</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>快速</translation>
+    </message>
+    <message>
+        <source>Send as zero-fee transaction if possible</source>
+        <translation>盡可能送不用付手續費的交易</translation>
+    </message>
+    <message>
+        <source>(confirmation may take longer)</source>
+        <translation>(確認時間可能拉長)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send to multiple recipients at once</source>
         <translation>一次付給多個收款人</translation>
     </message>
@@ -1771,6 +2437,13 @@ Address: %4
     <message>
         <source>Clear all fields of the form.</source>
         <translation>把表單中的所有欄位清空。</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>零散錢:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1821,10 +2494,13 @@ Address: %4
         <translation>複製優先度</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation>複製低輸出</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy change</source>
         <translation>複製找零金額</translation>
     </message>
@@ -1837,10 +2513,13 @@ Address: %4
         <translation>或</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The recipient address is not valid, please recheck.</source>
         <translation>無效的收款地址, 請再檢查看看.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>The amount to pay must be larger than 0.</source>
         <translation>付款金額必須大於零。</translation>
     </message>
@@ -1853,10 +2532,13 @@ Address: %4
         <translation>包含 %1 的交易手續費後，總金額超過你的餘額了。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>發現有重複的位址。每個付款動作中，只能付給個別的位址一次。</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Transaction creation failed!</source>
         <translation>製造交易失敗了！</translation>
     </message>
@@ -1865,6 +2547,29 @@ Address: %4
         <translation>交易被拒絕了！有時候會發生這種錯誤，是因為你錢包中的一些錢已經被花掉了。比如說你複製了錢包檔 wallet.dat, 然後用複製的錢包花掉了錢，你現在所用的原來的錢包中，卻沒有那筆錢已經花掉的紀錄。</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>高於 %1 的手續費會被認為是不合理。</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>付款的要求過期了。</translation>
+    </message>
+    <message>
+        <source>Pay only the minimum fee of %1</source>
+        <translation>只付最低手續費 %1</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation>收款位址無效。請再檢查看看。</translation>
+    </message>
+    <message>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>發現有重複的位址: 每個位址只能出現一次。</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: Invalid Dogecoin address</source>
         <translation>警告: 位元幣位址無效</translation>
     </message>
@@ -1877,6 +2582,13 @@ Address: %4
         <translation>警告: 不明的找零位址</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy dust</source>
+        <translation>複製零散金額</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Are you sure you want to send?</source>
         <translation>你確定要付錢出去嗎？</translation>
     </message>
@@ -1884,6 +2596,7 @@ Address: %4
         <source>added as transaction fee</source>
         <translation>加做交易手續費</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Payment request expired</source>
         <translation>付款的要求已經過期</translation>
@@ -1892,6 +2605,8 @@ Address: %4
         <source>Invalid payment address %1</source>
         <translation>無效的付款位址 %1</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -1904,10 +2619,13 @@ Address: %4
         <translation>付給:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The address to send the payment to (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>付款的目標位址(像是 DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to your address book</source>
         <translation>請輸入這個位址的標記來把它加進位址簿中</translation>
     </message>
@@ -1924,6 +2642,13 @@ Address: %4
         <translation>這是一筆正常的付款。</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The Dogecoin address to send the payment to</source>
+        <translation>接收付款的位元幣位址</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1940,11 +2665,30 @@ Address: %4
         <translation>刪掉這個項目</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less dogecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>手續費會從要付款出去的金額中扣掉。因此收款人會收到比輸入的金額還要少的位元幣。如果有多個收款人的話，手續費會平均分配來扣除。</translation>
+    </message>
+    <message>
+        <source>S&amp;ubtract fee from amount</source>
+        <translation>從付款金額減去手續費</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Message:</source>
         <translation>訊息:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a verified payment request.</source>
+=======
+        <source>This is an unauthenticated payment request.</source>
+        <translation>這是個沒驗證過的付款要求。</translation>
+    </message>
+    <message>
+        <source>This is an authenticated payment request.</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>這是個已驗證的付款要求。</translation>
     </message>
     <message>
@@ -1956,10 +2700,13 @@ Address: %4
         <translation>附加在位元幣付款協議 URI 中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到位元幣網路上。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is an unverified payment request.</source>
         <translation>這是個沒驗證過的付款要求。</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Pay To:</source>
         <translation>付給:</translation>
     </message>
@@ -1990,12 +2737,21 @@ Address: %4
         <translation>簽署訊息</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>你可以用自己的位址簽署訊息，來證明你對位址的所有權。但是請小心，不要簽署語意含糊不清的內容，因為釣魚式詐騙可能會用騙你簽署的手法來冒充是你。只有在語句中的細節你都同意時才簽署。</translation>
     </message>
     <message>
         <source>The address to sign the message with (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>用來簽署訊息的位址(像是 DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+=======
+        <source>You can sign messages/agreements with your addresses to prove you can receive dogecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>你可以用自己的位址簽署訊息或合約，來證明你可以從該位址收款。但是請小心，不要簽署語意含糊不清，或隨機產生的內容，因為釣魚式詐騙可能會用騙你簽署的手法來冒充是你。只有在語句中的細節你都同意時才簽署。</translation>
+    </message>
+    <message>
+        <source>The Dogecoin address to sign the message with</source>
+        <translation>用來簽署訊息的位元幣位址</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2046,12 +2802,21 @@ Address: %4
         <translation>驗證訊息</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>請在下面輸入簽署的位址，訊息(請確定完整複製了所包含的換行，空格，跳位符號等等)，以及簽章，來驗證這個訊息。請小心，除了訊息內容以外，不要對簽章本身過度解讀，以避免被用「中間人攻擊法」詐騙。</translation>
     </message>
     <message>
         <source>The address the message was signed with (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>簽署這個訊息的位址(像是 DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+=======
+        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <translation>請在下面輸入收款人的位址，訊息(請確定完整複製了所包含的換行，空格，跳位符號等等)，以及簽章，來驗證這個訊息。請小心，除了訊息內容以外，不要對簽章本身過度解讀，以避免被用「中間人攻擊法」詐騙。請注意，通過驗證的簽章只能證明簽章人確實可以從該位址收款，不能證明任何交易中的付款人身份！</translation>
+    </message>
+    <message>
+        <source>The Dogecoin address the message was signed with</source>
+        <translation>簽署這個訊息的位元幣位址</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
@@ -2066,11 +2831,15 @@ Address: %4
         <translation>重設所有訊息驗證欄位</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>請輸入位元幣位址(像是 DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>請按一下「簽署訊息」來產生簽章</translation>
     </message>
     <message>
@@ -2199,6 +2968,13 @@ Address: %4
         <translation>自己的地址</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>watch-only</source>
+        <translation>只能看</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>label</source>
         <translation>標記</translation>
     </message>
@@ -2219,6 +2995,17 @@ Address: %4
         <translation>出帳</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Total debit</source>
+        <translation>出帳總額</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>入帳總額</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Transaction fee</source>
         <translation>交易手續費</translation>
     </message>
@@ -2243,7 +3030,11 @@ Address: %4
         <translation>商家</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+=======
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <translation>生產出來的錢要再等 %1 個區塊生出來後才成熟可以用。當區塊生產出來時會公布到網路上，來被加進區塊鏈。如果加失敗了，狀態就會變成「不被接受」，而且不能夠花。如果在你生產出區塊的幾秒鐘內，也有其他節點生產出來的話，就有可能會發生這種情形。</translation>
     </message>
     <message>
@@ -2305,6 +3096,7 @@ Address: %4
         <translation>種類</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>地址</translation>
     </message>
@@ -2313,6 +3105,8 @@ Address: %4
         <translation>金額</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Immature (%1 confirmations, will be available after %2)</source>
         <translation>未成熟(確認 %1 次，會在 %2 次後可用)</translation>
     </message>
@@ -2341,6 +3135,13 @@ Address: %4
         <translation>離線中</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Label</source>
+        <translation>標記</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Unconfirmed</source>
         <translation>未確認</translation>
     </message>
@@ -2373,6 +3174,13 @@ Address: %4
         <translation>開採所得</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>watch-only</source>
+        <translation>只能看</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>(n/a)</source>
         <translation>(不適用)</translation>
     </message>
@@ -2389,8 +3197,17 @@ Address: %4
         <translation>交易的種類。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Destination address of transaction.</source>
         <translation>交易的目標地址.</translation>
+=======
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>不論如何有一個只能觀看的地只有參與這次的交易</translation>
+    </message>
+    <message>
+        <source>User-defined intent/purpose of the transaction.</source>
+        <translation>使用者定義的交易動機或理由。</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2484,6 +3301,13 @@ Address: %4
         <translation>匯出交易記錄</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Watch-only</source>
+        <translation>只能觀看的</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Exporting Failed</source>
         <translation>匯出失敗</translation>
     </message>
@@ -2524,10 +3348,13 @@ Address: %4
         <translation>地址</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>金額</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>ID</source>
         <translation>識別碼</translation>
     </message>
@@ -2538,6 +3365,13 @@ Address: %4
     <message>
         <source>to</source>
         <translation>到</translation>
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    <message>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation>金額顯示單位。可以點選其他單位。</translation>
     </message>
 </context>
 <context>
@@ -2592,6 +3426,7 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>用法:</translation>
     </message>
@@ -2604,10 +3439,13 @@ Address: %4
         <translation>取得指令說明</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Options:</source>
         <translation>選項:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: dogecoin.conf)</source>
         <translation>指定設定檔(預設值: dogecoin.conf)</translation>
     </message>
@@ -2616,10 +3454,13 @@ Address: %4
         <translation>指定行程識別碼(PID)檔(預設值:  bitcoind.pid)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify data directory</source>
         <translation>指定資料目錄</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>在通訊埠 &lt;port&gt; 聽候連線(預設值: 8333, 或若是測試網路: 18333)</translation>
     </message>
@@ -2628,6 +3469,8 @@ Address: %4
         <translation>維持連線節點數的上限為 &lt;n&gt; 個(預設值: 125)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>連線到某個節點來取得其它節點的位址，然後斷線</translation>
     </message>
@@ -2636,6 +3479,7 @@ Address: %4
         <translation>指定自己的公開位址</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>把異常節點斷線的臨界值(預設值: 100)</translation>
     </message>
@@ -2652,15 +3496,20 @@ Address: %4
         <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線(預設值: 8332, 或若是測試網路: 18332)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Accept command line and JSON-RPC commands</source>
         <translation>接受指令列和 JSON-RPC 指令
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core RPC client version</source>
         <translation>位元幣核心 RPC 客戶端軟體版本</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Run in the background as a daemon and accept commands</source>
         <translation>用護靈模式在背後執行並接受指令</translation>
     </message>
@@ -2673,6 +3522,7 @@ Address: %4
         <translation>是否接受外來連線(預設值: 當沒有 -proxy 或 -connect 時為 1)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2771,16 +3621,63 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
         <translation>使用另外的 SOCK5 代理伺服器，來透過 Tor 隱藏服務跟節點聯繫(預設值: 同 -proxy)</translation>
+=======
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>和指定的位址繫結，並且一直在指定位址聽候連線。IPv6 請用 [主機]:通訊埠 這種格式</translation>
+    </message>
+    <message>
+        <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
+        <translation>清掉錢包裡的所有交易，並且在下次啟動時，使用 -rescan 來從區塊鏈中復原回來。</translation>
+    </message>
+    <message>
+        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
+        <translation>這套軟體是依據 MIT 軟體授權條款散布，詳情請見附帶的 COPYING 檔案，或是以下網站:  &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>當錢包有交易改變時要執行的指令(指令中的 %s 會被取代成交易識別碼)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees to use in a single wallet transaction; setting this too low may abort large transactions (default: %s)</source>
+        <translation>一次錢包交易允許付出最高的總手續費；設定太低的話，可能會無法進行資料量大的交易(預設值: %s)</translation>
+    </message>
+    <message>
+        <source>Reduce storage requirements by pruning (deleting) old blocks. This mode disables wallet support and is incompatible with -txindex. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
+        <translation>修剪(刪除)掉老舊區塊來減少儲存空間的需求。這種模式會關閉錢包功能，並且和 -txindex 參數不相容。警告: 從這種模式還原會需要重新下載一整個區塊鏈。(預設值: 0 表示不修剪區塊，&gt;%u 表示為區塊檔案的目標大小，單位是百萬位元組 MiB)</translation>
+    </message>
+    <message>
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation>設定指令碼驗證的執行緒數目 (%u 到 %d，0 表示程式自動決定，小於 0 表示保留處理器核心不用的數目，預設值: %d)</translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>這是個還沒發表的測試版本 - 使用請自負風險 - 請不要用來開採或商業應用</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
+        <translation>沒辦法繫結在這台電腦上的 %s 。位元幣核心可能已經在執行了。</translation>
+    </message>
+    <message>
+        <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
+        <translation>警告: 收到了不尋常地多的 %d 個區塊在過去 %d 小時內生產出來(預期是 %d 個)</translation>
+    </message>
+    <message>
+        <source>WARNING: check your network connection, %d blocks received in the last %d hours (%d expected)</source>
+        <translation>警告: 請檢查你的網路連線狀況，收到了 %d 個區塊在過去 %d 小時內生產出來(預期是 %d 個)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>警告: -paytxfee 設定了很高的金額！這可是你交易付款所要付的手續費。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
         <translation>警告: 請檢查電腦日期和時間是否正確！位元幣軟體沒辦法在時鐘不準的情況下正常運作。</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>警告: 狗狗幣網路對於區塊鏈結的決定目前有分歧！看來有些礦工會有問題。</translation>
     </message>
@@ -2797,6 +3694,7 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>警告: 錢包檔 wallet.dat 壞掉，但資料被拯救回來了！原來的 wallet.dat 會改儲存在 %s, 檔名是 wallet.{timestamp}.bak. 如果餘額或交易資料有誤，你應該要用備份資料復原回來。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: 1)</source>
         <translation>(預設值: 1)</translation>
     </message>
@@ -2817,18 +3715,40 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>位元幣核心護靈</translation>
     </message>
     <message>
+=======
+        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
+        <translation>把來自指定網域或位址的節點放進白名單。這個選項可以設定多次。</translation>
+    </message>
+    <message>
+        <source>(default: 1)</source>
+        <translation>(預設值: 1)</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; 可以是:</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>嘗試從壞掉的錢包檔 wallet.dat 復原密鑰</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Block creation options:</source>
         <translation>區塊製造選項:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
         <translation>清掉錢包裡交易的列表(診斷用的工具; 也會做 -rescan)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect only to the specified node(s)</source>
         <translation>只連線到指定節點(可多個)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect through SOCKS proxy</source>
         <translation>透過 SOCKS 代理伺服器來連線</translation>
     </message>
@@ -2841,12 +3761,19 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>連線選項:</translation>
     </message>
     <message>
+=======
+        <source>Connection options:</source>
+        <translation>連線選項:</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Corrupted block database detected</source>
         <translation>發現區塊資料庫壞掉了</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
         <translation>除錯與測試選項</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: 0)</source>
@@ -2855,10 +3782,12 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>找出自己的網際網路地址 (預設: 當有聽候連線且沒有 -externalip 時為 1)</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>不要載入錢包，並且拿掉錢包相關的 RPC 功能呼叫。</translation>
+        <translation>不要載入錢包，並且拿掉錢包相關的 RPC 功能請求。</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
@@ -2881,10 +3810,18 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>打開區塊資料庫時發生錯誤</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>錯誤:一個致命的內部錯誤,到debug.log看更多細節</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Error: Disk space is low!</source>
         <translation>錯誤: 磁碟空間很少！</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>錯誤: 錢包被上鎖了，沒辦法製造新的交易！</translation>
     </message>
@@ -3073,10 +4010,265 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>設定高優先度或低手續費的交易資料大小上限成多少位元組(預設值: %d)</translation>
     </message>
     <message>
+=======
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>在任意的通訊埠聽候失敗。如果你希望這樣的話，可以設定 -listen=0.</translation>
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>如果沒有提供 &lt;category&gt; 就會輸出所有的除錯資訊。</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>正在匯入中...</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>創世區塊不正確或找不到。資料目錄錯了嗎？</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>無效的 -onion 位址: '%s'</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>檔案描述元不足。</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
+        <translation>只有連接到網絡節點 &lt;net&gt; （IPv4，IPv6或onion）</translation>
+    </message>
+    <message>
+        <source>Prune cannot be configured with a negative value.</source>
+        <translation>修剪值不能設定為負的。</translation>
+    </message>
+    <message>
+        <source>Prune mode is incompatible with -txindex.</source>
+        <translation>修剪模式和 -txindex 參數不相容。</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation>設定資料庫快取大小是多少百萬位元組(MB，範圍: %d 到 %d，預設值: %d)</translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>設定區塊大小上限成多少位元組(預設值: %d)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>指定錢包檔(會在資料目錄中)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>正在驗證區塊資料...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>正在驗證錢包資料...</translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>錢包檔 %s 沒有在資料目錄 %s 裡面</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>錢包選項:</translation>
+    </message>
+    <message>
+        <source>Warning: This version is obsolete; upgrade required!</source>
+        <translation>警告: 這個版本已經被淘汰了；必須要升級！</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>改變 -txindex 參數後，必須要用 -reindex 參數來重建資料庫</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>從其它來源的 blk000??.dat 檔匯入區塊</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+        <translation>允許指定的來源建立 JSON-RPC 連線。&lt;ip&gt; 的有效值可以是一個單獨位址(像是 1.2.3.4)，一個網段/網段罩遮值(像是 1.2.3.4/255.255.255.0)，或是網段/CIDR值(像是 1.2.3.4/24)。這個選項可以設定多次。</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>設定在網路上以位址 %s 和通訊埠 %u 聽候 RPC 連線時發生錯誤: %s</translation>
+    </message>
+    <message>
+        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
+        <translation>和指定的位址繫結，並且把連線過來的節點放進白名單。IPv6 請用 [主機]:通訊埠 這種格式</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
+        <translation>和指定的位址繫結以聽候 JSON-RPC 連線。IPv6 請用 [主機]:通訊埠 這種格式。這個選項可以設定多次。(預設值: 跟所有網路界面上的位址繫結)</translation>
+    </message>
+    <message>
+        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
+        <translation>沒辦法鎖定資料目錄 %s。位元幣核心可能已經在執行了。</translation>
+    </message>
+    <message>
+        <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
+        <translation>用系統預設權限來造出新的檔案，而不是用使用者權限罩遮(umask)值 077 (只有在關掉錢包功能時才有作用)。</translation>
+    </message>
+    <message>
+        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
+        <translation>找出自己的網際網路位址(預設值: 當有聽候連線且沒有指定 -externalip 或 -proxy 時為 1)</translation>
+    </message>
+    <message>
+        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
+        <translation>錯誤: 聽候外來連線失敗(回傳錯誤 %s)</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>錯誤: 找到不再支援的 -socks 參數。現在只支援 SOCKS5 協定的代理伺服器了，因為不再能夠指定 SOCKS 協定版本。</translation>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>當收到相關警示，或發現相當長的分支時，所要執行的指令(指令中的 %s 會被取代成警示訊息)</translation>
+    </message>
+    <message>
+        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>當處理轉發的交易時，如果每千位元組(Kb)的手續費比這個值低，就視為沒付手續費 (預設值: %s)</translation>
+    </message>
+    <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>當沒有設定 paytxfee 時，自動包含可以讓交易能在平均 n 個區塊內開始確認的手續費(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>-maxtxfee=&lt;amount&gt;: '%s' 的金額無效 (必須大於最低轉發手續費 %s 以避免交易無法確認)</translation>
+    </message>
+    <message>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>轉發和開採時，對只帶資料的交易的大小上限(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Prune configured below the minimum of %d MB.  Please use a higher number.</source>
+        <translation>設定的修剪值小於最小需求的 %d MB. 請指定大一點的數字。</translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation>是否允許在節點位址數目不足時，使用域名查詢來搜尋節點 (預設值: 當沒用 -connect 時為 1)</translation>
+    </message>
+    <message>
+        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
+        <translation>對每個代理連線使用隨機產生的憑證。這個選項會開啟 Tor 的串流隔離(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>設定高優先度或低手續費的交易資料大小上限成多少位元組(預設值: %d)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
+        <translation>設定產生錢幣的執行緒數目(-1 表示處理器核心數，預設值: %d)</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to send after the fee has been deducted</source>
+        <translation>扣除手續費後的交易金額太少而不能傳送</translation>
+    </message>
+    <message>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>此產品也包含了由 OpenSSL Project 所開發的 OpenSSL Toolkit 軟體 &lt;https://www.openssl.org/&gt;, 和由 Eric Young 撰寫的加解密軟體，以及由 Thomas Bernard 所撰寫的 UPnP 軟體。</translation>
+    </message>
+    <message>
+        <source>To use dogecoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=dogecoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
+</source>
+        <translation>要使用 dogecoind, 或是對 dogecoin-qt 指定 -server 選項，你必須要在以下設定檔中設定 RPC 密碼(選項: rpcpassword):
+%s
+建議你使用以下隨機產生的密碼:
+rpcuser=dogecoinrpc
+rpcpassword=%s
+(你不用記住這個密碼)
+注意使用者名稱(rpcuser)和密碼(rpcpassword)不可以相同！
+如果設定檔還不存在，請在新增時，設定檔案權限為"只有主人才能讀取"。
+也建議你設定警示通知，這樣發生問題時你才會被通知到；
+比如說設定: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>警告: -maxtxfee 設定了很高的金額！這可是一次交易就有可能付出的最高手續費。</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Dogecoin Core will not work properly.</source>
+        <translation>警告: 請檢查電腦日期和時間是否正確！位元幣核心沒辦法在時鐘不準的情況下正常運作。</translation>
+    </message>
+    <message>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation>在白名單中的節點不會因為偵測到阻斷服務攻擊而被停用。來自這些節點的交易也一定會被轉發，即使說交易本來就在記憶池裡了也一樣。適用於像是閘道伺服器。</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
+        <translation>回到非修剪的模式需要用 -reindex 參數來重建資料庫。這會導致重新下載整個區塊鏈。</translation>
+    </message>
+    <message>
+        <source>(default: %u)</source>
+        <translation>(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>接受公開的REST請求 (預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Activating best chain...</source>
+        <translation>啟用最佳鏈結...</translation>
+    </message>
+    <message>
+        <source>Can't run with a wallet in prune mode.</source>
+        <translation>不能在有錢包時執行修剪模式。</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -whitebind address: '%s'</source>
+        <translation>沒辦法解析 -whitebind 指定的位址: '%s'</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>啓動時選擇資料目錄(預設值: 0)</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>透過 SOCKS5 代理伺服器連線</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>版權為位元幣核心開發人員自西元 2009 至 %i 年起所有</translation>
+    </message>
+    <message>
+        <source>Could not parse -rpcbind value %s as network address</source>
+        <translation>沒辦法解析 -rpcbind 參數值 %s 為網路位址</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin Core</source>
+        <translation>載入 wallet.dat 檔案時發生錯誤: 這個錢包需要新版的位元幣核心</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>讀取資料庫時發生錯誤，要關閉了。</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>錯誤: 找到不再支援的 -tor 參數，請改用 -onion 參數。</translation>
+    </message>
+    <message>
+        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
+        <translation>交易付款時每千位元組(kB)的交易手續費 (預設值: %s)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Information</source>
         <translation>資訊</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>設定最低轉發手續費 -minrelaytxfee=&lt;金額&gt; 的金額無效: &apos;%s&apos;</translation>
     </message>
@@ -3125,10 +4317,53 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>RPC SSL 選項: (SSL 設定程序請見 Bitcoin Wiki)</translation>
     </message>
     <message>
+=======
+        <source>Initialization sanity check failed. Dogecoin Core is shutting down.</source>
+        <translation>初始化時的基本檢查失敗了。位元幣核心就要關閉了。</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-maxtxfee=&lt;amount&gt;: '%s' 的金額無效</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>設定最低轉發手續費 -minrelaytxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>設定 -mintxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
+        <translation>設定 -paytxfee=&lt;金額&gt; 的金額無效: '%s' (至少要有 %s)</translation>
+    </message>
+    <message>
+        <source>Invalid netmask specified in -whitelist: '%s'</source>
+        <translation>指定在 -whitelist 的網段無效: '%s'</translation>
+    </message>
+    <message>
+        <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
+        <translation>保持最多 &lt;n&gt; 無法連結的交易在記憶體 (預設: %u)</translation>
+    </message>
+    <message>
+        <source>Need to specify a port with -whitebind: '%s'</source>
+        <translation>指定 -whitebind 時必須包含通訊埠: '%s'</translation>
+    </message>
+    <message>
+        <source>Node relay options:</source>
+        <translation>節點轉發選項:</translation>
+    </message>
+    <message>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL 選項: (SSL 設定程序請見 Bitcoin Wiki)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>RPC server options:</source>
         <translation>RPC 伺服器選項:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
         <translation>隨機丟掉 &lt;n&gt; 分之一的網路訊息</translation>
     </message>
@@ -3149,10 +4384,21 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>傳送指令給位元幣核心</translation>
     </message>
     <message>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC 是否支援 HTTP 持久連線(預設值: %d)</translation>
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files on startup</source>
+        <translation>啟動時從目前的區塊檔 blk000??.dat 重建區塊鏈的索引</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>在終端機顯示追蹤或除錯資訊，而不是寫到檔案 debug.log 中</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation>設定區塊大小下限成多少位元組(預設值: 0)</translation>
     </message>
@@ -3169,6 +4415,28 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>顯示效能評比資訊 (預設值: 0)</translation>
     </message>
     <message>
+=======
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>盡可能送出不用付手續費的交易(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>設定付款請求時所使用的 SSL 根憑證 (預設值: 系統憑證庫)</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>設定語言，比如說 de_DE (預設值: 系統語系)</translation>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>顯示所有的除錯選項 (用法: --help --help-debug)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>顯示啓動畫面(預設值: 1)</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>客戶端軟體啓動時把 debug.log 檔縮小(預設值: 當沒有 -debug 時為 1)</translation>
     </message>
@@ -3177,6 +4445,7 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>簽署交易失敗</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>指定連線在幾毫秒後逾時(預設值: 5000)</translation>
     </message>
@@ -3187,6 +4456,18 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
     <message>
         <source>System error: </source>
         <translation>系統錯誤:</translation>
+=======
+        <source>Start minimized</source>
+        <translation>啓動時縮到最小</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to pay the fee</source>
+        <translation>交易金額太少而付不起手續費</translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation>這套軟體屬於實驗性質。</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -3197,12 +4478,28 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>交易金額必須是正的</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Transaction too large for fee policy</source>
+        <translation>根據交易手續費準則，本交易的位元量過大</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Transaction too large</source>
         <translation>交易位元量太大</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>是否要使用「通用即插即用」協定(UPnP)，來設定聽候連線的通訊埠的對應(預設值: 0)</translation>
+=======
+        <source>UI Options:</source>
+        <translation>使用介面選項:</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>無法和這台電腦上的 %s 繫結(回傳錯誤 %s)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
@@ -3213,10 +4510,18 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>JSON-RPC 連線使用者名稱</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wallet needed to be rewritten: restart Dogecoin Core to complete</source>
+        <translation>錢包需要重寫: 請重新啓動位元幣核心來完成</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>警告: 這個版本已經被淘汰了，必須要升級！</translation>
     </message>
@@ -3247,6 +4552,30 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
     <message>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
         <translation>傳送指令給在 &lt;ip&gt; 的節點(預設值: 127.0.0.1)</translation>
+=======
+        <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>警告: 忽略了不再支援的 -benchmark 參數，請改用 -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>警告: 忽略了不再支援的 -debugnet 參數，請改用 -debug=net.</translation>
+    </message>
+    <message>
+        <source>Zapping all transactions from wallet...</source>
+        <translation>正在砍掉錢包中的所有交易...</translation>
+    </message>
+    <message>
+        <source>on startup</source>
+        <translation>當啟動時</translation>
+    </message>
+    <message>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>錢包檔 weallet.dat 壞掉了，拯救失敗</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>JSON-RPC 連線密碼</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
@@ -3257,10 +4586,13 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>把錢包檔案升級成最新的格式</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>設定密鑰池大小成 &lt;n&gt; (預設值: 100)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>重新掃描區塊鏈，來尋找錢包可能漏掉的交易。</translation>
     </message>
@@ -3269,6 +4601,7 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>在 JSON-RPC 連線使用 OpenSSL (https)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Server certificate file (default: server.cert)</source>
         <translation>伺服器憑證檔(預設值: server.cert)</translation>
     </message>
@@ -3277,14 +4610,19 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>伺服器私鑰檔(預設值: server.pem)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>This help message</source>
         <translation>這些說明訊息</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>沒辦法和這台電腦上的 %s 繫結(回傳錯誤 %d, %s)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>允許對 -addnode, -seednode, -connect 的參數使用域名查詢 </translation>
     </message>
@@ -3297,18 +4635,56 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>載入檔案 wallet.dat 時發生錯誤: 錢包損毀了</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
         <translation>載入 wallet.dat 檔案時發生錯誤: 這個錢包需要新版的位元幣軟體</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Dogecoin to complete</source>
         <translation>錢包需要重寫: 請重新啓動位元幣軟體來完成</translation>
+=======
+        <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
+        <translation>(1 表示保留交易描述資料，像是帳戶使用者和付款請求資訊；2 表示丟掉交易描述資料)</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation>使用 -checkblocks 檢查區塊的仔細程度(0 到 4，預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
+        <translation>維護全部交易的索引，用在 getrawtransaction 這個 RPC 請求(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
+        <translation>避免與亂搞的節點連線的秒數(預設: %u)</translation>
+    </message>
+    <message>
+        <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
+        <translation>輸出除錯資訊(預設值: %u, 不一定要指定 &lt;category&gt;)</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+        <translation>使用另外的 SOCK5 代理伺服器，來透過 Tor 隱藏服務跟節點聯繫(預設值: %s)</translation>
+    </message>
+    <message>
+        <source>(default: %s)</source>
+        <translation>(預設值: %s)</translation>
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>可以接受的加密演算法(預設值: %s)</translation>
+    </message>
+    <message>
+        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
+        <translation>是否一定要用域名查詢來搜尋節點(預設值: %u)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error loading wallet.dat</source>
         <translation>載入錢包檔 wallet.dat 時發生錯誤</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>無效的 -proxy 地址: &apos;%s&apos;</translation>
     </message>
@@ -3335,6 +4711,114 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
     <message>
         <source>Invalid amount</source>
         <translation>無效的金額</translation>
+=======
+        <source>Generate coins (default: %u)</source>
+        <translation>生產位元幣(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
+        <translation>啓動時檢查的區塊數(預設值: %u, 指定 0 表示全部)</translation>
+    </message>
+    <message>
+        <source>Include IP addresses in debug output (default: %u)</source>
+        <translation>在除錯輸出內容中包含網際網路位址(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>無效的 -proxy 位址: '%s'</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線(預設值: %u, 或若為測試網路: %u)</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>在通訊埠 &lt;port&gt; 聽候連線(預設值: %u, 或若為測試網路: %u)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>維持與節點連線數的上限為 &lt;n&gt; 個(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Make the wallet broadcast transactions</source>
+        <translation>讓錢包能公告交易</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>每個連線的接收緩衝區大小上限為 &lt;n&gt;*1000 個位元組(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>每個連線的傳送緩衝區大小上限為 &lt;n&gt;*1000 個位元組(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: %u)</source>
+        <translation>在除錯輸出內容前附加時間(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Relay and mine data carrier transactions (default: %u)</source>
+        <translation>允許轉發和開採只帶資料的交易(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>允許轉發非 P2SH 的多簽章交易(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>伺服器憑證檔(預設值: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>伺服器密鑰檔(預設值: %s)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>設定密鑰池大小為 &lt;n&gt; (預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Set minimum block size in bytes (default: %u)</source>
+        <translation>設定區塊大小下限為多少位元組(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>設定處理 RPC 服務請求的執行緒數目(預設值: %d)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>指定設定檔(預設值: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>指定連線在幾毫秒後逾時 (最少值: 1, 預設值: %d)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>指定行程識別碼檔案(預設值: %s)</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
+        <translation>傳送交易時可以花還沒確認的零錢(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+        <translation>與亂搞的節點斷線的臨界值 (預設: %u)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>在 -onlynet 指定了不明的網路別: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>沒辦法解析 -bind 位址: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>沒辦法解析 -externalip 位址: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>設定 -paytxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3369,6 +4853,7 @@ alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com</transla
         <translation>載入完成</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation>為了要使用 %s 選項</translation>
     </message>
@@ -3384,5 +4869,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 %s
 如果還沒有這個檔案，請在造出來的時候，設定檔案權限成只有主人才能讀取。</translation>
     </message>
+=======
+        <source>Error</source>
+        <translation>錯誤</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

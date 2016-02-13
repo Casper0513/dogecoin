@@ -4,21 +4,41 @@
 src/dogecoin
 src/dogecoind
 src/dogecoin-cli
+<<<<<<< HEAD
+=======
+src/dogecoin-tx
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 src/test/test_dogecoin
 src/qt/test/test_dogecoin-qt
 
+# autoreconf
 Makefile.in
 aclocal.m4
 autom4te.cache/
+build-aux/config.guess
+build-aux/config.sub
+build-aux/depcomp
+build-aux/install-sh
+build-aux/ltmain.sh
+build-aux/m4/libtool.m4
+build-aux/m4/lt~obsolete.m4
+build-aux/m4/ltoptions.m4
+build-aux/m4/ltsugar.m4
+build-aux/m4/ltversion.m4
+build-aux/missing
+build-aux/compile
+build-aux/test-driver
 config.log
 config.status
 configure
-src/bitcoin-config.h
-src/bitcoin-config.h.in
-src/build-aux/
-src/stamp-h1
+libtool
+src/config/bitcoin-config.h
+src/config/bitcoin-config.h.in
+src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
+
+src/univalue/gen
 
 src/qt/*.moc
 src/qt/moc_*.cpp
@@ -28,11 +48,13 @@ src/qt/test/moc*.cpp
 
 .deps
 .dirstamp
+.libs
 .*.swp
 *.*~*
 *.bak
 *.rej
 *.orig
+*.pyc
 *.o
 *.o-*
 *.patch
@@ -48,15 +70,27 @@ src/qt/test/moc*.cpp
 *.json.h
 *.raw.h
 
+#libtool object files
+*.lo
+*.la
+
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
 dogecoin-qt
+<<<<<<< HEAD
 Dogecoin-Qt.app
+=======
+Bitcoin-Qt.app
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 # Unit-tests
 Makefile.test
 dogecoin-qt_test
+<<<<<<< HEAD
+=======
+src/test/buildenv.py
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 # Resources cpp
 qrc_*.cpp
@@ -80,10 +114,13 @@ linux-coverage-build
 linux-build
 win32-build
 qa/pull-tester/run-bitcoind-for-test.sh
-qa/pull-tester/build-tests.sh
+qa/pull-tester/tests-config.sh
+qa/pull-tester/cache/*
+qa/pull-tester/test.*/*
 
 !src/leveldb*/Makefile
 
+<<<<<<< HEAD
 contrib/macbuild/boost/
 *.hpp
 
@@ -94,3 +131,8 @@ contrib/macbuild/boost/
 *.xcscheme
 
 contrib/macbuild/dogecoind.xcodeproj/xcuserdata/alan.xcuserdatad/xcschemes/xcschememanagement.plist
+=======
+/doc/doxygen/
+
+libbitcoinconsensus.pc
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707

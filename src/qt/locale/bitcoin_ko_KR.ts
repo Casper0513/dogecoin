@@ -1,4 +1,5 @@
 <TS language="ko_KR" version="2.0">
+<<<<<<< HEAD
 <context>
     <name>AboutDialog</name>
     <message>
@@ -43,11 +44,17 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
         <translation>더블클릭으로 주소 또는 라벨 편집</translation>
     </message>
     <message>
+=======
+<context>
+    <name>AddressBookPage</name>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Create a new address</source>
         <translation>새 주소 생성</translation>
     </message>
     <message>
         <source>&amp;New</source>
+<<<<<<< HEAD
         <translation>추가(&amp;N)</translation>
     </message>
     <message>
@@ -61,6 +68,21 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     <message>
         <source>C&amp;lose</source>
         <translation>닫기(&amp;l)</translation>
+=======
+        <translation>새 항목(N)</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>현재 선택한 주소를 시스템 클립보드로 복사하기</translation>
+    </message>
+    <message>
+        <source>&amp;Copy</source>
+        <translation>복사</translation>
+    </message>
+    <message>
+        <source>C&amp;lose</source>
+        <translation>닫기 (L)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -72,11 +94,19 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
+<<<<<<< HEAD
         <translation>현재 창에 있는 데이터를 파일로 내보내기</translation>
     </message>
     <message>
         <source>&amp;Export</source>
         <translation>내보내기(&amp;E)</translation>
+=======
+        <translation>현재 탭에 있는 데이터를 파일로 내보내기</translation>
+    </message>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;내보내기</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -84,6 +114,7 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>Choose the address to send coins to</source>
+<<<<<<< HEAD
         <translation>코인을 보낼 주소 선택</translation>
     </message>
     <message>
@@ -101,6 +132,25 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     <message>
         <source>Much receiving addresses</source>
         <translation>많이 받는 주소들</translation>
+=======
+        <translation>코인을 보내실 주소를 선택하세요</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>코인을 받으실 주소를 선택하세요</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>선택하기 (H)</translation>
+    </message>
+    <message>
+        <source>Such sending addresses</source>
+        <translation>보내는 주소들</translation>
+    </message>
+    <message>
+        <source>Much receiving addresses</source>
+        <translation>받은 주소들</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
@@ -112,11 +162,15 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>Copy &amp;Label</source>
+<<<<<<< HEAD
         <translation>라벨 복사(&amp;L)</translation>
+=======
+        <translation>표 복사</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>편집(&amp;E)</translation>
+        <translation>편집&amp;</translation>
     </message>
     <message>
         <source>Export Address List</source>
@@ -130,11 +184,15 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
         <source>Exporting Failed</source>
         <translation>내보내기 실패</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>There was an error trying to save the address list to %1.</source>
         <translation>주소 목록을 %1로 저장하던 중 오류가 발생했습니다.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -147,7 +205,11 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>(no label)</source>
+<<<<<<< HEAD
         <translation>(라벨 없음)</translation>
+=======
+        <translation>(표 없음)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -158,6 +220,7 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>Enter passphrase</source>
+<<<<<<< HEAD
         <translation>암호문 입력하기</translation>
     </message>
     <message>
@@ -173,12 +236,29 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
         <translation>새로운 암호문(passphrase)을 지갑에 입력하세요. 10자 이상의 랜덤한 문자 혹은 여덟 개나 그 이상의 단어(word)로 된 암호문을 사용하는 것이 좋습니다.</translation>
     </message>
     <message>
+=======
+        <translation>암호 입력하기</translation>
+    </message>
+    <message>
+        <source>New passphrase</source>
+        <translation>새로운 암호</translation>
+    </message>
+    <message>
+        <source>Repeat new passphrase</source>
+        <translation>새 암호 반복</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Encrypt wallet</source>
         <translation>지갑 암호화</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+<<<<<<< HEAD
         <translation>이 작업은 지갑을 열기 위해 사용자의 지갑 암호문이 필요합니다.</translation>
+=======
+        <translation>이 작업을 실행하려면 사용자 지갑의 암호가 필요합니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -186,7 +266,11 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+<<<<<<< HEAD
         <translation>이 작업은 지갑을 해독하기 위해 사용자의 지갑 암호문이 필요합니다.</translation>
+=======
+        <translation>이 작업은 지갑을 해독하기 위해 사용자 지갑의 암호가 필요합니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -194,11 +278,15 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>Change passphrase</source>
+<<<<<<< HEAD
         <translation>암호문 변경</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>지갑의 예전 암호문과 새로운 암호문을 입력</translation>
+=======
+        <translation>암호 변경</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Confirm wallet encryption</source>
@@ -210,11 +298,19 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
+<<<<<<< HEAD
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>중요함: 이전에 사용자가 백업한 어느 지갑 파일이든 새로 생성된 암호화된 지갑 파일로 교체하여야 합니다. 보안상의 이유로, 이전의 암호화되지 않은 지갑의 백업 파일들은 암호화된 새 지갑을 사용하자마자 무용지물이 될 것입니다.</translation>
+=======
+        <translation>지갑 암호화를 허용하시겠습니까?</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>중요: 본인 지갑파일에서 만든 예전 백업들은 새로 생성한 암화화된 지갑 파일로 교체됩니다. 보안상 이유로 이전에 암호화 하지 않은 지갑 파일 백업은 사용할 수 없게 되니 빠른 시일 내로 새로 암화화된 지갑을 사용하시기 바랍니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -225,10 +321,13 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
         <translation>지갑 암호화 완료</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Dogecoins from being stolen by malware infecting your computer.</source>
         <translation>암호화 과정을 끝내기 위해 지금 도지코인이 닫힐 것입니다. 지갑 암호화는 사용자 컴퓨터의 멀웨어 감염으로 인한 도난에서 도지코인을 완전히 지켜주지 못함을 기억하세요.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet encryption failed</source>
         <translation>지갑 암호화 실패</translation>
     </message>
@@ -238,6 +337,7 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
+<<<<<<< HEAD
         <translation>지정한 암호문이 일치하지 않습니다.</translation>
     </message>
     <message>
@@ -247,6 +347,17 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>지갑 해독을 위한 암호문이 틀렸습니다.</translation>
+=======
+        <translation>지정한 암호가 일치하지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>지갑을 열지 못했습니다.</translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>지갑 해독을 위한 암호가 틀렸습니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -254,14 +365,22 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
+<<<<<<< HEAD
         <translation>지갑 암호문이 성공적으로 변경되었습니다</translation>
+=======
+        <translation>지갑 비밀번호가 성공적으로 변경되었습니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
+<<<<<<< HEAD
         <translation>메시지 서명(&amp;m)...</translation>
+=======
+        <translation>메시지 서명&amp;...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -277,7 +396,11 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>Show general overview of wallet</source>
+<<<<<<< HEAD
         <translation>지갑의 종합적 개요 보기</translation>
+=======
+        <translation>지갑의 일반적 개요를 보여줍니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -296,10 +419,13 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
         <translation>프로그램 끝내기</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show information about Dogecoin</source>
         <translation>도지코인에 대한 정보 보기</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>About &amp;Qt</source>
         <translation>Qt 정보(&amp;Q)</translation>
     </message>
@@ -313,17 +439,18 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>지갑 암호화(&amp;E)...</translation>
+        <translation>지갑 암호화&amp;...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>지갑 백업(&amp;B)...</translation>
+        <translation>지갑 백업&amp;...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>암호문 변경(&amp;C)...</translation>
+        <translation>암호문 변경&amp;...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Very &amp;sending addresses...</source>
         <translation>매우 보내는 주소들(&amp;s)...</translation>
     </message>
@@ -334,6 +461,22 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     <message>
         <source>Open &amp;URI...</source>
         <translation>URI 열기(&amp;U)...</translation>
+=======
+        <source>Such &amp;sending addresses...</source>
+        <translation>&amp;주소 보내는 중</translation>
+    </message>
+    <message>
+        <source>Much &amp;receiving addresses...</source>
+        <translation>&amp; 주소 받는 중</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>URI&amp;열기...</translation>
+    </message>
+    <message>
+        <source>Dogecoin Core client</source>
+        <translation>비트코인 코어 클라이언트</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -346,6 +489,7 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     <message>
         <source>Send coins to a Dogecoin address</source>
         <translation>도지코인 주소로 코인 보내기</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Modify configuration options for Dogecoin Core</source>
@@ -358,10 +502,20 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>지갑 암호화에 사용된 암호문을 변경합니다</translation>
+=======
+    </message>
+    <message>
+        <source>Backup wallet to another location</source>
+        <translation>지갑을 다른장소에 백업</translation>
+    </message>
+    <message>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>지갑 암호화에 사용되는 암호를 변경합니다</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>디버그 창(&amp;D)</translation>
+        <translation>디버그 창&amp;</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
@@ -369,7 +523,7 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>메시지 검증(&amp;V)...</translation>
+        <translation>메시지 확인&amp;...</translation>
     </message>
     <message>
         <source>Dogecoin</source>
@@ -388,6 +542,13 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
         <translation>너무 받음(&amp;R)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Dogecoin Core</source>
+        <translation>비트코인 코어에 관한 정보입니다.</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Show / Hide</source>
         <translation>보기/숨기기(&amp;S)</translation>
     </message>
@@ -424,10 +585,13 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
         <translation>도구 모음 탭</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[테스트넷]</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Dogecoin Core</source>
         <translation>도지코인 코어</translation>
     </message>
@@ -441,11 +605,19 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
+<<<<<<< HEAD
         <translation>사용했던 보내는 주소와 라벨 목록 보기</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
         <translation>사용했던 받는 주소와 라벨 목록 보기</translation>
+=======
+        <translation>한번 이상 사용된 보내는 주소와 주소 제목의 목록을 보여줍니다.</translation>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>한번 이상 사용된 받는 주소와 주소 제목의 목록을 보여줍니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Open a dogecoin: URI or payment request</source>
@@ -453,6 +625,7 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>&amp;Command-line options</source>
+<<<<<<< HEAD
         <translation>명령-줄 옵션(&amp;C)</translation>
     </message>
     <message>
@@ -502,10 +675,34 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
             <numerusform>%n주</numerusform>
             <numerusform>%n주</numerusform>
         </translation>
+=======
+        <translation>명령어-라인 옵션</translation>
+    </message>
+    <message>
+        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
+        <translation>사용할 수 있는 비트코인 명령어 옵션 목록을 가져오기 위해 Dogecoin-Qt 도움말 메시지를 표시합니다.</translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>사용 가능한 블록이 없습니다...</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n시간</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n일</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n주</numerusform></translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>%1 and %2</source>
         <translation>%1 그리고 %2</translation>
+<<<<<<< HEAD
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
@@ -525,6 +722,20 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     <message>
         <source>Transactions after this will not yet be visible.</source>
         <translation>그 이후의 거래기록들은 아직 볼 수 없을 것입니다.</translation>
+=======
+    </message>
+    <message>
+        <source>%1 behind</source>
+        <translation>%1 뒤에</translation>
+    </message>
+    <message>
+        <source>Last received block was generated %1 ago.</source>
+        <translation>최근에 받은 블록은 %1 전에 생성되었습니다.</translation>
+    </message>
+    <message>
+        <source>Transactions after this will not yet be visible.</source>
+        <translation>이 후의 거래들은 아직 보이지 않을 것입니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error</source>
@@ -544,7 +755,11 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>Catching up...</source>
+<<<<<<< HEAD
         <translation>따라잡는 중...</translation>
+=======
+        <translation>블록 따라잡기...</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Sent transaction</source>
@@ -552,6 +767,7 @@ MIT/X11 소프트웨어 사용권에 따라 배포하며, 첨부되어 있는 CO
     </message>
     <message>
         <source>Incoming transaction</source>
+<<<<<<< HEAD
         <translation>받는 거래기록</translation>
     </message>
     <message>
@@ -567,6 +783,11 @@ Address: %4
 </translation>
     </message>
     <message>
+=======
+        <translation>들어오고 있는 거래</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>지갑이 &lt;b&gt;암호화&lt;/b&gt; 되었고 현재 &lt;b&gt;잠금해제&lt;/b&gt; 됨</translation>
     </message>
@@ -574,10 +795,13 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>지갑이 &lt;b&gt;암호화&lt;/b&gt; 되었고 현재 &lt;b&gt;잠겨&lt;/b&gt; 있음</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Dogecoin Core can no longer continue safely and will quit.</source>
         <translation>치명적인 오류가 발생했습니다. 도지코인 코어를 더 이상 안전하게 진행할 수 없어 끝냅니다.</translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 <context>
     <name>ClientModel</name>
@@ -589,10 +813,13 @@ Address: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation>코인 컨트롤 주소 선택</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Quantity:</source>
         <translation>수량:</translation>
     </message>
@@ -602,17 +829,26 @@ Address: %4
     </message>
     <message>
         <source>Amount:</source>
+<<<<<<< HEAD
         <translation>액수:</translation>
     </message>
     <message>
         <source>Priority:</source>
         <translation>우선도:</translation>
+=======
+        <translation>거래량:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>우선순위:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Fee:</source>
         <translation>수수료:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation>낮은 산출:</translation>
     </message>
@@ -627,6 +863,22 @@ Address: %4
     <message>
         <source>(un)select all</source>
         <translation>모두 선택(해제)</translation>
+=======
+        <source>Dust:</source>
+        <translation>더스트:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>수수료 이후:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>체인지:</translation>
+    </message>
+    <message>
+        <source>(un)select all</source>
+        <translation>모두 선택(하지 않음)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Tree mode</source>
@@ -645,10 +897,13 @@ Address: %4
         <translation>라벨</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>주소</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Date</source>
         <translation>날짜</translation>
     </message>
@@ -662,7 +917,11 @@ Address: %4
     </message>
     <message>
         <source>Priority</source>
+<<<<<<< HEAD
         <translation>우선도</translation>
+=======
+        <translation>우선순위</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy address</source>
@@ -670,6 +929,7 @@ Address: %4
     </message>
     <message>
         <source>Copy label</source>
+<<<<<<< HEAD
         <translation>라벨 복사</translation>
     </message>
     <message>
@@ -687,6 +947,25 @@ Address: %4
     <message>
         <source>Unlock unspent</source>
         <translation>미사용액 해제</translation>
+=======
+        <translation>표 복사하기</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>거래량 복사</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>거래 아이디 복사</translation>
+    </message>
+    <message>
+        <source>Lock unspent</source>
+        <translation>비트코인이 사용되지 않은 주소를 잠금 처리합니다.</translation>
+    </message>
+    <message>
+        <source>Unlock unspent</source>
+        <translation>비트코인이 사용되지 않은 주소를 잠금 해제합니다. </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy quantity</source>
@@ -698,15 +977,24 @@ Address: %4
     </message>
     <message>
         <source>Copy after fee</source>
+<<<<<<< HEAD
         <translation>수수료 적용 후 복사</translation>
     </message>
     <message>
         <source>Copy bytes</source>
         <translation>바이트 복사</translation>
+=======
+        <translation>수수료 이후 복사</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>bytes 복사</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy priority</source>
         <translation>우선도 복사</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Copy low output</source>
@@ -723,6 +1011,16 @@ Address: %4
     <message>
         <source>higher</source>
         <translation>더욱 높음</translation>
+=======
+    </message>
+    <message>
+        <source>highest</source>
+        <translation>아주 높음</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>보다 높음</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>high</source>
@@ -730,6 +1028,7 @@ Address: %4
     </message>
     <message>
         <source>medium-high</source>
+<<<<<<< HEAD
         <translation>높음~중간</translation>
     </message>
     <message>
@@ -739,6 +1038,17 @@ Address: %4
     <message>
         <source>low-medium</source>
         <translation>중간~낮음</translation>
+=======
+        <translation>약간 높음</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>보통</translation>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation>약간 낮음</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>low</source>
@@ -746,11 +1056,19 @@ Address: %4
     </message>
     <message>
         <source>lower</source>
+<<<<<<< HEAD
         <translation>더욱 낮음</translation>
     </message>
     <message>
         <source>lowest</source>
         <translation>가장 낮음</translation>
+=======
+        <translation>보다 낮음</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>아주 낮음</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>(%1 locked)</source>
@@ -759,10 +1077,13 @@ Address: %4
     <message>
         <source>none</source>
         <translation>없음</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Dust</source>
         <translation>먼지</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>yes</source>
@@ -770,6 +1091,7 @@ Address: %4
     </message>
     <message>
         <source>no</source>
+<<<<<<< HEAD
         <translation>아니오</translation>
     </message>
     <message>
@@ -819,8 +1141,27 @@ Address: %4
     <message>
         <source>(change)</source>
         <translation>(반환액)</translation>
+=======
+        <translation>아니요</translation>
     </message>
-</context>
+    <message>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>이 의미는 수수료가 최소한 %1 per 키로바이트 필요합니다</translation>
+    </message>
+    <message>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>우선 순위가 높은 거래의 경우 블럭에 포함될 가능성이 더 많습니다.</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(표 없음)</translation>
+    </message>
+    <message>
+        <source>change from %1 (%2)</source>
+        <translation>~로부터 변경 %1 (%2)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -833,11 +1174,15 @@ Address: %4
     </message>
     <message>
         <source>The label associated with this address list entry</source>
+<<<<<<< HEAD
         <translation>이 주소 목록 항목과 관련된 라벨</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
         <translation>이 주소 목록 항목과 관련된 주소입니다. 이 항목은 보내는 주소일 때만 수정할 수 있습니다.</translation>
+=======
+        <translation>현재 선택된 주소 필드의 제목입니다. </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Address</source>
@@ -860,12 +1205,21 @@ Address: %4
         <translation>보내는 주소 편집</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>입력된 주소 &quot;%1&quot;은(는) 이미 주소록에 있습니다.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
         <translation>입력한 주소 &quot;%1&quot;은(는) 올바른 도지코인 주소가 아닙니다.</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>입력된 주소는"%1" 이미 주소록에 있습니다.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <translation>입력한 주소 "%1"은(는) 올바른 도지코인 주소가 아닙니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -880,7 +1234,11 @@ Address: %4
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
+<<<<<<< HEAD
         <translation>새로운 데이터 디렉토리가 생성됩니다.</translation>
+=======
+        <translation>새로운 데이터 폴더가 생성됩니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>name</source>
@@ -888,6 +1246,7 @@ Address: %4
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+<<<<<<< HEAD
         <translation>디렉토리가 이미 존재합니다. 새로운 디렉토리 생성을 원한다면 %1 명령어를 추가하세요.</translation>
     </message>
     <message>
@@ -897,11 +1256,23 @@ Address: %4
     <message>
         <source>Cannot create data directory here.</source>
         <translation>데이터 디렉토리를 여기 생성할 수 없습니다.</translation>
+=======
+        <translation>폴더가 이미 존재합니다. 새로운 폴더 생성을 원한다면 %1 명령어를 추가하세요. </translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>경로가 이미 존재합니다. 그리고 그것은 폴더가 아닙니다.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>데이터 폴더를 여기 생성할 수 없습니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin Core - Command-line options</source>
         <translation>도지코인 코어 - 명령-줄 옵션</translation>
     </message>
@@ -910,10 +1281,17 @@ Address: %4
         <translation>도지코인 코어</translation>
     </message>
     <message>
+=======
+        <source>Dogecoin Core</source>
+        <translation>도지코인 코어</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>version</source>
         <translation>버전</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>사용법:</translation>
     </message>
@@ -944,6 +1322,26 @@ Address: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>시작 시 데이터 디렉토리 선택 (기본값: 0)</translation>
+=======
+        <source>(%1-bit)</source>
+        <translation>(%1-비트)</translation>
+    </message>
+    <message>
+        <source>About Dogecoin Core</source>
+        <translation>도지코인 코어 정보</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>명령줄 옵션</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>사용법:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>명령줄 옵션</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -966,6 +1364,7 @@ Address: %4
     </message>
     <message>
         <source>Use the default data directory</source>
+<<<<<<< HEAD
         <translation>기본 디렉토리 사용</translation>
     </message>
     <message>
@@ -993,6 +1392,23 @@ Address: %4
         <translation>(%1GB 필요)</translation>
     </message>
 </context>
+=======
+        <translation>기본 데이터 폴더를 사용하기</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>커스텀 데이터 폴더 사용:</translation>
+    </message>
+    <message>
+        <source>Dogecoin Core</source>
+        <translation>도지코인 코어</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>오류</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1001,7 +1417,11 @@ Address: %4
     </message>
     <message>
         <source>Open payment request from URI or file</source>
+<<<<<<< HEAD
         <translation>URI 또는 파일로부터 지불 요청 열기</translation>
+=======
+        <translation>지급 요청 URI 또는 파일 열기</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>URI:</source>
@@ -1009,11 +1429,19 @@ Address: %4
     </message>
     <message>
         <source>Select payment request file</source>
+<<<<<<< HEAD
         <translation>지불 요청 파일 선택</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
         <translation>열려는 지불 요청 파일 선택</translation>
+=======
+        <translation>지불 요청 파일을 선택하세요</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>지불 요청 파일을 열기 위해서 선택하세요</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1027,6 +1455,7 @@ Address: %4
         <translation>메인(&amp;M)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>사용자의 거래기록들이 빠르게 처리될 수 있도록 돕는 추가적인 kB당 거래기록 수수료입니다. 대부분의 거래기록들은 1kB입니다.</translation>
     </message>
@@ -1077,6 +1506,38 @@ Address: %4
     <message>
         <source>Active command-line options that override above options:</source>
         <translation>위의 옵션을 무시하는 활성화된 명령-줄 옵션:</translation>
+=======
+        <source>Size of &amp;database cache</source>
+        <translation>데이터베이스 캐시 크기</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>메가바이트</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>스크립트 인증 쓰레드의 개수</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside</source>
+        <translation>외부로부터의 연결을 승인합니다.</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>연결 요청을 허용합니다.</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>프록시 아이피 주소(예. IPv4:127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>제 3자 거래 URLs</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>명령어 라인 옵션을 활성화해서 옵션을 우회하시오</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -1091,12 +1552,17 @@ Address: %4
         <translation>네트워크(&amp;N)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation>(0 = 자동, &lt;0 = 여러 코어를 유휴 상태로 남겨 둠)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>지갑(&amp;a)</translation>
+=======
+        <source>W&amp;allet</source>
+        <translation>지갑</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Expert</source>
@@ -1104,6 +1570,7 @@ Address: %4
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
+<<<<<<< HEAD
         <translation>코인 컨트롤 기능 활성화(&amp;c)</translation>
     </message>
     <message>
@@ -1113,6 +1580,13 @@ Address: %4
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>확인되지 않은 반환액 사용(&amp;S)</translation>
+=======
+        <translation>코인 상세 제어기능을 활성화합니다 - &amp;C</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;확인되지 않은 돈을 쓰다</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -1135,6 +1609,7 @@ Address: %4
         <translation>프록시의 포트번호 (예: 9050)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>SOCKS &amp;Version:</source>
         <translation>SOCKS 버전(&amp;V):</translation>
     </message>
@@ -1143,6 +1618,8 @@ Address: %4
         <translation>프록시의 SOCKS 버전 (예: 5)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Window</source>
         <translation>창(&amp;W)</translation>
     </message>
@@ -1155,10 +1632,13 @@ Address: %4
         <translation>작업 표시줄 대신 시스템 트레이로 최소화(&amp;M)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>창을 닫을 때 프로그램을 끝내는 대신 최소화합니다. 이 옵션이 활성화되었을 때, 이 프로그램은 메뉴에서 끝내기를 선택한 후에만 닫힐 것입니다.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>M&amp;inimize on close</source>
         <translation>닫을 때 최소화(&amp;i)</translation>
     </message>
@@ -1171,10 +1651,13 @@ Address: %4
         <translation>사용자 표시 언어(&amp;l):</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
         <translation>여기서 사용자에게 표시할 언어를 설정할 수 있습니다. 이 설정은 도지코인 코어를 재시작할 때 적용됩니다.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>&amp;Unit to show amounts in:</source>
         <translation>액수를 표시할 단위(&amp;U):</translation>
     </message>
@@ -1183,6 +1666,7 @@ Address: %4
         <translation>인터페이스에 표시하거나 코인을 보낼 때 사용할 기본 단위를 선택합니다.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
         <translation>거래기록 목록에 도지코인 주소를 표시할 지의 여부입니다.</translation>
     </message>
@@ -1193,6 +1677,10 @@ Address: %4
     <message>
         <source>Whether to show coin control features or not.</source>
         <translation>코인 컨트롤 기능을 표시할 지의 여부입니다.</translation>
+=======
+        <source>Whether to show coin control features or not.</source>
+        <translation>코인 상세 제어기능에 대한 표시 여부를 선택할 수 있습니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1212,6 +1700,7 @@ Address: %4
     </message>
     <message>
         <source>Confirm options reset</source>
+<<<<<<< HEAD
         <translation>옵션 재설정 확인</translation>
     </message>
     <message>
@@ -1225,6 +1714,17 @@ Address: %4
     <message>
         <source>This change would require a client restart.</source>
         <translation>이 변경 사항은 클라이언트 재시작이 필요합니다.</translation>
+=======
+        <translation>옵션 초기화를 확인</translation>
+    </message>
+    <message>
+        <source>Client restart required to activate changes.</source>
+        <translation>변경 사항을 적용하기 위해서는 프로그램이 종료 후 재시작되어야 합니다.</translation>
+    </message>
+    <message>
+        <source>This change would require a client restart.</source>
+        <translation>이 변경 사항 적용을 위해 프로그램 재시작이 필요합니다. </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -1242,6 +1742,7 @@ Address: %4
         <translation>표시된 정보는 오래된 것 같습니다. 지갑은 연결 상태가 된 후에 자동적으로 도지코인 네트워크와 동기화하지만, 이 과정은 아직 완료되지 않았습니다.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet</source>
         <translation>지갑</translation>
     </message>
@@ -1260,6 +1761,26 @@ Address: %4
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
         <translation>아직 확인되지 않았고, 아직 사용 가능한 잔액에 합산하지 않는 거래기록들의 합계</translation>
+=======
+        <source>Watch-only:</source>
+        <translation>모니터링 지갑:</translation>
+    </message>
+    <message>
+        <source>Available:</source>
+        <translation>사용 가능</translation>
+    </message>
+    <message>
+        <source>Your current spendable balance</source>
+        <translation>당신의 현재 사용 가능한 잔액</translation>
+    </message>
+    <message>
+        <source>Pending:</source>
+        <translation>미확정</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>전체 거래들은 아직 확인되지 않았고, 그리고 현재 잔액에 아직 반영되지 않았습니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Immature:</source>
@@ -1275,6 +1796,7 @@ Address: %4
     </message>
     <message>
         <source>Your current total balance</source>
+<<<<<<< HEAD
         <translation>사용자의 현재 총 잔액</translation>
     </message>
     <message>
@@ -1286,10 +1808,20 @@ Address: %4
         <translation>동기화 안 됨</translation>
     </message>
 </context>
+=======
+        <translation>당신의 현재 총액</translation>
+    </message>
+    <message>
+        <source>Your current balance in watch-only addresses</source>
+        <translation>모니터링 지갑의 현재 잔액</translation>
+    </message>
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>PaymentServer</name>
     <message>
         <source>URI handling</source>
+<<<<<<< HEAD
         <translation>URI 핸들링</translation>
     </message>
     <message>
@@ -1303,12 +1835,28 @@ Address: %4
     <message>
         <source>Payment request error</source>
         <translation>지불 요청 오류</translation>
+=======
+        <translation>URI 조작중</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>잘못된 지불 주소입니다 %1</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>요청한 금액 %1의 양이 너무 적습니다. (스팸성 거래로 간주)</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>지불 요청 애러</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Cannot start dogecoin: click-to-pay handler</source>
         <translation>도지코인을 시작할 수 없습니다: click-to-pay handler</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Net manager warning</source>
         <translation>네트워크 관리인 경고</translation>
     </message>
@@ -1355,11 +1903,47 @@ Address: %4
     <message>
         <source>Network request error</source>
         <translation>네트워크 요청 오류</translation>
+=======
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>대금 청구서의 URL이 올바르지 않습니다: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>지불이 파일 처리를 요청합니다</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>임의로 변경한 결제 스크립트 기반의 대금 청구서 양식은 검증되기 전까지는 지원되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>%1 으로부터의 환불</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>%1과 소통하는데 애러: %2</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>서버로 부터 반응이 없습니다 %1</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>지불이 승인됨</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>네트워크 요청 애러</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Dogecoin</source>
         <translation>도지코인</translation>
     </message>
@@ -1382,8 +1966,16 @@ Address: %4
     <message>
         <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>도지코인 주소 입력 (예: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+=======
+        <source>Amount</source>
+        <translation>거래량</translation>
     </message>
-</context>
+    <message>
+        <source>N/A</source>
+        <translation>없음</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
+    </message>
+    </context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -1419,7 +2011,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>정보(&amp;I)</translation>
+        <translation>정보</translation>
     </message>
     <message>
         <source>Debug window</source>
@@ -1431,7 +2023,11 @@ Address: %4
     </message>
     <message>
         <source>Using OpenSSL version</source>
+<<<<<<< HEAD
         <translation>사용 중인 OpenSSL 버전</translation>
+=======
+        <translation>오픈SSL 버전을 사용합니다</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Startup time</source>
@@ -1458,10 +2054,13 @@ Address: %4
         <translation>현재 블록의 수</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Estimated total blocks</source>
         <translation>예상되는 총 블록</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Last block time</source>
         <translation>마지막 블록 시각</translation>
     </message>
@@ -1475,6 +2074,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Network Traffic</source>
+<<<<<<< HEAD
         <translation>네트워크 트래픽(&amp;N)</translation>
     </message>
     <message>
@@ -1492,6 +2092,25 @@ Address: %4
     <message>
         <source>Out:</source>
         <translation>보냄:</translation>
+=======
+        <translation>&amp;네트워크 트래픽</translation>
+    </message>
+    <message>
+        <source>&amp;Clear</source>
+        <translation>&amp;지우기</translation>
+    </message>
+    <message>
+        <source>Totals</source>
+        <translation>총액</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>In:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Out:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Build date</source>
@@ -1502,18 +2121,24 @@ Address: %4
         <translation>디버그 로그 파일</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>현재 데이터 디렉토리의 도지코인 디버그 로그 파일을 엽니다. 용량이 큰 로그 파일들은 몇 초가 걸릴 수 있습니다.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear console</source>
         <translation>콘솔 지우기</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to the Dogecoin RPC console.</source>
         <translation>도지코인 코어 RPC 콘솔에 오신걸 환영합니다</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>기록을 찾아보려면 위 아래 화살표 키를, 화면을 지우려면 &lt;b&gt;Ctrl-L&lt;/b&gt;키를 사용하세요.</translation>
     </message>
@@ -1521,6 +2146,7 @@ Address: %4
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>사용할 수 있는 명령을 둘러보려면 &lt;b&gt;help&lt;/b&gt;를 입력하세요.</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>%1 B</source>
         <translation>%1 B</translation>
@@ -1550,11 +2176,18 @@ Address: %4
         <translation>%1시 %2분</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
+<<<<<<< HEAD
         <translation>액수(&amp;A):</translation>
+=======
+        <translation>&amp;거래량:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1562,6 +2195,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Message:</source>
+<<<<<<< HEAD
         <translation>메시지(&amp;M):</translation>
     </message>
     <message>
@@ -1587,6 +2221,29 @@ Address: %4
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
         <translation>요청할 액수를 추가합니다. 특정한 액수를 요청하지 않으려면 이곳을 빈칸으로 놔두거나 0으로 하세요.</translation>
+=======
+        <translation>&amp;메시지:</translation>
+    </message>
+    <message>
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>이전에 사용된 수취용 주소를 사용할려고 합니다. 주소의 재사용은 보안과 개인정보 보호 측면에서 문제를 초래할 수 있습니다. 이전 지불 요청을 재생성하는 경우가 아니라면 주소 재사용을 권하지 않습니다.  </translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>현재의 수취용 주소를 재사용합니다만 권장하지는 않습니다. (R&amp;)</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation>임의의 라벨이 새로운 받기 주소와 결합</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>지급을 요청하기 위해 아래 형식을 사용하세요. 입력값은 &lt;b&gt;선택 사항&lt;/b&gt; 입니다.</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>요청할 금액 입력칸으로 선택 사항입니다. 빈 칸으로 두거나 특정 금액이 필요하지 않는 경우 0을 입력하세요. </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1598,6 +2255,7 @@ Address: %4
     </message>
     <message>
         <source>Requested payments history</source>
+<<<<<<< HEAD
         <translation>요청된 지불 내역</translation>
     </message>
     <message>
@@ -1625,12 +2283,41 @@ Address: %4
         <translation>라벨 복사</translation>
     </message>
     <message>
+=======
+        <translation>지출기록 확인</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>지불 요청(&amp;R)</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>보기</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>목록에서 삭제할 항목을 선택하시오</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>삭제</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>표 복사하기</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Copy message</source>
         <translation>메시지 복사</translation>
     </message>
     <message>
         <source>Copy amount</source>
+<<<<<<< HEAD
         <translation>액수 복사</translation>
+=======
+        <translation>거래량 복사</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1708,6 +2395,7 @@ Address: %4
     </message>
     <message>
         <source>(no label)</source>
+<<<<<<< HEAD
         <translation>(라벨 없음)</translation>
     </message>
     <message>
@@ -1717,6 +2405,17 @@ Address: %4
     <message>
         <source>(no amount)</source>
         <translation>(액수 없음)</translation>
+=======
+        <translation>(표 없음)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>(메세지가 없습니다)</translation>
+    </message>
+    <message>
+        <source>(no amount)</source>
+        <translation>(거래량 없음)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1727,6 +2426,7 @@ Address: %4
     </message>
     <message>
         <source>Coin Control Features</source>
+<<<<<<< HEAD
         <translation>코인 컨트롤 기능</translation>
     </message>
     <message>
@@ -1740,6 +2440,21 @@ Address: %4
     <message>
         <source>Insufficient funds!</source>
         <translation>자금 부족!</translation>
+=======
+        <translation>코인 컨트롤 기능들</translation>
+    </message>
+    <message>
+        <source>Inputs...</source>
+        <translation>입력...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>자동 선택</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>자금이 부족합니다!</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Quantity:</source>
@@ -1751,17 +2466,26 @@ Address: %4
     </message>
     <message>
         <source>Amount:</source>
+<<<<<<< HEAD
         <translation>액수:</translation>
     </message>
     <message>
         <source>Priority:</source>
         <translation>우선도:</translation>
+=======
+        <translation>거래량:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>우선순위:</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Fee:</source>
         <translation>수수료:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Low Output:</source>
         <translation>낮은 산출:</translation>
     </message>
@@ -1780,6 +2504,18 @@ Address: %4
     <message>
         <source>Custom change address</source>
         <translation>반환액 주소 지정</translation>
+=======
+        <source>After Fee:</source>
+        <translation>수수료 이후:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>체인지:</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>주소변경</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1787,13 +2523,24 @@ Address: %4
     </message>
     <message>
         <source>Add &amp;Recipient</source>
+<<<<<<< HEAD
         <translation>받는 이 추가(&amp;R)</translation>
+=======
+        <translation>수령인 추가하기</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Clear all fields of the form.</source>
         <translation>양식의 모든 항목을 지웁니다.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Dust:</source>
+        <translation>더스트:</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Clear &amp;All</source>
         <translation>모두 지우기(&amp;A)</translation>
     </message>
@@ -1803,7 +2550,11 @@ Address: %4
     </message>
     <message>
         <source>Confirm the send action</source>
+<<<<<<< HEAD
         <translation>보내기 확인</translation>
+=======
+        <translation>전송 기능 확인</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>S&amp;end</source>
@@ -1815,7 +2566,11 @@ Address: %4
     </message>
     <message>
         <source>%1 to %2</source>
+<<<<<<< HEAD
         <translation>%1를 %2(으)로</translation>
+=======
+        <translation>%1을(를) %2(으)로</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy quantity</source>
@@ -1823,7 +2578,11 @@ Address: %4
     </message>
     <message>
         <source>Copy amount</source>
+<<<<<<< HEAD
         <translation>액수 복사</translation>
+=======
+        <translation>거래량 복사</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy fee</source>
@@ -1831,17 +2590,26 @@ Address: %4
     </message>
     <message>
         <source>Copy after fee</source>
+<<<<<<< HEAD
         <translation>수수료 포함 복사</translation>
     </message>
     <message>
         <source>Copy bytes</source>
         <translation>바이트 복사</translation>
+=======
+        <translation>수수료 이후 복사</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>bytes 복사</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Copy priority</source>
         <translation>우선도 복사</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy low output</source>
         <translation>낮은 산출 복사</translation>
     </message>
@@ -1852,14 +2620,21 @@ Address: %4
     <message>
         <source>Total Amount %1 (= %2)</source>
         <translation>총액 %1 (= %2)</translation>
+=======
+        <source>Total Amount %1 (= %2)</source>
+        <translation>총 액수 %1(=%2)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>or</source>
         <translation>또는</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>받는 이의 주소가 정확하지 않습니다. 재확인 바랍니다.</translation>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -1874,6 +2649,7 @@ Address: %4
         <translation>%1의 거래기록 수수료를 포함하면 총액이 잔액을 초과합니다.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>중복된 주소 발견, 각 보내는 작업마다 각각의 주소에 한 번씩만 보낼 수 있습니다.</translation>
     </message>
@@ -1884,6 +2660,14 @@ Address: %4
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>이 거래기록은 거절되었습니다! 이것은 만약 사용자가 wallet.dat의 복사본을 사용했고 그 복사본에서 코인이 사용되었지만 여기에는 사용한 것으로 표시되지 않은 경우같이, 지갑의 코인 중 일부가 이미 사용되었다면 발생할 수 있습니다.</translation>
+=======
+        <source>Transaction creation failed!</source>
+        <translation>거래를 생성하는 것을 실패하였습니다</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>거래가 거부되었습니다. 몇몇 코인들이 지갑에서 이미 사용된 경우, 예를 들어 코인을 이미 사용한  wallet.dat를 복사해서 사용한 경우 지금 지갑에 기록이 안되있어 이런 일이 생길 수 있습니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Warning: Invalid Dogecoin address</source>
@@ -1891,11 +2675,19 @@ Address: %4
     </message>
     <message>
         <source>(no label)</source>
+<<<<<<< HEAD
         <translation>(라벨 없음)</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
         <translation>경고: 알 수 없는 반환액 주소</translation>
+=======
+        <translation>(표 없음)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>경고: 알려지지 않은 주소변경입니다</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -1903,6 +2695,7 @@ Address: %4
     </message>
     <message>
         <source>added as transaction fee</source>
+<<<<<<< HEAD
         <translation>거래기록 수수료 추가됨</translation>
     </message>
     <message>
@@ -1912,6 +2705,9 @@ Address: %4
     <message>
         <source>Invalid payment address %1</source>
         <translation>잘못된 지불 주소 %1</translation>
+=======
+        <translation>거래 수수료로 추가됨</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -1925,10 +2721,13 @@ Address: %4
         <translation>지불할 곳(&amp;T):</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The address to send the payment to (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>금액을 보낼 주소 (예: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Enter a label for this address to add it to your address book</source>
         <translation>주소록에 추가하기 위해 이 주소에 쓸 라벨 입력</translation>
     </message>
@@ -1942,7 +2741,11 @@ Address: %4
     </message>
     <message>
         <source>This is a normal payment.</source>
+<<<<<<< HEAD
         <translation>일반 지불입니다.</translation>
+=======
+        <translation>평균지급입니다</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Alt+A</source>
@@ -1958,13 +2761,18 @@ Address: %4
     </message>
     <message>
         <source>Remove this entry</source>
+<<<<<<< HEAD
         <translation>이 항목 제거</translation>
+=======
+        <translation>항목을 지우시오</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Message:</source>
         <translation>메시지:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a verified payment request.</source>
         <translation>검증된 지불 요청입니다.</translation>
     </message>
@@ -1983,6 +2791,18 @@ Address: %4
     <message>
         <source>Pay To:</source>
         <translation>지불할 곳:</translation>
+=======
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>사용된 주소 목록에 새 주소를 추가하기 위해 제목을 입력합니다. </translation>
+    </message>
+    <message>
+        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
+        <translation>도지코인 URI에 첨부된 메시지는 사용자 참고를 위해 거래기록과 함께 보관될 것입니다. 참고: 이 메시지는 도지코인 네트워크를 통해 보내지 않을 것입니다.</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>송금할 대상 : </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Memo:</source>
@@ -1997,20 +2817,29 @@ Address: %4
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
+<<<<<<< HEAD
         <translation>이 창이 사라지기 전까지 컴퓨터를 끄지 마세요.</translation>
+=======
+        <translation>창이 사라지기 전까지 컴퓨터를 끄지마시오.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
+<<<<<<< HEAD
         <translation>서명 – 메시지 서명/검증하기</translation>
+=======
+        <translation>서명 - 싸인 / 메시지 확인</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>&amp;Sign Message</source>
         <translation>메시지 서명(&amp;S)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>메시지를 서명하여 주소를 가지고 있다는 것을 증명할 수 있습니다. 피싱 공격같이 사용자를 속여 개인정보를 넘기게 만들 수 있는 불분명한, 어떠한 것에도 서명하지 않게 주의하시고, 동의하는 완전무결한 사항에만 서명하세요.</translation>
     </message>
@@ -2019,6 +2848,8 @@ Address: %4
         <translation>메시지를 서명할 주소입니다 (예: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Choose previously used address</source>
         <translation>이전에 사용했던 주소 선택</translation>
     </message>
@@ -2067,6 +2898,7 @@ Address: %4
         <translation>메시지 검증(&amp;V)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>메시지를 검증하기 위해 아래에 서명하는 주소, 메시지(띄어쓰기, 들여쓰기, 행 나눔 등을 정확하게 복사했는지 확인하세요)와 서명을 입력하세요. 사용자를 속이는 공격을 피하기 위해 서명된 메시지 내용을 잘못 읽지 않게 주의하세요.</translation>
     </message>
@@ -2079,6 +2911,12 @@ Address: %4
         <translation>지정된 도지코인 주소로 서명되었는지 확인하기 위해 메시지 검증하기</translation>
     </message>
     <message>
+=======
+        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
+        <translation>지정된 도지코인 주소로 서명되었는지 확인하기 위해 메시지 검증하기</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verify &amp;Message</source>
         <translation>메시지 검증(&amp;M)</translation>
     </message>
@@ -2087,12 +2925,17 @@ Address: %4
         <translation>모든 메시지 검증 항목 재설정</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>도지코인 주소 입력 (예: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>서명을 생성하려면 &quot;메시지 서명하기&quot;를 클릭</translation>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>서명을 만들려면 "메시지 서명"을 누르십시오</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2151,7 +2994,11 @@ Address: %4
     </message>
     <message>
         <source>The Dogecoin Core developers</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
+=======
+        <translation>비트코인코어 개발자들</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>[testnet]</source>
@@ -2173,7 +3020,11 @@ Address: %4
     </message>
     <message>
         <source>conflicted</source>
+<<<<<<< HEAD
         <translation>미일치</translation>
+=======
+        <translation>충돌</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>%1/offline</source>
@@ -2191,6 +3042,7 @@ Address: %4
         <source>Status</source>
         <translation>상태</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation>
@@ -2198,6 +3050,8 @@ Address: %4
             <numerusform>, %n개 노드를 통해 알려짐</numerusform>
         </translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>Date</source>
         <translation>날짜</translation>
@@ -2208,6 +3062,7 @@ Address: %4
     </message>
     <message>
         <source>Generated</source>
+<<<<<<< HEAD
         <translation>생성됨</translation>
     </message>
     <message>
@@ -2221,6 +3076,21 @@ Address: %4
     <message>
         <source>own address</source>
         <translation>가지고 있는 주소</translation>
+=======
+        <translation>생성하다</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>으로부터</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>에게</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>자신의 주소</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>label</source>
@@ -2228,6 +3098,7 @@ Address: %4
     </message>
     <message>
         <source>Credit</source>
+<<<<<<< HEAD
         <translation>입금액</translation>
     </message>
     <message numerus="yes">
@@ -2244,6 +3115,17 @@ Address: %4
     <message>
         <source>Debit</source>
         <translation>출금액</translation>
+=======
+        <translation>예금</translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>허용되지 않는다</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>차변</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transaction fee</source>
@@ -2263,15 +3145,24 @@ Address: %4
     </message>
     <message>
         <source>Transaction ID</source>
+<<<<<<< HEAD
         <translation>거래기록 ID</translation>
+=======
+        <translation>아이디</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Merchant</source>
         <translation>상인</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>사용되기 전에 생성된 코인들은 반드시 %1 블록 성숙되어야 합니다. 사용자가 이 블록을 생성했을 때, 이 블록은 블록 체인에 더해지기 위해 네트워크로 알려집니다. 만약 이 블록이 체인 안에 들어가는데 실패하면, 이 블록의 상태는 &quot;허용되지 않음(not accepted)&quot;으로 바뀌고 사용할 수 없게 됩니다. 이것은 간혹 다른 노드가 사용자가 생성한 것보다 수 초안으로 블록을 생성했다면 발생할 수 있습니다.</translation>
+=======
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>신규 채굴된 코인이 사용되기 위해서는 %1 개의 블럭이 경과되어야 합니다. 블럭을 생성할 때 블럭체인에 추가되도록 네트워크에 전파되는 과정을 거치는데, 블럭체인에 포함되지 못하고 실패한다면 해당 블럭의 상태는 '미승인'으로 표현되고 비트코인 또한 사용될 수 없습니다. 이 현상은 다른 노드가 비슷한 시간대에 동시에 블럭을 생성할 때 종종 발생할 수 있습니다. </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Debug information</source>
@@ -2301,6 +3192,7 @@ Address: %4
         <source>, has not been successfully broadcast yet</source>
         <translation>, 아직 성공적으로 통보하지 않음</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation>
@@ -2308,6 +3200,8 @@ Address: %4
             <numerusform>%n 이상의 블록에게 열림</numerusform>
         </translation>
     </message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     <message>
         <source>unknown</source>
         <translation>알 수 없음</translation>
@@ -2335,6 +3229,7 @@ Address: %4
         <translation>종류</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>주소</translation>
     </message>
@@ -2388,6 +3283,50 @@ Address: %4
     <message>
         <source>Received with</source>
         <translation>받음</translation>
+=======
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>충분히 숙성되지 않은 상태 (%1 승인, %2 후에 사용 가능합니다)</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>%1 까지 열림</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>확인됨(%1 확인됨)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>이 블럭은 다른 노드로부터 받지 않아 허용되지 않을 것임.</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>생성되었으나 거절됨</translation>
+    </message>
+    <message>
+        <source>Offline</source>
+        <translation>오프라인</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>표</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>미확인</translation>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>승인 중 (권장되는 승인 회수 %2 대비 현재 승인 수 %1)</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>충돌</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>보낸 주소</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Received from</source>
@@ -2395,7 +3334,11 @@ Address: %4
     </message>
     <message>
         <source>Sent to</source>
+<<<<<<< HEAD
         <translation>보냄</translation>
+=======
+        <translation>받는 주소</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Payment to yourself</source>
@@ -2403,7 +3346,7 @@ Address: %4
     </message>
     <message>
         <source>Mined</source>
-        <translation>채굴됨</translation>
+        <translation>채굴</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -2422,10 +3365,13 @@ Address: %4
         <translation>거래기록 종류입니다.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Destination address of transaction.</source>
         <translation>거래기록의 도착 주소입니다.</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Amount removed from or added to balance.</source>
         <translation>잔액에서 가감한 액수입니다.</translation>
     </message>
@@ -2482,7 +3428,11 @@ Address: %4
     </message>
     <message>
         <source>Enter address or label to search</source>
+<<<<<<< HEAD
         <translation>검색할 주소 또는 라벨 입력</translation>
+=======
+        <translation>검색하기 위한 주소 또는 표 입력</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Min amount</source>
@@ -2494,6 +3444,7 @@ Address: %4
     </message>
     <message>
         <source>Copy label</source>
+<<<<<<< HEAD
         <translation>라벨 복사</translation>
     </message>
     <message>
@@ -2507,6 +3458,21 @@ Address: %4
     <message>
         <source>Edit label</source>
         <translation>라벨 수정</translation>
+=======
+        <translation>표 복사하기</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>거래량 복사</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>거래 아이디 복사</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>표 수정하기</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Show transaction details</source>
@@ -2514,7 +3480,11 @@ Address: %4
     </message>
     <message>
         <source>Export Transaction History</source>
+<<<<<<< HEAD
         <translation>거래기록 내역 내보내기</translation>
+=======
+        <translation>거래 기록 내보내기</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -2522,7 +3492,11 @@ Address: %4
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
+<<<<<<< HEAD
         <translation>%1으로 거래기록 내역을 저장하는데 오류가 있었습니다.</translation>
+=======
+        <translation>%1으로 거래 기록을 저장하는데 애러가 있었습니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Exporting Successful</source>
@@ -2530,7 +3504,11 @@ Address: %4
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
+<<<<<<< HEAD
         <translation>거래기록 내역이 성공적으로 %1에 저장되었습니다.</translation>
+=======
+        <translation>거래 기록이 성공적으로 %1에 저장되었습니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -2557,10 +3535,13 @@ Address: %4
         <translation>주소</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>액수</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>ID</source>
         <translation>ID</translation>
     </message>
@@ -2574,10 +3555,17 @@ Address: %4
     </message>
 </context>
 <context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
+<<<<<<< HEAD
         <translation>불러온 지갑이 없습니다.</translation>
+=======
+        <translation>지갑 불러오기가 안됩니다</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
 </context>
 <context>
@@ -2591,7 +3579,11 @@ Address: %4
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
+<<<<<<< HEAD
         <translation>내보내기(&amp;E)</translation>
+=======
+        <translation>&amp;내보내기</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -2611,11 +3603,19 @@ Address: %4
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
+<<<<<<< HEAD
         <translation>%1에 지갑 데이터 저장을 시도하던 중 오류가 발생했습니다.</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
         <translation>지갑 데이터가 %1에 성공적으로 저장되었습니다</translation>
+=======
+        <translation>지갑 데이터를 %1 폴더에 저장하는 동안 오류가 발생했습니다. </translation>
+    </message>
+    <message>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>지갑 정보가 %1에 성공적으로 저장되었습니다</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Backup Successful</source>
@@ -2625,6 +3625,7 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>사용법:</translation>
     </message>
@@ -2637,10 +3638,13 @@ Address: %4
         <translation>명령 도움말 얻기</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Options:</source>
         <translation>옵션:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: dogecoin.conf)</source>
         <translation>설정파일 지정 (기본값: dogecoin.conf)</translation>
     </message>
@@ -2649,10 +3653,13 @@ Address: %4
         <translation>pid 파일 지정 (기본값: dogecoind.pid)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Specify data directory</source>
         <translation>데이터 디렉토리 지정</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for connections on &lt;port&gt; (default: 22556 or testnet: 44556)</source>
         <translation>&lt;port&gt;의 연결에서 대기 (기본값: 22556  or testnet: 44556)</translation>
     </message>
@@ -2661,6 +3668,8 @@ Address: %4
         <translation>가장 잘 연결되는 사용자를 유지함(기본값: 125)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>피어 주소를 받기 위해 노드에 연결하고, 받은 후에 연결을 끊음</translation>
     </message>
@@ -2669,6 +3678,7 @@ Address: %4
         <translation>사용자 고유의 공인 주소 지정</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>이상행동 네트워크 참여자의 연결을 차단시키기 위한 한계치 (기본값: 100)</translation>
     </message>
@@ -2685,6 +3695,8 @@ Address: %4
         <translation>&lt;포트&gt;의 JSON-RPC 연결에서 대기 중 (기본값: 22555 or testnet: 44555)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Accept command line and JSON-RPC commands</source>
         <translation>명령 줄과 JSON-RPC 명령 수락</translation>
     </message>
@@ -2702,6 +3714,7 @@ Address: %4
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+<<<<<<< HEAD
         <translation>외부로부터 연결 허용 (기본값: no -proxy거나 –connect면 1)</translation>
     </message>
     <message>
@@ -2805,10 +3818,28 @@ rpcpassword=%s
         <translation>Tor hidden 서비스를 이용하여 네트워크에 참여하기 위해서 SOCKS5 프록시를 따로 사용함 (기본값: -proxy)</translation>
     </message>
     <message>
+=======
+        <translation>외부 접속을 승인합니다</translation>
+    </message>
+    <message>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>선택된 주소로 고정하며 항상 리슨(Listen)합니다. IPv6 프로토콜인 경우  [host]:port 방식의 명령어 표기법을 사용합니다.</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>지갑 거래가 바뀌면 명령을 실행합니다.(%s 안의 명령어가 TxID로 바뀝니다)</translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>이 빌드 버전은 정식 출시 전 테스트의 목적이며, 예기치 않은 위험과 오류가 발생할 수 있습니다. 채굴과 상점용 소프트웨어로 사용하는 것을 권하지 않습니다.</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>경고: -paytxfee값이 너무 큽니다! 이 값은 거래기록을 보낼 때 지불할 거래기록 수수료입니다.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin Core will not work properly.</source>
         <translation>경고: 컴퓨터의 날짜와 시간이 올바른지 확인하세요! 시간이 잘못되면 도지코인 코어는 제대로 동작하지 않습니다.</translation>
     </message>
@@ -2827,12 +3858,29 @@ rpcpassword=%s
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>경고: wallet.dat  오류, 데이터 복구됨! 원본 wallet.dat은 wallet.{timestamp}.bak으로 %s에 저장되었습니다. 만약 사용자의 잔액이나 거래기록들이 부정확하면 백업에서 복구하세요.</translation>
+=======
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation>경고 : 모든 네트워크가 동의해야 하나, 일부 채굴자들에게 문제가 있는 것으로 보입니다. </translation>
+    </message>
+    <message>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation>경고: 현재 비트코인 버전이 다른 네트워크 참여자들과 동일하지 않는 것 같습니다. 당신 또는 다른 참여자들이 동일한 비트코인 버전으로 업그레이드 할 필요가 있습니다.</translation>
+    </message>
+    <message>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>경고 : wallet.dat 파일을 읽는 중 에러가 발생했습니다. 주소 키는 모두 정확하게 로딩되었으나 거래 데이터와 주소록 필드에서 누락이나 오류가 존재할 수 있습니다. </translation>
+    </message>
+    <message>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>경고 : wallet.dat가 손상되어 데이터가 복구되었습니다. 원래의 wallet.dat 파일은 %s 후에 wallet.{timestamp}.bak 이름으로 저장됩니다. 잔액과 거래 내역이 정확하지 않다면 백업 파일로 부터 복원해야 합니다. </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>(default: 1)</source>
         <translation>(기본값: 1)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: wallet.dat)</source>
         <translation>(기본값: wallet.dat)</translation>
     </message>
@@ -2847,12 +3895,17 @@ rpcpassword=%s
     <message>
         <source>Dogecoin Core Daemon</source>
         <translation>도지코인 코어 데몬</translation>
+=======
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>손상된 wallet.dat에서 개인키 복원을 시도합니다</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Block creation options:</source>
         <translation>블록 생성 옵션:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
         <translation>지갑 거래기록 목록 지우기(진단도구; 재스캔 포함)</translation>
     </message>
@@ -2895,18 +3948,47 @@ rpcpassword=%s
     <message>
         <source>Do you want to rebuild the block database now?</source>
         <translation>블록 데이터베이스를 다시 생성하시겠습니까?</translation>
+=======
+        <source>Connect only to the specified node(s)</source>
+        <translation>지정된 노드에만 연결하기</translation>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation>연결 설정 : </translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation>손상된 블록 데이터베이스가 감지되었습니다</translation>
+    </message>
+    <message>
+        <source>Debugging/Testing options:</source>
+        <translation>디버그 및 테스트 설정</translation>
+    </message>
+    <message>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation>지갑 불러오기를 하지마시오 또한 지갑 RPC 연결을 차단하십시오</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>블락 데이터베이스를 다시 생성하시겠습니까?</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error initializing block database</source>
         <translation>블록 데이터베이스 초기화 중 오류</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error initializing wallet database environment %s!</source>
         <translation>지갑 데이터베이스 환경 %s 초기화 중 오류!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
         <translation>블록 데이터베이스를 불러오는 중 오류</translation>
+=======
+        <source>Error loading block database</source>
+        <translation>블록 데이터베이스를 불러오는데 오류</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Error opening block database</source>
@@ -2917,6 +3999,7 @@ rpcpassword=%s
         <translation>오류: 디스크 공간이 부족합니다!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>오류: 지갑이 잠금 상태여서 거래기록을 생성할 수 없습니다!</translation>
     </message>
@@ -3057,6 +4140,44 @@ rpcpassword=%s
         <translation>사용법 (오래됨, dogecoin-cli를 사용):</translation>
     </message>
     <message>
+=======
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>어떤 포트도 반응하지 않습니다. 사용자 반응=0 만약 원한다면</translation>
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>&lt;카테고리&gt;가 제공되지 않을 경우, 모든 디버깅 정보를 출력</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>들여오기 중...</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>올바르지 않거나 생성된 블록을 찾을 수 없습니다. 잘못된 네트워크 자료 디렉토리?</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>잘못된 -onion 주소입니다: '%s'</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>사용 가능한 파일 디스크립터-File Descriptor-가 부족합니다. </translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation>데이터베이스 케시 크기를 메가바이트로 설정(%d 부터 %d, 기본값: %d)</translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>최대 블락 크기를 Bytes로 지정하세요 (기본: %d)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>데이터 폴더 안에 지갑 파일을 선택하세요.</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Verifying blocks...</source>
         <translation>블록 검증 중...</translation>
     </message>
@@ -3065,16 +4186,22 @@ rpcpassword=%s
         <translation>지갑 검증 중...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wait for RPC server to start</source>
         <translation>RPC서버 시작을 기다림</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
         <translation>지갑 %s가 외부 데이터 디렉토리 %s에 남아 있음</translation>
+=======
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>지갑 %s는 데이터 디렉토리 %s 밖에 위치합니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Wallet options:</source>
         <translation>지갑 옵션:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
@@ -3083,14 +4210,21 @@ rpcpassword=%s
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>-txindex를 바꾸기 위해 -reindex를 사용하여 데이터베이스를 다시 빌드해야 함</translation>
+=======
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>-txindex를 바꾸기 위해서는 -reindex를 사용해서 데이터베이스를 재구성해야 합니다. </translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>외부 blk000??.dat 파일에서 블록 가져오기</translation>
+        <translation>외부 blk000??.dat 파일에서 블록을 가져옵니다.</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
         <translation>데이터 디렉토리 %s의 락을 얻을 수 없습니다. 도지코인 코어가 이미 실행 중인 것 같습니다.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3103,12 +4237,27 @@ rpcpassword=%s
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>높은 우선도/낮은 수수료 거래기록들의 최대 크기를 바이트로 설정 (기본값: %d)</translation>
+=======
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>이 사항과 관련있는 경고가 발생하거나 아주 긴 포크가 발생했을 때 명령어를 실행해 주세요. (cmd 명령어 목록에서 %s는 메시지로 대체됩니다) </translation>
+    </message>
+    <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>최대 크기를 최우선으로 설정 / 바이트당 최소 수수료로 거래(기본값: %d)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>파일목록을 선택하여 시작하시오(기본값: 0)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Information</source>
         <translation>정보</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>-minrelaytxfee=&lt;amount&gt;에 대한 잘못된 액수: &apos;%s&apos;</translation>
     </message>
@@ -3199,6 +4348,42 @@ rpcpassword=%s
     <message>
         <source>Show benchmark information (default: 0)</source>
         <translation>벤치마크 정보 보기 (기본값: 0)</translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>노드로 전달하기 위한 최저 거래 수수료가 부족합니다. - minrelaytxfee=&lt;amount&gt;: '%s' -</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>최저 거래 수수료가 부족합니다. -mintxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL 옵션: (비트코인 위키의 SSL 설정 설명서 참고)</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>RPC 서버 설정</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>추적오류 정보를 degug.log 자료로 보내는 대신 콘솔로 보내기</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>지불 요청을 위해 SSL 최상위 인증을 설정합니다. (기본값: -system-)</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>"de_DE"와 같이 언어를 설정하십시오 (기본값: 시스템 로캘)</translation>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>모든 디버그 설정 보기(설정: --help -help-debug)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>시작시 시작 화면 표시 (기본값: 1)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
@@ -3206,6 +4391,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Signing transaction failed</source>
+<<<<<<< HEAD
         <translation>거래기록 서명 실패</translation>
     </message>
     <message>
@@ -3227,18 +4413,38 @@ rpcpassword=%s
     <message>
         <source>Transaction amounts must be positive</source>
         <translation>거래기록 액수는 반드시 정수여야 함</translation>
+=======
+        <translation>거래를 서명하는것을 실패하였습니다.</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>최소화 상태에서 시작</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>거래량이 너무 적습니다</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must be positive</source>
+        <translation>거래량은 반드시 정수여야합니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Transaction too large</source>
         <translation>거래기록이 너무 큼</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>UPnP를 사용하여 수신 대기 중인 포트를 맵핑 (기본값: 0)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>UPnP를 사용하여 수신 대기 중인 포트를 맵핑 (기본값: 1 반응이 생기면)</translation>
+=======
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>UPnP사용하여 지도에서 포트 반응기다리는 중  (기본값: 1 반응이 생기면)</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -3249,6 +4455,7 @@ rpcpassword=%s
         <translation>경고</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>경고: 이 버전이 오래되어 업그레이드가 필요합니다!</translation>
     </message>
@@ -3267,12 +4474,25 @@ rpcpassword=%s
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat 손상, 복구 실패함</translation>
+=======
+        <source>Zapping all transactions from wallet...</source>
+        <translation>지갑의 모든거래내역 건너뛰기...</translation>
+    </message>
+    <message>
+        <source>on startup</source>
+        <translation>구동 중</translation>
+    </message>
+    <message>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>wallet.dat 파일이 손상되었고 복구가 실패하였습니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
         <translation>JSON-RPC 연결에 사용할 암호</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>지정한 IP 주소의 JSON-RPC 연결 허용</translation>
     </message>
@@ -3281,6 +4501,8 @@ rpcpassword=%s
         <translation>&lt;ip&gt;에서 실행 중인 노드로 명령 보내기 (기본값: 127.0.0.1)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>가장 높은 블록이 변경되면 명령을 실행 (cmd 에 있는 %s 는 블록 해시에 의해 대체됨)</translation>
     </message>
@@ -3289,10 +4511,13 @@ rpcpassword=%s
         <translation>지갑을 최근 형식으로 개선</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>키 풀 크기 &lt;n&gt; 설정 (기본값: 100)</translation>
     </message>
     <message>
+=======
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>누락된 지갑 거래기록들에 대한 블록 체인 다시 검색</translation>
     </message>
@@ -3301,6 +4526,7 @@ rpcpassword=%s
         <translation>JSON-RPC 연결에 OpenSSL (https) 사용</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Server certificate file (default: server.cert)</source>
         <translation>서버 인증 파일 (기본값: server.cert)</translation>
     </message>
@@ -3317,6 +4543,12 @@ rpcpassword=%s
         <translation>이 컴퓨터의 %s에 바인드 할 수 없음 (바인드에서 오류 %d, %s 리턴 됨)</translation>
     </message>
     <message>
+=======
+        <source>This help message</source>
+        <translation>도움말 메시지입니다</translation>
+    </message>
+    <message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>-addnode, -seednode, -connect 옵션에 대해 DNS 탐색 허용</translation>
     </message>
@@ -3326,6 +4558,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
+<<<<<<< HEAD
         <translation>wallet.dat 불러오기 오류: 지갑이 손상됨</translation>
     </message>
     <message>
@@ -3367,6 +4600,33 @@ rpcpassword=%s
     <message>
         <source>Invalid amount</source>
         <translation>잘못된 액수</translation>
+=======
+        <translation>wallet.dat 불러오기 에러: 지갑 오류</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>wallet.dat 불러오기 에러</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>잘못된 -proxy 주소입니다: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>-onlynet에 지정한 네트워크를 알 수 없습니다: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>-bind 주소를 확인할 수 없습니다: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>-externalip 주소를 확인할 수 없습니다: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-paytxfee=&lt;amount&gt;에 대한 양이 잘못되었습니다: '%s'</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3378,7 +4638,11 @@ rpcpassword=%s
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
+<<<<<<< HEAD
         <translation>연결할 노드를 추가하여 연결을 계속 유지하려고 시도함</translation>
+=======
+        <translation>노드를 추가하여 연결하고 연결상태를 계속 유지하려고 시도합니다.</translation>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     </message>
     <message>
         <source>Loading wallet...</source>
@@ -3401,6 +4665,7 @@ rpcpassword=%s
         <translation>불러오기 완료</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>To use the %s option</source>
         <translation>%s 옵션을 사용하려면</translation>
     </message>
@@ -3416,5 +4681,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 %s
 그 파일이 없으면, 소유자-읽기-전용 파일 권한으로 만들어야 합니다.</translation>
     </message>
+=======
+        <source>Error</source>
+        <translation>오류</translation>
+    </message>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 </context>
 </TS>

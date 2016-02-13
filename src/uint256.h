@@ -1,19 +1,27 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
+<<<<<<< HEAD
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
+=======
+// Copyright (c) 2009-2014 The Bitcoin Core developers
+// Distributed under the MIT software license, see the accompanying
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef BITCOIN_UINT256_H
 #define BITCOIN_UINT256_H
 
 #include <assert.h>
+<<<<<<< HEAD
+=======
+#include <cstring>
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 #include <stdexcept>
 #include <stdint.h>
-#include <stdio.h>
 #include <string>
-#include <string.h>
 #include <vector>
 
+<<<<<<< HEAD
 extern const signed char p_util_hexdigit[256]; // defined in util.cpp
 
 inline signed char HexDigit(char c)
@@ -27,9 +35,13 @@ public:
 };
 
 /** Template base class for unsigned big integers. */
+=======
+/** Template base class for fixed-sized opaque blobs. */
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 template<unsigned int BITS>
-class base_uint
+class base_blob
 {
+<<<<<<< HEAD
 private:
     enum { WIDTH=BITS/32 };
     uint32_t pn[WIDTH];
@@ -141,57 +153,23 @@ public:
     }
 
     base_uint& operator^=(uint64_t b)
+=======
+protected:
+    enum { WIDTH=BITS/8 };
+    uint8_t data[WIDTH];
+public:
+    base_blob()
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     {
-        pn[0] ^= (unsigned int)b;
-        pn[1] ^= (unsigned int)(b >> 32);
-        return *this;
+        memset(data, 0, sizeof(data));
     }
 
-    base_uint& operator|=(uint64_t b)
-    {
-        pn[0] |= (unsigned int)b;
-        pn[1] |= (unsigned int)(b >> 32);
-        return *this;
-    }
+    explicit base_blob(const std::vector<unsigned char>& vch);
 
-    base_uint& operator<<=(unsigned int shift)
+    bool IsNull() const
     {
-        base_uint a(*this);
         for (int i = 0; i < WIDTH; i++)
-            pn[i] = 0;
-        int k = shift / 32;
-        shift = shift % 32;
-        for (int i = 0; i < WIDTH; i++)
-        {
-            if (i+k+1 < WIDTH && shift != 0)
-                pn[i+k+1] |= (a.pn[i] >> (32-shift));
-            if (i+k < WIDTH)
-                pn[i+k] |= (a.pn[i] << shift);
-        }
-        return *this;
-    }
-
-    base_uint& operator>>=(unsigned int shift)
-    {
-        base_uint a(*this);
-        for (int i = 0; i < WIDTH; i++)
-            pn[i] = 0;
-        int k = shift / 32;
-        shift = shift % 32;
-        for (int i = 0; i < WIDTH; i++)
-        {
-            if (i-k-1 >= 0 && shift != 0)
-                pn[i-k-1] |= (a.pn[i] << (32-shift));
-            if (i-k >= 0)
-                pn[i-k] |= (a.pn[i] >> shift);
-        }
-        return *this;
-    }
-
-    base_uint& operator+=(const base_uint& b)
-    {
-        uint64_t carry = 0;
-        for (int i = 0; i < WIDTH; i++)
+<<<<<<< HEAD
         {
             uint64_t n = carry + pn[i] + b.pn[i];
             pn[i] = n & 0xffffffff;
@@ -316,47 +294,23 @@ public:
             if (a.pn[i] < b.pn[i])
                 return true;
             else if (a.pn[i] > b.pn[i])
+=======
+            if (data[i] != 0)
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
                 return false;
-        }
-        return false;
-    }
-
-    friend inline bool operator<=(const base_uint& a, const base_uint& b)
-    {
-        for (int i = base_uint::WIDTH-1; i >= 0; i--)
-        {
-            if (a.pn[i] < b.pn[i])
-                return true;
-            else if (a.pn[i] > b.pn[i])
-                return false;
-        }
         return true;
     }
 
-    friend inline bool operator>(const base_uint& a, const base_uint& b)
+    void SetNull()
     {
-        for (int i = base_uint::WIDTH-1; i >= 0; i--)
-        {
-            if (a.pn[i] > b.pn[i])
-                return true;
-            else if (a.pn[i] < b.pn[i])
-                return false;
-        }
-        return false;
+        memset(data, 0, sizeof(data));
     }
 
-    friend inline bool operator>=(const base_uint& a, const base_uint& b)
-    {
-        for (int i = base_uint::WIDTH-1; i >= 0; i--)
-        {
-            if (a.pn[i] > b.pn[i])
-                return true;
-            else if (a.pn[i] < b.pn[i])
-                return false;
-        }
-        return true;
-    }
+    friend inline bool operator==(const base_blob& a, const base_blob& b) { return memcmp(a.data, b.data, sizeof(a.data)) == 0; }
+    friend inline bool operator!=(const base_blob& a, const base_blob& b) { return memcmp(a.data, b.data, sizeof(a.data)) != 0; }
+    friend inline bool operator<(const base_blob& a, const base_blob& b) { return memcmp(a.data, b.data, sizeof(a.data)) < 0; }
 
+<<<<<<< HEAD
     friend inline bool operator==(const base_uint& a, const base_uint& b)
     {
         for (int i = 0; i < base_uint::WIDTH; i++)
@@ -445,29 +399,36 @@ public:
     {
         return (GetHex());
     }
+=======
+    std::string GetHex() const;
+    void SetHex(const char* psz);
+    void SetHex(const std::string& str);
+    std::string ToString() const;
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
     unsigned char* begin()
     {
-        return (unsigned char*)&pn[0];
+        return &data[0];
     }
 
     unsigned char* end()
     {
-        return (unsigned char*)&pn[WIDTH];
+        return &data[WIDTH];
     }
 
     const unsigned char* begin() const
     {
-        return (unsigned char*)&pn[0];
+        return &data[0];
     }
 
     const unsigned char* end() const
     {
-        return (unsigned char*)&pn[WIDTH];
+        return &data[WIDTH];
     }
 
     unsigned int size() const
     {
+<<<<<<< HEAD
         return sizeof(pn);
     }
 
@@ -491,26 +452,30 @@ public:
     {
         assert(WIDTH >= 2);
         return pn[0] | (uint64_t)pn[1] << 32;
+=======
+        return sizeof(data);
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
     }
 
     unsigned int GetSerializeSize(int nType, int nVersion) const
     {
-        return sizeof(pn);
+        return sizeof(data);
     }
 
     template<typename Stream>
     void Serialize(Stream& s, int nType, int nVersion) const
     {
-        s.write((char*)pn, sizeof(pn));
+        s.write((char*)data, sizeof(data));
     }
 
     template<typename Stream>
     void Unserialize(Stream& s, int nType, int nVersion)
     {
-        s.read((char*)pn, sizeof(pn));
+        s.read((char*)data, sizeof(data));
     }
 };
 
+<<<<<<< HEAD
 /** 160-bit unsigned big integer. */
 class uint160 : public base_uint<160> {
 public:
@@ -532,3 +497,68 @@ public:
 };
 
 #endif
+=======
+/** 160-bit opaque blob.
+ * @note This type is called uint160 for historical reasons only. It is an opaque
+ * blob of 160 bits and has no integer operations.
+ */
+class uint160 : public base_blob<160> {
+public:
+    uint160() {}
+    uint160(const base_blob<160>& b) : base_blob<160>(b) {}
+    explicit uint160(const std::vector<unsigned char>& vch) : base_blob<160>(vch) {}
+};
+
+/** 256-bit opaque blob.
+ * @note This type is called uint256 for historical reasons only. It is an
+ * opaque blob of 256 bits and has no integer operations. Use arith_uint256 if
+ * those are required.
+ */
+class uint256 : public base_blob<256> {
+public:
+    uint256() {}
+    uint256(const base_blob<256>& b) : base_blob<256>(b) {}
+    explicit uint256(const std::vector<unsigned char>& vch) : base_blob<256>(vch) {}
+
+    /** A cheap hash function that just returns 64 bits from the result, it can be
+     * used when the contents are considered uniformly random. It is not appropriate
+     * when the value can easily be influenced from outside as e.g. a network adversary could
+     * provide values to trigger worst-case behavior.
+     * @note The result of this function is not stable between little and big endian.
+     */
+    uint64_t GetCheapHash() const
+    {
+        uint64_t result;
+        memcpy((void*)&result, (void*)data, 8);
+        return result;
+    }
+
+    /** A more secure, salted hash function.
+     * @note This hash is not stable between little and big endian.
+     */
+    uint64_t GetHash(const uint256& salt) const;
+};
+
+/* uint256 from const char *.
+ * This is a separate function because the constructor uint256(const char*) can result
+ * in dangerously catching uint256(0).
+ */
+inline uint256 uint256S(const char *str)
+{
+    uint256 rv;
+    rv.SetHex(str);
+    return rv;
+}
+/* uint256 from std::string.
+ * This is a separate function because the constructor uint256(const std::string &str) can result
+ * in dangerously catching uint256(0) via std::string(const char*).
+ */
+inline uint256 uint256S(const std::string& str)
+{
+    uint256 rv;
+    rv.SetHex(str);
+    return rv;
+}
+
+#endif // BITCOIN_UINT256_H
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707

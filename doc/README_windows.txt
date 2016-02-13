@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Dogecoin 1.8.1
 
 * Copyright (c) 2009-2014 Bitcoin Developers
@@ -10,6 +11,10 @@ This product includes software developed by the OpenSSL Project for use in
 the OpenSSL Toolkit (http://www.openssl.org/).  This product includes
 cryptographic software written by Eric Young (eay@cryptsoft.com).
 
+=======
+Dogecoin Core 1.10
+==================
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 
 Intro
 -----
@@ -29,5 +34,9 @@ depending on the speed of your computer and network connection, the synchronizat
 process can take anywhere from a few hours to a day or more.
 
 See the Dogecoin wiki at:
+<<<<<<< HEAD
   http://dogeco.in/
+=======
+  https://www.reddit.com/r/dogecoin/wiki/dogecoincoreguide
+>>>>>>> f568462ca04b73485d7e41266a2005155ff69707
 for more help and information.
